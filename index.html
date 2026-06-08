@@ -4557,14 +4557,23 @@ async function syncFromGitHub() {
         const arenaId = STRATEGY_TO_ARENA_ID[stratId] || stratId
         if (!ARENA.portfolios[arenaId]) return
         const sp = state.portfolios[stratId]
-        ARENA.portfolios[arenaId].balance   = sp.balance || ARENA.portfolios[arenaId].balance
+        ARENA.portfolios[arenaId].balance = parseFloat(sp.balance) || ARENA.portfolios[arenaId].balance
         ARENA.portfolios[arenaId].positions = sp.positions
           ? Object.entries(sp.positions).map(([sym, pos]) => ({
-              id: sym, symbol: sym, ...pos, currentPrice: pos.currentPrice || pos.entryPrice
+              id: sym, symbol: sym, ...pos,
+              qty:          parseInt(pos.qty)                                       || 0,
+              entryPrice:   parseFloat(pos.entryPrice)                              || 0,
+              currentPrice: parseFloat(pos.currentPrice || pos.entryPrice)          || 0,
             }))
           : []
-        ARENA.portfolios[arenaId].trades  = sp.trades  || []
-        ARENA.portfolios[arenaId].history = sp.history || []
+        ARENA.portfolios[arenaId].trades  = (sp.trades  || []).map(t => ({
+          ...t, qty: parseInt(t.qty) || 0, entryPrice: parseFloat(t.entryPrice) || 0,
+          exitPrice: parseFloat(t.exitPrice) || 0, pnl: parseFloat(t.pnl) || 0,
+          pnlPct: parseFloat(t.pnlPct) || 0,
+        }))
+        ARENA.portfolios[arenaId].history = (sp.history || []).map(h => ({
+          ...h, value: parseFloat(h.value) || 0,
+        }))
       })
 
       if (state.recommendations?.length) {
@@ -4590,16 +4599,18 @@ async function syncFromGitHub() {
       }
     }
 
-    // Sync live prices into ARENA.currentPrices
+    // Sync live prices into ARENA.currentPrices (store price number only, not full quote object)
     if (prices && prices.quotes) {
-      Object.assign(ARENA.currentPrices, prices.quotes)
+      Object.entries(prices.quotes).forEach(([sym, q]) => {
+        ARENA.currentPrices[sym] = parseFloat(q.price || q) || 0
+      })
       // Update watchlist sidebar prices
       S.watchlist.forEach(sym => {
         const q = prices.quotes[sym]
         if (!q) return
         const px  = document.getElementById(`wl-px-${sym}`)
         const chg = document.getElementById(`wl-chg-${sym}`)
-        if (px)  px.textContent  = fmtPrice(q.price)
+        if (px)  px.textContent  = fmtPrice(parseFloat(q.price))
         if (chg) {
           chg.textContent = `${q.changePct >= 0 ? '+' : ''}${(q.changePct||0).toFixed(2)}%`
           chg.style.color = q.changePct >= 0 ? 'var(--green)' : 'var(--red)'
