@@ -1,0 +1,46 @@
+name: IntelliVest AI Engine
+
+on:
+  schedule:
+    - cron: '0 13 * * 1-5'
+    - cron: '35 14 * * 1-5'
+    - cron: '30 15 * * 1-5'
+    - cron: '0 17 * * 1-5'
+    - cron: '30 18 * * 1-5'
+    - cron: '0 20 * * 1-5'
+    - cron: '45 20 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  run-ai-engine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic requests
+
+      - name: Run AI Engine
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        run: python scripts/ai_engine.py
+
+      - name: Commit results
+        run: |
+          git config --local user.email "ai@intellivest"
+          git config --local user.name "IntelliVest AI"
+          git add data/
+          git diff --staged --quiet || git commit -m "AI run $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
