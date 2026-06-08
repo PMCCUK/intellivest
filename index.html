@@ -4533,6 +4533,12 @@ async function fetchDataFile(filename) {
 async function syncFromGitHub() {
   if (!DATA_BASE) return  // Local mode — skip
 
+  // Map AI engine strategy IDs → ARENA portfolio IDs
+  const STRATEGY_TO_ARENA_ID = {
+    master: 'aimaster', growth: 'aiGrowth', value: 'aiValue',
+    momentum: 'aiMomentum', uk: 'aiUK', crypto: 'aiCrypto', smallcap: 'aiSmallCap',
+  }
+
   try {
     // Fetch all data files in parallel
     const [state, insight, prices, runLog, stratResults] = await Promise.all([
@@ -4547,28 +4553,32 @@ async function syncFromGitHub() {
 
     // Sync portfolio state from server
     if (state && state.portfolios) {
-      Object.keys(state.portfolios).forEach(id => {
-        if (ARENA.portfolios[id]) {
-          const sp = state.portfolios[id]
-          // Merge server positions into local arena
-          ARENA.portfolios[id].balance   = sp.balance || ARENA.portfolios[id].balance
-          ARENA.portfolios[id].positions = sp.positions
-            ? Object.entries(sp.positions).map(([sym, pos]) => ({
-                id: sym, symbol: sym, ...pos, currentPrice: pos.currentPrice || pos.entryPrice
-              }))
-            : []
-          ARENA.portfolios[id].trades  = sp.trades  || []
-          ARENA.portfolios[id].history = sp.history || []
-        }
+      Object.keys(state.portfolios).forEach(stratId => {
+        const arenaId = STRATEGY_TO_ARENA_ID[stratId] || stratId
+        if (!ARENA.portfolios[arenaId]) return
+        const sp = state.portfolios[stratId]
+        ARENA.portfolios[arenaId].balance   = sp.balance || ARENA.portfolios[arenaId].balance
+        ARENA.portfolios[arenaId].positions = sp.positions
+          ? Object.entries(sp.positions).map(([sym, pos]) => ({
+              id: sym, symbol: sym, ...pos, currentPrice: pos.currentPrice || pos.entryPrice
+            }))
+          : []
+        ARENA.portfolios[arenaId].trades  = sp.trades  || []
+        ARENA.portfolios[arenaId].history = sp.history || []
       })
 
       if (state.recommendations?.length) {
         ARENA.recommendations = state.recommendations
       }
       if (state.aiTradeLog?.length) {
-        ARENA.aiTradeLog = state.aiTradeLog
+        // Remap strategy IDs → ARENA IDs so tab filters match
+        ARENA.aiTradeLog = state.aiTradeLog.map(entry => ({
+          ...entry,
+          portfolio: STRATEGY_TO_ARENA_ID[entry.portfolio] || entry.portfolio,
+        }))
       }
       changed = true
+      arenaSave()
     }
 
     // Sync daily insight
