@@ -1,1 +1,173 @@
-{"date":null,"marketSummary":"Not yet generated","topOpportunities":[],"topRisks":[],"bullishSectors":[],"bearishSectors":[],"keyEvents":[]}
+{
+  "marketSummary": "Broad market selloff observed across all major indices with tech stocks leading declines (QQQ -4.80%, SPY -2.58%), signaling heightened risk-off sentiment. Small-cap weakness (IWM -3.55%) and gold selling pressure (-3.65%) suggest flight from both risk and traditional safe havens. However, AI semiconductor space shows relative strength with strategic partnerships and price target upgrades offsetting broader market headwinds.",
+  "topOpportunities": [
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "reason": "Stifel raised price target citing expanding AI data center opportunity; positioned as critical infrastructure play for AI scaling",
+      "score": 82,
+      "riskScore": 35,
+      "confidenceScore": 85,
+      "historicalComparison": "AI semiconductor leaders have recovered faster than broader indices during sector rotations; MRVL benefits from secular AI infrastructure build-out"
+    },
+    {
+      "symbol": "CBRS",
+      "name": "Cerebras Systems",
+      "reason": "Wall Street brokerage backing validates AI chip strategy; gaining institutional confidence during tech sector volatility",
+      "score": 79,
+      "riskScore": 55,
+      "confidenceScore": 78,
+      "historicalComparison": "Niche AI chip players show higher volatility but stronger recovery trajectory in AI expansion cycles"
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "reason": "Strategic Hitachi partnership accelerating physical AI applications signals competitive repositioning and revenue diversification",
+      "score": 74,
+      "riskScore": 48,
+      "confidenceScore": 72,
+      "historicalComparison": "Turnaround narratives in chip sector have catalyzed 15-25% rebounds; Hitachi partnership validates Intel's AI roadmap"
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Nasdaq-100 ETF",
+      "reason": "Extreme weakness (-4.80%) creates contrarian value opportunity; oversold conditions in tech likely to bounce on positive AI data",
+      "score": 71,
+      "riskScore": 62,
+      "confidenceScore": 68,
+      "historicalComparison": "Tech selloffs of 4%+ have historically reversed within 3-5 trading days; mean reversion trade opportunity"
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold ETF",
+      "reason": "Gold weakness (-3.65%) during equity selloff suggests forced liquidations; accumulation opportunity if macro stress persists",
+      "score": 68,
+      "riskScore": 42,
+      "confidenceScore": 65,
+      "historicalComparison": "Gold selling amid equity weakness is historically short-lived; reversion to safe-haven status typically follows within days"
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury ETF",
+      "reason": "Minimal bond weakness (-0.51%) amid 2-4% equity declines indicates flight to quality; bonds likely outperformers",
+      "score": 70,
+      "riskScore": 28,
+      "confidenceScore": 79,
+      "historicalComparison": "Bonds showing resilience while equities crack; historical 80-day support through equity volatility spikes"
+    },
+    {
+      "symbol": "DIA",
+      "name": "Dow Jones Industrial ETF",
+      "reason": "Outperformer vs. growth indices (-1.35% vs -2.58% SPY); defensive positioning working; blue-chip dividend support present",
+      "score": 69,
+      "riskScore": 38,
+      "confidenceScore": 76,
+      "historicalComparison": "Large-cap value resilience during tech routs has produced 60% recovery advantage over 6-month periods"
+    },
+    {
+      "symbol": "IWM",
+      "name": "Russell 2000 (Small-Cap)",
+      "reason": "Worst performer (-3.55%) suggests capitulation; small-caps lead recovery phases; oversold technical conditions present",
+      "score": 66,
+      "riskScore": 68,
+      "confidenceScore": 62,
+      "historicalComparison": "Russell 2000 trailing losses typically reverse with 4-6% gains in subsequent 2-week windows post-capitulation"
+    }
+  ],
+  "topRisks": [
+    {
+      "symbol": "QQQ",
+      "name": "Nasdaq-100 ETF",
+      "reason": "Largest single-day decline suggests momentum breakdown; further 2-3% decline possible on macro deterioration",
+      "riskLevel": "HIGH",
+      "riskScore": 78
+    },
+    {
+      "symbol": "IWM",
+      "name": "Russell 2000",
+      "reason": "Leading decline indicator; small-cap weakness typically signals economic slowdown risk; credit stress potential",
+      "riskLevel": "HIGH",
+      "riskScore": 82
+    },
+    {
+      "symbol": "CBRS",
+      "name": "Cerebras Systems",
+      "reason": "Micro-cap liquidity risk; positive sentiment can reverse rapidly; dependent on continued AI sector enthusiasm",
+      "riskLevel": "CRITICAL",
+      "riskScore": 72
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "reason": "Turnaround execution risk; partnership announcements don't guarantee market share recovery; competitive pressure from TSMC/Samsung",
+      "riskLevel": "MEDIUM",
+      "riskScore": 61
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold ETF",
+      "reason": "Liquidation risk if equity losses accelerate; may face further selling if rates remain elevated",
+      "riskLevel": "MEDIUM",
+      "riskScore": 58
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "reason": "AI cycle dependency; valuation compression risk if tech growth forecasts decline; inventory correction risk",
+      "riskLevel": "MEDIUM",
+      "riskScore": 64
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury ETF",
+      "reason": "Duration risk if Fed signals higher rates; yield backup could pressure long-end; inflation surprise potential",
+      "riskLevel": "LOW",
+      "riskScore": 48
+    },
+    {
+      "symbol": "DIA",
+      "name": "Dow Jones Industrial ETF",
+      "reason": "Dividend yield trap risk; large-cap exposure to consumer weakness if recession fears escalate",
+      "riskLevel": "MEDIUM",
+      "riskScore": 56
+    }
+  ],
+  "bullishSectors": [
+    {
+      "sector": "AI & Semiconductor Manufacturing",
+      "score": 88,
+      "reason": "Strategic partnerships (Intel-Hitachi), analyst upgrades (MRVL), and brokerage backing (CBRS) demonstrate institutional conviction despite market weakness; secular AI infrastructure demand outweighs cyclical concerns"
+    },
+    {
+      "sector": "Large-Cap Technology",
+      "score": 72,
+      "reason": "Oversold conditions (-4.80% QQQ) create technical bounce opportunity; AI-native mega-caps maintain strong free cash flows and balance sheets"
+    },
+    {
+      "sector": "Fixed Income / Treasury Bonds",
+      "score": 75,
+      "reason": "Flight-to-quality flows evident; minimal selling pressure (-0.51% TLT) amid equity volatility; positioning for recession protection"
+    }
+  ],
+  "bearishSectors": [
+    {
+      "sector": "Small-Cap Equities & Russell 2000",
+      "score": 28,
+      "reason": "Leading decline indicator signals economic slowdown concerns; financing risk elevated; historically predicts broader market weakness within 2-4 weeks"
+    },
+    {
+      "sector": "Commodities & Alternative Assets",
+      "score": 35,
+      "reason": "Gold weakness (-3.65%) amid risk-off environment suggests forced liquidations; commodity sector vulnerability to growth recession scenarios"
+    }
+  ],
+  "keyEvents": [
+    "AI semiconductor ecosystem showing strength: Cerebras Wall Street backing, Stifel MRVL upgrade, Intel-Hitachi partnership announced",
+    "Broad-based equity selloff suggesting macro risk repricing or profit-taking in growth positions",
+    "Small-cap underperformance (IWM -3.55%) raising recession risk signals; potential early warning for economic deceleration",
+    "Bond stability amid equity weakness indicating institutional pivot toward defensive positioning",
+    "Tech sector capitulation (-4.80% QQQ) creating potential mean-reversion opportunity for contrarian positioning"
+  ],
+  "date": "2026-06-08",
+  "generatedAt": "2026-06-08T13:17:27.402417+00:00"
+}

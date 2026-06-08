@@ -1,7 +1,126 @@
 {
-  "portfolios": {},
-  "recommendations": [],
-  "aiTradeLog": [],
+  "portfolios": {
+    "master": {
+      "balance": 87785.35,
+      "positions": {
+        "MSFT": {
+          "qty": 11,
+          "entryPrice": 416.67,
+          "entryTs": "2026-06-08T13:17:32.432822+00:00",
+          "aiScores": {
+            "opp": 82,
+            "risk": 38,
+            "conf": 78
+          },
+          "reason": "Large-cap tech leader down 2.66% amid sector weakness; strong AI positioning and enterprise moat support bounce-back potential with manageable volatility.",
+          "currentPrice": 416.67
+        },
+        "V": {
+          "qty": 12,
+          "entryPrice": 323.57,
+          "entryTs": "2026-06-08T13:17:32.432852+00:00",
+          "aiScores": {
+            "opp": 81,
+            "risk": 35,
+            "conf": 76
+          },
+          "reason": "Visa up 1.06% showing defensive strength; resilient payments network with lower correlation to tech volatility provides portfolio stability.",
+          "currentPrice": 323.57
+        },
+        "JPM": {
+          "qty": 12,
+          "entryPrice": 312.37,
+          "entryTs": "2026-06-08T13:17:32.432865+00:00",
+          "aiScores": {
+            "opp": 80,
+            "risk": 37,
+            "conf": 75
+          },
+          "reason": "Financial sector outperformer (+0.48%) with sector tailwinds from higher rates; diversifies away from concentrated tech exposure and offers dividend support.",
+          "currentPrice": 312.37
+        }
+      },
+      "trades": [],
+      "history": [
+        {
+          "date": "2026-06-08",
+          "value": 100000.0
+        }
+      ]
+    },
+    "momentum": {
+      "balance": 100000,
+      "positions": {},
+      "trades": [],
+      "history": [
+        {
+          "date": "2026-06-08",
+          "value": 100000
+        }
+      ]
+    }
+  },
+  "recommendations": [
+    {
+      "id": "1780924652.43287JPM",
+      "symbol": "JPM",
+      "strategy": "master",
+      "ts": "2026-06-08T13:17:32.432872+00:00",
+      "entryPrice": 312.37,
+      "oppScore": 80,
+      "riskScore": 37,
+      "confScore": 75,
+      "reasoning": "Financial sector outperformer (+0.48%) with sector tailwinds from higher rates; diversifies away from concentrated tech exposure and offers dividend support.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1780924652.432858V",
+      "symbol": "V",
+      "strategy": "master",
+      "ts": "2026-06-08T13:17:32.432860+00:00",
+      "entryPrice": 323.57,
+      "oppScore": 81,
+      "riskScore": 35,
+      "confScore": 76,
+      "reasoning": "Visa up 1.06% showing defensive strength; resilient payments network with lower correlation to tech volatility provides portfolio stability.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1780924652.432837MSFT",
+      "symbol": "MSFT",
+      "strategy": "master",
+      "ts": "2026-06-08T13:17:32.432845+00:00",
+      "entryPrice": 416.67,
+      "oppScore": 82,
+      "riskScore": 38,
+      "confScore": 78,
+      "reasoning": "Large-cap tech leader down 2.66% amid sector weakness; strong AI positioning and enterprise moat support bounce-back potential with manageable volatility.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    }
+  ],
+  "aiTradeLog": [
+    {
+      "ts": "2026-06-08T13:17:32.432834+00:00",
+      "portfolio": "master",
+      "msg": "BUY 11\u00d7 MSFT @ \u00a3416.67 \u2014 Large-cap tech leader down 2.66% amid sector weakness; strong AI positioning and enterprise moat support bounce-back potential with manageable volatility."
+    },
+    {
+      "ts": "2026-06-08T13:17:32.432856+00:00",
+      "portfolio": "master",
+      "msg": "BUY 12\u00d7 V @ \u00a3323.57 \u2014 Visa up 1.06% showing defensive strength; resilient payments network with lower correlation to tech volatility provides portfolio stability."
+    },
+    {
+      "ts": "2026-06-08T13:17:32.432868+00:00",
+      "portfolio": "master",
+      "msg": "BUY 12\u00d7 JPM @ \u00a3312.37 \u2014 Financial sector outperformer (+0.48%) with sector tailwinds from higher rates; diversifies away from concentrated tech exposure and offers dividend support."
+    }
+  ],
   "startingBalance": 100000,
-  "lastRun": null
+  "lastRun": "2026-06-08T13:17:38.357620+00:00"
 }

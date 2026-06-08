@@ -1,1 +1,131 @@
-{"results":{},"marketStatus":"unknown","runAt":null}
+{
+  "results": {
+    "master": {
+      "decisions": [
+        {
+          "action": "BUY",
+          "symbol": "MSFT",
+          "qty_pct": 5,
+          "opportunityScore": 82,
+          "riskScore": 38,
+          "confidenceScore": 78,
+          "reasoning": "Large-cap tech leader down 2.66% amid sector weakness; strong AI positioning and enterprise moat support bounce-back potential with manageable volatility."
+        },
+        {
+          "action": "BUY",
+          "symbol": "V",
+          "qty_pct": 4,
+          "opportunityScore": 81,
+          "riskScore": 35,
+          "confidenceScore": 76,
+          "reasoning": "Visa up 1.06% showing defensive strength; resilient payments network with lower correlation to tech volatility provides portfolio stability."
+        },
+        {
+          "action": "BUY",
+          "symbol": "JPM",
+          "qty_pct": 4,
+          "opportunityScore": 80,
+          "riskScore": 37,
+          "confidenceScore": 75,
+          "reasoning": "Financial sector outperformer (+0.48%) with sector tailwinds from higher rates; diversifies away from concentrated tech exposure and offers dividend support."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "AAPL",
+          "qty_pct": 0,
+          "opportunityScore": 72,
+          "riskScore": 42,
+          "confidenceScore": 68,
+          "reasoning": "Modest decline insufficient to override valuation concerns; wait for stronger technical support or broader sector confirmation before deploying capital."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "GLD",
+          "qty_pct": 0,
+          "opportunityScore": 65,
+          "riskScore": 48,
+          "confidenceScore": 62,
+          "reasoning": "Defensive hedge down 3.65% but AI narrative dominates near-term; defer safe-haven accumulation until conviction higher on macro deterioration."
+        }
+      ],
+      "assessment": "Market favors quality, diversified exposure with AI tailwinds; deploy 13% into established defensive blue-chips (MSFT, V, JPM) while maintaining 87% dry powder for sector-specific AI opportunities as volatility settles.",
+      "strategy": "master",
+      "strategy_name": "AI Master",
+      "timestamp": "2026-06-08T13:17:32.432769+00:00",
+      "prices_used": {
+        "AAPL": 307.34,
+        "MSFT": 416.67,
+        "GOOGL": 368.53,
+        "AMZN": 246.03,
+        "META": 593,
+        "JPM": 312.37,
+        "V": 323.57,
+        "XOM": 149.92,
+        "SPY": 737.55,
+        "QQQ": 705.06,
+        "GLD": 396.24,
+        "TSLA": 391,
+        "AVGO": 385.73,
+        "AMD": 466.38
+      }
+    },
+    "momentum": {
+      "decisions": [
+        {
+          "action": "HOLD",
+          "symbol": "SPY",
+          "qty_pct": 0,
+          "opportunityScore": 45,
+          "riskScore": 65,
+          "confidenceScore": 55,
+          "reasoning": "Broad market decline of -2.58% lacks clarity on direction; tech weakness dominates but defensive sectors (XLV) show resilience, suggesting sector rotation rather than buy signal."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "QQQ",
+          "qty_pct": 0,
+          "opportunityScore": 35,
+          "riskScore": 75,
+          "confidenceScore": 40,
+          "reasoning": "Tech-heavy index down -4.80% conflicts with AI bullish narrative; news mentions AI opportunities but downward momentum and high volatility fail confidence threshold."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "XLK",
+          "qty_pct": 0,
+          "opportunityScore": 72,
+          "riskScore": 58,
+          "confidenceScore": 68,
+          "reasoning": "Tech sector down -6.66% but AI chip news (Cerebras, Marvell, Intel-Hitachi) presents opportunity; however, confidence score just misses 75% threshold due to conflicting momentum."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "XLV",
+          "qty_pct": 0,
+          "opportunityScore": 52,
+          "riskScore": 35,
+          "confidenceScore": 62,
+          "reasoning": "Healthcare resilience (+0.61%) in declining market shows defensive merit, but low opportunity score in momentum-driven strategy with no strong catalyst."
+        }
+      ],
+      "assessment": "Market experiencing sharp tech selloff conflicting with positive AI narrative; insufficient conviction across metrics to deploy capital\u2014wait for clearer momentum confirmation or sector rotation completion before entering positions.",
+      "strategy": "momentum",
+      "strategy_name": "AI Momentum",
+      "timestamp": "2026-06-08T13:17:37.857382+00:00",
+      "prices_used": {
+        "SPY": 737.55,
+        "QQQ": 705.06,
+        "XLK": 180.3,
+        "XLE": 57.67,
+        "XLV": 153.01,
+        "GLD": 396.24,
+        "TLT": 85.06,
+        "IWM": 281.65,
+        "VWO": 58.03,
+        "EEM": 64.59
+      }
+    }
+  },
+  "marketStatus": "pre-market",
+  "runAt": "2026-06-08T13:17:38.358908+00:00"
+}
