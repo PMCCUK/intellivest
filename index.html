@@ -2152,7 +2152,11 @@ function setSpinner(id, on) {
 // UTILS
 // ════════════════════════════════════════════════════════════════════
 function fmtPrice(p) {
-  if (!p) return '—'
+  // Guard: extract number from quote object or coerce to float
+  if (p === null || p === undefined) return '—'
+  if (typeof p === 'object') p = parseFloat(p.price) || 0
+  p = parseFloat(p)
+  if (isNaN(p) || p === 0) return '—'
   if (p >= 1000) return p.toLocaleString('en-US', { minimumFractionDigits:2, maximumFractionDigits:2 })
   if (p >= 1) return p.toFixed(2)
   return p.toFixed(4)
@@ -3034,10 +3038,13 @@ function resetArena() {
 // ── Portfolio value calculations ──────────────────────────────────────
 function arenaPortfolioValue(p) {
   const invested = p.positions.reduce((s, pos) => {
-    const cur = ARENA.currentPrices[pos.symbol] || pos.entryPrice
-    return s + cur * pos.qty
+    let cur = ARENA.currentPrices[pos.symbol] || pos.entryPrice || 0
+    if (typeof cur === 'object') cur = parseFloat(cur.price) || 0
+    cur = parseFloat(cur) || 0
+    const qty = parseInt(pos.qty) || 0
+    return s + cur * qty
   }, 0)
-  return p.balance + invested
+  return (parseFloat(p.balance) || 0) + invested
 }
 
 function arenaPortfolioReturn(p) {
@@ -4534,91 +4541,111 @@ async function syncFromGitHub() {
   if (!DATA_BASE) return  // Local mode — skip
 
   // Map AI engine strategy IDs → ARENA portfolio IDs
-  const STRATEGY_TO_ARENA_ID = {
-    master: 'aimaster', growth: 'aiGrowth', value: 'aiValue',
-    momentum: 'aiMomentum', uk: 'aiUK', crypto: 'aiCrypto', smallcap: 'aiSmallCap',
+  const S2A = {
+    master:'aimaster', growth:'aiGrowth', value:'aiValue',
+    momentum:'aiMomentum', uk:'aiUK', crypto:'aiCrypto', smallcap:'aiSmallCap',
   }
 
   try {
-    // Fetch all data files in parallel
-    const [state, insight, prices, runLog, stratResults] = await Promise.all([
+    const [state, insight, prices, runLog] = await Promise.all([
       fetchDataFile('state.json'),
       fetchDataFile('daily_insight.json'),
       fetchDataFile('prices.json'),
       fetchDataFile('run_log.json'),
-      fetchDataFile('strategy_results.json'),
     ])
 
     let changed = false
 
-    // Sync portfolio state from server
-    if (state && state.portfolios) {
-      Object.keys(state.portfolios).forEach(stratId => {
-        const arenaId = STRATEGY_TO_ARENA_ID[stratId] || stratId
-        if (!ARENA.portfolios[arenaId]) return
-        const sp = state.portfolios[stratId]
-        ARENA.portfolios[arenaId].balance = parseFloat(sp.balance) || ARENA.portfolios[arenaId].balance
-        ARENA.portfolios[arenaId].positions = sp.positions
-          ? Object.entries(sp.positions).map(([sym, pos]) => ({
-              id: sym, symbol: sym, ...pos,
-              qty:          parseInt(pos.qty)                                       || 0,
-              entryPrice:   parseFloat(pos.entryPrice)                              || 0,
-              currentPrice: parseFloat(pos.currentPrice || pos.entryPrice)          || 0,
-            }))
-          : []
-        ARENA.portfolios[arenaId].trades  = (sp.trades  || []).map(t => ({
-          ...t, qty: parseInt(t.qty) || 0, entryPrice: parseFloat(t.entryPrice) || 0,
-          exitPrice: parseFloat(t.exitPrice) || 0, pnl: parseFloat(t.pnl) || 0,
-          pnlPct: parseFloat(t.pnlPct) || 0,
-        }))
-        ARENA.portfolios[arenaId].history = (sp.history || []).map(h => ({
-          ...h, value: parseFloat(h.value) || 0,
-        }))
-      })
-
-      if (state.recommendations?.length) {
-        ARENA.recommendations = state.recommendations
-      }
-      if (state.aiTradeLog?.length) {
-        // Remap strategy IDs → ARENA IDs so tab filters match
-        ARENA.aiTradeLog = state.aiTradeLog.map(entry => ({
-          ...entry,
-          portfolio: STRATEGY_TO_ARENA_ID[entry.portfolio] || entry.portfolio,
-        }))
-      }
-      changed = true
-      arenaSave()
-    }
-
-    // Sync daily insight
-    if (insight && insight.marketSummary && insight.date) {
-      const today = new Date().toISOString().split('T')[0]
-      if (insight.date === today || insight.topOpportunities?.length) {
-        S.lastDailyInsight = insight
-        renderDailyInsightWithTrade(insight)
-      }
-    }
-
-    // Sync live prices into ARENA.currentPrices (store price number only, not full quote object)
+    // Sync live prices — extract plain numbers from quote objects
     if (prices && prices.quotes) {
       Object.entries(prices.quotes).forEach(([sym, q]) => {
-        ARENA.currentPrices[sym] = parseFloat(q.price || q) || 0
+        // q may be a full quote object {price, changePct, ...} or just a number
+        ARENA.currentPrices[sym] = typeof q === 'object' ? parseFloat(q.price) || 0 : parseFloat(q) || 0
       })
-      // Update watchlist sidebar prices
+      // Update watchlist sidebar
       S.watchlist.forEach(sym => {
         const q = prices.quotes[sym]
         if (!q) return
+        const price = typeof q === 'object' ? q.price : q
+        const pct   = typeof q === 'object' ? q.changePct : 0
         const px  = document.getElementById(`wl-px-${sym}`)
         const chg = document.getElementById(`wl-chg-${sym}`)
-        if (px)  px.textContent  = fmtPrice(parseFloat(q.price))
+        if (px)  px.textContent = fmtPrice(parseFloat(price))
         if (chg) {
-          chg.textContent = `${q.changePct >= 0 ? '+' : ''}${(q.changePct||0).toFixed(2)}%`
-          chg.style.color = q.changePct >= 0 ? 'var(--green)' : 'var(--red)'
+          chg.textContent = `${pct >= 0 ? '+' : ''}${(pct||0).toFixed(2)}%`
+          chg.style.color = pct >= 0 ? 'var(--green)' : 'var(--red)'
         }
       })
+      // Also update index grid if on dashboard
+      buildTicker(Object.entries(prices.quotes).slice(0,12).map(([sym,q]) => ({
+        sym,
+        price: typeof q==='object' ? parseFloat(q.price)||0 : parseFloat(q)||0,
+        pct:   typeof q==='object' ? parseFloat(q.changePct)||0 : 0,
+        up:    typeof q==='object' ? (q.changePct||0) >= 0 : true,
+      })))
     }
 
-    // Show server run status in Arena header
+    // Sync portfolio state from server
+    if (state && state.portfolios) {
+      Object.keys(state.portfolios).forEach(stratId => {
+        const arenaId = S2A[stratId] || stratId
+        if (!ARENA.portfolios[arenaId]) return
+        const sp = state.portfolios[stratId]
+
+        ARENA.portfolios[arenaId].balance = parseFloat(sp.balance) || ARENA.portfolios[arenaId].balance
+
+        // Positions: server stores as object {AAPL:{qty,entryPrice,...}}
+        ARENA.portfolios[arenaId].positions = sp.positions
+          ? Object.entries(sp.positions).map(([sym, pos]) => ({
+              id: sym, symbol: sym,
+              qty:          parseInt(pos.qty)                                    || 0,
+              entryPrice:   parseFloat(pos.entryPrice)                          || 0,
+              currentPrice: parseFloat(pos.currentPrice || pos.entryPrice)      || 0,
+              entryTs:      pos.entryTs || Date.now(),
+              aiScores:     pos.aiScores || null,
+              reason:       pos.reason  || '',
+              sector:       pos.sector  || 'Other',
+              assetType:    pos.assetType || 'Stock',
+            }))
+          : []
+
+        ARENA.portfolios[arenaId].trades = (sp.trades || []).map(t => ({
+          ...t,
+          qty:        parseInt(t.qty)        || 0,
+          entryPrice: parseFloat(t.entryPrice) || 0,
+          exitPrice:  parseFloat(t.exitPrice)  || 0,
+          pnl:        parseFloat(t.pnl)        || 0,
+          pnlPct:     parseFloat(t.pnlPct)     || 0,
+        }))
+
+        ARENA.portfolios[arenaId].history = (sp.history || []).map(h => ({
+          date: h.date, value: parseFloat(h.value) || 0,
+        }))
+
+        if (!ARENA.portfolios[arenaId].startDate && sp.history?.length) {
+          ARENA.portfolios[arenaId].startDate = sp.history[0].date
+        }
+      })
+
+      if (state.recommendations?.length) ARENA.recommendations = state.recommendations
+      if (state.aiTradeLog?.length) {
+        ARENA.aiTradeLog = state.aiTradeLog.map(e => ({
+          ...e, portfolio: S2A[e.portfolio] || e.portfolio
+        }))
+      }
+      if (state.startingBalance) ARENA.startingBalance = parseFloat(state.startingBalance)
+
+      arenaSave()
+      changed = true
+    }
+
+    // Sync daily insight
+    if (insight && insight.marketSummary) {
+      S.lastDailyInsight = insight
+      if (insight.topOpportunities?.length) renderDailyInsightWithTrade(insight)
+    }
+
+    // Show server run status badge
     if (runLog && runLog.lastRun) {
       SYNC.lastRunTime = runLog.lastRun
       updateServerStatusBadge(runLog)
