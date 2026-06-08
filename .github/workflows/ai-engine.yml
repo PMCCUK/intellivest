@@ -30,6 +30,9 @@ on:
         required: false
         default: 'false'
 
+permissions:
+  contents: write
+
 jobs:
   run-ai-engine:
     runs-on: ubuntu-latest
