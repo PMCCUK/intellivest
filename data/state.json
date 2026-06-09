@@ -1,7 +1,7 @@
 {
   "portfolios": {
     "master": {
-      "balance": 81286.0,
+      "balance": 77643.4,
       "positions": {
         "MSFT": {
           "qty": 11,
@@ -13,7 +13,7 @@
             "conf": 78
           },
           "reason": "Large-cap tech leader down 2.66% amid sector weakness; strong AI positioning and enterprise moat support bounce-back potential with manageable volatility.",
-          "currentPrice": 416.67
+          "currentPrice": 403.41
         },
         "V": {
           "qty": 12,
@@ -25,7 +25,7 @@
             "conf": 76
           },
           "reason": "Visa up 1.06% showing defensive strength; resilient payments network with lower correlation to tech volatility provides portfolio stability.",
-          "currentPrice": 322.01
+          "currentPrice": 325.05
         },
         "JPM": {
           "qty": 12,
@@ -37,7 +37,7 @@
             "conf": 75
           },
           "reason": "Financial sector outperformer (+0.48%) with sector tailwinds from higher rates; diversifies away from concentrated tech exposure and offers dividend support.",
-          "currentPrice": 312.08
+          "currentPrice": 312.7
         },
         "AMD": {
           "qty": 6,
@@ -49,7 +49,7 @@
             "conf": 78
           },
           "reason": "Strong momentum (+3.52%) in semiconductor sector with solid risk-reward; tech tailwinds support growth narrative.",
-          "currentPrice": 482.8
+          "currentPrice": 475.505
         },
         "TSLA": {
           "qty": 4,
@@ -61,7 +61,7 @@
             "conf": 76
           },
           "reason": "Exceptional momentum (+2.91%) despite Musk sentiment noise; technical setup suggests continuation bias.",
-          "currentPrice": 402.38
+          "currentPrice": 396.68
         },
         "XOM": {
           "qty": 13,
@@ -73,7 +73,19 @@
             "conf": 77
           },
           "reason": "Energy sector strength (+2.26%) with defensive characteristics; less correlated to tech volatility.",
-          "currentPrice": 153.31
+          "currentPrice": 148.91
+        },
+        "GOOGL": {
+          "qty": 10,
+          "entryPrice": 364.26,
+          "entryTs": "2026-06-09T20:25:24.072920+00:00",
+          "aiScores": {
+            "opp": 80,
+            "risk": 36,
+            "conf": 77
+          },
+          "reason": "Only mega-cap with positive momentum (+0.26%) despite sector selloff; AI leadership justifies defensive core holding at reduced valuation.",
+          "currentPrice": 364.26
         }
       },
       "trades": [],
@@ -81,6 +93,10 @@
         {
           "date": "2026-06-08",
           "value": 99977.8
+        },
+        {
+          "date": "2026-06-09",
+          "value": 99752.09
         }
       ]
     },
@@ -97,7 +113,7 @@
             "conf": 78
           },
           "reason": "Tech sector showing strongest momentum (+1.56%) with XLK outperforming (+2.17%); growth rotation favored in current market regime.",
-          "currentPrice": 716.07
+          "currentPrice": 707.83
         },
         "EEM": {
           "qty": 45,
@@ -109,7 +125,7 @@
             "conf": 76
           },
           "reason": "Emerging markets accelerating (+2.24%) as global growth expectations improve; SNB rate cut signals accommodative policy environment.",
-          "currentPrice": 66.04
+          "currentPrice": 65.82
         }
       },
       "trades": [],
@@ -117,11 +133,15 @@
         {
           "date": "2026-06-08",
           "value": 100000.0
+        },
+        {
+          "date": "2026-06-09",
+          "value": 99948.9
         }
       ]
     },
     "growth": {
-      "balance": 84041.31000000001,
+      "balance": 74309.37000000001,
       "positions": {
         "ASML": {
           "qty": 2,
@@ -133,7 +153,7 @@
             "conf": 82
           },
           "reason": "Strong +5.58% momentum as critical semiconductor equipment supplier; European manufacturing PMI mixed but ASML benefits from AI chip demand cycle and strong technical setup.",
-          "currentPrice": 1733.38
+          "currentPrice": 1777.77
         },
         "TSM": {
           "qty": 11,
@@ -145,7 +165,7 @@
             "conf": 79
           },
           "reason": "Up +3.23% with positive momentum; foundry exposure to AI growth and strong positioning despite geopolitical risks in Taiwan.",
-          "currentPrice": 428.59
+          "currentPrice": 427.92
         },
         "AMD": {
           "qty": 8,
@@ -157,7 +177,7 @@
             "conf": 77
           },
           "reason": "+3.52% momentum with strong AI chip competitiveness; positioned well against NVDA in datacenter and gaining market share.",
-          "currentPrice": 482.8
+          "currentPrice": 475.505
         },
         "SNOW": {
           "qty": 16,
@@ -169,7 +189,31 @@
             "conf": 76
           },
           "reason": "+2.70% gain with enterprise AI/data platform demand accelerating; cloud infrastructure tailwind remains strong.",
-          "currentPrice": 244.69
+          "currentPrice": 239.66
+        },
+        "NVDA": {
+          "qty": 24,
+          "entryPrice": 208.19,
+          "entryTs": "2026-06-09T20:25:29.131908+00:00",
+          "aiScores": {
+            "opp": 85,
+            "risk": 38,
+            "conf": 80
+          },
+          "reason": "Minor pullback (-0.22%) on strength of Jensen Huang's recent bullish comments; AI leadership with attractive entry point and sector tailwinds.",
+          "currentPrice": 208.19
+        },
+        "GOOGL": {
+          "qty": 13,
+          "entryPrice": 364.26,
+          "entryTs": "2026-06-09T20:25:29.131954+00:00",
+          "aiScores": {
+            "opp": 81,
+            "risk": 36,
+            "conf": 77
+          },
+          "reason": "Positive momentum (+0.26%) among mega-cap tech; diversified AI exposure with solid balance sheet and revenue diversity.",
+          "currentPrice": 364.26
         }
       },
       "trades": [],
@@ -177,11 +221,15 @@
         {
           "date": "2026-06-08",
           "value": 100000.0
+        },
+        {
+          "date": "2026-06-09",
+          "value": 99942.57
         }
       ]
     },
     "uk": {
-      "balance": 92620.04000000001,
+      "balance": 83669.93000000001,
       "positions": {
         "ASML": {
           "qty": 2,
@@ -193,7 +241,7 @@
             "conf": 82
           },
           "reason": "Strong +5.58% momentum, European semiconductor leader with structural growth tailwinds despite macro uncertainty; valuation supported by AI/chip cycle strength.",
-          "currentPrice": 1733.38
+          "currentPrice": 1777.77
         },
         "SHEL": {
           "qty": 45,
@@ -205,7 +253,31 @@
             "conf": 78
           },
           "reason": "FTSE 100 energy anchor up +1.83% with defensive yield; energy repricing reflects geopolitical tensions and energy security concerns supporting oil majors.",
-          "currentPrice": 86.96
+          "currentPrice": 85.43
+        },
+        "AZN": {
+          "qty": 27,
+          "entryPrice": 183.43,
+          "entryTs": "2026-06-09T20:25:45.046484+00:00",
+          "aiScores": {
+            "opp": 82,
+            "risk": 35,
+            "conf": 78
+          },
+          "reason": "Astrazeneca showing positive momentum (+1.04%) with defensive pharma profile; positioned for long-term growth in oncology and cardiovascular pipelines.",
+          "currentPrice": 183.43
+        },
+        "GSK": {
+          "qty": 78,
+          "entryPrice": 51.25,
+          "entryTs": "2026-06-09T20:25:45.046509+00:00",
+          "aiScores": {
+            "opp": 81,
+            "risk": 36,
+            "conf": 76
+          },
+          "reason": "GlaxoSmithKline posting solid gains (+1.20%) with diversified vaccine and specialty pharma portfolio; defensive dividend yield attractive.",
+          "currentPrice": 51.25
         }
       },
       "trades": [],
@@ -213,6 +285,10 @@
         {
           "date": "2026-06-08",
           "value": 100000.0
+        },
+        {
+          "date": "2026-06-09",
+          "value": 100019.93
         }
       ]
     },
@@ -226,9 +302,221 @@
           "value": 100000
         }
       ]
+    },
+    "value": {
+      "balance": 75580.40999999999,
+      "positions": {
+        "JPM": {
+          "qty": 15,
+          "entryPrice": 312.7,
+          "entryTs": "2026-06-09T20:25:35.383829+00:00",
+          "aiScores": {
+            "opp": 82,
+            "risk": 35,
+            "conf": 78
+          },
+          "reason": "Investment-grade bank with strong fundamentals, modest valuation relative to earnings power, and defensive characteristics in uncertain markets.",
+          "currentPrice": 312.7
+        },
+        "BAC": {
+          "qty": 91,
+          "entryPrice": 54.42,
+          "entryTs": "2026-06-09T20:25:35.383853+00:00",
+          "aiScores": {
+            "opp": 85,
+            "risk": 38,
+            "conf": 76
+          },
+          "reason": "Undervalued large-cap bank with solid dividend yield, recent momentum, and attractive price-to-book ratio.",
+          "currentPrice": 54.42
+        },
+        "XOM": {
+          "qty": 33,
+          "entryPrice": 148.91,
+          "entryTs": "2026-06-09T20:25:35.383865+00:00",
+          "aiScores": {
+            "opp": 81,
+            "risk": 39,
+            "conf": 77
+          },
+          "reason": "Energy major trading down on sector weakness but maintains strong free cash flow, dividend sustainability, and valuation support.",
+          "currentPrice": 148.91
+        },
+        "MRK": {
+          "qty": 41,
+          "entryPrice": 119.6,
+          "entryTs": "2026-06-09T20:25:35.383875+00:00",
+          "aiScores": {
+            "opp": 83,
+            "risk": 36,
+            "conf": 79
+          },
+          "reason": "Pharma blue-chip with diversified pipeline, low volatility, and attractive valuation despite flat recent performance.",
+          "currentPrice": 119.6
+        },
+        "ABBV": {
+          "qty": 22,
+          "entryPrice": 225.42,
+          "entryTs": "2026-06-09T20:25:35.383885+00:00",
+          "aiScores": {
+            "opp": 84,
+            "risk": 37,
+            "conf": 80
+          },
+          "reason": "Dividend aristocrat with stable cash flows, reasonable valuation metrics, and pharmaceutical portfolio diversification.",
+          "currentPrice": 225.42
+        }
+      },
+      "trades": [],
+      "history": [
+        {
+          "date": "2026-06-09",
+          "value": 100000.0
+        }
+      ]
     }
   },
   "recommendations": [
+    {
+      "id": "1781036745.046514GSK",
+      "symbol": "GSK",
+      "strategy": "uk",
+      "ts": "2026-06-09T20:25:45.046516+00:00",
+      "entryPrice": 51.25,
+      "oppScore": 81,
+      "riskScore": 36,
+      "confScore": 76,
+      "reasoning": "GlaxoSmithKline posting solid gains (+1.20%) with diversified vaccine and specialty pharma portfolio; defensive dividend yield attractive.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781036745.046497AZN",
+      "symbol": "AZN",
+      "strategy": "uk",
+      "ts": "2026-06-09T20:25:45.046503+00:00",
+      "entryPrice": 183.43,
+      "oppScore": 82,
+      "riskScore": 35,
+      "confScore": 78,
+      "reasoning": "Astrazeneca showing positive momentum (+1.04%) with defensive pharma profile; positioned for long-term growth in oncology and cardiovascular pipelines.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781036735.383889ABBV",
+      "symbol": "ABBV",
+      "strategy": "value",
+      "ts": "2026-06-09T20:25:35.383891+00:00",
+      "entryPrice": 225.42,
+      "oppScore": 84,
+      "riskScore": 37,
+      "confScore": 80,
+      "reasoning": "Dividend aristocrat with stable cash flows, reasonable valuation metrics, and pharmaceutical portfolio diversification.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781036735.38388MRK",
+      "symbol": "MRK",
+      "strategy": "value",
+      "ts": "2026-06-09T20:25:35.383881+00:00",
+      "entryPrice": 119.6,
+      "oppScore": 83,
+      "riskScore": 36,
+      "confScore": 79,
+      "reasoning": "Pharma blue-chip with diversified pipeline, low volatility, and attractive valuation despite flat recent performance.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781036735.38387XOM",
+      "symbol": "XOM",
+      "strategy": "value",
+      "ts": "2026-06-09T20:25:35.383871+00:00",
+      "entryPrice": 148.91,
+      "oppScore": 81,
+      "riskScore": 39,
+      "confScore": 77,
+      "reasoning": "Energy major trading down on sector weakness but maintains strong free cash flow, dividend sustainability, and valuation support.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781036735.383859BAC",
+      "symbol": "BAC",
+      "strategy": "value",
+      "ts": "2026-06-09T20:25:35.383861+00:00",
+      "entryPrice": 54.42,
+      "oppScore": 85,
+      "riskScore": 38,
+      "confScore": 76,
+      "reasoning": "Undervalued large-cap bank with solid dividend yield, recent momentum, and attractive price-to-book ratio.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781036735.383843JPM",
+      "symbol": "JPM",
+      "strategy": "value",
+      "ts": "2026-06-09T20:25:35.383848+00:00",
+      "entryPrice": 312.7,
+      "oppScore": 82,
+      "riskScore": 35,
+      "confScore": 78,
+      "reasoning": "Investment-grade bank with strong fundamentals, modest valuation relative to earnings power, and defensive characteristics in uncertain markets.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781036729.131961GOOGL",
+      "symbol": "GOOGL",
+      "strategy": "growth",
+      "ts": "2026-06-09T20:25:29.131963+00:00",
+      "entryPrice": 364.26,
+      "oppScore": 81,
+      "riskScore": 36,
+      "confScore": 77,
+      "reasoning": "Positive momentum (+0.26%) among mega-cap tech; diversified AI exposure with solid balance sheet and revenue diversity.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781036729.131922NVDA",
+      "symbol": "NVDA",
+      "strategy": "growth",
+      "ts": "2026-06-09T20:25:29.131928+00:00",
+      "entryPrice": 208.19,
+      "oppScore": 85,
+      "riskScore": 38,
+      "confScore": 80,
+      "reasoning": "Minor pullback (-0.22%) on strength of Jensen Huang's recent bullish comments; AI leadership with attractive entry point and sector tailwinds.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781036724.07295GOOGL",
+      "symbol": "GOOGL",
+      "strategy": "master",
+      "ts": "2026-06-09T20:25:24.072956+00:00",
+      "entryPrice": 364.26,
+      "oppScore": 80,
+      "riskScore": 36,
+      "confScore": 77,
+      "reasoning": "Only mega-cap with positive momentum (+0.26%) despite sector selloff; AI leadership justifies defensive core holding at reduced valuation.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
     {
       "id": "1780927110.0173SHEL",
       "symbol": "SHEL",
@@ -239,7 +527,7 @@
       "riskScore": 35,
       "confScore": 78,
       "reasoning": "FTSE 100 energy anchor up +1.83% with defensive yield; energy repricing reflects geopolitical tensions and energy security concerns supporting oil majors.",
-      "perf1d": null,
+      "perf1d": -1.76,
       "perf7d": null,
       "perf30d": null
     },
@@ -253,7 +541,7 @@
       "riskScore": 38,
       "confScore": 82,
       "reasoning": "Strong +5.58% momentum, European semiconductor leader with structural growth tailwinds despite macro uncertainty; valuation supported by AI/chip cycle strength.",
-      "perf1d": null,
+      "perf1d": 2.56,
       "perf7d": null,
       "perf30d": null
     },
@@ -267,7 +555,7 @@
       "riskScore": 39,
       "confScore": 76,
       "reasoning": "Emerging markets accelerating (+2.24%) as global growth expectations improve; SNB rate cut signals accommodative policy environment.",
-      "perf1d": null,
+      "perf1d": -0.33,
       "perf7d": null,
       "perf30d": null
     },
@@ -281,7 +569,7 @@
       "riskScore": 38,
       "confScore": 78,
       "reasoning": "Tech sector showing strongest momentum (+1.56%) with XLK outperforming (+2.17%); growth rotation favored in current market regime.",
-      "perf1d": null,
+      "perf1d": -1.15,
       "perf7d": null,
       "perf30d": null
     },
@@ -295,7 +583,7 @@
       "riskScore": 36,
       "confScore": 76,
       "reasoning": "+2.70% gain with enterprise AI/data platform demand accelerating; cloud infrastructure tailwind remains strong.",
-      "perf1d": null,
+      "perf1d": -2.06,
       "perf7d": null,
       "perf30d": null
     },
@@ -309,7 +597,7 @@
       "riskScore": 39,
       "confScore": 77,
       "reasoning": "+3.52% momentum with strong AI chip competitiveness; positioned well against NVDA in datacenter and gaining market share.",
-      "perf1d": null,
+      "perf1d": -1.51,
       "perf7d": null,
       "perf30d": null
     },
@@ -323,7 +611,7 @@
       "riskScore": 38,
       "confScore": 79,
       "reasoning": "Up +3.23% with positive momentum; foundry exposure to AI growth and strong positioning despite geopolitical risks in Taiwan.",
-      "perf1d": null,
+      "perf1d": -0.16,
       "perf7d": null,
       "perf30d": null
     },
@@ -337,7 +625,7 @@
       "riskScore": 35,
       "confScore": 82,
       "reasoning": "Strong +5.58% momentum as critical semiconductor equipment supplier; European manufacturing PMI mixed but ASML benefits from AI chip demand cycle and strong technical setup.",
-      "perf1d": null,
+      "perf1d": 2.56,
       "perf7d": null,
       "perf30d": null
     },
@@ -351,7 +639,7 @@
       "riskScore": 35,
       "confScore": 77,
       "reasoning": "Energy sector strength (+2.26%) with defensive characteristics; less correlated to tech volatility.",
-      "perf1d": null,
+      "perf1d": -2.87,
       "perf7d": null,
       "perf30d": null
     },
@@ -365,7 +653,7 @@
       "riskScore": 39,
       "confScore": 76,
       "reasoning": "Exceptional momentum (+2.91%) despite Musk sentiment noise; technical setup suggests continuation bias.",
-      "perf1d": null,
+      "perf1d": -1.42,
       "perf7d": null,
       "perf30d": null
     },
@@ -379,7 +667,7 @@
       "riskScore": 38,
       "confScore": 78,
       "reasoning": "Strong momentum (+3.52%) in semiconductor sector with solid risk-reward; tech tailwinds support growth narrative.",
-      "perf1d": null,
+      "perf1d": -1.51,
       "perf7d": null,
       "perf30d": null
     },
@@ -393,7 +681,7 @@
       "riskScore": 37,
       "confScore": 75,
       "reasoning": "Financial sector outperformer (+0.48%) with sector tailwinds from higher rates; diversifies away from concentrated tech exposure and offers dividend support.",
-      "perf1d": null,
+      "perf1d": 0.11,
       "perf7d": null,
       "perf30d": null
     },
@@ -407,7 +695,7 @@
       "riskScore": 35,
       "confScore": 76,
       "reasoning": "Visa up 1.06% showing defensive strength; resilient payments network with lower correlation to tech volatility provides portfolio stability.",
-      "perf1d": null,
+      "perf1d": 0.46,
       "perf7d": null,
       "perf30d": null
     },
@@ -421,12 +709,62 @@
       "riskScore": 38,
       "confScore": 78,
       "reasoning": "Large-cap tech leader down 2.66% amid sector weakness; strong AI positioning and enterprise moat support bounce-back potential with manageable volatility.",
-      "perf1d": null,
+      "perf1d": -3.18,
       "perf7d": null,
       "perf30d": null
     }
   ],
   "aiTradeLog": [
+    {
+      "ts": "2026-06-09T20:25:24.072947+00:00",
+      "portfolio": "master",
+      "msg": "BUY 10\u00d7 GOOGL @ \u00a3364.26 \u2014 Only mega-cap with positive momentum (+0.26%) despite sector selloff; AI leadership justifies defensive core holding at reduced valuation."
+    },
+    {
+      "ts": "2026-06-09T20:25:29.131919+00:00",
+      "portfolio": "growth",
+      "msg": "BUY 24\u00d7 NVDA @ \u00a3208.19 \u2014 Minor pullback (-0.22%) on strength of Jensen Huang's recent bullish comments; AI leadership with attractive entry point and sector tailwinds."
+    },
+    {
+      "ts": "2026-06-09T20:25:29.131959+00:00",
+      "portfolio": "growth",
+      "msg": "BUY 13\u00d7 GOOGL @ \u00a3364.26 \u2014 Positive momentum (+0.26%) among mega-cap tech; diversified AI exposure with solid balance sheet and revenue diversity."
+    },
+    {
+      "ts": "2026-06-09T20:25:35.383840+00:00",
+      "portfolio": "value",
+      "msg": "BUY 15\u00d7 JPM @ \u00a3312.70 \u2014 Investment-grade bank with strong fundamentals, modest valuation relative to earnings power, and defensive characteristics in uncertain markets."
+    },
+    {
+      "ts": "2026-06-09T20:25:35.383857+00:00",
+      "portfolio": "value",
+      "msg": "BUY 91\u00d7 BAC @ \u00a354.42 \u2014 Undervalued large-cap bank with solid dividend yield, recent momentum, and attractive price-to-book ratio."
+    },
+    {
+      "ts": "2026-06-09T20:25:35.383868+00:00",
+      "portfolio": "value",
+      "msg": "BUY 33\u00d7 XOM @ \u00a3148.91 \u2014 Energy major trading down on sector weakness but maintains strong free cash flow, dividend sustainability, and valuation support."
+    },
+    {
+      "ts": "2026-06-09T20:25:35.383878+00:00",
+      "portfolio": "value",
+      "msg": "BUY 41\u00d7 MRK @ \u00a3119.60 \u2014 Pharma blue-chip with diversified pipeline, low volatility, and attractive valuation despite flat recent performance."
+    },
+    {
+      "ts": "2026-06-09T20:25:35.383887+00:00",
+      "portfolio": "value",
+      "msg": "BUY 22\u00d7 ABBV @ \u00a3225.42 \u2014 Dividend aristocrat with stable cash flows, reasonable valuation metrics, and pharmaceutical portfolio diversification."
+    },
+    {
+      "ts": "2026-06-09T20:25:45.046495+00:00",
+      "portfolio": "uk",
+      "msg": "BUY 27\u00d7 AZN @ \u00a3183.43 \u2014 Astrazeneca showing positive momentum (+1.04%) with defensive pharma profile; positioned for long-term growth in oncology and cardiovascular pipelines."
+    },
+    {
+      "ts": "2026-06-09T20:25:45.046513+00:00",
+      "portfolio": "uk",
+      "msg": "BUY 78\u00d7 GSK @ \u00a351.25 \u2014 GlaxoSmithKline posting solid gains (+1.20%) with diversified vaccine and specialty pharma portfolio; defensive dividend yield attractive."
+    },
     {
       "ts": "2026-06-08T13:58:12.480329+00:00",
       "portfolio": "master",
@@ -499,5 +837,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-06-09T00:17:47.749100+00:00"
+  "lastRun": "2026-06-09T20:25:49.961397+00:00"
 }
