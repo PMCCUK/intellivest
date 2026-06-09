@@ -833,21 +833,44 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue)}
       </div>
     </div>
 
-    <!-- Smart scheduler status bar -->
-    <div id="schedulerBar" style="display:none;background:var(--bg3);border:1px solid var(--border);border-top:none;border-radius:0 0 var(--radius2) var(--radius2);padding:6px 14px;display:none;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
-      <div style="display:flex;align-items:center;gap:8px;font-size:11px">
-        <span class="status-dot dot-green" id="schedulerDot"></span>
-        <span id="schedulerStatusText" style="color:var(--text)">Auto-run active</span>
-        <span style="color:var(--hint)">·</span>
-        <span id="schedulerNextRun" style="color:var(--muted)">Next run: —</span>
-        <span style="color:var(--hint)">·</span>
-        <span id="schedulerSessionCost" style="color:var(--amber)">Session cost: ~£0.00</span>
+
+    <!-- Permanent status bar — always visible -->
+    <div id="arenaStatusBar" style="background:var(--bg3);border:1px solid var(--border);border-top:none;border-radius:0 0 var(--radius2) var(--radius2);padding:5px 14px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div style="display:flex;align-items:center;gap:10px;font-size:11px;flex-wrap:wrap">
+        <!-- Server engine status -->
+        <span style="display:flex;align-items:center;gap:4px">
+          <span class="status-dot" id="serverDot" style="background:var(--hint)"></span>
+          <span id="serverRunStatus" style="color:var(--muted)">Server: checking…</span>
+        </span>
+        <span style="color:var(--border)">|</span>
+        <!-- Server runs today -->
+        <span style="display:flex;align-items:center;gap:4px">
+          <span style="color:var(--hint)">📡</span>
+          <span id="serverRunsToday" style="color:var(--muted)">0/7 server runs today</span>
+        </span>
+        <span style="color:var(--border)">|</span>
+        <!-- Next scheduled run -->
+        <span id="serverNextRun" style="color:var(--muted)">Next: —</span>
+        <span style="color:var(--border)">|</span>
+        <!-- Market status -->
+        <span id="serverMarketStatus" style="color:var(--muted)">Market: checking…</span>
       </div>
-      <div style="display:flex;align-items:center;gap:6px;font-size:10px;color:var(--hint)">
-        <span id="schedulerRunCount">0 runs today</span>
-        <span>·</span>
-        <span id="schedulerMarketStatus">Checking market…</span>
+      <div style="display:flex;align-items:center;gap:10px;font-size:10px;color:var(--hint);flex-wrap:wrap">
+        <!-- Browser auto-run (only shows detail when active) -->
+        <span id="browserAutoStatus" style="display:none;color:var(--green)">
+          🖥 Browser auto: <span id="browserRunCount">0</span> extra runs · <span id="schedulerSessionCost">~£0.00</span>
+        </span>
+        <span id="lastSyncTime" style="color:var(--hint)">Last sync: —</span>
       </div>
+    </div>
+
+    <!-- Legacy scheduler bar (hidden — kept for JS compatibility) -->
+    <div id="schedulerBar" style="display:none">
+      <span id="schedulerDot"></span>
+      <span id="schedulerStatusText"></span>
+      <span id="schedulerNextRun"></span>
+      <span id="schedulerRunCount"></span>
+      <span id="schedulerMarketStatus"></span>
     </div>
 
     <!-- Portfolio Overview Cards -->
@@ -4663,21 +4686,65 @@ async function syncFromGitHub() {
 }
 
 function updateServerStatusBadge(runLog) {
-  // Add/update a small status badge in the Arena header
-  let badge = document.getElementById('serverStatusBadge')
-  if (!badge) {
-    const controls = document.querySelector('.arena-controls')
-    if (!controls) return
-    badge = document.createElement('span')
-    badge.id = 'serverStatusBadge'
-    badge.style.cssText = 'font-size:10px;color:var(--muted);display:flex;align-items:center;gap:4px'
-    controls.appendChild(badge)
-  }
-  const lastRun = new Date(runLog.lastRun)
-  const minsAgo = Math.round((Date.now() - lastRun.getTime()) / 60000)
-  const freshness = minsAgo < 30 ? 'var(--green)' : minsAgo < 120 ? 'var(--amber)' : 'var(--red)'
-  badge.innerHTML = `<span style="width:6px;height:6px;border-radius:50%;background:${freshness};display:inline-block"></span>Server: ${minsAgo < 60 ? minsAgo+'m ago' : Math.round(minsAgo/60)+'h ago'} · ${runLog.tradesExecuted||0} trades`
+  // Update the permanent always-visible status bar
+  updatePermanentStatusBar(runLog)
 }
+
+function updatePermanentStatusBar(runLog) {
+  const set = (id, val, color) => {
+    const el = document.getElementById(id)
+    if (!el) return
+    el.textContent = val
+    if (color) el.style.color = color
+  }
+
+  // Server run freshness
+  if (runLog && runLog.lastRun) {
+    const lastRun = new Date(runLog.lastRun)
+    const minsAgo = Math.round((Date.now() - lastRun.getTime()) / 60000)
+    const freshness = minsAgo < 30 ? 'var(--green)' : minsAgo < 120 ? 'var(--amber)' : 'var(--red)'
+    const dot = document.getElementById('serverDot')
+    if (dot) dot.style.background = freshness
+
+    const timeStr = minsAgo < 60 ? `${minsAgo}m ago` : `${Math.round(minsAgo/60)}h ago`
+    set('serverRunStatus', `Server ran: ${timeStr} · ${runLog.tradesExecuted||0} trades · ${runLog.strategiesRun||0} strategies`, freshness)
+  }
+
+  // Count today's server runs by checking run log history
+  const todayRuns = runLog?.runsToday || countTodayRuns()
+  set('serverRunsToday', `${todayRuns}/7 server runs today`)
+
+  // Next scheduled run
+  const next = getNextScheduledRun()
+  set('serverNextRun', `Next: ${next.label} (${formatCountdown(next.minsUntil)})`)
+
+  // Market status
+  set('serverMarketStatus', `Market: ${marketStatusLabel()}`)
+
+  // Last sync time
+  if (SYNC.lastFetch) {
+    const syncMins = Math.round((Date.now() - SYNC.lastFetch) / 60000)
+    set('lastSyncTime', `Synced: ${syncMins < 1 ? 'just now' : syncMins+'m ago'}`)
+  }
+
+  // Browser auto status — only show if active
+  const browserEl = document.getElementById('browserAutoStatus')
+  if (browserEl) {
+    browserEl.style.display = SCHEDULER.active ? 'inline-flex' : 'none'
+    set('browserRunCount', SCHEDULER.runsToday)
+  }
+}
+
+function countTodayRuns() {
+  // Count scheduled run slots that have passed today
+  const est = getESTDate()
+  if (isWeekend()) return 0
+  const nowMins = est.getHours() * 60 + est.getMinutes()
+  return SCHEDULER.SCHEDULE.filter(s => s.h * 60 + s.m <= nowMins).length
+}
+
+// Update permanent bar every minute regardless of Auto state
+setInterval(() => updatePermanentStatusBar(null), 60000)
 
 function startGitHubSync() {
   if (!DATA_BASE) return
@@ -4693,6 +4760,8 @@ function startGitHubSync() {
 // ════════════════════════════════════════════════════════════════════
 init()
 if (IS_GITHUB_PAGES) startGitHubSync()
+// Always update status bar on load
+setTimeout(() => updatePermanentStatusBar(null), 1000)
 </script>
 </body>
 </html>
