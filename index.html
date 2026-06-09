@@ -3038,27 +3038,28 @@ function saveArenaConfig() {
 }
 
 function arenaQuickReset() {
-  if (!confirm('Reset AI Arena portfolios to £100,000? This clears AI positions and trade history.\n\nYour personal "My Portfolio" will NOT be affected.')) return
-  const resetBal = 100000
+  const resetBal = parseFloat(document.getElementById('arenaBalanceInput').value) || 100000
+  if (!confirm(`Reset AI Arena portfolios to £${resetBal.toLocaleString()}? This clears AI positions and trade history.\n\nYour personal "My Portfolio" will NOT be affected.`)) return
   Object.values(ARENA.portfolios).forEach(p => {
-    if (p.type === 'human') return  // never reset the human portfolio
+    if (p.type === 'human') return  // never touch the human portfolio
     p.balance = resetBal; p.startingBalance = resetBal; p.positions = []; p.trades = []
     p.history = [{ date: new Date().toISOString().split('T')[0], value: resetBal }]
     p.startDate = new Date().toISOString()
     if (p.type === 'bench') { p.entryPrice = null; p.currentPrice = null }
   })
   ARENA.recommendations = []; ARENA.aiTradeLog = []; ARENA.currentPrices = {}
-  document.getElementById('arenaBalanceInput').value = resetBal
   arenaSave(); renderArena()
-  alert('✓ AI portfolios reset to £100,000. Your personal portfolio is unchanged.')
+  alert(`✓ AI portfolios reset to £${resetBal.toLocaleString()}. Your personal portfolio is unchanged.`)
 }
 
 function resetArena() {
   const bal = parseFloat(document.getElementById('arenaBalanceInput').value) || 100000
-  if (!confirm(`Reset ALL arena portfolios with £${bal.toLocaleString()} starting balance? This clears all positions and trade history.`)) return
+  if (!confirm(`Reset AI Arena portfolios to £${bal.toLocaleString()}? This clears all AI positions and trade history.\n\nYour personal "My Portfolio" will NOT be affected.`)) return
   ARENA.startingBalance = bal
   Object.values(ARENA.portfolios).forEach(p => {
-    p.balance = bal; p.positions = []; p.trades = []; p.history = [{ date: new Date().toISOString().split('T')[0], value: bal }]
+    if (p.type === 'human') return  // never touch the human portfolio
+    p.balance = bal; p.startingBalance = bal; p.positions = []; p.trades = []
+    p.history = [{ date: new Date().toISOString().split('T')[0], value: bal }]
     p.startDate = new Date().toISOString()
     if (p.type === 'bench') { p.entryPrice = null; p.currentPrice = null }
   })
@@ -4625,8 +4626,6 @@ async function syncFromGitHub() {
         const arenaId = S2A[stratId] || stratId
         if (!ARENA.portfolios[arenaId]) return
         const sp = state.portfolios[stratId]
-
-        ARENA.portfolios[arenaId].balance = parseFloat(sp.balance) || ARENA.portfolios[arenaId].balance
 
         // Positions: server stores as object {AAPL:{qty,entryPrice,...}}
         ARENA.portfolios[arenaId].positions = sp.positions
