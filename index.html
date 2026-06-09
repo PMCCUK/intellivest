@@ -2865,16 +2865,16 @@ const ARENA = {
   config: { minOpp:80, minConf:75, maxRisk:40, stopLoss:8, takeProfit:20, maxPosPct:5, maxSectorPct:20, maxPositions:15 },
 
   portfolios: {
-    human:      { id:'human',     name:'My Portfolio',       type:'human',   color:'var(--blue)',   balance:100000, positions:[], trades:[], history:[], startDate:null },
-    aimaster:   { id:'aimaster',  name:'AI Master',          type:'ai',      color:'var(--amber)',  balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'master' },
-    aiGrowth:   { id:'aiGrowth',  name:'AI Growth Fund',     type:'ai',      color:'var(--green)',  balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'growth' },
-    aiValue:    { id:'aiValue',   name:'AI Value Fund',      type:'ai',      color:'#64d8cb',       balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'value' },
-    aiMomentum: { id:'aiMomentum',name:'AI Momentum Fund',   type:'ai',      color:'#f78166',       balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'momentum' },
-    aiUK:       { id:'aiUK',       name:'AI UK & Europe',     type:'ai',      color:'#60a5fa',       balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'uk' },
-    aiCrypto:   { id:'aiCrypto',   name:'AI Crypto Fund',     type:'ai',      color:'#f59e0b',       balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'crypto' },
-    aiSmallCap: { id:'aiSmallCap', name:'AI Small Cap',       type:'ai',      color:'#a855f7',       balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'smallcap' },
-    spy:        { id:'spy',       name:'S&P 500',            type:'bench',   color:'var(--purple)', balance:100000, positions:[], trades:[], history:[], startDate:null, entryPrice:null, currentPrice:null },
-    qqq:        { id:'qqq',       name:'NASDAQ 100',         type:'bench',   color:'#e879f9',       balance:100000, positions:[], trades:[], history:[], startDate:null, entryPrice:null, currentPrice:null },
+    human:      { id:'human',     name:'My Portfolio',       type:'human',   color:'var(--blue)',   balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null },
+    aimaster:   { id:'aimaster',  name:'AI Master',          type:'ai',      color:'var(--amber)',  balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'master' },
+    aiGrowth:   { id:'aiGrowth',  name:'AI Growth Fund',     type:'ai',      color:'var(--green)',  balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'growth' },
+    aiValue:    { id:'aiValue',   name:'AI Value Fund',      type:'ai',      color:'#64d8cb',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'value' },
+    aiMomentum: { id:'aiMomentum',name:'AI Momentum Fund',   type:'ai',      color:'#f78166',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'momentum' },
+    aiUK:       { id:'aiUK',       name:'AI UK & Europe',     type:'ai',      color:'#60a5fa',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'uk' },
+    aiCrypto:   { id:'aiCrypto',   name:'AI Crypto Fund',     type:'ai',      color:'#f59e0b',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'crypto' },
+    aiSmallCap: { id:'aiSmallCap', name:'AI Small Cap',       type:'ai',      color:'#a855f7',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'smallcap' },
+    spy:        { id:'spy',       name:'S&P 500',            type:'bench',   color:'var(--purple)', balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, entryPrice:null, currentPrice:null },
+    qqq:        { id:'qqq',       name:'NASDAQ 100',         type:'bench',   color:'#e879f9',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, entryPrice:null, currentPrice:null },
   },
 
   recommendations: [],  // all AI recs ever
@@ -2958,6 +2958,7 @@ function arenaLoad() {
       const bal = ARENA.startingBalance
       Object.values(ARENA.portfolios).forEach(p => {
         p.balance = bal
+        p.startingBalance = bal
         p.history = [{ date: new Date().toISOString().split('T')[0], value: bal }]
         p.startDate = new Date().toISOString()
       })
@@ -2976,11 +2977,19 @@ function arenaLoad() {
       Object.keys(saved.portfolios).forEach(k => {
         if (!ARENA.portfolios[k]) return
         const sp = saved.portfolios[k]
-        // Sanity-check balance: if saved balance looks like PT balance (<=2000) re-init
-        if (sp.balance != null && sp.balance < 1000 && ARENA.startingBalance >= 10000) {
+        // Sanity-check balance: if saved balance looks like PT balance (<=2000) re-init for AI/bench only
+        if (k !== 'human' && sp.balance != null && sp.balance < 1000 && ARENA.startingBalance >= 10000) {
           sp.balance = ARENA.startingBalance
         }
         Object.assign(ARENA.portfolios[k], sp)
+        // Backfill startingBalance for saves that predate this field
+        if (!ARENA.portfolios[k].startingBalance) {
+          // Human: use its own current balance as baseline to avoid fake losses from old PT data
+          // AI/bench: use global starting balance
+          ARENA.portfolios[k].startingBalance = k === 'human'
+            ? (parseFloat(ARENA.portfolios[k].balance) || ARENA.startingBalance)
+            : ARENA.startingBalance
+        }
       })
     }
 
@@ -3029,19 +3038,19 @@ function saveArenaConfig() {
 }
 
 function arenaQuickReset() {
-  if (!confirm('Reset all Arena portfolios to £100,000 starting balance? This clears all positions and trade history.')) return
-  ARENA.startingBalance = 100000
-  localStorage.removeItem('iv_arena')
+  if (!confirm('Reset AI Arena portfolios to £100,000? This clears AI positions and trade history.\n\nYour personal "My Portfolio" will NOT be affected.')) return
+  const resetBal = 100000
   Object.values(ARENA.portfolios).forEach(p => {
-    p.balance = 100000; p.positions = []; p.trades = []
-    p.history = [{ date: new Date().toISOString().split('T')[0], value: 100000 }]
+    if (p.type === 'human') return  // never reset the human portfolio
+    p.balance = resetBal; p.startingBalance = resetBal; p.positions = []; p.trades = []
+    p.history = [{ date: new Date().toISOString().split('T')[0], value: resetBal }]
     p.startDate = new Date().toISOString()
     if (p.type === 'bench') { p.entryPrice = null; p.currentPrice = null }
   })
   ARENA.recommendations = []; ARENA.aiTradeLog = []; ARENA.currentPrices = {}
-  document.getElementById('arenaBalanceInput').value = 100000
+  document.getElementById('arenaBalanceInput').value = resetBal
   arenaSave(); renderArena()
-  alert('✓ All portfolios reset to £100,000. Now click "Refresh Prices" then "Run AI Engine".')
+  alert('✓ AI portfolios reset to £100,000. Your personal portfolio is unchanged.')
 }
 
 function resetArena() {
@@ -3072,7 +3081,8 @@ function arenaPortfolioValue(p) {
 
 function arenaPortfolioReturn(p) {
   const val = arenaPortfolioValue(p)
-  return { value: val, ret: val - ARENA.startingBalance, retPct: ((val - ARENA.startingBalance) / ARENA.startingBalance) * 100 }
+  const base = p.startingBalance || ARENA.startingBalance
+  return { value: val, ret: val - base, retPct: ((val - base) / base) * 100 }
 }
 
 function arenaBenchReturn(p) {
@@ -3416,10 +3426,11 @@ function renderArenaPortfolioGrid() {
   if (!grid) return
   const cards = Object.values(ARENA.portfolios).map(p => {
     const isBench = p.type === 'bench'
+    const base = p.startingBalance || ARENA.startingBalance
     const ret = isBench ? arenaBenchReturn(p) : arenaPortfolioReturn(p)
-    const value = isBench ? (ret !== null ? ARENA.startingBalance * (1 + ret/100) : ARENA.startingBalance) : arenaPortfolioValue(p)
+    const value = isBench ? (ret !== null ? base * (1 + ret/100) : base) : arenaPortfolioValue(p)
     const retPct = isBench ? (ret !== null ? ret : 0) : (ret ? ret.retPct : 0)
-    const retAbs = isBench ? value - ARENA.startingBalance : (ret ? ret.ret : 0)
+    const retAbs = isBench ? value - base : (ret ? ret.ret : 0)
     const typeClass = p.id === 'human' ? 'human' : p.id === 'aimaster' ? 'ai-master' : p.type === 'bench' ? 'benchmark' : p.id === 'aiGrowth' ? 'ai-growth' : p.id === 'aiValue' ? 'ai-value' : 'ai-momentum'
     const badge = p.type === 'human' ? '<span class="pc-badge badge-live">MANUAL</span>' : p.type === 'bench' ? '<span class="pc-badge badge-bench">BENCH</span>' : '<span class="pc-badge badge-auto">AUTO</span>'
     const col = retPct >= 0 ? 'var(--green)' : 'var(--red)'
