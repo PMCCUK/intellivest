@@ -1,74 +1,19 @@
 {
   "results": {
     "master": {
-      "decisions": [
-        {
-          "action": "BUY",
-          "symbol": "V",
-          "qty_pct": 3,
-          "opportunityScore": 82,
-          "riskScore": 35,
-          "confidenceScore": 78,
-          "reasoning": "Visa's +1.68% strength in declining market signals defensive positioning with fintech tailwinds; low volatility profile supports institutional allocation."
-        },
-        {
-          "action": "BUY",
-          "symbol": "JPM",
-          "qty_pct": 3,
-          "opportunityScore": 81,
-          "riskScore": 38,
-          "confidenceScore": 76,
-          "reasoning": "Financial sector resilience (+0.51%) amid tech weakness provides portfolio diversification and potential rate-sensitive upside."
-        },
-        {
-          "action": "BUY",
-          "symbol": "GOOGL",
-          "qty_pct": 4,
-          "opportunityScore": 80,
-          "riskScore": 36,
-          "confidenceScore": 77,
-          "reasoning": "Only mega-cap with positive momentum (+0.26%) despite sector selloff; AI leadership justifies defensive core holding at reduced valuation."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "MSFT",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 42,
-          "confidenceScore": 68,
-          "reasoning": "Strong asset but -2.02% decline lacks sufficient conviction signal; wait for stabilization or clearer entry catalyst."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "NVDA",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 48,
-          "confidenceScore": 64,
-          "reasoning": "Jensen Huang commentary supports longer-term thesis but -0.22% shows caution; recent Marvell rally may indicate profit-taking."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "TSLA",
-          "qty_pct": 0,
-          "opportunityScore": 55,
-          "riskScore": 62,
-          "confidenceScore": 58,
-          "reasoning": "Excessive -3.00% decline suggests panic selling; high volatility violates risk parameters despite potential oversold bounce."
-        }
-      ],
-      "assessment": "Current market exhibits flight-to-quality dynamics; selective buys in defensive mega-caps and financial strength offer risk-adjusted returns while preserving 10% cash buffer for emerging opportunities.",
+      "decisions": [],
+      "assessment": "Market data integrity compromised (MarketWatch error); insufficient confidence in pricing and fundamentals to execute trades meeting risk-adjusted criteria; recommend holding cash until data reliability restored.",
       "strategy": "master",
       "strategy_name": "AI Master",
-      "timestamp": "2026-06-09T20:25:24.072871+00:00",
+      "timestamp": "2026-06-10T11:03:57.180107+00:00",
       "prices_used": {
-        "MSFT": 403.41,
+        "AAPL": 290.55,
         "NVDA": 208.19,
-        "GOOGL": 364.26,
         "AMZN": 244.19,
+        "META": 584.59,
         "JPM": 312.7,
-        "V": 325.05,
-        "XOM": 148.91,
+        "JNJ": 237,
+        "SPY": 737.05,
         "QQQ": 707.83,
         "GLD": 390.78,
         "TSLA": 396.68,
@@ -76,213 +21,14 @@
         "AMD": 475.505
       }
     },
-    "growth": {
-      "decisions": [
-        {
-          "action": "BUY",
-          "symbol": "ASML",
-          "qty_pct": 5,
-          "opportunityScore": 82,
-          "riskScore": 35,
-          "confidenceScore": 78,
-          "reasoning": "Only stock with positive momentum (+1.64%) in semiconductor ecosystem; critical infrastructure provider with strong fundamentals and positive technical setup."
-        },
-        {
-          "action": "BUY",
-          "symbol": "NVDA",
-          "qty_pct": 5,
-          "opportunityScore": 85,
-          "riskScore": 38,
-          "confidenceScore": 80,
-          "reasoning": "Minor pullback (-0.22%) on strength of Jensen Huang's recent bullish comments; AI leadership with attractive entry point and sector tailwinds."
-        },
-        {
-          "action": "BUY",
-          "symbol": "GOOGL",
-          "qty_pct": 5,
-          "opportunityScore": 81,
-          "riskScore": 36,
-          "confidenceScore": 77,
-          "reasoning": "Positive momentum (+0.26%) among mega-cap tech; diversified AI exposure with solid balance sheet and revenue diversity."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "MSFT",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 42,
-          "confidenceScore": 68,
-          "reasoning": "Significant pullback (-2.02%) requires more clarity on correction depth before re-entry; confidence insufficient for entry despite quality."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "AMD",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 48,
-          "confidenceScore": 65,
-          "reasoning": "Sharp decline (-3.02%) and competitive pressures exceed risk tolerance threshold; better entry points likely."
-        }
-      ],
-      "assessment": "Selective buying into quality AI infrastructure leaders (ASML, NVDA, GOOGL) with positive technicals; avoiding broad sector weakness until clarity emerges on multi-day declines in MSFT, AMD, and TSLA.",
-      "strategy": "growth",
-      "strategy_name": "AI Growth",
-      "timestamp": "2026-06-09T20:25:29.131867+00:00",
-      "prices_used": {
-        "NVDA": 208.19,
-        "MSFT": 403.41,
-        "GOOGL": 364.26,
-        "AMZN": 244.19,
-        "AVGO": 392.16,
-        "AMD": 475.505,
-        "TSLA": 396.68,
-        "NFLX": 81.41,
-        "CRM": 175.35,
-        "SNOW": 239.66,
-        "PLTR": 132.07,
-        "ASML": 1777.77,
-        "TSM": 427.92
-      }
-    },
-    "value": {
-      "decisions": [
-        {
-          "action": "BUY",
-          "symbol": "JPM",
-          "qty_pct": 5,
-          "opportunityScore": 82,
-          "riskScore": 35,
-          "confidenceScore": 78,
-          "reasoning": "Investment-grade bank with strong fundamentals, modest valuation relative to earnings power, and defensive characteristics in uncertain markets."
-        },
-        {
-          "action": "BUY",
-          "symbol": "BAC",
-          "qty_pct": 5,
-          "opportunityScore": 85,
-          "riskScore": 38,
-          "confidenceScore": 76,
-          "reasoning": "Undervalued large-cap bank with solid dividend yield, recent momentum, and attractive price-to-book ratio."
-        },
-        {
-          "action": "BUY",
-          "symbol": "XOM",
-          "qty_pct": 5,
-          "opportunityScore": 81,
-          "riskScore": 39,
-          "confidenceScore": 77,
-          "reasoning": "Energy major trading down on sector weakness but maintains strong free cash flow, dividend sustainability, and valuation support."
-        },
-        {
-          "action": "BUY",
-          "symbol": "MRK",
-          "qty_pct": 5,
-          "opportunityScore": 83,
-          "riskScore": 36,
-          "confidenceScore": 79,
-          "reasoning": "Pharma blue-chip with diversified pipeline, low volatility, and attractive valuation despite flat recent performance."
-        },
-        {
-          "action": "BUY",
-          "symbol": "ABBV",
-          "qty_pct": 5,
-          "opportunityScore": 84,
-          "riskScore": 37,
-          "confidenceScore": 80,
-          "reasoning": "Dividend aristocrat with stable cash flows, reasonable valuation metrics, and pharmaceutical portfolio diversification."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "KO",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 28,
-          "confidenceScore": 68,
-          "reasoning": "Consumer staple with quality but recent 2.26% spike reduces margin of safety; await pullback for entry."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "V",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 42,
-          "confidenceScore": 65,
-          "reasoning": "Quality payments processor but valuation stretched and confidence insufficient for current entry price."
-        }
-      ],
-      "assessment": "Current market offers selective value opportunities in defensive, cash-generative financials and pharmaceuticals; avoid momentum-driven tech and growth names lacking fundamental support.",
-      "strategy": "value",
-      "strategy_name": "AI Value",
-      "timestamp": "2026-06-09T20:25:35.383795+00:00",
-      "prices_used": {
-        "JPM": 312.7,
-        "BAC": 54.42,
-        "V": 325.05,
-        "PFE": 25.7,
-        "XOM": 148.91,
-        "CVX": 186.76,
-        "KO": 81.34,
-        "MCD": 282.25,
-        "BRK-B": 487.77,
-        "ABBV": 225.42,
-        "MRK": 119.6,
-        "GS": 1032.01,
-        "MS": 210.25
-      }
-    },
     "momentum": {
-      "decisions": [
-        {
-          "action": "HOLD",
-          "symbol": "QQQ",
-          "qty_pct": 0,
-          "opportunityScore": 45,
-          "riskScore": 65,
-          "confidenceScore": 55,
-          "reasoning": "Tech sector showing weakness with -1.15% decline; Jensen Huang commentary has already sparked Marvell rally, reducing fresh momentum opportunity."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "XLK",
-          "qty_pct": 0,
-          "opportunityScore": 35,
-          "riskScore": 70,
-          "confidenceScore": 40,
-          "reasoning": "Tech weakness (-1.85%) combined with overbought conditions from recent rallies; insufficient confidence to initiate fresh position."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "XLV",
-          "qty_pct": 0,
-          "opportunityScore": 62,
-          "riskScore": 45,
-          "confidenceScore": 68,
-          "reasoning": "Healthcare showing relative strength (+1.26%) but opportunity score below 80 threshold; Humana analyst report insufficient catalyst without broader momentum confirmation."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "XLF",
-          "qty_pct": 0,
-          "opportunityScore": 52,
-          "riskScore": 55,
-          "confidenceScore": 58,
-          "reasoning": "Financials positive (+0.94%) but lacks significant momentum; isolated sector strength insufficient without macro confirmation."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "TLT",
-          "qty_pct": 0,
-          "opportunityScore": 48,
-          "riskScore": 50,
-          "confidenceScore": 52,
-          "reasoning": "Bonds slightly positive but mixed risk-off signals; insufficient momentum to initiate long-duration bond position."
-        }
-      ],
-      "assessment": "Market lacks clear directional momentum with sector dispersion and modest moves; no setups meet risk/confidence thresholds\u2014maintain cash for higher-conviction opportunities.",
+      "decisions": [],
+      "assessment": "Insufficient data to execute trades; market showing mixed sector rotation signals with tech weakness offsetting defensive strength, but MarketWatch outage and lack of momentum confirmation prevent high-conviction entries at current price levels.",
       "strategy": "momentum",
       "strategy_name": "AI Momentum",
-      "timestamp": "2026-06-09T20:25:40.224033+00:00",
+      "timestamp": "2026-06-10T11:03:59.403644+00:00",
       "prices_used": {
+        "SPY": 737.05,
         "QQQ": 707.83,
         "XLK": 180.77,
         "XLF": 52.46,
@@ -290,105 +36,12 @@
         "XLV": 154.57,
         "GLD": 390.78,
         "TLT": 85.12,
+        "IWM": 285.02,
+        "VWO": 58.45,
         "EEM": 65.82
-      }
-    },
-    "uk": {
-      "decisions": [
-        {
-          "action": "BUY",
-          "symbol": "AZN",
-          "qty_pct": 5,
-          "opportunityScore": 82,
-          "riskScore": 35,
-          "confidenceScore": 78,
-          "reasoning": "Astrazeneca showing positive momentum (+1.04%) with defensive pharma profile; positioned for long-term growth in oncology and cardiovascular pipelines."
-        },
-        {
-          "action": "BUY",
-          "symbol": "ASML",
-          "qty_pct": 5,
-          "opportunityScore": 85,
-          "riskScore": 38,
-          "confidenceScore": 80,
-          "reasoning": "European semiconductor equipment leader with strong momentum (+1.64%); critical exposure to AI infrastructure demand and manufacturing superiority."
-        },
-        {
-          "action": "BUY",
-          "symbol": "GSK",
-          "qty_pct": 4,
-          "opportunityScore": 81,
-          "riskScore": 36,
-          "confidenceScore": 76,
-          "reasoning": "GlaxoSmithKline posting solid gains (+1.20%) with diversified vaccine and specialty pharma portfolio; defensive dividend yield attractive."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "SHEL",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 45,
-          "confidenceScore": 62,
-          "reasoning": "Shell declining (-1.41%) amid energy sector volatility; lacks sufficient opportunity and confidence for entry at current levels."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "SAP",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 42,
-          "confidenceScore": 70,
-          "reasoning": "SAP weakness (-1.65%) suggests consolidation needed; cloud/AI narrative strong but near-term technicals unfavourable for entry."
-        }
-      ],
-      "assessment": "Building defensive, high-conviction positions in quality pharma and semiconductor leaders; avoiding energy and software weakness until technicals improve.",
-      "strategy": "uk",
-      "strategy_name": "AI UK & Europe",
-      "timestamp": "2026-06-09T20:25:45.046451+00:00",
-      "prices_used": {
-        "AZN": 183.43,
-        "SHEL": 85.43,
-        "GSK": 51.25,
-        "ASML": 1777.77,
-        "SAP": 178.92,
-        "EWU": 46.28,
-        "EWG": 42.04,
-        "EFA": 102.9
-      }
-    },
-    "crypto": {
-      "decisions": [],
-      "assessment": "Current market conditions show crypto assets declining (-1.6% to -2.1%) with no clear catalyst for entry; recent news lacks crypto relevance and fails to meet strict Buy criteria (Opportunity>80, Confidence>75, Risk<40), warranting cash preservation.",
-      "strategy": "crypto",
-      "strategy_name": "AI Crypto",
-      "timestamp": "2026-06-09T20:25:47.430655+00:00",
-      "prices_used": {
-        "GBTC": 48.14,
-        "ETHE": 13.41,
-        "BITO": 8.44
-      }
-    },
-    "smallcap": {
-      "decisions": [],
-      "assessment": "No positions meet the strict criteria (Opportunity>80, Confidence>75, Risk<40); current small-cap technicals lack insider-backed catalysts and sufficient conviction to deploy capital.",
-      "strategy": "smallcap",
-      "strategy_name": "AI Small Cap",
-      "timestamp": "2026-06-09T20:25:49.461250+00:00",
-      "prices_used": {
-        "MARA": 13.31,
-        "RIOT": 25.295,
-        "HUT": 112.65,
-        "BITF": 5.66,
-        "APPS": 9.85,
-        "PUBM": 11.51,
-        "DV": 10.44,
-        "OCGN": 1.24,
-        "CMPS": 11.26,
-        "TLRY": 5.17,
-        "XPEV": 15.48
       }
     }
   },
-  "marketStatus": "open",
-  "runAt": "2026-06-09T20:25:49.963256+00:00"
+  "marketStatus": "pre-market",
+  "runAt": "2026-06-10T11:03:59.905466+00:00"
 }
