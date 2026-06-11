@@ -30,9 +30,6 @@ on:
         required: false
         default: 'false'
 
-permissions:
-  contents: write
-
 jobs:
   run-ai-engine:
     runs-on: ubuntu-latest
@@ -48,6 +45,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
         run: pip install anthropic requests python-dateutil
@@ -56,6 +54,8 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           FORCE_RUN: ${{ github.event.inputs.force_run || 'false' }}
         run: python scripts/ai_engine.py
 
