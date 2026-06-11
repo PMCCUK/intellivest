@@ -1,70 +1,21 @@
 {
   "results": {
     "master": {
-      "decisions": [
-        {
-          "action": "BUY",
-          "symbol": "V",
-          "qty_pct": 5,
-          "opportunityScore": 82,
-          "riskScore": 35,
-          "confidenceScore": 78,
-          "reasoning": "Visa shows relative strength (+1.68%) with defensive fintech positioning ahead of BoE decision; strong fundamentals in payment processing provide stable cash flow."
-        },
-        {
-          "action": "BUY",
-          "symbol": "JNJ",
-          "qty_pct": 5,
-          "opportunityScore": 81,
-          "riskScore": 32,
-          "confidenceScore": 76,
-          "reasoning": "Healthcare defensive play gaining +2.08% amid market weakness; pharmaceutical dividend yield and stability attractive in uncertain macro environment."
-        },
-        {
-          "action": "BUY",
-          "symbol": "JPM",
-          "qty_pct": 4,
-          "opportunityScore": 79,
-          "riskScore": 38,
-          "confidenceScore": 74,
-          "reasoning": "Financial sector showing resilience (+0.51%) with BoE rate decision creating near-term volatility; strong capital position and earnings visibility."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "AAPL",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 42,
-          "confidenceScore": 65,
-          "reasoning": "Down 3.64% but lacks sufficient conviction; tech weakness persists without clear reversal catalyst."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "NVDA",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 45,
-          "confidenceScore": 68,
-          "reasoning": "Resilient but insufficient edge; AI euphoria uncertain amid macro headwinds and Germany PMI divergence."
-        }
-      ],
-      "assessment": "Mixed economic signals (Swiss rate cuts, German manufacturing recovery offset by services weakness) warrant defensive positioning in financial services and healthcare with 14% deployment, preserving 86% cash for BoE clarity.",
+      "decisions": [],
+      "assessment": "Market-wide decline across equities and commodities without supporting news provides insufficient clarity for new position entry; maintaining cash reserves for higher conviction opportunities when better risk-reward emerges.",
       "strategy": "master",
       "strategy_name": "AI Master",
-      "timestamp": "2026-06-10T11:07:43.123578+00:00",
+      "timestamp": "2026-06-11T12:17:59.620707+00:00",
       "prices_used": {
-        "AAPL": 290.55,
-        "NVDA": 208.19,
-        "GOOGL": 364.26,
-        "AMZN": 244.19,
-        "JPM": 312.7,
-        "V": 325.05,
-        "JNJ": 237,
-        "XOM": 148.91,
-        "SPY": 737.05,
-        "QQQ": 707.83,
-        "GLD": 390.78,
-        "TSLA": 396.68
+        "NVDA": 200.42,
+        "META": 570.98,
+        "JPM": 309.14,
+        "V": 322.96,
+        "JNJ": 238.49,
+        "XOM": 150.62,
+        "SPY": 725.43,
+        "GLD": 374.58,
+        "TSLA": 381.59
       }
     },
     "momentum": {
@@ -76,62 +27,53 @@
           "opportunityScore": 45,
           "riskScore": 55,
           "confidenceScore": 60,
-          "reasoning": "Broad market showing weakness (-0.29%) with mixed sector performance; insufficient trend clarity to initiate position."
+          "reasoning": "Broad market down 1.58% without catalyst clarity; insufficient conviction to initiate positions in risk-off environment."
         },
         {
           "action": "HOLD",
-          "symbol": "QQQ",
+          "symbol": "XLE",
+          "qty_pct": 0,
+          "opportunityScore": 62,
+          "riskScore": 48,
+          "confidenceScore": 68,
+          "reasoning": "Energy outperforming but single-day +1.50% gain lacks confirmation; need stronger momentum signal before entry."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "GLD",
           "qty_pct": 0,
           "opportunityScore": 35,
           "riskScore": 72,
           "confidenceScore": 50,
-          "reasoning": "Tech sector under pressure (-1.15%) with no bullish reversal signal; elevated risk in growth-heavy positioning."
+          "reasoning": "Gold down 4.15% suggests risk-off liquidation; sharp drawdown lacks reversal confirmation for trend-following entry."
         },
         {
           "action": "HOLD",
-          "symbol": "XLV",
-          "qty_pct": 0,
-          "opportunityScore": 62,
-          "riskScore": 38,
-          "confidenceScore": 68,
-          "reasoning": "Healthcare showing relative strength (+1.26%) but opportunity score below 80 threshold; monitor for sustained uptrend confirmation."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "XLF",
-          "qty_pct": 0,
-          "opportunityScore": 58,
-          "riskScore": 42,
-          "confidenceScore": 65,
-          "reasoning": "Financials gaining (+0.94%) amid SNB rate cuts, but confidence insufficient and mixed global economic signals limit entry."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "TLT",
+          "symbol": "MSTR",
           "qty_pct": 0,
           "opportunityScore": 52,
-          "riskScore": 48,
-          "confidenceScore": 62,
-          "reasoning": "Bonds modestly positive (+0.59%) but unclear directional trend ahead of BoE decision Thursday; insufficient momentum setup."
+          "riskScore": 65,
+          "confidenceScore": 58,
+          "reasoning": "Crypto proxy down 1.43% in broad selloff; insufficient momentum or conviction for entry without stronger technical setup."
         }
       ],
-      "assessment": "Market lacks clear trend signals\u2014tech weakness, selective sector rotation (financials/healthcare), and macro uncertainty from rate decisions prevent high-confidence entries; remain in cash awaiting stronger momentum setup with defined directional conviction.",
+      "assessment": "Risk-off tape across equities, commodities, and crypto with no clear reversal signals; holding cash until opportunity>80 threshold met on sector or asset rotation.",
       "strategy": "momentum",
       "strategy_name": "AI Momentum",
-      "timestamp": "2026-06-10T11:07:48.231397+00:00",
+      "timestamp": "2026-06-11T12:18:03.925986+00:00",
       "prices_used": {
-        "SPY": 737.05,
-        "QQQ": 707.83,
-        "XLK": 180.77,
-        "XLF": 52.46,
-        "XLV": 154.57,
-        "GLD": 390.78,
-        "TLT": 85.12,
-        "IWM": 285.02,
-        "VWO": 58.45
+        "SPY": 725.43,
+        "XLK": 176.63,
+        "XLE": 58.25,
+        "GLD": 374.58,
+        "IWM": 282.05,
+        "VWO": 57.72,
+        "EEM": 64.66,
+        "DBA": 26.33,
+        "MSTR": 115.35
       }
     }
   },
   "marketStatus": "pre-market",
-  "runAt": "2026-06-10T11:07:48.733592+00:00"
+  "runAt": "2026-06-11T12:18:04.428463+00:00"
 }

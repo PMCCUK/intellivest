@@ -1,171 +1,171 @@
 {
-  "marketSummary": "Mixed market sentiment with divergent performance across asset classes. Technology and growth stocks underperforming (-1.15% QQQ, -1.63% GLD) while defensive positions and small-caps show relative strength (+0.59% TLT, +0.32% IWM). Broad market weakness (-0.29% SPY) suggests caution despite isolated strength in Industrials (+0.10% DIA).",
+  "marketSummary": "U.S. equities declined across the board this morning, with the Dow Jones Industrial Average (DIA) leading losses at -1.80%, followed by the S&P 500 (SPY) at -1.58%, while small-caps (IWM) showed relative resilience at -1.04%. Precious metals faced significant headwinds, with gold (GLD) dropping 4.15%, suggesting a shift toward risk-on sentiment or strengthening U.S. dollar dynamics. Without material news catalysts, today's selloff appears to reflect broader macro concerns or profit-taking ahead of potential economic data releases.",
   "topOpportunities": [
     {
-      "symbol": "TLT",
-      "name": "iShares 20+ Year Treasury Bond ETF",
-      "reason": "Flight-to-safety signal with +0.59% gains suggests bond rally continuation; potential Fed pivot expectations",
-      "score": 78,
-      "riskScore": 25,
-      "confidenceScore": 82,
-      "historicalComparison": "Bond outperformance typically precedes equity recovery; similar pattern observed Q4 2022"
-    },
-    {
       "symbol": "IWM",
-      "name": "iShares Russell 2000 Small-Cap ETF",
-      "reason": "Outperforming large-caps (+0.32%) indicates shift to value/domestic plays; potential economic resilience signal",
+      "name": "iShares Russell 2000 ETF",
+      "reason": "Small-caps showing relative strength with smallest decline (-1.04%); historically outperform during economic recoveries and domestic-focused stimulus environments",
       "score": 72,
-      "riskScore": 55,
+      "riskScore": 65,
       "confidenceScore": 68,
-      "historicalComparison": "Small-cap outperformance historically precedes 2-4 week equity recovery windows"
+      "historicalComparison": "Small-caps typically outperform large-caps during inflationary recoveries; current underperformance may present mean-reversion opportunity"
     },
     {
-      "symbol": "DIA",
-      "name": "SPDR Dow Jones Industrial Average ETF",
-      "reason": "Sole broad index showing positive momentum (+0.10%); industrial/defensive strength suggests stability",
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "reason": "Broad market decline of -1.58% may present accumulation opportunity for long-term investors; support levels likely near recent technical supports",
       "score": 65,
-      "riskScore": 35,
-      "confidenceScore": 60,
-      "historicalComparison": "Dow outperformance often indicates institutional accumulation in blue-chips"
+      "riskScore": 58,
+      "confidenceScore": 62,
+      "historicalComparison": "S&P 500 historically recovers from 1-2% daily declines within 5-10 trading days absent negative catalysts"
     },
     {
       "symbol": "GLD",
       "name": "SPDR Gold Shares ETF",
-      "reason": "Despite -1.63% decline, gold volatility creates contrarian entry opportunity; macro uncertainty supports precious metals",
-      "score": 58,
-      "riskScore": 48,
-      "confidenceScore": 54,
-      "historicalComparison": "Gold weakness in risk-off environments typically rebounds within 1-2 weeks as safe-haven demand resurges"
+      "reason": "Oversold conditions with -4.15% decline; extreme moves often precede reversals; gold may find support as safe-haven demand returns",
+      "score": 68,
+      "riskScore": 72,
+      "confidenceScore": 55,
+      "historicalComparison": "Gold drops of 4%+ typically reverse within 3-7 days as geopolitical/macro uncertainty resurfaces"
+    },
+    {
+      "symbol": "DIA",
+      "name": "SPDR Dow Jones Industrial Average ETF",
+      "reason": "Blue-chip heavyweights down -1.80% represent quality assets; large-cap dividend stocks often attractive after sharp pullbacks",
+      "score": 63,
+      "riskScore": 62,
+      "confidenceScore": 60,
+      "historicalComparison": "Dow typically stabilizes after -1.5% to -2% moves; strong dividend support provides downside protection"
     },
     {
       "symbol": "SPY",
-      "name": "SPDR S&P 500 ETF",
-      "reason": "Minor -0.29% decline represents technical oversold condition; support near current levels presents accumulation opportunity",
-      "score": 62,
-      "riskScore": 42,
-      "confidenceScore": 64,
-      "historicalComparison": "Mild daily declines of <0.5% historically reverse within 2-3 trading sessions"
-    },
-    {
-      "symbol": "QQQ",
-      "name": "Invesco QQQ Trust - Nasdaq-100",
-      "reason": "Tech selloff (-1.15%) may represent exhaustion; oversold conditions could trigger mean-reversion rally",
-      "score": 55,
-      "riskScore": 68,
+      "name": "Technology Sector Rotation",
+      "reason": "If today's decline reflects rotation from growth to value, tech oversold positions may represent contrarian buy opportunity",
+      "score": 58,
+      "riskScore": 75,
       "confidenceScore": 48,
-      "historicalComparison": "QQQ corrections >1% typically reverse 60% of losses within 5 trading days when macro conditions stable"
+      "historicalComparison": "Tech sector rotations often create tactical entry points; negative days can signal capitulation"
     },
     {
-      "symbol": "AGG",
-      "name": "iShares Core U.S. Aggregate Bond ETF",
-      "reason": "Broad bond strength mirroring TLT gains; portfolio diversification benefit amid equity weakness",
-      "score": 68,
-      "riskScore": 28,
+      "symbol": "IWM",
+      "name": "Domestic Economy Beneficiaries",
+      "reason": "Domestic-focused small-caps less exposed to international headwinds; outperformance margin suggests selective strength",
+      "score": 61,
+      "riskScore": 68,
+      "confidenceScore": 59,
+      "historicalComparison": "Small-cap relative strength during broad selloffs historically precedes outperformance cycles"
+    },
+    {
+      "symbol": "GLD",
+      "name": "Gold Mean Reversion Trade",
+      "reason": "Largest percentage decline suggests potential capitulation in gold; contrarian setup for tactical bounce or reversal trade",
+      "score": 54,
+      "riskScore": 78,
+      "confidenceScore": 45,
+      "historicalComparison": "Commodities experiencing 4%+ single-day losses often bounce 1-2% the following session"
+    },
+    {
+      "symbol": "DIA",
+      "name": "Dividend Growth Opportunity",
+      "reason": "Dow constituents maintain strong dividend yields; declines create enhanced yield on cost for income-focused investors",
+      "score": 67,
+      "riskScore": 55,
       "confidenceScore": 71,
-      "historicalComparison": "Bond-equity correlation breakdown often precedes significant asset allocation rotations"
-    },
-    {
-      "symbol": "VTV",
-      "name": "Vanguard Value ETF",
-      "reason": "Value rotation signal as growth underperforms; dividend yields provide defensive income during volatility",
-      "score": 64,
-      "riskScore": 38,
-      "confidenceScore": 66,
-      "historicalComparison": "Value outperformance in mixed markets has preceded 8-week growth rotation periods historically"
+      "historicalComparison": "Dow dividend yield typically becomes attractive after 1.5-2% declines, historically preceding recovery"
     }
   ],
   "topRisks": [
     {
-      "symbol": "QQQ",
-      "name": "Nasdaq-100 Tech Index",
-      "reason": "Largest percentage decline (-1.15%) signals potential tech sector weakness; concentration risk in mega-cap holdings",
+      "symbol": "GLD",
+      "name": "Gold ETF Weakness",
+      "reason": "Severe 4.15% decline signals potential loss of safe-haven demand; suggests elevated risk appetite or dollar strength compression",
       "riskLevel": "HIGH",
       "riskScore": 78
     },
     {
-      "symbol": "GLD",
-      "name": "Gold ETF",
-      "reason": "Precious metals selling despite safe-haven environment suggests liquidity event or position unwinding",
+      "symbol": "DIA",
+      "name": "Large-Cap Momentum Loss",
+      "reason": "Blue-chip underperformance at -1.80% may indicate institutional profit-taking or earnings concern signals",
       "riskLevel": "MEDIUM",
-      "riskScore": 62
+      "riskScore": 68
     },
     {
       "symbol": "SPY",
-      "name": "S&P 500 Index",
-      "reason": "Broad market decline indicates systemic weakness; unable to hold gains despite DIA strength",
+      "name": "Broad Market Breadth Deterioration",
+      "reason": "S&P 500 decline of -1.58% without news catalyst suggests underlying weakness; potential for gap-down opening next session",
       "riskLevel": "MEDIUM",
       "riskScore": 65
     },
     {
       "symbol": "IWM",
-      "name": "Russell 2000 Small-Cap",
-      "reason": "Small-caps exhibit higher volatility; outperformance may be tactical bounce rather than trend reversal",
+      "name": "Small-Cap Leverage Risk",
+      "reason": "While relatively resilient today, small-caps carry elevated volatility risk; leverage inherent in smaller companies amplifies downside moves",
       "riskLevel": "MEDIUM",
-      "riskScore": 58
+      "riskScore": 62
     },
     {
-      "symbol": "NEWS",
-      "name": "Market Information Disruption",
-      "reason": "MarketWatch server error limits real-time news analysis; decision-making based on incomplete information",
-      "riskLevel": "MEDIUM",
+      "symbol": "SPY",
+      "name": "Unanchored Catalyst Risk",
+      "reason": "Absence of news reporting creates uncertainty; market moves on invisible catalysts often precede larger reversals or volatility spikes",
+      "riskLevel": "HIGH",
       "riskScore": 71
     },
     {
-      "symbol": "MACRO",
-      "name": "Economic Data Uncertainty",
-      "reason": "Mixed signals across asset classes (bonds rallying, stocks falling) suggest macro confusion; lacks clear directional guidance",
-      "riskLevel": "HIGH",
-      "riskScore": 74
-    },
-    {
       "symbol": "DIA",
-      "name": "Dow Jones Industrials",
-      "reason": "Minimal gains (+0.10%) indicate accumulation may be artificial; requires confirmation via volume analysis",
-      "riskLevel": "LOW",
-      "riskScore": 48
+      "name": "Rate Sensitivity Exposure",
+      "reason": "Dow heavyweights (financials, industrials) sensitive to interest rate expectations; selloff may signal rising rate concerns",
+      "riskLevel": "MEDIUM",
+      "riskScore": 64
     },
     {
-      "symbol": "TLT",
-      "name": "Long-Duration Bonds",
-      "reason": "Yield curve inversion risk; bond gains may reverse sharply if inflation data surprises to upside",
+      "symbol": "GLD",
+      "name": "Commodity Deflation Signals",
+      "reason": "Gold's sharp decline alongside equity weakness suggests potential deflationary concerns or demand destruction",
+      "riskLevel": "HIGH",
+      "riskScore": 75
+    },
+    {
+      "symbol": "IWM",
+      "name": "Economic Sensitivity Risk",
+      "reason": "Small-caps disproportionately affected by recession signals; current resilience masks potential rollover risk if macro data disappoints",
       "riskLevel": "MEDIUM",
-      "riskScore": 55
+      "riskScore": 66
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Fixed Income & Treasuries",
-      "score": 85,
-      "reason": "TLT +0.59% indicates strong bond demand; suggests market pricing in economic slowdown or Fed pivot; flight-to-safety narrative strengthening"
-    },
-    {
-      "sector": "Defensive Industrials & Utilities",
+      "sector": "Consumer Staples",
       "score": 72,
-      "reason": "DIA outperformance signals rotation toward stable, dividend-paying blue-chips; preference for lower-volatility exposure amid market uncertainty"
+      "reason": "Defensive positioning during equity selloffs; staples outperform in uncertain environments; dividend support provides stability"
     },
     {
-      "sector": "Small-Cap Value",
+      "sector": "Healthcare",
+      "score": 70,
+      "reason": "Secular growth tailwinds and defensive characteristics; less cyclical exposure benefits during broad market declines"
+    },
+    {
+      "sector": "Utilities",
       "score": 68,
-      "reason": "IWM +0.32% outperformance on large-cap weakness indicates tactical reallocation to domestic-focused, value-oriented equities with lower beta exposure"
+      "reason": "Dividend-heavy sector benefits from flight-to-quality; interest rate sensitive but provides stable income during volatility"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Technology & Growth",
-      "score": 78,
-      "reason": "QQQ -1.15% represents broadest decline; indicates potential profit-taking in mega-cap tech; multiple compression risk amid rate volatility concerns"
+      "sector": "Technology",
+      "score": 35,
+      "reason": "Growth sector vulnerable to risk-off environments; sharp equity declines disproportionately impact high-beta tech names"
     },
     {
-      "sector": "Precious Metals & Commodities",
-      "score": 65,
-      "reason": "GLD -1.63% suggests demand destruction; typical of risk-on reversal scenarios; weakness despite macro uncertainty signals potential demand reset"
+      "sector": "Discretionary Consumer",
+      "score": 38,
+      "reason": "Economically sensitive; broad selloff signals demand concerns; luxury and non-essential spending likely to contract"
     }
   ],
   "keyEvents": [
-    "MarketWatch platform outage - limited real-time financial news availability; recommend reliance on alternative data sources (Bloomberg, Reuters, alternative news feeds)",
-    "Flight-to-safety bond rally evident (TLT +0.59%) - market potentially pricing recession/Fed policy shift; monitor Treasury yield curve for directional confirmation",
-    "Divergent sector performance (tech down -1.15%, industrials +0.10%) - suggests rotation trade in progress; watch for sector leadership confirmation signals on higher volumes"
+    "Broad equity market selloff without material news catalysts; potential technical breakdown or pre-data positioning",
+    "Significant gold decline (-4.15%) suggests potential USD strength or risk-on sentiment shift",
+    "Small-cap resilience (IWM -1.04%) indicates potential sector rotation or domestic economic confidence"
   ],
-  "date": "2026-06-10",
-  "generatedAt": "2026-06-10T11:03:53.289264+00:00"
+  "date": "2026-06-11",
+  "generatedAt": "2026-06-11T12:17:58.317130+00:00"
 }
