@@ -3,9 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
 <title>IntelliVest — AI Investment Intelligence</title>
 <style>
 /* ─── Reset & Base ─────────────────────────────────────────────────── */
@@ -419,11 +416,122 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue)}
 .chip-r.active{background:var(--red);border-color:var(--red)}
 
 /* ─── Responsive ─────────────────────────────────────────────────── */
+
+/* ── Hamburger button (mobile only) ── */
+.hamburger{display:none;flex-direction:column;justify-content:center;gap:5px;width:40px;height:44px;padding:0 10px;cursor:pointer;flex-shrink:0;border-right:1px solid var(--border)}
+.hamburger span{display:block;height:2px;background:var(--text);border-radius:1px;transition:all .25s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* ── Mobile overlay for sidebar ── */
+.sidebar-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:49;backdrop-filter:blur(2px)}
+.sidebar-overlay.visible{display:block}
+
+/* ── Bottom nav bar (mobile only) ── */
+.bottom-nav{display:none;position:fixed;bottom:0;left:0;right:0;height:56px;background:var(--bg2);border-top:1px solid var(--border);z-index:50;flex-direction:row;justify-content:space-around;align-items:center}
+.bottom-nav-item{display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 8px;cursor:pointer;color:var(--hint);transition:color .15s;flex:1;min-width:0}
+.bottom-nav-item.active{color:var(--blue)}
+.bottom-nav-item .bn-icon{font-size:18px}
+.bottom-nav-item .bn-label{font-size:9px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:56px;text-align:center}
+
+/* ── Tablet (≤900px) ── */
 @media(max-width:900px){
-  .app{grid-template-columns:1fr;grid-template-rows:44px auto 1fr}
-  .sidebar{display:none}
+  .app{grid-template-columns:1fr;grid-template-rows:44px 1fr}
+  .sidebar{
+    position:fixed;top:44px;left:-240px;width:240px;height:calc(100vh - 44px);
+    z-index:50;transition:left .25s ease;overflow-y:auto;
+  }
+  .sidebar.mobile-open{left:0}
+  .hamburger{display:flex}
   .two-col,.three-col{grid-template-columns:1fr}
   .idx-grid{grid-template-columns:repeat(3,1fr)}
+  .portfolio-grid{grid-template-columns:repeat(2,1fr)!important}
+  .metric-compare-grid{grid-template-columns:repeat(2,1fr)}
+  .scoreboard-grid{grid-template-columns:repeat(2,1fr)}
+  .pt-stat-grid{grid-template-columns:repeat(2,1fr)}
+  .arena-controls{flex-wrap:wrap;gap:6px}
+  .arena-btn{font-size:10px;padding:4px 10px}
+  .settings-row{flex-direction:column;align-items:flex-start;gap:6px}
+  .settings-input{width:100%!important}
+}
+
+/* ── Mobile (≤600px) ── */
+@media(max-width:600px){
+  body{font-size:12px}
+  .app{grid-template-rows:48px 1fr;padding-bottom:56px}
+
+  /* Hide sidebar toggle — use bottom nav instead */
+  .hamburger{display:none}
+  .sidebar{display:none!important}
+
+  /* Show bottom nav */
+  .bottom-nav{display:flex}
+
+  /* Topbar */
+  .logo-name{display:none}
+  .ticker-strip{font-size:10px}
+  .tick{padding:0 8px}
+  .tick-px{display:none}
+  .topbar-right{gap:5px;padding:0 8px}
+  .time-display{font-size:10px}
+  .api-indicator{font-size:9px;padding:1px 6px}
+
+  /* Cards stack single column */
+  .portfolio-grid{grid-template-columns:1fr!important}
+  .portfolio-card{padding:10px}
+  .pc-value{font-size:17px}
+
+  /* Index grid 2-col on mobile */
+  .idx-grid{grid-template-columns:repeat(2,1fr)}
+
+  /* Heat map 2-col */
+  .heat-grid{grid-template-columns:repeat(2,1fr)!important}
+
+  /* Arena status bar wraps */
+  #arenaStatusBar{flex-direction:column;align-items:flex-start;gap:4px;padding:5px 10px}
+
+  /* Arena tabs scroll */
+  .arena-tabs,.edge-tabs,.pt-tabs{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .arena-tab,.edge-tab,.pt-tab{font-size:10px;padding:6px 10px}
+
+  /* Leaderboard */
+  .lb-metrics{gap:8px}
+  .lb-metric-val{font-size:11px}
+
+  /* Trade rows adapt */
+  .trade-row{grid-template-columns:1.2fr 1fr 1fr 1fr!important;font-size:10px}
+  .ai-trade-row{grid-template-columns:1.2fr 1fr 1fr 1fr!important;font-size:10px}
+
+  /* Buttons */
+  .btn-run,.arena-btn{font-size:10px;padding:4px 8px}
+  .arena-controls{gap:4px}
+
+  /* Cards */
+  .card-head{flex-wrap:wrap;gap:6px}
+  .card-head .btn-run{font-size:9px;padding:3px 7px}
+
+  /* Settings full width */
+  .settings-row{flex-direction:column;align-items:flex-start;gap:6px}
+  .settings-input{width:100%!important}
+
+  /* Pages padding */
+  .page{padding:8px}
+
+  /* Equity chart smaller */
+  .equity-chart{height:120px}
+
+  /* Scrollable heights reduced for mobile */
+  .scrollable-tall{max-height:60vh}
+
+  /* Two col becomes one */
+  .two-col,.three-col{grid-template-columns:1fr!important}
+
+  /* Scanner rows */
+  .scanner-row{flex-wrap:wrap}
+
+  /* News rows */
+  .news-title{-webkit-line-clamp:3}
 }
 </style>
 </head>
@@ -433,6 +541,9 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue)}
 
 <!-- ══ TOP BAR ══════════════════════════════════════════════════════ -->
 <header class="topbar">
+  <button class="hamburger" id="hamburgerBtn" onclick="toggleMobileSidebar()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
   <div class="logo">
     <div class="logo-mark">IV</div>
     <span class="logo-name">IntelliVest</span>
@@ -495,7 +606,27 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue)}
   </div>
 </aside>
 
-<!-- ══ MAIN ═════════════════════════════════════════════════════════ -->
+<!-- Mobile sidebar overlay -->
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleMobileSidebar()"></div>
+
+<!-- Bottom navigation (mobile only) -->
+<nav class="bottom-nav" id="bottomNav">
+  <div class="bottom-nav-item active" id="bn-dashboard" onclick="showPageMobile('dashboard',this)">
+    <span class="bn-icon">📊</span><span class="bn-label">Dashboard</span>
+  </div>
+  <div class="bottom-nav-item" id="bn-arena" onclick="showPageMobile('arena',this)">
+    <span class="bn-icon">⚔️</span><span class="bn-label">Arena</span>
+  </div>
+  <div class="bottom-nav-item" id="bn-edgelab" onclick="showPageMobile('edgelab',this)">
+    <span class="bn-icon">🔬</span><span class="bn-label">Edge Lab</span>
+  </div>
+  <div class="bottom-nav-item" id="bn-news" onclick="showPageMobile('news',this)">
+    <span class="bn-icon">📰</span><span class="bn-label">News</span>
+  </div>
+  <div class="bottom-nav-item" id="bn-settings" onclick="showPageMobile('settings',this)">
+    <span class="bn-icon">⚙️</span><span class="bn-label">More</span>
+  </div>
+</nav>
 <main class="main">
 
   <!-- ── DASHBOARD ───────────────────────────────────────── -->
@@ -1318,7 +1449,6 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue)}
 </div><!-- /.app -->
 
 <script>
-// IntelliVest v2.1 - balance protection fix
 // ════════════════════════════════════════════════════════════════════
 // STATE
 // ════════════════════════════════════════════════════════════════════
@@ -1328,7 +1458,7 @@ const S = {
   polygonKey: '',
   model: 'claude-haiku-4-5-20251001',
   scanSymbols: 'AAPL,MSFT,NVDA,GOOGL,AMZN,META,TSLA,AVGO,JPM,V,JNJ,XOM,SPY,QQQ,GLD,TLT,BTC-USD,ETH-USD',
-  watchlist: ['AAPL','MSFT','NVDA','SPY','BTC-USD'],
+  watchlist: ['AAPL','MSFT','NVDA','SPY','GBTC'],
   newsFilter: 'ALL',
   scanFilter: 'ALL',
   allNews: [],
@@ -2869,16 +2999,16 @@ const ARENA = {
   config: { minOpp:80, minConf:75, maxRisk:40, stopLoss:8, takeProfit:20, maxPosPct:5, maxSectorPct:20, maxPositions:15 },
 
   portfolios: {
-    human:      { id:'human',     name:'My Portfolio',       type:'human',   color:'var(--blue)',   balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null },
-    aimaster:   { id:'aimaster',  name:'AI Master',          type:'ai',      color:'var(--amber)',  balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'master' },
-    aiGrowth:   { id:'aiGrowth',  name:'AI Growth Fund',     type:'ai',      color:'var(--green)',  balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'growth' },
-    aiValue:    { id:'aiValue',   name:'AI Value Fund',      type:'ai',      color:'#64d8cb',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'value' },
-    aiMomentum: { id:'aiMomentum',name:'AI Momentum Fund',   type:'ai',      color:'#f78166',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'momentum' },
-    aiUK:       { id:'aiUK',       name:'AI UK & Europe',     type:'ai',      color:'#60a5fa',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'uk' },
-    aiCrypto:   { id:'aiCrypto',   name:'AI Crypto Fund',     type:'ai',      color:'#f59e0b',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'crypto' },
-    aiSmallCap: { id:'aiSmallCap', name:'AI Small Cap',       type:'ai',      color:'#a855f7',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'smallcap' },
-    spy:        { id:'spy',       name:'S&P 500',            type:'bench',   color:'var(--purple)', balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, entryPrice:null, currentPrice:null },
-    qqq:        { id:'qqq',       name:'NASDAQ 100',         type:'bench',   color:'#e879f9',       balance:100000, startingBalance:100000, positions:[], trades:[], history:[], startDate:null, entryPrice:null, currentPrice:null },
+    human:      { id:'human',     name:'My Portfolio',       type:'human',   color:'var(--blue)',   balance:100000, positions:[], trades:[], history:[], startDate:null },
+    aimaster:   { id:'aimaster',  name:'AI Master',          type:'ai',      color:'var(--amber)',  balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'master' },
+    aiGrowth:   { id:'aiGrowth',  name:'AI Growth Fund',     type:'ai',      color:'var(--green)',  balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'growth' },
+    aiValue:    { id:'aiValue',   name:'AI Value Fund',      type:'ai',      color:'#64d8cb',       balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'value' },
+    aiMomentum: { id:'aiMomentum',name:'AI Momentum Fund',   type:'ai',      color:'#f78166',       balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'momentum' },
+    aiUK:       { id:'aiUK',       name:'AI UK & Europe',     type:'ai',      color:'#60a5fa',       balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'uk' },
+    aiCrypto:   { id:'aiCrypto',   name:'AI Crypto Fund',     type:'ai',      color:'#f59e0b',       balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'crypto' },
+    aiSmallCap: { id:'aiSmallCap', name:'AI Small Cap',       type:'ai',      color:'#a855f7',       balance:100000, positions:[], trades:[], history:[], startDate:null, strategy:'smallcap' },
+    spy:        { id:'spy',       name:'S&P 500',            type:'bench',   color:'var(--purple)', balance:100000, positions:[], trades:[], history:[], startDate:null, entryPrice:null, currentPrice:null },
+    qqq:        { id:'qqq',       name:'NASDAQ 100',         type:'bench',   color:'#e879f9',       balance:100000, positions:[], trades:[], history:[], startDate:null, entryPrice:null, currentPrice:null },
   },
 
   recommendations: [],  // all AI recs ever
@@ -2893,8 +3023,8 @@ const AI_STRATEGIES = {
     focus:'Balanced — best opportunities across all markets globally',
     symbols:['AAPL','MSFT','NVDA','GOOGL','AMZN','META','JPM','V','JNJ','XOM','SPY','QQQ','GLD',
              'TSLA','AVGO','AMD','NFLX','COST','UNH','MA','BRK-B','LLY','ABBV','TMO',
-             'BTC-USD','ETH-USD','GLD','SLV','TLT','IWM'],
-    prompt:'You are a balanced global institutional portfolio manager. Identify the best risk-adjusted opportunities across US equities, ETFs, commodities, and crypto.',
+             'GBTC','BITO','SLV','TLT','IWM'],
+    prompt:'You are a balanced global institutional portfolio manager. Identify the best risk-adjusted opportunities across US equities, ETFs, commodities, and crypto proxies (GBTC, BITO).',
   },
   growth:   {
     name:'AI Growth',
@@ -2914,12 +3044,11 @@ const AI_STRATEGIES = {
   },
   momentum: {
     name:'AI Momentum',
-    focus:'Trend-following, breakouts, sector rotation, ETFs',
-    symbols:['SPY','QQQ','XLK','XLF','XLE','XLV','XLI','XLRE','GLD','TLT','IWM',
-             'BTC-USD','ETH-USD','SOL-USD','BNB-USD',
-             'VWO','EEM','EFA','FXI','EWJ','EWG','EWU',
-             'USO','UNG','CORN','WEAT','DBA'],
-    prompt:'You are a momentum and trend-following fund manager. Focus on strong technical trends, sector rotation, ETF flows, commodities breakouts, and crypto momentum.',
+    focus:'Trend-following, breakouts, sector rotation, ETFs, crypto proxies',
+    symbols:['SPY','QQQ','XLK','XLF','XLE','XLV','XLI','GLD','TLT','IWM',
+             'VWO','EEM','EFA','USO','DBA',
+             'BITO','GBTC','MSTR','COIN'],
+    prompt:'You are a momentum and trend-following fund manager. Focus on strong technical trends, sector rotation, ETF flows, commodities, and crypto proxy stocks.',
   },
   uk:       {
     name:'AI UK & Europe',
@@ -2933,23 +3062,21 @@ const AI_STRATEGIES = {
   },
   smallcap: {
     name:'AI Small Cap',
-    focus:'Low-coverage stocks £50M–£2B market cap — maximum information edge',
-    symbols:['SPWR','CLOV','RIDE','WKHS','GOEV','XPEV','NIO','LCID','RIVN',
-             'MARA','RIOT','HUT','BITF','CIFR',
-             'SFIX','PRTS','PUBM','DV','APPS','CREX',
-             'TLRY','CGC','ACB','CRON','SNDL',
-             'OCGN','ATOS','MRIN','ATXI','CALA',
-             'GREE','KPTI','MNMD','CMPS','ATAI'],
-    prompt:'You are a small-cap specialist fund manager focused exclusively on under-followed stocks with market caps between $50M and $2B. These stocks have fewer than 4 analyst ratings on average, meaning information takes longer to be priced in. Apply STRICTER scoring — only buy when you have very high conviction. Look for: unusual volume spikes (2x+ average), recent insider buying, positive earnings surprise, technical breakout from consolidation. Your edge is the information gap, not momentum — be patient and selective.',
+    focus:'Low-coverage stocks — actively traded small caps with Finnhub coverage',
+    symbols:['MARA','RIOT','CIFR','CLSK','BTBT',
+             'APPS','PUBM','DV','CREX','SOUN',
+             'MNMD','CMPS','ATAI','NVAX','SNDL',
+             'NIO','XPEV','LI','RIVN','LCID',
+             'TLRY','CGC','ACB','CRON',
+             'ACMR','AEHR','KRTX','RCKT','VERA'],
+    prompt:'You are a small-cap specialist fund manager. Apply STRICTER scoring — only buy when Opportunity >75, Confidence >70, Risk <45. Look for unusual volume, momentum, or catalyst. Your edge is the information gap — be patient and selective.',
   },
   crypto:   {
     name:'AI Crypto',
-    focus:'Digital assets — Bitcoin, Ethereum, altcoins, DeFi',
-    symbols:['BTC-USD','ETH-USD','SOL-USD','BNB-USD','ADA-USD','XRP-USD',
-             'AVAX-USD','DOT-USD','MATIC-USD','LINK-USD','UNI-USD','ATOM-USD',
-             'NEAR-USD','FTM-USD','ALGO-USD','VET-USD','SAND-USD','MANA-USD',
-             'GBTC','ETHE','BITO'],
-    prompt:'You are a crypto and digital assets fund manager. Analyse momentum, on-chain signals implied by price action, correlation with BTC, and sector rotation within crypto (L1s, DeFi, gaming). Be cautious of high volatility — apply stricter risk scoring.',
+    focus:'Crypto-proxy stocks and ETFs — Bitcoin miners, trusts, exchanges',
+    symbols:['GBTC','ETHE','BITO','MARA','RIOT','HUT','BITF','CIFR',
+             'COIN','MSTR','CLSK','BTBT','WGMI','IBIT','FBTC'],
+    prompt:'You are a crypto and digital assets fund manager using crypto-proxy stocks and ETFs. GBTC=Bitcoin trust, ETHE=Ethereum trust, BITO=Bitcoin futures ETF, MARA/RIOT/HUT=Bitcoin miners, COIN=Coinbase, MSTR=MicroStrategy. Analyse momentum and crypto market correlation. Be cautious of high volatility.',
   },
 }
 
@@ -2962,7 +3089,6 @@ function arenaLoad() {
       const bal = ARENA.startingBalance
       Object.values(ARENA.portfolios).forEach(p => {
         p.balance = bal
-        p.startingBalance = bal
         p.history = [{ date: new Date().toISOString().split('T')[0], value: bal }]
         p.startDate = new Date().toISOString()
       })
@@ -2981,19 +3107,11 @@ function arenaLoad() {
       Object.keys(saved.portfolios).forEach(k => {
         if (!ARENA.portfolios[k]) return
         const sp = saved.portfolios[k]
-        // Sanity-check balance: if saved balance looks like PT balance (<=2000) re-init for AI/bench only
-        if (k !== 'human' && sp.balance != null && sp.balance < 1000 && ARENA.startingBalance >= 10000) {
+        // Sanity-check balance: if saved balance looks like PT balance (<=2000) re-init
+        if (sp.balance != null && sp.balance < 1000 && ARENA.startingBalance >= 10000) {
           sp.balance = ARENA.startingBalance
         }
         Object.assign(ARENA.portfolios[k], sp)
-        // Backfill startingBalance for saves that predate this field
-        if (!ARENA.portfolios[k].startingBalance) {
-          // Human: use its own current balance as baseline to avoid fake losses from old PT data
-          // AI/bench: use global starting balance
-          ARENA.portfolios[k].startingBalance = k === 'human'
-            ? (parseFloat(ARENA.portfolios[k].balance) || ARENA.startingBalance)
-            : ARENA.startingBalance
-        }
       })
     }
 
@@ -3042,28 +3160,27 @@ function saveArenaConfig() {
 }
 
 function arenaQuickReset() {
-  const resetBal = parseFloat(document.getElementById('arenaBalanceInput').value) || 100000
-  if (!confirm(`Reset AI Arena portfolios to £${resetBal.toLocaleString()}? This clears AI positions and trade history.\n\nYour personal "My Portfolio" will NOT be affected.`)) return
+  if (!confirm('Reset all Arena portfolios to £100,000 starting balance? This clears all positions and trade history.')) return
+  ARENA.startingBalance = 100000
+  localStorage.removeItem('iv_arena')
   Object.values(ARENA.portfolios).forEach(p => {
-    if (p.type === 'human') return  // never touch the human portfolio
-    p.balance = resetBal; p.startingBalance = resetBal; p.positions = []; p.trades = []
-    p.history = [{ date: new Date().toISOString().split('T')[0], value: resetBal }]
+    p.balance = 100000; p.positions = []; p.trades = []
+    p.history = [{ date: new Date().toISOString().split('T')[0], value: 100000 }]
     p.startDate = new Date().toISOString()
     if (p.type === 'bench') { p.entryPrice = null; p.currentPrice = null }
   })
   ARENA.recommendations = []; ARENA.aiTradeLog = []; ARENA.currentPrices = {}
+  document.getElementById('arenaBalanceInput').value = 100000
   arenaSave(); renderArena()
-  alert(`✓ AI portfolios reset to £${resetBal.toLocaleString()}. Your personal portfolio is unchanged.`)
+  alert('✓ All portfolios reset to £100,000. Now click "Refresh Prices" then "Run AI Engine".')
 }
 
 function resetArena() {
   const bal = parseFloat(document.getElementById('arenaBalanceInput').value) || 100000
-  if (!confirm(`Reset AI Arena portfolios to £${bal.toLocaleString()}? This clears all AI positions and trade history.\n\nYour personal "My Portfolio" will NOT be affected.`)) return
+  if (!confirm(`Reset ALL arena portfolios with £${bal.toLocaleString()} starting balance? This clears all positions and trade history.`)) return
   ARENA.startingBalance = bal
   Object.values(ARENA.portfolios).forEach(p => {
-    if (p.type === 'human') return  // never touch the human portfolio
-    p.balance = bal; p.startingBalance = bal; p.positions = []; p.trades = []
-    p.history = [{ date: new Date().toISOString().split('T')[0], value: bal }]
+    p.balance = bal; p.positions = []; p.trades = []; p.history = [{ date: new Date().toISOString().split('T')[0], value: bal }]
     p.startDate = new Date().toISOString()
     if (p.type === 'bench') { p.entryPrice = null; p.currentPrice = null }
   })
@@ -3086,8 +3203,7 @@ function arenaPortfolioValue(p) {
 
 function arenaPortfolioReturn(p) {
   const val = arenaPortfolioValue(p)
-  const base = p.startingBalance || ARENA.startingBalance
-  return { value: val, ret: val - base, retPct: ((val - base) / base) * 100 }
+  return { value: val, ret: val - ARENA.startingBalance, retPct: ((val - ARENA.startingBalance) / ARENA.startingBalance) * 100 }
 }
 
 function arenaBenchReturn(p) {
@@ -3431,11 +3547,10 @@ function renderArenaPortfolioGrid() {
   if (!grid) return
   const cards = Object.values(ARENA.portfolios).map(p => {
     const isBench = p.type === 'bench'
-    const base = p.startingBalance || ARENA.startingBalance
     const ret = isBench ? arenaBenchReturn(p) : arenaPortfolioReturn(p)
-    const value = isBench ? (ret !== null ? base * (1 + ret/100) : base) : arenaPortfolioValue(p)
+    const value = isBench ? (ret !== null ? ARENA.startingBalance * (1 + ret/100) : ARENA.startingBalance) : arenaPortfolioValue(p)
     const retPct = isBench ? (ret !== null ? ret : 0) : (ret ? ret.retPct : 0)
-    const retAbs = isBench ? value - base : (ret ? ret.ret : 0)
+    const retAbs = isBench ? value - ARENA.startingBalance : (ret ? ret.ret : 0)
     const typeClass = p.id === 'human' ? 'human' : p.id === 'aimaster' ? 'ai-master' : p.type === 'bench' ? 'benchmark' : p.id === 'aiGrowth' ? 'ai-growth' : p.id === 'aiValue' ? 'ai-value' : 'ai-momentum'
     const badge = p.type === 'human' ? '<span class="pc-badge badge-live">MANUAL</span>' : p.type === 'bench' ? '<span class="pc-badge badge-bench">BENCH</span>' : '<span class="pc-badge badge-auto">AUTO</span>'
     const col = retPct >= 0 ? 'var(--green)' : 'var(--red)'
@@ -3986,20 +4101,16 @@ const EDGE = {
 
 // ── Small-cap scanning universe — deliberately less-followed ─────────
 const SMALL_CAP_UNIVERSE = [
-  // US small/mid cap tech
-  'APPS','PUBM','DV','CREX','MRIN','PRTS','SFIX','GREE',
-  // Biotech (small cap, binary events)
-  'OCGN','ATOS','ATXI','CALA','KPTI','MNMD','CMPS','ATAI',
-  // EV/Clean energy small caps
-  'SPWR','CLOV','WKHS','GOEV',
-  // Crypto mining (volatile, small cap)
-  'MARA','RIOT','HUT','BITF','CIFR',
+  // Crypto miners (small cap, volatile, actively traded)
+  'MARA','RIOT','CIFR','CLSK','BTBT','HUT','BITF',
+  // Small cap tech
+  'APPS','PUBM','DV','CREX','SOUN','ACMR','AEHR',
+  // Biotech small caps
+  'MNMD','CMPS','ATAI','NVAX','KRTX','RCKT','VERA',
+  // EV small caps
+  'NIO','XPEV','LI','RIVN','LCID',
   // Cannabis (very low coverage)
   'TLRY','CGC','ACB','CRON','SNDL',
-  // Chinese EV (less US analyst coverage)
-  'XPEV','NIO','LI',
-  // Additional US small caps with growth potential
-  'ACMR','AEHR','SITM','SOUN','HEAR','PERI','KRTX','RCKT',
 ]
 
 // ── EDGAR RSS Feed — Free, official, real-time ────────────────────────
@@ -4586,11 +4697,12 @@ async function syncFromGitHub() {
   }
 
   try {
-    const [state, insight, prices, runLog] = await Promise.all([
+    const [state, insight, prices, runLog, benchmarks] = await Promise.all([
       fetchDataFile('state.json'),
       fetchDataFile('daily_insight.json'),
       fetchDataFile('prices.json'),
       fetchDataFile('run_log.json'),
+      fetchDataFile('benchmarks.json'),
     ])
 
     let changed = false
@@ -4630,6 +4742,8 @@ async function syncFromGitHub() {
         const arenaId = S2A[stratId] || stratId
         if (!ARENA.portfolios[arenaId]) return
         const sp = state.portfolios[stratId]
+
+        ARENA.portfolios[arenaId].balance = parseFloat(sp.balance) || ARENA.portfolios[arenaId].balance
 
         // Positions: server stores as object {AAPL:{qty,entryPrice,...}}
         ARENA.portfolios[arenaId].positions = sp.positions
@@ -4680,6 +4794,19 @@ async function syncFromGitHub() {
     if (insight && insight.marketSummary) {
       S.lastDailyInsight = insight
       if (insight.topOpportunities?.length) renderDailyInsightWithTrade(insight)
+    }
+
+    // Sync benchmarks (SPY, QQQ entry and current prices)
+    if (benchmarks) {
+      ;['spy','qqq'].forEach(id => {
+        const sym = id.toUpperCase()
+        const b = benchmarks[sym]
+        if (!b) return
+        const p = ARENA.portfolios[id]
+        if (!p) return
+        if (!p.entryPrice && b.entryPrice) p.entryPrice = parseFloat(b.entryPrice)
+        if (b.currentPrice) p.currentPrice = parseFloat(b.currentPrice)
+      })
     }
 
     // Show server run status badge
@@ -4767,6 +4894,59 @@ function startGitHubSync() {
   // Then poll every 5 minutes for new data
   SYNC.timerId = setInterval(syncFromGitHub, SYNC.fetchInterval)
   console.log('[IntelliVest] GitHub Pages mode — syncing from data/ every 5 min')
+}
+
+// ════════════════════════════════════════════════════════════════════
+// MOBILE NAVIGATION
+// ════════════════════════════════════════════════════════════════════
+
+function toggleMobileSidebar() {
+  const sidebar  = document.querySelector('.sidebar')
+  const overlay  = document.getElementById('sidebarOverlay')
+  const hamburger = document.getElementById('hamburgerBtn')
+  const isOpen   = sidebar.classList.contains('mobile-open')
+
+  sidebar.classList.toggle('mobile-open', !isOpen)
+  overlay.classList.toggle('visible', !isOpen)
+  hamburger.classList.toggle('open', !isOpen)
+
+  // Prevent body scroll when sidebar open
+  document.body.style.overflow = isOpen ? '' : 'hidden'
+}
+
+function closeMobileSidebar() {
+  const sidebar   = document.querySelector('.sidebar')
+  const overlay   = document.getElementById('sidebarOverlay')
+  const hamburger = document.getElementById('hamburgerBtn')
+  sidebar.classList.remove('mobile-open')
+  overlay.classList.remove('visible')
+  hamburger.classList.remove('open')
+  document.body.style.overflow = ''
+}
+
+function showPageMobile(id, el) {
+  // Update bottom nav active state
+  document.querySelectorAll('.bottom-nav-item').forEach(b => b.classList.remove('active'))
+  if (el) el.classList.add('active')
+  // Show the page
+  showPage(id)
+  closeMobileSidebar()
+}
+
+// Override showPage to also sync bottom nav
+const _origShowPage = showPage
+function showPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'))
+  const pg = document.getElementById(`page-${id}`)
+  if (pg) pg.classList.add('active')
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'))
+  // Sync bottom nav
+  const bnMap = { dashboard:'bn-dashboard', arena:'bn-arena', edgelab:'bn-edgelab', news:'bn-news', settings:'bn-settings' }
+  document.querySelectorAll('.bottom-nav-item').forEach(b => b.classList.remove('active'))
+  const bnEl = document.getElementById(bnMap[id] || 'bn-dashboard')
+  if (bnEl) bnEl.classList.add('active')
+  // Close sidebar on mobile after nav
+  if (window.innerWidth <= 600) closeMobileSidebar()
 }
 
 // ════════════════════════════════════════════════════════════════════

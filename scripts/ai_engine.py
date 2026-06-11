@@ -137,9 +137,9 @@ STRATEGIES = {
     },
     'momentum': {
         'name': 'AI Momentum',
-        'symbols': ['SPY','QQQ','XLK','XLF','XLE','XLV','GLD','TLT','IWM',
-                    'BTC-USD','ETH-USD','VWO','EEM'],
-        'prompt': 'You are a momentum fund manager focused on trend-following and sector rotation.',
+        'symbols': ['SPY','QQQ','XLK','XLF','XLE','XLV','XLI','GLD','TLT','IWM',
+                    'VWO','EEM','DBA','USO','BITO','GBTC','MSTR'],
+        'prompt': 'You are a momentum fund manager focused on trend-following, sector rotation, ETFs, commodities, and crypto proxies.',
     },
     'uk': {
         'name': 'AI UK & Europe',
@@ -149,15 +149,22 @@ STRATEGIES = {
     },
     'crypto': {
         'name': 'AI Crypto',
-        'symbols': ['BTC-USD','ETH-USD','SOL-USD','BNB-USD','ADA-USD',
-                    'GBTC','ETHE','BITO'],
-        'prompt': 'You are a crypto fund manager. Analyse momentum and correlation patterns.',
+        # Use stock-market listed crypto proxies — Finnhub free supports these
+        # BTC-USD etc. don't work on Finnhub free; use ETFs and mining stocks instead
+        'symbols': ['GBTC','ETHE','BITO','MARA','RIOT','HUT','BITF','CIFR',
+                    'COIN','MSTR','CLSK','BTBT','WGMI','IBIT','FBTC'],
+        'prompt': 'You are a crypto and digital assets fund manager using crypto-proxy stocks and ETFs (GBTC=Bitcoin trust, ETHE=Ethereum trust, BITO=Bitcoin futures ETF, MARA/RIOT/HUT=Bitcoin miners, COIN=Coinbase, MSTR=MicroStrategy). Analyse momentum and crypto market correlation. Be cautious of high volatility.',
     },
     'smallcap': {
         'name': 'AI Small Cap',
-        'symbols': ['MARA','RIOT','HUT','BITF','APPS','PUBM','DV',
-                    'OCGN','MNMD','CMPS','ATAI','TLRY','CGC','NIO','XPEV'],
-        'prompt': 'You are a small-cap specialist. Only buy when Opportunity >75, Confidence >70, Risk <45. Prefer insider-backed setups.',
+        # Actively traded small caps with Finnhub free coverage — removed delisted tickers
+        'symbols': ['MARA','RIOT','CIFR','CLSK','BTBT',
+                    'APPS','PUBM','DV','CREX','SOUN',
+                    'MNMD','CMPS','ATAI','NVAX','SNDL',
+                    'NIO','XPEV','LI','RIVN','LCID',
+                    'TLRY','CGC','ACB','CRON',
+                    'ACMR','AEHR','KRTX','RCKT','VERA'],
+        'prompt': 'You are a small-cap specialist. Only buy when Opportunity >75, Confidence >70, Risk <45. Focus on stocks showing unusual volume, momentum, or catalyst. These are higher risk — be selective.',
     },
 }
 
@@ -595,6 +602,31 @@ def main():
     
     # Save all data
     save_state(state)
+    
+    # Record benchmark prices (SPY, QQQ) for dashboard comparison
+    benchmarks_file = DATA_DIR / 'benchmarks.json'
+    existing_benchmarks = {}
+    if benchmarks_file.exists():
+        try: existing_benchmarks = json.loads(benchmarks_file.read_text())
+        except: pass
+    
+    for bench_sym in ['SPY', 'QQQ']:
+        q = quotes.get(bench_sym)
+        if q:
+            if bench_sym not in existing_benchmarks:
+                # First time seeing this — record as entry price
+                existing_benchmarks[bench_sym] = {
+                    'entryPrice': q['price'],
+                    'entryDate': datetime.now(timezone.utc).strftime('%Y-%m-%d'),
+                    'currentPrice': q['price'],
+                    'currentDate': datetime.now(timezone.utc).isoformat(),
+                }
+            else:
+                # Update current price only
+                existing_benchmarks[bench_sym]['currentPrice'] = q['price']
+                existing_benchmarks[bench_sym]['currentDate'] = datetime.now(timezone.utc).isoformat()
+    
+    benchmarks_file.write_text(json.dumps(existing_benchmarks, indent=2))
     
     (DATA_DIR / 'prices.json').write_text(json.dumps({
         'quotes': quotes,
