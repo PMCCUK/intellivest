@@ -375,23 +375,23 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue)}
 /* ─── Portfolio Detail Modal ─────────────────────────────────────── */
 .pd-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:200;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
 .pd-modal{background:var(--bg2);border:1px solid var(--border);border-radius:12px;width:680px;max-width:96vw;max-height:90vh;overflow:hidden;display:flex;flex-direction:column}
-.pd-header{padding:14px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.pd-header{padding:14px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
 .pd-title{font-size:14px;font-weight:700}
 .pd-close{font-size:18px;cursor:pointer;color:var(--hint);padding:2px 8px;border-radius:4px;background:none;border:none;color:var(--muted)}
 .pd-close:hover{color:var(--text);background:var(--bg3)}
-.pd-body{overflow-y:auto;flex:1}
-.pd-stat-row{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--border)}
+.pd-body{overflow-y:auto;flex:1;min-height:0}
+.pd-stat-row{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--border);flex-shrink:0}
 .pd-stat{padding:10px 12px;text-align:center;border-right:1px solid var(--border)}
 .pd-stat:last-child{border-right:none}
 .pd-stat-val{font-size:16px;font-weight:700;font-variant-numeric:tabular-nums}
 .pd-stat-label{font-size:9px;color:var(--hint);text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
-.pd-period-tabs{display:flex;gap:0;border-bottom:1px solid var(--border)}
+.pd-period-tabs{display:flex;gap:0;border-bottom:1px solid var(--border);flex-shrink:0}
 .pd-period{font-size:11px;font-weight:600;padding:6px 12px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;transition:all .15s}
 .pd-period:hover{color:var(--text)}
 .pd-period.active{color:var(--blue);border-bottom-color:var(--blue)}
-.pd-chart{padding:8px 12px;height:140px;position:relative}
+.pd-chart{padding:8px 12px;height:140px;position:relative;flex-shrink:0}
 .pd-chart-svg{width:100%;height:100%}
-.pd-holdings{padding:0}
+.pd-holdings{padding:0;overflow-y:visible}
 .pd-holding-row{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr 1fr;gap:6px;padding:7px 12px;border-bottom:1px solid var(--border2);font-size:11px;align-items:center;transition:background .12s}
 .pd-holding-row:hover{background:var(--bg3)}
 .pd-holding-row.header{background:var(--bg3);font-size:9px;font-weight:700;color:var(--hint);text-transform:uppercase;letter-spacing:.05em;padding:5px 12px}
@@ -1393,27 +1393,29 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue)}
         <div class="pd-title" id="pdTitle">Portfolio Detail</div>
         <button class="pd-close" onclick="closePD()">✕</button>
       </div>
-      <div class="pd-stat-row" id="pdStats"></div>
-      <div class="pd-period-tabs" id="pdPeriodTabs">
-        <div class="pd-period active" onclick="setPDPeriod('1D',this)">1D</div>
-        <div class="pd-period" onclick="setPDPeriod('1W',this)">1W</div>
-        <div class="pd-period" onclick="setPDPeriod('1M',this)">1M</div>
-        <div class="pd-period" onclick="setPDPeriod('3M',this)">3M</div>
-        <div class="pd-period" onclick="setPDPeriod('1Y',this)">1Y</div>
-        <div class="pd-period" onclick="setPDPeriod('MAX',this)">MAX</div>
-      </div>
-      <div class="pd-chart">
-        <svg class="pd-chart-svg" id="pdChartSVG" viewBox="0 0 640 130" preserveAspectRatio="none"></svg>
-      </div>
-      <div class="pd-holdings">
-        <div class="pd-holding-row header">
-          <div>Holding</div>
-          <div style="text-align:right">Entry</div>
-          <div style="text-align:right">Current</div>
-          <div style="text-align:right">Value</div>
-          <div style="text-align:right">Return</div>
+      <div class="pd-body">
+        <div class="pd-stat-row" id="pdStats"></div>
+        <div class="pd-period-tabs" id="pdPeriodTabs">
+          <div class="pd-period active" onclick="setPDPeriod('1D',this)">1D</div>
+          <div class="pd-period" onclick="setPDPeriod('1W',this)">1W</div>
+          <div class="pd-period" onclick="setPDPeriod('1M',this)">1M</div>
+          <div class="pd-period" onclick="setPDPeriod('3M',this)">3M</div>
+          <div class="pd-period" onclick="setPDPeriod('1Y',this)">1Y</div>
+          <div class="pd-period" onclick="setPDPeriod('MAX',this)">MAX</div>
         </div>
-        <div id="pdHoldingsList"></div>
+        <div class="pd-chart">
+          <svg class="pd-chart-svg" id="pdChartSVG" viewBox="0 0 640 130" preserveAspectRatio="none"></svg>
+        </div>
+        <div class="pd-holdings">
+          <div class="pd-holding-row header">
+            <div>Holding</div>
+            <div style="text-align:right">Entry</div>
+            <div style="text-align:right">Current</div>
+            <div style="text-align:right">Value</div>
+            <div style="text-align:right">Return</div>
+          </div>
+          <div id="pdHoldingsList"></div>
+        </div>
       </div>
     </div>
   </div>
