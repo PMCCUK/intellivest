@@ -2,19 +2,19 @@
   "results": {
     "master": {
       "decisions": [],
-      "assessment": "Market-wide decline across equities and commodities without supporting news provides insufficient clarity for new position entry; maintaining cash reserves for higher conviction opportunities when better risk-reward emerges.",
+      "assessment": "Market showing broad weakness with tech sector under pressure; insufficient confluence of high opportunity (>80), high confidence (>75), and low risk (<40) to justify deployment of capital at this time.",
       "strategy": "master",
       "strategy_name": "AI Master",
-      "timestamp": "2026-06-11T12:17:59.620707+00:00",
+      "timestamp": "2026-06-11T12:25:57.705070+00:00",
       "prices_used": {
+        "AAPL": 291.58,
         "NVDA": 200.42,
+        "AMZN": 238,
         "META": 570.98,
         "JPM": 309.14,
-        "V": 322.96,
         "JNJ": 238.49,
         "XOM": 150.62,
-        "SPY": 725.43,
-        "GLD": 374.58,
+        "QQQ": 693.69,
         "TSLA": 381.59
       }
     },
@@ -22,58 +22,57 @@
       "decisions": [
         {
           "action": "HOLD",
-          "symbol": "SPY",
+          "symbol": "QQQ",
           "qty_pct": 0,
-          "opportunityScore": 45,
-          "riskScore": 55,
-          "confidenceScore": 60,
-          "reasoning": "Broad market down 1.58% without catalyst clarity; insufficient conviction to initiate positions in risk-off environment."
+          "opportunityScore": 65,
+          "riskScore": 45,
+          "confidenceScore": 70,
+          "reasoning": "Tech weakness (-2.00%) presents potential reversal setup but momentum remains negative; awaiting confirmation before entry."
         },
         {
           "action": "HOLD",
-          "symbol": "XLE",
+          "symbol": "USO",
           "qty_pct": 0,
-          "opportunityScore": 62,
-          "riskScore": 48,
+          "opportunityScore": 72,
+          "riskScore": 42,
           "confidenceScore": 68,
-          "reasoning": "Energy outperforming but single-day +1.50% gain lacks confirmation; need stronger momentum signal before entry."
+          "reasoning": "Positive momentum (+2.28%) in energy but insufficient breadth across risk metrics to justify entry without confirmation."
         },
         {
           "action": "HOLD",
-          "symbol": "GLD",
+          "symbol": "XLI",
           "qty_pct": 0,
-          "opportunityScore": 35,
-          "riskScore": 72,
-          "confidenceScore": 50,
-          "reasoning": "Gold down 4.15% suggests risk-off liquidation; sharp drawdown lacks reversal confirmation for trend-following entry."
+          "opportunityScore": 58,
+          "riskScore": 52,
+          "confidenceScore": 62,
+          "reasoning": "Industrials selling off (-3.38%) signals potential capitulation but lacks opportunity threshold and risk remains elevated."
         },
         {
           "action": "HOLD",
-          "symbol": "MSTR",
+          "symbol": "GBTC",
           "qty_pct": 0,
-          "opportunityScore": 52,
-          "riskScore": 65,
-          "confidenceScore": 58,
-          "reasoning": "Crypto proxy down 1.43% in broad selloff; insufficient momentum or conviction for entry without stronger technical setup."
+          "opportunityScore": 60,
+          "riskScore": 48,
+          "confidenceScore": 65,
+          "reasoning": "Crypto proxy showing stability (-0.25%) amid sector weakness but opportunity score insufficient for entry criteria."
         }
       ],
-      "assessment": "Risk-off tape across equities, commodities, and crypto with no clear reversal signals; holding cash until opportunity>80 threshold met on sector or asset rotation.",
+      "assessment": "Broad market weakness across growth and cyclical sectors with isolated strength in commodities; no trades meet momentum entry thresholds; maintain cash and monitor for capitulation reversal signals or sector rotation confirmation.",
       "strategy": "momentum",
       "strategy_name": "AI Momentum",
-      "timestamp": "2026-06-11T12:18:03.925986+00:00",
+      "timestamp": "2026-06-11T12:26:02.585689+00:00",
       "prices_used": {
-        "SPY": 725.43,
+        "QQQ": 693.69,
         "XLK": 176.63,
-        "XLE": 58.25,
-        "GLD": 374.58,
+        "XLV": 152.85,
+        "XLI": 169.66,
         "IWM": 282.05,
-        "VWO": 57.72,
-        "EEM": 64.66,
-        "DBA": 26.33,
-        "MSTR": 115.35
+        "USO": 134.3,
+        "BITO": 8.43,
+        "GBTC": 48.02
       }
     }
   },
   "marketStatus": "pre-market",
-  "runAt": "2026-06-11T12:18:04.428463+00:00"
+  "runAt": "2026-06-11T12:26:03.088205+00:00"
 }
