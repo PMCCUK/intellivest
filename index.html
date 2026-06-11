@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>IntelliVest — AI Investment Intelligence</title>
+<!-- v2.2 portfolio-detail-modal -->
 <style>
 /* ─── Reset & Base ─────────────────────────────────────────────────── */
 *{box-sizing:border-box;margin:0;padding:0}
@@ -371,6 +372,30 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue)}
 .edge-stat{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:10px 12px;text-align:center}
 .edge-stat-val{font-size:18px;font-weight:800;font-variant-numeric:tabular-nums}
 .edge-stat-label{font-size:9px;color:var(--hint);text-transform:uppercase;letter-spacing:.06em;margin-top:3px}
+/* ─── Portfolio Detail Modal ─────────────────────────────────────── */
+.pd-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:200;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.pd-modal{background:var(--bg2);border:1px solid var(--border);border-radius:12px;width:680px;max-width:96vw;max-height:90vh;overflow:hidden;display:flex;flex-direction:column}
+.pd-header{padding:14px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.pd-title{font-size:14px;font-weight:700}
+.pd-close{font-size:18px;cursor:pointer;color:var(--hint);padding:2px 8px;border-radius:4px;background:none;border:none;color:var(--muted)}
+.pd-close:hover{color:var(--text);background:var(--bg3)}
+.pd-body{overflow-y:auto;flex:1}
+.pd-stat-row{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--border)}
+.pd-stat{padding:10px 12px;text-align:center;border-right:1px solid var(--border)}
+.pd-stat:last-child{border-right:none}
+.pd-stat-val{font-size:16px;font-weight:700;font-variant-numeric:tabular-nums}
+.pd-stat-label{font-size:9px;color:var(--hint);text-transform:uppercase;letter-spacing:.06em;margin-top:2px}
+.pd-period-tabs{display:flex;gap:0;border-bottom:1px solid var(--border)}
+.pd-period{font-size:11px;font-weight:600;padding:6px 12px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;transition:all .15s}
+.pd-period:hover{color:var(--text)}
+.pd-period.active{color:var(--blue);border-bottom-color:var(--blue)}
+.pd-chart{padding:8px 12px;height:140px;position:relative}
+.pd-chart-svg{width:100%;height:100%}
+.pd-holdings{padding:0}
+.pd-holding-row{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr 1fr;gap:6px;padding:7px 12px;border-bottom:1px solid var(--border2);font-size:11px;align-items:center;transition:background .12s}
+.pd-holding-row:hover{background:var(--bg3)}
+.pd-holding-row.header{background:var(--bg3);font-size:9px;font-weight:700;color:var(--hint);text-transform:uppercase;letter-spacing:.05em;padding:5px 12px}
+.pd-bar{height:4px;border-radius:2px;background:var(--blue);margin-top:3px}
 /* ─── Settings ───────────────────────────────────────────────────── */
 .settings-group{margin-bottom:18px}
 .settings-label{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
@@ -1357,6 +1382,38 @@ input:focus,select:focus,textarea:focus{border-color:var(--blue)}
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Detail Modal -->
+  <div id="pdOverlay" class="pd-overlay" style="display:none" onclick="if(event.target===this)closePD()">
+    <div class="pd-modal">
+      <div class="pd-header">
+        <div class="pd-title" id="pdTitle">Portfolio Detail</div>
+        <button class="pd-close" onclick="closePD()">✕</button>
+      </div>
+      <div class="pd-stat-row" id="pdStats"></div>
+      <div class="pd-period-tabs" id="pdPeriodTabs">
+        <div class="pd-period active" onclick="setPDPeriod('1D',this)">1D</div>
+        <div class="pd-period" onclick="setPDPeriod('1W',this)">1W</div>
+        <div class="pd-period" onclick="setPDPeriod('1M',this)">1M</div>
+        <div class="pd-period" onclick="setPDPeriod('3M',this)">3M</div>
+        <div class="pd-period" onclick="setPDPeriod('1Y',this)">1Y</div>
+        <div class="pd-period" onclick="setPDPeriod('MAX',this)">MAX</div>
+      </div>
+      <div class="pd-chart">
+        <svg class="pd-chart-svg" id="pdChartSVG" viewBox="0 0 640 130" preserveAspectRatio="none"></svg>
+      </div>
+      <div class="pd-holdings">
+        <div class="pd-holding-row header">
+          <div>Holding</div>
+          <div style="text-align:right">Entry</div>
+          <div style="text-align:right">Current</div>
+          <div style="text-align:right">Value</div>
+          <div style="text-align:right">Return</div>
+        </div>
+        <div id="pdHoldingsList"></div>
       </div>
     </div>
   </div>
@@ -3322,17 +3379,24 @@ async function arenaRefreshPrices() {
 function arenaExecuteTrade(portfolio, action, symbol, qty, price, reason, aiScores) {
   const now = Date.now()
   if (action === 'BUY') {
+    qty = Math.floor(qty)  // Always whole shares
+    if (qty < 1) { arenaLog(portfolio.id, `${symbol}: qty rounds to 0, skipping`); return }
     const cost = qty * price
     if (cost > portfolio.balance) {
       qty = Math.floor(portfolio.balance / price)
-      if (qty <= 0) { arenaLog(portfolio.id, `${symbol}: Insufficient balance to buy`); return }
+      if (qty < 1) { arenaLog(portfolio.id, `${symbol}: Insufficient balance to buy`); return }
     }
     const existing = portfolio.positions.find(p => p.symbol === symbol)
     if (existing) {
-      existing.qty += qty
+      existing.qty = Math.floor(existing.qty) + qty
       existing.entryPrice = (existing.entryPrice * (existing.qty - qty) + price * qty) / existing.qty
     } else {
-      portfolio.positions.push({ id: now.toString(), symbol, qty, entryPrice: price, currentPrice: price, entryTs: now, aiScores: aiScores || null, reason })
+      portfolio.positions.push({
+        id: now.toString(), symbol, qty,
+        entryPrice: price, currentPrice: price,
+        entryTs: now,  // Always record timestamp
+        aiScores: aiScores || null, reason
+      })
     }
     portfolio.balance -= qty * price
     arenaLog(portfolio.id, `BUY ${qty}× ${symbol} @ £${fmtPrice(price)} — ${reason}`)
@@ -3548,19 +3612,29 @@ function renderArenaPortfolioGrid() {
   const cards = Object.values(ARENA.portfolios).map(p => {
     const isBench = p.type === 'bench'
     const ret = isBench ? arenaBenchReturn(p) : arenaPortfolioReturn(p)
-    const value = isBench ? (ret !== null ? ARENA.startingBalance * (1 + ret/100) : ARENA.startingBalance) : arenaPortfolioValue(p)
+    const value = isBench ? (ret !== null ? (p.startingBalance||ARENA.startingBalance) * (1 + ret/100) : (p.startingBalance||ARENA.startingBalance)) : arenaPortfolioValue(p)
     const retPct = isBench ? (ret !== null ? ret : 0) : (ret ? ret.retPct : 0)
-    const retAbs = isBench ? value - ARENA.startingBalance : (ret ? ret.ret : 0)
     const typeClass = p.id === 'human' ? 'human' : p.id === 'aimaster' ? 'ai-master' : p.type === 'bench' ? 'benchmark' : p.id === 'aiGrowth' ? 'ai-growth' : p.id === 'aiValue' ? 'ai-value' : 'ai-momentum'
     const badge = p.type === 'human' ? '<span class="pc-badge badge-live">MANUAL</span>' : p.type === 'bench' ? '<span class="pc-badge badge-bench">BENCH</span>' : '<span class="pc-badge badge-auto">AUTO</span>'
     const col = retPct >= 0 ? 'var(--green)' : 'var(--red)'
-    return `<div class="portfolio-card ${typeClass}">
+
+    // Top 3 holdings for breakdown preview
+    const topHoldings = p.positions.slice(0,3).map(pos => {
+      const cur = parseFloat(ARENA.currentPrices[pos.symbol] || pos.entryPrice) || 0
+      const ep = parseFloat(pos.entryPrice) || 0
+      const pct = ep > 0 ? ((cur - ep) / ep * 100) : 0
+      const pc = pct >= 0 ? 'var(--green)' : 'var(--red)'
+      return `<span style="font-size:9px;color:${pc}" title="${pos.symbol}: ${pct>=0?'+':''}${pct.toFixed(1)}%">${pos.symbol} <span style="color:${pc}">${pct>=0?'+':''}${pct.toFixed(1)}%</span></span>`
+    }).join('<span style="color:var(--border);margin:0 2px">·</span>')
+
+    return `<div class="portfolio-card ${typeClass}" onclick="openPortfolioDetail('${p.id}')" style="cursor:pointer" title="Click for full breakdown">
       ${badge}
       <div class="pc-label" style="color:${p.color}">● ${p.type === 'ai' ? 'AI · ' + (AI_STRATEGIES[p.strategy]?.name||p.name) : p.type === 'bench' ? 'Benchmark' : 'Human'}</div>
       <div class="pc-name">${p.name}</div>
       <div class="pc-value" style="color:${col}">£${Math.round(value).toLocaleString()}</div>
       <div class="pc-return" style="color:${col}">${retPct >= 0 ? '+' : ''}${retPct.toFixed(2)}%</div>
       <div class="pc-sub">${p.type !== 'bench' ? `${p.positions.length} positions · ${p.trades.length} trades` : (p.entryPrice ? `Entry £${fmtPrice(p.entryPrice)}` : 'Awaiting data')}</div>
+      ${topHoldings ? `<div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:5px">${topHoldings}</div>` : ''}
     </div>`
   }).join('')
   grid.innerHTML = cards
@@ -4661,7 +4735,259 @@ function enableEdgeLabBtn() {
 }
 
 // ════════════════════════════════════════════════════════════════════
-// GITHUB PERSISTENT DATA SYNC
+// PORTFOLIO DETAIL MODAL
+// ════════════════════════════════════════════════════════════════════
+
+let PD = { portfolioId: null, period: '1D' }
+
+function openPortfolioDetail(portfolioId) {
+  PD.portfolioId = portfolioId
+  PD.period = 'MAX'
+  const p = ARENA.portfolios[portfolioId]
+  if (!p) return
+
+  const overlay = document.getElementById('pdOverlay')
+  if (!overlay) return
+
+  // Title
+  const isBench = p.type === 'bench'
+  document.getElementById('pdTitle').innerHTML =
+    `<span style="color:${p.color}">●</span> ${p.name} — Full Breakdown`
+
+  // Stats
+  renderPDStats(p)
+
+  // Chart
+  document.querySelectorAll('.pd-period').forEach(t => t.classList.remove('active'))
+  document.querySelectorAll('.pd-period')[5].classList.add('active') // MAX
+  renderPDChart(p, 'MAX')
+
+  // Holdings
+  renderPDHoldings(p)
+
+  overlay.style.display = 'flex'
+}
+
+function closePD() {
+  document.getElementById('pdOverlay').style.display = 'none'
+}
+
+function setPDPeriod(period, el) {
+  PD.period = period
+  document.querySelectorAll('.pd-period').forEach(t => t.classList.remove('active'))
+  if (el) el.classList.add('active')
+  const p = ARENA.portfolios[PD.portfolioId]
+  if (p) renderPDChart(p, period)
+}
+
+function renderPDStats(p) {
+  const el = document.getElementById('pdStats')
+  if (!el) return
+
+  const isBench = p.type === 'bench'
+  const value = isBench
+    ? (p.entryPrice && p.currentPrice ? (p.startingBalance||ARENA.startingBalance) * (p.currentPrice / p.entryPrice) : (p.startingBalance||ARENA.startingBalance))
+    : arenaPortfolioValue(p)
+  const startBal = p.startingBalance || ARENA.startingBalance
+  const retAbs = value - startBal
+  const retPct = (retAbs / startBal) * 100
+  const col = retPct >= 0 ? 'var(--green)' : 'var(--red)'
+
+  // Unrealised P&L for non-bench
+  const unrealised = isBench ? null : p.positions.reduce((s, pos) => {
+    const cur = parseFloat(ARENA.currentPrices[pos.symbol] || pos.entryPrice) || 0
+    const ep = parseFloat(pos.entryPrice) || 0
+    return s + (cur - ep) * (parseInt(pos.qty) || 0)
+  }, 0)
+
+  const realised = p.trades.reduce((s, t) => s + (parseFloat(t.pnl) || 0), 0)
+  const wr = arenaWinRate(p)
+  const dd = arenaMaxDrawdown(p)
+
+  el.innerHTML = `
+    <div class="pd-stat">
+      <div class="pd-stat-val" style="color:${col}">£${Math.round(value).toLocaleString()}</div>
+      <div class="pd-stat-label">Total Value</div>
+    </div>
+    <div class="pd-stat">
+      <div class="pd-stat-val" style="color:${col}">${retPct>=0?'+':''}${retPct.toFixed(2)}%</div>
+      <div class="pd-stat-label">Total Return</div>
+    </div>
+    <div class="pd-stat">
+      <div class="pd-stat-val" style="color:${unrealised!=null?(unrealised>=0?'var(--green)':'var(--red)'):'var(--hint)'}">
+        ${unrealised!=null?(unrealised>=0?'+':'')+'£'+Math.abs(unrealised).toFixed(0):'—'}
+      </div>
+      <div class="pd-stat-label">Unrealised P&L</div>
+    </div>
+    <div class="pd-stat">
+      <div class="pd-stat-val" style="color:${realised>=0?'var(--green)':'var(--red)'}">
+        ${realised>=0?'+':''}£${Math.abs(realised).toFixed(0)}
+      </div>
+      <div class="pd-stat-label">Realised P&L</div>
+    </div>
+    <div class="pd-stat">
+      <div class="pd-stat-val">${p.positions.length}</div>
+      <div class="pd-stat-label">Open Positions</div>
+    </div>
+    <div class="pd-stat">
+      <div class="pd-stat-val">${p.trades.length}</div>
+      <div class="pd-stat-label">Closed Trades</div>
+    </div>
+    <div class="pd-stat">
+      <div class="pd-stat-val" style="color:${wr!=null?(wr>=50?'var(--green)':'var(--red)'):'var(--hint)'}">
+        ${wr!=null?wr.toFixed(0)+'%':'—'}
+      </div>
+      <div class="pd-stat-label">Win Rate</div>
+    </div>
+    <div class="pd-stat">
+      <div class="pd-stat-val" style="color:${dd>10?'var(--red)':dd>5?'var(--amber)':'var(--green)'}">
+        ${dd>0?'-'+dd.toFixed(1)+'%':'—'}
+      </div>
+      <div class="pd-stat-label">Max Drawdown</div>
+    </div>`
+}
+
+function renderPDChart(p, period) {
+  const svg = document.getElementById('pdChartSVG')
+  if (!svg) return
+
+  let hist = [...(p.history || [])]
+  if (!hist.length) {
+    svg.innerHTML = `<text x="320" y="65" text-anchor="middle" font-size="11" fill="var(--hint)">Not enough history yet — check back after a few trading days</text>`
+    return
+  }
+
+  // Filter by period
+  const now = new Date()
+  const cutoffs = {
+    '1D': new Date(now - 1 * 86400000),
+    '1W': new Date(now - 7 * 86400000),
+    '1M': new Date(now - 30 * 86400000),
+    '3M': new Date(now - 90 * 86400000),
+    '1Y': new Date(now - 365 * 86400000),
+    'MAX': new Date(0),
+  }
+  const cutoff = cutoffs[period] || new Date(0)
+  const filtered = hist.filter(h => new Date(h.date) >= cutoff)
+  const points = filtered.length >= 2 ? filtered : hist
+
+  if (points.length < 2) {
+    svg.innerHTML = `<text x="320" y="65" text-anchor="middle" font-size="11" fill="var(--hint)">Only ${points.length} data point${points.length===1?'':'s'} — more history needed</text>`
+    return
+  }
+
+  const vals = points.map(h => parseFloat(h.value) || 0)
+  const minV = Math.min(...vals) * 0.998
+  const maxV = Math.max(...vals) * 1.002
+  const range = maxV - minV || 1
+
+  const pathPoints = points.map((h, i) => {
+    const x = (i / (points.length - 1)) * 620 + 10
+    const y = 120 - ((parseFloat(h.value) - minV) / range) * 110
+    return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`
+  })
+
+  const firstVal = parseFloat(points[0].value) || 0
+  const lastVal  = parseFloat(points[points.length-1].value) || 0
+  const isUp = lastVal >= firstVal
+  const lineCol = isUp ? 'var(--green)' : 'var(--red)'
+
+  // Area fill
+  const areaPoints = pathPoints.join(' ') + ` L${(620+10).toFixed(1)},120 L10,120 Z`
+  const fillCol = isUp ? 'rgba(63,185,80,0.1)' : 'rgba(248,81,73,0.1)'
+
+  // Labels
+  const startLabel = `£${Math.round(firstVal).toLocaleString()}`
+  const endLabel   = `£${Math.round(lastVal).toLocaleString()}`
+  const retPct = firstVal > 0 ? ((lastVal - firstVal) / firstVal * 100) : 0
+
+  svg.innerHTML = `
+    <defs>
+      <linearGradient id="pdGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="${lineCol}" stop-opacity="0.15"/>
+        <stop offset="100%" stop-color="${lineCol}" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <path d="${areaPoints}" fill="url(#pdGrad)" stroke="none"/>
+    <path d="${pathPoints.join(' ')}" fill="none" stroke="${lineCol}" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="14" y="128" font-size="9" fill="var(--hint)">${startLabel}</text>
+    <text x="626" y="128" font-size="9" fill="${lineCol}" text-anchor="end">${endLabel}</text>
+    <text x="320" y="14" font-size="10" fill="${lineCol}" text-anchor="middle" font-weight="700">${retPct>=0?'+':''}${retPct.toFixed(2)}% over ${period}</text>
+    <line x1="10" y1="120" x2="630" y2="120" stroke="var(--border)" stroke-width="0.5"/>
+  `
+}
+
+function renderPDHoldings(p) {
+  const el = document.getElementById('pdHoldingsList')
+  if (!el) return
+
+  if (p.type === 'bench') {
+    el.innerHTML = `<div style="padding:14px 12px;font-size:11px;color:var(--hint)">Benchmark — tracks ${p.id === 'spy' ? 'S&P 500 (SPY)' : 'NASDAQ 100 (QQQ)'}.<br>Entry: £${fmtPrice(p.entryPrice)} · Current: £${fmtPrice(p.currentPrice)}</div>`
+    return
+  }
+
+  const totalValue = arenaPortfolioValue(p)
+
+  // Active positions
+  const posHTML = p.positions.length ? p.positions.map(pos => {
+    const cur = parseFloat(ARENA.currentPrices[pos.symbol] || pos.entryPrice) || 0
+    const ep = parseFloat(pos.entryPrice) || 0
+    const qty = parseInt(pos.qty) || 0
+    const posVal = cur * qty
+    const pnl = (cur - ep) * qty
+    const pct = ep > 0 ? ((cur - ep) / ep * 100) : 0
+    const alloc = totalValue > 0 ? (posVal / totalValue * 100) : 0
+    const col = pct >= 0 ? 'var(--green)' : 'var(--red)'
+    const heldDays = pos.entryTs ? Math.round((Date.now() - pos.entryTs) / 86400000) : 0
+
+    return `<div class="pd-holding-row">
+      <div>
+        <div style="font-weight:700;font-size:12px;color:var(--blue)">${pos.symbol}</div>
+        <div style="font-size:9px;color:var(--hint)">${qty} shares · ${heldDays}d held</div>
+        <div class="pd-bar" style="width:${Math.min(alloc*2,100)}%;background:${col}"></div>
+        <div style="font-size:9px;color:var(--hint)">${alloc.toFixed(1)}% of portfolio</div>
+      </div>
+      <div style="text-align:right;font-variant-numeric:tabular-nums">£${fmtPrice(ep)}</div>
+      <div style="text-align:right;color:${col};font-variant-numeric:tabular-nums">£${fmtPrice(cur)}</div>
+      <div style="text-align:right;font-variant-numeric:tabular-nums">£${Math.round(posVal).toLocaleString()}</div>
+      <div style="text-align:right;color:${col};font-variant-numeric:tabular-nums">
+        ${pct>=0?'+':''}${pct.toFixed(2)}%<br>
+        <span style="font-size:9px">${pnl>=0?'+':''}£${Math.abs(pnl).toFixed(0)}</span>
+      </div>
+    </div>`
+  }).join('') : ''
+
+  // Cash row
+  const cashPct = totalValue > 0 ? (p.balance / totalValue * 100) : 100
+  const cashRow = `<div class="pd-holding-row" style="background:rgba(255,255,255,.02)">
+    <div>
+      <div style="font-weight:700;font-size:12px;color:var(--muted)">💵 Cash</div>
+      <div style="font-size:9px;color:var(--hint)">Available to invest</div>
+      <div class="pd-bar" style="width:${Math.min(cashPct*2,100)}%;background:var(--muted)"></div>
+      <div style="font-size:9px;color:var(--hint)">${cashPct.toFixed(1)}% of portfolio</div>
+    </div>
+    <div style="text-align:right">—</div>
+    <div style="text-align:right">—</div>
+    <div style="text-align:right;font-variant-numeric:tabular-nums">£${Math.round(p.balance).toLocaleString()}</div>
+    <div style="text-align:right;color:var(--hint)">—</div>
+  </div>`
+
+  // Recent closed trades
+  const recentTrades = p.trades.length ? `
+    <div style="padding:8px 12px 4px;font-size:10px;font-weight:600;color:var(--hint);text-transform:uppercase;letter-spacing:.06em;border-top:1px solid var(--border)">Recent closed trades</div>
+    ${[...p.trades].reverse().slice(0,5).map(t => {
+      const col = (t.pnl||0) >= 0 ? 'var(--green)' : 'var(--red)'
+      return `<div class="pd-holding-row">
+        <div><div style="font-weight:700;font-size:12px;color:var(--muted)">${t.symbol}</div><div style="font-size:9px;color:var(--hint)">${new Date(t.exitTs||Date.now()).toLocaleDateString()}</div></div>
+        <div style="text-align:right">£${fmtPrice(t.entryPrice)}</div>
+        <div style="text-align:right">£${fmtPrice(t.exitPrice)}</div>
+        <div style="text-align:right">${t.qty} shares</div>
+        <div style="text-align:right;color:${col}">${(t.pnlPct||0)>=0?'+':''}${(t.pnlPct||0).toFixed(2)}%</div>
+      </div>`
+    }).join('')}` : ''
+
+  el.innerHTML = posHTML + cashRow + recentTrades
+}
 // When running on GitHub Pages, reads AI results from data/*.json
 // Falls back to localStorage when running locally
 // ════════════════════════════════════════════════════════════════════
