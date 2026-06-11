@@ -1,7 +1,7 @@
 {
   "portfolios": {
     "master": {
-      "balance": 72666.4,
+      "balance": 63386.12999999999,
       "positions": {
         "MSFT": {
           "qty": 11,
@@ -25,7 +25,7 @@
             "conf": 76
           },
           "reason": "Visa up 1.06% showing defensive strength; resilient payments network with lower correlation to tech volatility provides portfolio stability.",
-          "currentPrice": 325.05
+          "currentPrice": 322.79
         },
         "JPM": {
           "qty": 12,
@@ -37,7 +37,7 @@
             "conf": 75
           },
           "reason": "Financial sector outperformer (+0.48%) with sector tailwinds from higher rates; diversifies away from concentrated tech exposure and offers dividend support.",
-          "currentPrice": 312.7
+          "currentPrice": 310.98
         },
         "AMD": {
           "qty": 6,
@@ -85,7 +85,7 @@
             "conf": 77
           },
           "reason": "Only mega-cap with positive momentum (+0.26%) despite sector selloff; AI leadership justifies defensive core holding at reduced valuation.",
-          "currentPrice": 364.26
+          "currentPrice": 351.91
         },
         "JNJ": {
           "qty": 21,
@@ -97,7 +97,31 @@
             "conf": 76
           },
           "reason": "Healthcare defensive play gaining +2.08% amid market weakness; pharmaceutical dividend yield and stability attractive in uncertain macro environment.",
-          "currentPrice": 237
+          "currentPrice": 239.76
+        },
+        "AVGO": {
+          "qty": 13,
+          "entryPrice": 377.89,
+          "entryTs": "2026-06-11T13:40:06.772551+00:00",
+          "aiScores": {
+            "opp": 82,
+            "risk": 38,
+            "conf": 78
+          },
+          "reason": "Strong momentum (+1.56%) with semiconductor sector tailwinds and attractive risk-reward profile meets all buy criteria.",
+          "currentPrice": 377.89
+        },
+        "SPY": {
+          "qty": 6,
+          "entryPrice": 727.95,
+          "entryTs": "2026-06-11T13:40:06.772577+00:00",
+          "aiScores": {
+            "opp": 80,
+            "risk": 35,
+            "conf": 77
+          },
+          "reason": "Broad market index with positive momentum provides diversification and systematic exposure at lower volatility than single names.",
+          "currentPrice": 727.95
         }
       },
       "trades": [],
@@ -113,11 +137,15 @@
         {
           "date": "2026-06-10",
           "value": 99941.72
+        },
+        {
+          "date": "2026-06-11",
+          "value": 99908.42
         }
       ]
     },
     "momentum": {
-      "balance": 93447.84999999999,
+      "balance": 78626.88999999998,
       "positions": {
         "QQQ": {
           "qty": 5,
@@ -141,7 +169,43 @@
             "conf": 76
           },
           "reason": "Emerging markets accelerating (+2.24%) as global growth expectations improve; SNB rate cut signals accommodative policy environment.",
-          "currentPrice": 64.66
+          "currentPrice": 65.44
+        },
+        "XLI": {
+          "qty": 29,
+          "entryPrice": 171.65,
+          "entryTs": "2026-06-11T13:40:20.073858+00:00",
+          "aiScores": {
+            "opp": 82,
+            "risk": 38,
+            "conf": 78
+          },
+          "reason": "Industrials showing strongest momentum (+1.17%) with positive trend-following signal; cyclical exposure aligns with sector rotation into economically-sensitive assets.",
+          "currentPrice": 171.65
+        },
+        "IWM": {
+          "qty": 17,
+          "entryPrice": 285.13,
+          "entryTs": "2026-06-11T13:40:20.073902+00:00",
+          "aiScores": {
+            "opp": 81,
+            "risk": 39,
+            "conf": 76
+          },
+          "reason": "Small-cap Russell 2000 outperforming (+1.09%) with domestic growth bias; momentum breakout pattern favors risk-on positioning.",
+          "currentPrice": 285.13
+        },
+        "BITO": {
+          "qty": 585,
+          "entryPrice": 8.54,
+          "entryTs": "2026-06-11T13:40:20.073914+00:00",
+          "aiScores": {
+            "opp": 83,
+            "risk": 37,
+            "conf": 79
+          },
+          "reason": "Bitcoin proxy leading session (+1.30%) signaling crypto momentum revival; institutional exposure through futures ETF reduces custody risk.",
+          "currentPrice": 8.54
         }
       },
       "trades": [],
@@ -160,7 +224,7 @@
         },
         {
           "date": "2026-06-11",
-          "value": 99888.1
+          "value": 99973.0
         }
       ]
     },
@@ -277,7 +341,7 @@
             "conf": 78
           },
           "reason": "FTSE 100 energy anchor up +1.83% with defensive yield; energy repricing reflects geopolitical tensions and energy security concerns supporting oil majors.",
-          "currentPrice": 85.43
+          "currentPrice": 87.63
         },
         "AZN": {
           "qty": 27,
@@ -289,7 +353,7 @@
             "conf": 78
           },
           "reason": "Astrazeneca showing positive momentum (+1.04%) with defensive pharma profile; positioned for long-term growth in oncology and cardiovascular pipelines.",
-          "currentPrice": 183.43
+          "currentPrice": 181.18
         },
         "GSK": {
           "qty": 78,
@@ -301,7 +365,7 @@
             "conf": 76
           },
           "reason": "GlaxoSmithKline posting solid gains (+1.20%) with diversified vaccine and specialty pharma portfolio; defensive dividend yield attractive.",
-          "currentPrice": 51.25
+          "currentPrice": 52.31
         }
       },
       "trades": [],
@@ -313,17 +377,50 @@
         {
           "date": "2026-06-09",
           "value": 100019.93
+        },
+        {
+          "date": "2026-06-11",
+          "value": 100052.08
         }
       ]
     },
     "crypto": {
-      "balance": 100000,
-      "positions": {},
+      "balance": 94056.34000000001,
+      "positions": {
+        "IBIT": {
+          "qty": 84,
+          "entryPrice": 35.6,
+          "entryTs": "2026-06-11T13:40:34.774416+00:00",
+          "aiScores": {
+            "opp": 82,
+            "risk": 35,
+            "conf": 78
+          },
+          "reason": "IBIT shows strongest spot Bitcoin ETF momentum at +1.48% with lower volatility profile than futures; direct Bitcoin exposure with institutional-grade structure.",
+          "currentPrice": 35.6
+        },
+        "FBTC": {
+          "qty": 54,
+          "entryPrice": 54.69,
+          "entryTs": "2026-06-11T13:40:34.774441+00:00",
+          "aiScores": {
+            "opp": 81,
+            "risk": 36,
+            "conf": 77
+          },
+          "reason": "FBTC demonstrates consistent Bitcoin exposure at +1.50% with high fund inflows; complementary spot Bitcoin holding to IBIT for diversified proxy access.",
+          "currentPrice": 54.69
+        }
+      },
       "trades": [],
       "history": [
         {
           "date": "2026-06-08",
           "value": 100000
+        },
+        {
+          "date": "2026-06-11",
+          "value": 100000.0
         }
       ]
     },
@@ -398,9 +495,118 @@
           "value": 100000.0
         }
       ]
+    },
+    "smallcap": {
+      "balance": 100000,
+      "positions": {},
+      "trades": [],
+      "history": [
+        {
+          "date": "2026-06-11",
+          "value": 100000
+        }
+      ]
     }
   },
   "recommendations": [
+    {
+      "id": "1781185234.774447FBTC",
+      "symbol": "FBTC",
+      "strategy": "crypto",
+      "ts": "2026-06-11T13:40:34.774449+00:00",
+      "entryPrice": 54.69,
+      "oppScore": 81,
+      "riskScore": 36,
+      "confScore": 77,
+      "reasoning": "FBTC demonstrates consistent Bitcoin exposure at +1.50% with high fund inflows; complementary spot Bitcoin holding to IBIT for diversified proxy access.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781185234.774429IBIT",
+      "symbol": "IBIT",
+      "strategy": "crypto",
+      "ts": "2026-06-11T13:40:34.774435+00:00",
+      "entryPrice": 35.6,
+      "oppScore": 82,
+      "riskScore": 35,
+      "confScore": 78,
+      "reasoning": "IBIT shows strongest spot Bitcoin ETF momentum at +1.48% with lower volatility profile than futures; direct Bitcoin exposure with institutional-grade structure.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781185220.07392BITO",
+      "symbol": "BITO",
+      "strategy": "momentum",
+      "ts": "2026-06-11T13:40:20.073922+00:00",
+      "entryPrice": 8.54,
+      "oppScore": 83,
+      "riskScore": 37,
+      "confScore": 79,
+      "reasoning": "Bitcoin proxy leading session (+1.30%) signaling crypto momentum revival; institutional exposure through futures ETF reduces custody risk.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781185220.073908IWM",
+      "symbol": "IWM",
+      "strategy": "momentum",
+      "ts": "2026-06-11T13:40:20.073910+00:00",
+      "entryPrice": 285.13,
+      "oppScore": 81,
+      "riskScore": 39,
+      "confScore": 76,
+      "reasoning": "Small-cap Russell 2000 outperforming (+1.09%) with domestic growth bias; momentum breakout pattern favors risk-on positioning.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781185220.073888XLI",
+      "symbol": "XLI",
+      "strategy": "momentum",
+      "ts": "2026-06-11T13:40:20.073895+00:00",
+      "entryPrice": 171.65,
+      "oppScore": 82,
+      "riskScore": 38,
+      "confScore": 78,
+      "reasoning": "Industrials showing strongest momentum (+1.17%) with positive trend-following signal; cyclical exposure aligns with sector rotation into economically-sensitive assets.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781185206.772583SPY",
+      "symbol": "SPY",
+      "strategy": "master",
+      "ts": "2026-06-11T13:40:06.772586+00:00",
+      "entryPrice": 727.95,
+      "oppScore": 80,
+      "riskScore": 35,
+      "confScore": 77,
+      "reasoning": "Broad market index with positive momentum provides diversification and systematic exposure at lower volatility than single names.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781185206.772564AVGO",
+      "symbol": "AVGO",
+      "strategy": "master",
+      "ts": "2026-06-11T13:40:06.772570+00:00",
+      "entryPrice": 377.89,
+      "oppScore": 82,
+      "riskScore": 38,
+      "confScore": 78,
+      "reasoning": "Strong momentum (+1.56%) with semiconductor sector tailwinds and attractive risk-reward profile meets all buy criteria.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
     {
       "id": "1781089663.123633JNJ",
       "symbol": "JNJ",
@@ -425,7 +631,7 @@
       "riskScore": 36,
       "confScore": 76,
       "reasoning": "GlaxoSmithKline posting solid gains (+1.20%) with diversified vaccine and specialty pharma portfolio; defensive dividend yield attractive.",
-      "perf1d": null,
+      "perf1d": 2.07,
       "perf7d": null,
       "perf30d": null
     },
@@ -523,7 +729,7 @@
       "riskScore": 36,
       "confScore": 77,
       "reasoning": "Positive momentum (+0.26%) among mega-cap tech; diversified AI exposure with solid balance sheet and revenue diversity.",
-      "perf1d": null,
+      "perf1d": -3.39,
       "perf7d": null,
       "perf30d": null
     },
@@ -551,7 +757,7 @@
       "riskScore": 36,
       "confScore": 77,
       "reasoning": "Only mega-cap with positive momentum (+0.26%) despite sector selloff; AI leadership justifies defensive core holding at reduced valuation.",
-      "perf1d": null,
+      "perf1d": -3.39,
       "perf7d": null,
       "perf30d": null
     },
@@ -754,6 +960,41 @@
   ],
   "aiTradeLog": [
     {
+      "ts": "2026-06-11T13:40:06.772561+00:00",
+      "portfolio": "master",
+      "msg": "BUY 13\u00d7 AVGO @ \u00a3377.89 \u2014 Strong momentum (+1.56%) with semiconductor sector tailwinds and attractive risk-reward profile meets all buy criteria."
+    },
+    {
+      "ts": "2026-06-11T13:40:06.772582+00:00",
+      "portfolio": "master",
+      "msg": "BUY 6\u00d7 SPY @ \u00a3727.95 \u2014 Broad market index with positive momentum provides diversification and systematic exposure at lower volatility than single names."
+    },
+    {
+      "ts": "2026-06-11T13:40:20.073869+00:00",
+      "portfolio": "momentum",
+      "msg": "BUY 29\u00d7 XLI @ \u00a3171.65 \u2014 Industrials showing strongest momentum (+1.17%) with positive trend-following signal; cyclical exposure aligns with sector rotation into economically-sensitive assets."
+    },
+    {
+      "ts": "2026-06-11T13:40:20.073906+00:00",
+      "portfolio": "momentum",
+      "msg": "BUY 17\u00d7 IWM @ \u00a3285.13 \u2014 Small-cap Russell 2000 outperforming (+1.09%) with domestic growth bias; momentum breakout pattern favors risk-on positioning."
+    },
+    {
+      "ts": "2026-06-11T13:40:20.073918+00:00",
+      "portfolio": "momentum",
+      "msg": "BUY 585\u00d7 BITO @ \u00a38.54 \u2014 Bitcoin proxy leading session (+1.30%) signaling crypto momentum revival; institutional exposure through futures ETF reduces custody risk."
+    },
+    {
+      "ts": "2026-06-11T13:40:34.774427+00:00",
+      "portfolio": "crypto",
+      "msg": "BUY 84\u00d7 IBIT @ \u00a335.60 \u2014 IBIT shows strongest spot Bitcoin ETF momentum at +1.48% with lower volatility profile than futures; direct Bitcoin exposure with institutional-grade structure."
+    },
+    {
+      "ts": "2026-06-11T13:40:34.774446+00:00",
+      "portfolio": "crypto",
+      "msg": "BUY 54\u00d7 FBTC @ \u00a354.69 \u2014 FBTC demonstrates consistent Bitcoin exposure at +1.50% with high fund inflows; complementary spot Bitcoin holding to IBIT for diversified proxy access."
+    },
+    {
       "ts": "2026-06-10T11:07:43.123631+00:00",
       "portfolio": "master",
       "msg": "BUY 21\u00d7 JNJ @ \u00a3237.00 \u2014 Healthcare defensive play gaining +2.08% amid market weakness; pharmaceutical dividend yield and stability attractive in uncertain macro environment."
@@ -880,5 +1121,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-06-11T12:26:03.085966+00:00"
+  "lastRun": "2026-06-11T13:40:41.451156+00:00"
 }
