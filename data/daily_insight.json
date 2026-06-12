@@ -1,171 +1,174 @@
 {
-  "marketSummary": "U.S. equities declined across the board this morning, with the Dow Jones Industrial Average (DIA) leading losses at -1.80%, followed by the S&P 500 (SPY) at -1.58%, while small-caps (IWM) showed relative resilience at -1.04%. Precious metals faced significant headwinds, with gold (GLD) dropping 4.15%, suggesting a shift toward risk-on sentiment or strengthening U.S. dollar dynamics. Without material news catalysts, today's selloff appears to reflect broader macro concerns or profit-taking ahead of potential economic data releases.",
+  "marketSummary": "Markets showed mixed bullish momentum this morning with small-caps (IWM +2.96%) and precious metals (GLD +3.13%) leading gains, while blue-chips (DIA +1.82%) and bonds (TLT +1.30%) posted moderate advances. Central bank action from the SNB and upcoming BoE decisions are creating currency volatility and policy uncertainty. Manufacturing weakness in Germany's services sector signals potential headwinds for European growth despite resilient equity markets.",
   "topOpportunities": [
     {
       "symbol": "IWM",
       "name": "iShares Russell 2000 ETF",
-      "reason": "Small-caps showing relative strength with smallest decline (-1.04%); historically outperform during economic recoveries and domestic-focused stimulus environments",
-      "score": 72,
+      "reason": "Small-cap index surging +2.96%, outperforming large-caps; historically leads market recoveries and signals risk-on sentiment",
+      "score": 78,
       "riskScore": 65,
-      "confidenceScore": 68,
-      "historicalComparison": "Small-caps typically outperform large-caps during inflationary recoveries; current underperformance may present mean-reversion opportunity"
-    },
-    {
-      "symbol": "SPY",
-      "name": "SPDR S&P 500 ETF Trust",
-      "reason": "Broad market decline of -1.58% may present accumulation opportunity for long-term investors; support levels likely near recent technical supports",
-      "score": 65,
-      "riskScore": 58,
-      "confidenceScore": 62,
-      "historicalComparison": "S&P 500 historically recovers from 1-2% daily declines within 5-10 trading days absent negative catalysts"
+      "confidenceScore": 72,
+      "historicalComparison": "Small-cap leadership typically precedes sustained bull markets; last saw this strength in Q1 2023"
     },
     {
       "symbol": "GLD",
       "name": "SPDR Gold Shares ETF",
-      "reason": "Oversold conditions with -4.15% decline; extreme moves often precede reversals; gold may find support as safe-haven demand returns",
-      "score": 68,
-      "riskScore": 72,
-      "confidenceScore": 55,
-      "historicalComparison": "Gold drops of 4%+ typically reverse within 3-7 days as geopolitical/macro uncertainty resurfaces"
+      "reason": "Gold up +3.13% amid geopolitical tensions (US-Iran strikes) and pre-CPI uncertainty; safe-haven demand elevated",
+      "score": 82,
+      "riskScore": 45,
+      "confidenceScore": 85,
+      "historicalComparison": "Gold typically gains 2-4% during geopolitical events; momentum aligns with historical patterns"
+    },
+    {
+      "symbol": "CHF",
+      "name": "Swiss Franc",
+      "reason": "SNB rate cut to 0.5% makes franc attractive for carry trades; dollar jumped 0.5% on policy divergence creating forex opportunity",
+      "score": 72,
+      "riskScore": 55,
+      "confidenceScore": 68,
+      "historicalComparison": "SNB cuts typically weaken CHF short-term but create medium-term appreciation potential vs. EUR"
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury ETF",
+      "reason": "Bonds gained +1.30% as rate-cut expectations grow; SNB precedent signals broader easing cycle ahead",
+      "score": 75,
+      "riskScore": 50,
+      "confidenceScore": 70,
+      "historicalComparison": "Long-duration bonds typically appreciate 1-2% ahead of rate cuts; current positioning favorable"
     },
     {
       "symbol": "DIA",
       "name": "SPDR Dow Jones Industrial Average ETF",
-      "reason": "Blue-chip heavyweights down -1.80% represent quality assets; large-cap dividend stocks often attractive after sharp pullbacks",
-      "score": 63,
-      "riskScore": 62,
+      "reason": "Blue-chips +1.82% showing stability; dividend-heavy composition attractive in uncertain environment",
+      "score": 68,
+      "riskScore": 40,
+      "confidenceScore": 65,
+      "historicalComparison": "Dow relative underperformance vs small-caps suggests mean reversion opportunity likely"
+    },
+    {
+      "symbol": "EUR",
+      "name": "Euro Currency",
+      "reason": "Germany manufacturing PMI at 4-month high (43.2) despite services weakness suggests mixed recovery; ECB may diverge from SNB",
+      "score": 64,
+      "riskScore": 58,
       "confidenceScore": 60,
-      "historicalComparison": "Dow typically stabilizes after -1.5% to -2% moves; strong dividend support provides downside protection"
+      "historicalComparison": "EUR typically strengthens when manufacturing stabilizes; current data mixed but directionally positive"
     },
     {
-      "symbol": "SPY",
-      "name": "Technology Sector Rotation",
-      "reason": "If today's decline reflects rotation from growth to value, tech oversold positions may represent contrarian buy opportunity",
-      "score": 58,
-      "riskScore": 75,
-      "confidenceScore": 48,
-      "historicalComparison": "Tech sector rotations often create tactical entry points; negative days can signal capitulation"
+      "symbol": "COMMODITY_BASKET",
+      "name": "Precious Metals & Safe Havens",
+      "reason": "US-Iran geopolitical tensions creating premium; multiple safe-haven assets rallying simultaneously",
+      "score": 77,
+      "riskScore": 52,
+      "confidenceScore": 79,
+      "historicalComparison": "Geopolitical risk premiums historically support 3-6% commodity gains; current momentum early-stage"
     },
     {
-      "symbol": "IWM",
-      "name": "Domestic Economy Beneficiaries",
-      "reason": "Domestic-focused small-caps less exposed to international headwinds; outperformance margin suggests selective strength",
-      "score": 61,
+      "symbol": "RATES_DERIVATIVE",
+      "name": "Interest Rate Derivatives",
+      "reason": "SNB cut signals easing cycle; BoE decision Thursday creates volatility trading opportunities; implied vol elevated",
+      "score": 71,
       "riskScore": 68,
-      "confidenceScore": 59,
-      "historicalComparison": "Small-cap relative strength during broad selloffs historically precedes outperformance cycles"
-    },
-    {
-      "symbol": "GLD",
-      "name": "Gold Mean Reversion Trade",
-      "reason": "Largest percentage decline suggests potential capitulation in gold; contrarian setup for tactical bounce or reversal trade",
-      "score": 54,
-      "riskScore": 78,
-      "confidenceScore": 45,
-      "historicalComparison": "Commodities experiencing 4%+ single-day losses often bounce 1-2% the following session"
-    },
-    {
-      "symbol": "DIA",
-      "name": "Dividend Growth Opportunity",
-      "reason": "Dow constituents maintain strong dividend yields; declines create enhanced yield on cost for income-focused investors",
-      "score": 67,
-      "riskScore": 55,
-      "confidenceScore": 71,
-      "historicalComparison": "Dow dividend yield typically becomes attractive after 1.5-2% declines, historically preceding recovery"
+      "confidenceScore": 66,
+      "historicalComparison": "Central bank decision weeks typically see 40-60% higher volatility; current setup favorable for derivatives"
     }
   ],
   "topRisks": [
     {
-      "symbol": "GLD",
-      "name": "Gold ETF Weakness",
-      "reason": "Severe 4.15% decline signals potential loss of safe-haven demand; suggests elevated risk appetite or dollar strength compression",
+      "symbol": "GER_SERVICES",
+      "name": "Germany Services PMI",
+      "reason": "Services PMI collapsed to 9-month low of 49.4 (below 50 = contraction); signals broader European economic weakness",
       "riskLevel": "HIGH",
       "riskScore": 78
     },
     {
-      "symbol": "DIA",
-      "name": "Large-Cap Momentum Loss",
-      "reason": "Blue-chip underperformance at -1.80% may indicate institutional profit-taking or earnings concern signals",
-      "riskLevel": "MEDIUM",
-      "riskScore": 68
-    },
-    {
-      "symbol": "SPY",
-      "name": "Broad Market Breadth Deterioration",
-      "reason": "S&P 500 decline of -1.58% without news catalyst suggests underlying weakness; potential for gap-down opening next session",
-      "riskLevel": "MEDIUM",
-      "riskScore": 65
-    },
-    {
-      "symbol": "IWM",
-      "name": "Small-Cap Leverage Risk",
-      "reason": "While relatively resilient today, small-caps carry elevated volatility risk; leverage inherent in smaller companies amplifies downside moves",
-      "riskLevel": "MEDIUM",
-      "riskScore": 62
-    },
-    {
-      "symbol": "SPY",
-      "name": "Unanchored Catalyst Risk",
-      "reason": "Absence of news reporting creates uncertainty; market moves on invisible catalysts often precede larger reversals or volatility spikes",
+      "symbol": "GEOPOLITICAL",
+      "name": "US-Iran Tensions",
+      "reason": "Escalating strikes create tail-risk for oil shocks, supply chain disruption, and market volatility spikes",
       "riskLevel": "HIGH",
-      "riskScore": 71
+      "riskScore": 82
     },
     {
-      "symbol": "DIA",
-      "name": "Rate Sensitivity Exposure",
-      "reason": "Dow heavyweights (financials, industrials) sensitive to interest rate expectations; selloff may signal rising rate concerns",
-      "riskLevel": "MEDIUM",
-      "riskScore": 64
-    },
-    {
-      "symbol": "GLD",
-      "name": "Commodity Deflation Signals",
-      "reason": "Gold's sharp decline alongside equity weakness suggests potential deflationary concerns or demand destruction",
+      "symbol": "CPI_REPORT",
+      "name": "Upcoming CPI Data",
+      "reason": "Inflation report pending; could derail current rally if hotter-than-expected, forcing Fed to maintain restrictive stance",
       "riskLevel": "HIGH",
       "riskScore": 75
     },
     {
-      "symbol": "IWM",
-      "name": "Economic Sensitivity Risk",
-      "reason": "Small-caps disproportionately affected by recession signals; current resilience masks potential rollover risk if macro data disappoints",
+      "symbol": "BOE_DECISION",
+      "name": "Bank of England Rate Decision",
+      "reason": "BoE decision Thursday at 12:02 p.m. (VE Day scheduling); binary event risk for GBP volatility and broader FX markets",
       "riskLevel": "MEDIUM",
-      "riskScore": 66
+      "riskScore": 68
+    },
+    {
+      "symbol": "SMALL_CAP_VALUATION",
+      "name": "Small-Cap Valuation Risk",
+      "reason": "IWM's +2.96% surge may reflect euphoria; small-caps vulnerable to rates rising or growth disappointments",
+      "riskLevel": "MEDIUM",
+      "riskScore": 65
+    },
+    {
+      "symbol": "ELON_MUSK_HEADLINES",
+      "name": "Political/Corporate Narrative Risk",
+      "reason": "Elon Musk posts regret about Trump comments; adds political uncertainty and potential for Tesla/X sentiment swings",
+      "riskLevel": "MEDIUM",
+      "riskScore": 58
+    },
+    {
+      "symbol": "DATA_INTEGRITY",
+      "name": "Market Data Feed Issues",
+      "reason": "Reuters DNS errors and multiple MarketWatch feed failures reported; potential for delayed price discovery and execution risk",
+      "riskLevel": "MEDIUM",
+      "riskScore": 62
+    },
+    {
+      "symbol": "EURZONE_RECESSION",
+      "name": "Eurozone Recession Risk",
+      "reason": "Combined manufacturing (43.2) and services (49.4) weakness suggests contraction; impacts US multinational earnings",
+      "riskLevel": "HIGH",
+      "riskScore": 76
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Consumer Staples",
-      "score": 72,
-      "reason": "Defensive positioning during equity selloffs; staples outperform in uncertain environments; dividend support provides stability"
+      "sector": "Precious Metals & Gold Mining",
+      "score": 85,
+      "reason": "Gold +3.13% on geopolitical tensions and safe-haven demand; mining stocks typically leverage 2-3x this move"
     },
     {
-      "sector": "Healthcare",
-      "score": 70,
-      "reason": "Secular growth tailwinds and defensive characteristics; less cyclical exposure benefits during broad market declines"
+      "sector": "Small-Cap & Domestically-Focused Equities",
+      "score": 79,
+      "reason": "IWM +2.96% signals risk-on; small-caps benefit from lower rate expectations and less geopolitical sensitivity"
     },
     {
-      "sector": "Utilities",
-      "score": 68,
-      "reason": "Dividend-heavy sector benefits from flight-to-quality; interest rate sensitive but provides stable income during volatility"
+      "sector": "Fixed Income & Long-Duration Bonds",
+      "score": 76,
+      "reason": "TLT +1.30% with SNB rate cut precedent; treasuries rallying as rate-cut cycle expectations solidify"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Technology",
-      "score": 35,
-      "reason": "Growth sector vulnerable to risk-off environments; sharp equity declines disproportionately impact high-beta tech names"
+      "sector": "European Cyclicals & Manufacturing",
+      "score": 22,
+      "reason": "Germany services PMI at 9-month low (49.4) indicating contraction; industrial stocks face margin pressure"
     },
     {
-      "sector": "Discretionary Consumer",
-      "score": 38,
-      "reason": "Economically sensitive; broad selloff signals demand concerns; luxury and non-essential spending likely to contract"
+      "sector": "High-Yield & Credit-Sensitive Assets",
+      "score": 35,
+      "reason": "Eurozone weakness threatens credit quality; recession signals typically compress credit spreads and HY valuations"
     }
   ],
   "keyEvents": [
-    "Broad equity market selloff without material news catalysts; potential technical breakdown or pre-data positioning",
-    "Significant gold decline (-4.15%) suggests potential USD strength or risk-on sentiment shift",
-    "Small-cap resilience (IWM -1.04%) indicates potential sector rotation or domestic economic confidence"
+    "Bank of England rate decision Thursday 12:02 p.m. local time (VE Day scheduling adjustment) - potential GBP volatility",
+    "US CPI report imminent - inflation data could trigger major rate expectations recalibration",
+    "Ongoing US-Iran military escalation - geopolitical risk premium may persist; oil market monitoring critical",
+    "Swiss National Bank rate cut to 0.5% signals easing cycle momentum; ECB guidance awaited for policy divergence clarity",
+    "Germany manufacturing PMI at 4-month high (43.2) vs services at 9-month low (49.4) - mixed European recovery signals",
+    "Market data feed disruptions (Reuters, MarketWatch) - monitor execution integrity and price discovery quality"
   ],
-  "date": "2026-06-11",
-  "generatedAt": "2026-06-11T12:17:58.317130+00:00"
+  "date": "2026-06-12",
+  "generatedAt": "2026-06-12T00:08:16.033881+00:00"
 }
