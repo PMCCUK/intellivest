@@ -4,45 +4,57 @@
       "decisions": [
         {
           "action": "BUY",
-          "symbol": "JPM",
+          "symbol": "AVGO",
+          "qty_pct": 5,
+          "opportunityScore": 85,
+          "riskScore": 38,
+          "confidenceScore": 78,
+          "reasoning": "Strong momentum (+3.62%) with semiconductor tailwinds and solid technical setup justifies entry at maximum position size."
+        },
+        {
+          "action": "BUY",
+          "symbol": "NVDA",
           "qty_pct": 5,
           "opportunityScore": 82,
-          "riskScore": 35,
-          "confidenceScore": 78,
-          "reasoning": "Financial sector strength with +1.41% momentum, defensive positioning, and attractive risk-adjusted valuation in stable banking sector."
-        },
-        {
-          "action": "BUY",
-          "symbol": "AAPL",
-          "qty_pct": 5,
-          "opportunityScore": 81,
-          "riskScore": 38,
+          "riskScore": 39,
           "confidenceScore": 76,
-          "reasoning": "Tech leadership with positive momentum (+1.39%), large-cap stability, and consistent institutional demand support upside potential."
+          "reasoning": "AI sector leadership with positive momentum (+2.22%) and institutional demand supports conviction buy despite valuation."
         },
         {
           "action": "BUY",
-          "symbol": "SPY",
+          "symbol": "JPM",
+          "qty_pct": 4,
+          "opportunityScore": 81,
+          "riskScore": 36,
+          "confidenceScore": 77,
+          "reasoning": "Financials showing resilience with positive movement (+1.41%) and lower volatility provides portfolio diversification benefit."
+        },
+        {
+          "action": "BUY",
+          "symbol": "QQQ",
           "qty_pct": 5,
           "opportunityScore": 83,
-          "riskScore": 32,
+          "riskScore": 37,
           "confidenceScore": 79,
-          "reasoning": "Broad market exposure with strong momentum (+1.70%), diversification benefits, and institutional-grade risk profile for core holdings."
+          "reasoning": "Broad tech exposure with exceptional momentum (+3.38%) and liquidity provides efficient market participation."
         }
       ],
-      "assessment": "Market showing selective strength in large-cap financials and mega-cap tech; deploying 15% of capital into three high-conviction, low-risk positions while maintaining dry powder for further opportunities.",
+      "assessment": "Technology sector momentum is pronounced with high-conviction opportunities in semiconductor and AI exposure; deploy 19% of capital into four positions with strong risk-adjusted profiles while maintaining 81% cash buffer for flexibility.",
       "strategy": "master",
       "strategy_name": "AI Master",
-      "timestamp": "2026-06-12T11:11:39.150937+00:00",
+      "timestamp": "2026-06-12T11:14:28.284273+00:00",
       "prices_used": {
         "AAPL": 295.63,
+        "MSFT": 390.34,
+        "NVDA": 204.87,
+        "GOOGL": 357.77,
+        "AMZN": 241.51,
         "META": 568.43,
         "JPM": 313.49,
-        "V": 319.05,
+        "JNJ": 238.33,
         "XOM": 146.6,
         "SPY": 737.76,
         "QQQ": 717.12,
-        "TSLA": 399.15,
         "AVGO": 385.57
       }
     },
@@ -55,25 +67,25 @@
           "opportunityScore": 85,
           "riskScore": 38,
           "confidenceScore": 82,
-          "reasoning": "Strong +3.38% momentum in tech sector with broad strength in growth; positioning into sector rotation leadership."
-        },
-        {
-          "action": "BUY",
-          "symbol": "XLK",
-          "qty_pct": 5,
-          "opportunityScore": 87,
-          "riskScore": 35,
-          "confidenceScore": 84,
-          "reasoning": "Technology sector showing strongest relative momentum at +3.73%; outperforming market breadth signals."
+          "reasoning": "Strong tech momentum (+3.38%) with broad sector strength (XLK +3.73%, XLI +3.24%) suggests sustained growth trend."
         },
         {
           "action": "BUY",
           "symbol": "EEM",
+          "qty_pct": 5,
+          "opportunityScore": 84,
+          "riskScore": 39,
+          "confidenceScore": 78,
+          "reasoning": "Emerging markets outperforming (+4.39%) with positive rotation signal as risk appetite strengthens across equity complex."
+        },
+        {
+          "action": "BUY",
+          "symbol": "IWM",
           "qty_pct": 4,
           "opportunityScore": 82,
-          "riskScore": 42,
-          "confidenceScore": 78,
-          "reasoning": "Emerging markets leading with +4.39% gains; risk-on sentiment supports trend-following into outperformance."
+          "riskScore": 37,
+          "confidenceScore": 76,
+          "reasoning": "Small-cap strength (+2.96%) indicates broad market participation in current momentum rally with lower concentration risk."
         },
         {
           "action": "BUY",
@@ -81,39 +93,48 @@
           "qty_pct": 3,
           "opportunityScore": 81,
           "riskScore": 39,
-          "confidenceScore": 76,
-          "reasoning": "Crypto proxy showing strong +4.16% momentum; leveraged Bitcoin exposure benefits from BITO/GBTC upside."
+          "confidenceScore": 75,
+          "reasoning": "Bitcoin proxy strength (+4.16%) with BITO also green (+2.49%) signals emerging crypto momentum in trend-following strategy."
         },
         {
           "action": "HOLD",
-          "symbol": "SPY",
+          "symbol": "XLE",
           "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 28,
-          "confidenceScore": 70,
-          "reasoning": "Broad market momentum adequate but sector rotation offers better opportunity; deploy into outperformers instead."
+          "opportunityScore": 62,
+          "riskScore": 42,
+          "confidenceScore": 68,
+          "reasoning": "Energy sector weakness (-1.94%) contradicts rally; insufficient opportunity and higher risk warrant avoidance."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "DBA",
+          "qty_pct": 0,
+          "opportunityScore": 58,
+          "riskScore": 41,
+          "confidenceScore": 64,
+          "reasoning": "Commodities flat/negative (-0.11%) showing no trend momentum in current equities-led rally environment."
         }
       ],
-      "assessment": "Risk-on environment with strong tech/growth and emerging market momentum; allocate 17% into QQQ/XLK/EEM/MSTR following strongest trend signals while maintaining 83% dry powder for potential reversals or better entries.",
+      "assessment": "Strong broad-based equity momentum with tech and emerging market leadership; deploying 17% into QQQ, EEM, IWM, and MSTR while maintaining 83% cash for additional opportunities or volatility pullbacks.",
       "strategy": "momentum",
       "strategy_name": "AI Momentum",
-      "timestamp": "2026-06-12T11:11:44.232993+00:00",
+      "timestamp": "2026-06-12T11:14:34.027479+00:00",
       "prices_used": {
         "SPY": 737.76,
         "QQQ": 717.12,
         "XLK": 183.21,
-        "XLV": 154.09,
+        "XLE": 57.12,
+        "XLI": 175.15,
         "TLT": 85.98,
         "IWM": 290.41,
         "VWO": 59.1,
         "EEM": 67.5,
         "DBA": 26.3,
         "BITO": 8.64,
-        "GBTC": 49.32,
         "MSTR": 120.15
       }
     }
   },
   "marketStatus": "pre-market",
-  "runAt": "2026-06-12T11:11:44.735698+00:00"
+  "runAt": "2026-06-12T11:14:34.530425+00:00"
 }
