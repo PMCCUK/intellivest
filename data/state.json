@@ -1,7 +1,7 @@
 {
   "portfolios": {
     "master": {
-      "balance": 60721.57999999999,
+      "balance": 55991.499999999985,
       "positions": {
         "MSFT": {
           "qty": 11,
@@ -25,7 +25,7 @@
             "conf": 76
           },
           "reason": "Visa up 1.06% showing defensive strength; resilient payments network with lower correlation to tech volatility provides portfolio stability.",
-          "currentPrice": 321.56
+          "currentPrice": 319.05
         },
         "JPM": {
           "qty": 12,
@@ -37,7 +37,7 @@
             "conf": 75
           },
           "reason": "Financial sector outperformer (+0.48%) with sector tailwinds from higher rates; diversifies away from concentrated tech exposure and offers dividend support.",
-          "currentPrice": 313.87
+          "currentPrice": 313.49
         },
         "AMD": {
           "qty": 6,
@@ -61,7 +61,7 @@
             "conf": 76
           },
           "reason": "Exceptional momentum (+2.91%) despite Musk sentiment noise; technical setup suggests continuation bias.",
-          "currentPrice": 396.68
+          "currentPrice": 399.15
         },
         "XOM": {
           "qty": 13,
@@ -73,7 +73,7 @@
             "conf": 77
           },
           "reason": "Energy sector strength (+2.26%) with defensive characteristics; less correlated to tech volatility.",
-          "currentPrice": 148.16
+          "currentPrice": 146.6
         },
         "GOOGL": {
           "qty": 10,
@@ -109,7 +109,7 @@
             "conf": 78
           },
           "reason": "Strong momentum (+1.56%) with semiconductor sector tailwinds and attractive risk-reward profile meets all buy criteria.",
-          "currentPrice": 377.89
+          "currentPrice": 385.57
         },
         "SPY": {
           "qty": 6,
@@ -121,7 +121,7 @@
             "conf": 77
           },
           "reason": "Broad market index with positive momentum provides diversification and systematic exposure at lower volatility than single names.",
-          "currentPrice": 734
+          "currentPrice": 737.76
         },
         "GLD": {
           "qty": 7,
@@ -134,6 +134,18 @@
           },
           "reason": "Gold's +1.62% gain amid broader market weakness signals safe-haven demand and portfolio diversification benefit.",
           "currentPrice": 380.65
+        },
+        "AAPL": {
+          "qty": 16,
+          "entryPrice": 295.63,
+          "entryTs": "2026-06-12T11:11:39.150979+00:00",
+          "aiScores": {
+            "opp": 81,
+            "risk": 38,
+            "conf": 76
+          },
+          "reason": "Tech leadership with positive momentum (+1.39%), large-cap stability, and consistent institutional demand support upside potential.",
+          "currentPrice": 295.63
         }
       },
       "trades": [],
@@ -153,11 +165,15 @@
         {
           "date": "2026-06-11",
           "value": 99514.18
+        },
+        {
+          "date": "2026-06-12",
+          "value": 100017.75
         }
       ]
     },
     "momentum": {
-      "balance": 68801.96999999999,
+      "balance": 65798.21999999999,
       "positions": {
         "QQQ": {
           "qty": 5,
@@ -169,7 +185,7 @@
             "conf": 78
           },
           "reason": "Tech sector showing strongest momentum (+1.56%) with XLK outperforming (+2.17%); growth rotation favored in current market regime.",
-          "currentPrice": 693.69
+          "currentPrice": 717.12
         },
         "EEM": {
           "qty": 45,
@@ -181,7 +197,7 @@
             "conf": 76
           },
           "reason": "Emerging markets accelerating (+2.24%) as global growth expectations improve; SNB rate cut signals accommodative policy environment.",
-          "currentPrice": 66.77
+          "currentPrice": 67.5
         },
         "XLI": {
           "qty": 29,
@@ -205,7 +221,7 @@
             "conf": 76
           },
           "reason": "Small-cap Russell 2000 outperforming (+1.09%) with domestic growth bias; momentum breakout pattern favors risk-on positioning.",
-          "currentPrice": 288.79
+          "currentPrice": 290.41
         },
         "BITO": {
           "qty": 585,
@@ -229,7 +245,7 @@
             "conf": 78
           },
           "reason": "Tech sector showing strongest momentum at +2.25% with sustained uptrend; low volatility relative to gains supports trend-following entry.",
-          "currentPrice": 180.61
+          "currentPrice": 183.21
         },
         "GLD": {
           "qty": 13,
@@ -242,6 +258,18 @@
           },
           "reason": "Gold momentum (+1.62%) with defensive bid; flight-to-quality hedge against equity concentration while maintaining upside exposure.",
           "currentPrice": 380.65
+        },
+        "MSTR": {
+          "qty": 25,
+          "entryPrice": 120.15,
+          "entryTs": "2026-06-12T11:11:44.233030+00:00",
+          "aiScores": {
+            "opp": 81,
+            "risk": 39,
+            "conf": 76
+          },
+          "reason": "Crypto proxy showing strong +4.16% momentum; leveraged Bitcoin exposure benefits from BITO/GBTC upside.",
+          "currentPrice": 120.15
         }
       },
       "trades": [],
@@ -261,6 +289,10 @@
         {
           "date": "2026-06-11",
           "value": 100153.57
+        },
+        {
+          "date": "2026-06-12",
+          "value": 100289.41
         }
       ]
     },
@@ -621,6 +653,34 @@
     }
   },
   "recommendations": [
+    {
+      "id": "1781262704.233042MSTR",
+      "symbol": "MSTR",
+      "strategy": "momentum",
+      "ts": "2026-06-12T11:11:44.233047+00:00",
+      "entryPrice": 120.15,
+      "oppScore": 81,
+      "riskScore": 39,
+      "confScore": 76,
+      "reasoning": "Crypto proxy showing strong +4.16% momentum; leveraged Bitcoin exposure benefits from BITO/GBTC upside.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1781262699.150991AAPL",
+      "symbol": "AAPL",
+      "strategy": "master",
+      "ts": "2026-06-12T11:11:39.150996+00:00",
+      "entryPrice": 295.63,
+      "oppScore": 81,
+      "riskScore": 38,
+      "confScore": 76,
+      "reasoning": "Tech leadership with positive momentum (+1.39%), large-cap stability, and consistent institutional demand support upside potential.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
     {
       "id": "1781200757.662091WGMI",
       "symbol": "WGMI",
@@ -1198,6 +1258,16 @@
   ],
   "aiTradeLog": [
     {
+      "ts": "2026-06-12T11:11:39.150988+00:00",
+      "portfolio": "master",
+      "msg": "BUY 16\u00d7 AAPL @ \u00a3295.63 \u2014 Tech leadership with positive momentum (+1.39%), large-cap stability, and consistent institutional demand support upside potential."
+    },
+    {
+      "ts": "2026-06-12T11:11:44.233039+00:00",
+      "portfolio": "momentum",
+      "msg": "BUY 25\u00d7 MSTR @ \u00a3120.15 \u2014 Crypto proxy showing strong +4.16% momentum; leveraged Bitcoin exposure benefits from BITO/GBTC upside."
+    },
+    {
       "ts": "2026-06-11T17:58:51.969223+00:00",
       "portfolio": "master",
       "msg": "BUY 7\u00d7 GLD @ \u00a3380.65 \u2014 Gold's +1.62% gain amid broader market weakness signals safe-haven demand and portfolio diversification benefit."
@@ -1404,5 +1474,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-06-12T00:08:16.035047+00:00"
+  "lastRun": "2026-06-12T11:11:44.733236+00:00"
 }
