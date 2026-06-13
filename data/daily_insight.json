@@ -1,174 +1,176 @@
 {
-  "marketSummary": "Markets showed mixed bullish momentum this morning with small-caps (IWM +2.96%) and precious metals (GLD +3.13%) leading gains, while blue-chips (DIA +1.82%) and bonds (TLT +1.30%) posted moderate advances. Central bank action from the SNB and upcoming BoE decisions are creating currency volatility and policy uncertainty. Manufacturing weakness in Germany's services sector signals potential headwinds for European growth despite resilient equity markets.",
+  "marketSummary": "U.S. equities opened with modest gains as large-cap indices outperformed, with the Dow leading at +0.73%. Bond weakness (-0.24% TLT) reflects ongoing rate expectations amid mixed global economic signals. International central bank actions\u2014SNB rate cuts and upcoming BoE decisions\u2014suggest a cautious monetary environment with selective risk appetite.",
   "topOpportunities": [
     {
-      "symbol": "IWM",
-      "name": "iShares Russell 2000 ETF",
-      "reason": "Small-cap index surging +2.96%, outperforming large-caps; historically leads market recoveries and signals risk-on sentiment",
+      "symbol": "KKR",
+      "name": "KKR & Co Inc",
+      "reason": "Strategic positioning in AI infrastructure bottleneck solutions with potential to capitalize on enterprise AI deployment acceleration and data center buildout demands",
       "score": 78,
-      "riskScore": 65,
+      "riskScore": 35,
       "confidenceScore": 72,
-      "historicalComparison": "Small-cap leadership typically precedes sustained bull markets; last saw this strength in Q1 2023"
-    },
-    {
-      "symbol": "GLD",
-      "name": "SPDR Gold Shares ETF",
-      "reason": "Gold up +3.13% amid geopolitical tensions (US-Iran strikes) and pre-CPI uncertainty; safe-haven demand elevated",
-      "score": 82,
-      "riskScore": 45,
-      "confidenceScore": 85,
-      "historicalComparison": "Gold typically gains 2-4% during geopolitical events; momentum aligns with historical patterns"
-    },
-    {
-      "symbol": "CHF",
-      "name": "Swiss Franc",
-      "reason": "SNB rate cut to 0.5% makes franc attractive for carry trades; dollar jumped 0.5% on policy divergence creating forex opportunity",
-      "score": 72,
-      "riskScore": 55,
-      "confidenceScore": 68,
-      "historicalComparison": "SNB cuts typically weaken CHF short-term but create medium-term appreciation potential vs. EUR"
-    },
-    {
-      "symbol": "TLT",
-      "name": "iShares 20+ Year Treasury ETF",
-      "reason": "Bonds gained +1.30% as rate-cut expectations grow; SNB precedent signals broader easing cycle ahead",
-      "score": 75,
-      "riskScore": 50,
-      "confidenceScore": 70,
-      "historicalComparison": "Long-duration bonds typically appreciate 1-2% ahead of rate cuts; current positioning favorable"
+      "historicalComparison": "Strong M&A track record in tech infrastructure; similar to 2020 cloud computing pivot"
     },
     {
       "symbol": "DIA",
-      "name": "SPDR Dow Jones Industrial Average ETF",
-      "reason": "Blue-chips +1.82% showing stability; dividend-heavy composition attractive in uncertain environment",
-      "score": 68,
-      "riskScore": 40,
-      "confidenceScore": 65,
-      "historicalComparison": "Dow relative underperformance vs small-caps suggests mean reversion opportunity likely"
+      "name": "Dow Jones Industrial Average ETF",
+      "reason": "Large-cap outperformance (+0.73%) driven by blue-chip strength; industrial and financial sectors benefiting from stable growth expectations",
+      "score": 74,
+      "riskScore": 28,
+      "confidenceScore": 75,
+      "historicalComparison": "DIA tracking multi-month uptrend with support at 510 level; similar to Q4 2023 rally pattern"
     },
     {
-      "symbol": "EUR",
-      "name": "Euro Currency",
-      "reason": "Germany manufacturing PMI at 4-month high (43.2) despite services weakness suggests mixed recovery; ECB may diverge from SNB",
-      "score": 64,
-      "riskScore": 58,
-      "confidenceScore": 60,
-      "historicalComparison": "EUR typically strengthens when manufacturing stabilizes; current data mixed but directionally positive"
-    },
-    {
-      "symbol": "COMMODITY_BASKET",
-      "name": "Precious Metals & Safe Havens",
-      "reason": "US-Iran geopolitical tensions creating premium; multiple safe-haven assets rallying simultaneously",
-      "score": 77,
-      "riskScore": 52,
-      "confidenceScore": 79,
-      "historicalComparison": "Geopolitical risk premiums historically support 3-6% commodity gains; current momentum early-stage"
-    },
-    {
-      "symbol": "RATES_DERIVATIVE",
-      "name": "Interest Rate Derivatives",
-      "reason": "SNB cut signals easing cycle; BoE decision Thursday creates volatility trading opportunities; implied vol elevated",
+      "symbol": "WOOD",
+      "name": "Woodside Energy Ltd",
+      "reason": "Browse stake increase via pre-emption rights exercise signals management confidence; energy sector benefiting from geopolitical supply concerns and renewable transition investments",
       "score": 71,
+      "riskScore": 42,
+      "confidenceScore": 68,
+      "historicalComparison": "Energy sector strength mirrors 2022 commodity cycle; insiders buying suggests undervaluation"
+    },
+    {
+      "symbol": "SCDO",
+      "name": "Securitize (Tokenized Assets)",
+      "reason": "$250M Solana-backed CLO tokenization represents emerging institutional-grade crypto infrastructure; institutional adoption accelerating in digital assets",
+      "score": 65,
       "riskScore": 68,
-      "confidenceScore": 66,
-      "historicalComparison": "Central bank decision weeks typically see 40-60% higher volatility; current setup favorable for derivatives"
+      "confidenceScore": 58,
+      "historicalComparison": "Similar to early 2021 crypto institutional adoption wave; higher volatility expected"
+    },
+    {
+      "symbol": "SPY",
+      "name": "S&P 500 ETF",
+      "reason": "Broad-based equity strength (+0.54%) with positive momentum; tech and healthcare sectors showing resilience despite bond market weakness",
+      "score": 72,
+      "riskScore": 32,
+      "confidenceScore": 76,
+      "historicalComparison": "SPY near all-time highs; similar to May 2024 momentum continuation pattern"
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "reason": "Defensive positioning as Fed rate cut expectations rise; SNB rate cut supports risk-off sentiment favoring precious metals as hedge",
+      "score": 68,
+      "riskScore": 25,
+      "confidenceScore": 70,
+      "historicalComparison": "Gold consolidating above $380; historical safe-haven demand strong in uncertain macro environment"
+    },
+    {
+      "symbol": "EURUSD",
+      "name": "Euro Currency Pair",
+      "reason": "CHF strength (+0.5% to 0.8890) and SNB rate cuts create arbitrage opportunity; ECB divergence with aggressive easing expectations",
+      "score": 66,
+      "riskScore": 38,
+      "confidenceScore": 64,
+      "historicalComparison": "EUR weakness mirrors 2023 rate differential; potential mean reversion over 6 months"
+    },
+    {
+      "symbol": "LPLX",
+      "name": "LPL Financial Inc",
+      "reason": "Regulatory clarity on annuity monitoring standards creates competitive advantage; potential for operational improvement and risk mitigation",
+      "score": 63,
+      "riskScore": 41,
+      "confidenceScore": 61,
+      "historicalComparison": "Regulatory tailwinds similar to 2019 fiduciary implementation; stock recovering from compliance concerns"
     }
   ],
   "topRisks": [
     {
-      "symbol": "GER_SERVICES",
-      "name": "Germany Services PMI",
-      "reason": "Services PMI collapsed to 9-month low of 49.4 (below 50 = contraction); signals broader European economic weakness",
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Bond weakness (-0.24%) amid rising rate expectations; duration risk elevated with potential Fed policy divergence from global easing cycle",
       "riskLevel": "HIGH",
-      "riskScore": 78
+      "riskScore": 72
     },
     {
-      "symbol": "GEOPOLITICAL",
-      "name": "US-Iran Tensions",
-      "reason": "Escalating strikes create tail-risk for oil shocks, supply chain disruption, and market volatility spikes",
-      "riskLevel": "HIGH",
-      "riskScore": 82
-    },
-    {
-      "symbol": "CPI_REPORT",
-      "name": "Upcoming CPI Data",
-      "reason": "Inflation report pending; could derail current rally if hotter-than-expected, forcing Fed to maintain restrictive stance",
+      "symbol": "EUR",
+      "name": "Eurozone Economic Data",
+      "reason": "Services PMI collapse to 9-month low (49.4) signals economic contraction risk; manufacturing recovery weak at 43.2, contradicting easing narrative",
       "riskLevel": "HIGH",
       "riskScore": 75
     },
     {
-      "symbol": "BOE_DECISION",
-      "name": "Bank of England Rate Decision",
-      "reason": "BoE decision Thursday at 12:02 p.m. (VE Day scheduling); binary event risk for GBP volatility and broader FX markets",
-      "riskLevel": "MEDIUM",
-      "riskScore": 68
+      "symbol": "SCDO",
+      "name": "Securitize Tokenized Assets",
+      "reason": "Regulatory uncertainty in crypto/tokenized securities; $250M backing concentration risk with Ethena; liquidity constraints in emerging asset class",
+      "riskLevel": "CRITICAL",
+      "riskScore": 82
     },
     {
-      "symbol": "SMALL_CAP_VALUATION",
-      "name": "Small-Cap Valuation Risk",
-      "reason": "IWM's +2.96% surge may reflect euphoria; small-caps vulnerable to rates rising or growth disappointments",
-      "riskLevel": "MEDIUM",
-      "riskScore": 65
-    },
-    {
-      "symbol": "ELON_MUSK_HEADLINES",
-      "name": "Political/Corporate Narrative Risk",
-      "reason": "Elon Musk posts regret about Trump comments; adds political uncertainty and potential for Tesla/X sentiment swings",
+      "symbol": "SNB",
+      "name": "Swiss National Bank Policy",
+      "reason": "Rate cuts to 0.5% signal financial stress concerns; currency volatility risk and potential contagion to broader Swiss economy and credit markets",
       "riskLevel": "MEDIUM",
       "riskScore": 58
     },
     {
-      "symbol": "DATA_INTEGRITY",
-      "name": "Market Data Feed Issues",
-      "reason": "Reuters DNS errors and multiple MarketWatch feed failures reported; potential for delayed price discovery and execution risk",
+      "symbol": "BOE",
+      "name": "Bank of England Policy Decision",
+      "reason": "Upcoming BoE decision Thursday creates macro uncertainty; potential for hawkish hold on rates despite global easing trend creates GBP volatility",
       "riskLevel": "MEDIUM",
       "riskScore": 62
     },
     {
-      "symbol": "EURZONE_RECESSION",
-      "name": "Eurozone Recession Risk",
-      "reason": "Combined manufacturing (43.2) and services (49.4) weakness suggests contraction; impacts US multinational earnings",
-      "riskLevel": "HIGH",
-      "riskScore": 76
+      "symbol": "ELON",
+      "name": "Political/Regulatory Risk (Musk/Trump)",
+      "reason": "Musk's regret over Trump posts signals political alignment reversal; potential for policy uncertainty and litigation risks across Tesla/X ecosystems",
+      "riskLevel": "MEDIUM",
+      "riskScore": 56
+    },
+    {
+      "symbol": "GLD",
+      "name": "Precious Metals Concentration",
+      "reason": "Gold's modest gain (+0.06%) despite risk-off signals suggest peak safe-haven demand; technical resistance at $390 may limit upside",
+      "riskLevel": "LOW",
+      "riskScore": 48
+    },
+    {
+      "symbol": "WOOD",
+      "name": "Energy Sector Cyclicality",
+      "reason": "Energy sector beneficiary of current geopolitical premium; renewable energy transition creates long-term headwind to traditional oil/gas valuations",
+      "riskLevel": "MEDIUM",
+      "riskScore": 61
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Precious Metals & Gold Mining",
-      "score": 85,
-      "reason": "Gold +3.13% on geopolitical tensions and safe-haven demand; mining stocks typically leverage 2-3x this move"
-    },
-    {
-      "sector": "Small-Cap & Domestically-Focused Equities",
-      "score": 79,
-      "reason": "IWM +2.96% signals risk-on; small-caps benefit from lower rate expectations and less geopolitical sensitivity"
-    },
-    {
-      "sector": "Fixed Income & Long-Duration Bonds",
+      "sector": "Financials",
       "score": 76,
-      "reason": "TLT +1.30% with SNB rate cut precedent; treasuries rallying as rate-cut cycle expectations solidify"
+      "reason": "Large-cap financial strength driving DIA outperformance; interest rate volatility and M&A activity creating revenue opportunities; KKR and financial infrastructure benefiting"
+    },
+    {
+      "sector": "Technology & AI Infrastructure",
+      "score": 79,
+      "reason": "AI infrastructure bottleneck solutions gaining traction; institutional capital flows into tech-enabled solutions; Securitize tokenization represents emerging tech opportunity"
+    },
+    {
+      "sector": "Energy",
+      "score": 72,
+      "reason": "Geopolitical supply concerns supporting prices; insider buying signals (Woodside) suggest undervaluation; transition funding creates diversified revenue streams"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "European Cyclicals & Manufacturing",
-      "score": 22,
-      "reason": "Germany services PMI at 9-month low (49.4) indicating contraction; industrial stocks face margin pressure"
+      "sector": "European Services & Cyclicals",
+      "score": 28,
+      "reason": "Germany services PMI at 9-month low (49.4) signals contraction; weak consumer demand and rate-sensitive spending under pressure; recession risks elevated"
     },
     {
-      "sector": "High-Yield & Credit-Sensitive Assets",
+      "sector": "Fixed Income & Long Duration",
       "score": 35,
-      "reason": "Eurozone weakness threatens credit quality; recession signals typically compress credit spreads and HY valuations"
+      "reason": "TLT weakness amid duration risk; global rate cut expectations creating headwinds; Fed policy divergence from international easing threatens bond valuations"
     }
   ],
   "keyEvents": [
-    "Bank of England rate decision Thursday 12:02 p.m. local time (VE Day scheduling adjustment) - potential GBP volatility",
-    "US CPI report imminent - inflation data could trigger major rate expectations recalibration",
-    "Ongoing US-Iran military escalation - geopolitical risk premium may persist; oil market monitoring critical",
-    "Swiss National Bank rate cut to 0.5% signals easing cycle momentum; ECB guidance awaited for policy divergence clarity",
-    "Germany manufacturing PMI at 4-month high (43.2) vs services at 9-month low (49.4) - mixed European recovery signals",
-    "Market data feed disruptions (Reuters, MarketWatch) - monitor execution integrity and price discovery quality"
+    "Bank of England Rate Decision - Thursday 12:02 p.m. GMT (VE Day timing adjustment)",
+    "Eurozone Economic Data Release - Manufacturing and services PMI showing divergent signals; services contraction warrants monitoring",
+    "Swiss National Bank Rate Cut to 0.5% - Potential contagion risks to broader European credit markets and currency volatility",
+    "AI Infrastructure Buildout Acceleration - KKR and private equity positioning for data center and enterprise AI deployment solutions",
+    "Tokenized Asset Expansion - Securitize $250M Solana CLO fund launch signals institutional crypto adoption momentum",
+    "U.S. Equity Momentum - Large-cap outperformance with Dow +0.73% suggests defensive rotation may be stabilizing",
+    "Currency Volatility - Dollar strength vs. CHF (+0.5%) creating FX arbitrage opportunities; BoE decision Thursday may drive GBP volatility",
+    "Political/Regulatory Uncertainty - Musk reversal on Trump posts suggests policy alignment shifts; monitor for litigation and regulatory surprises"
   ],
-  "date": "2026-06-12",
-  "generatedAt": "2026-06-12T00:08:16.033881+00:00"
+  "date": "2026-06-13",
+  "generatedAt": "2026-06-13T08:34:42.537614+00:00"
 }
