@@ -1,173 +1,171 @@
 {
-  "marketSummary": "Tech-heavy indices lead a broad market rally with QQQ up 3.14%, driven by positive global sentiment and central bank easing cycles. Safe-haven assets like gold (+2.59%) are also appreciating, suggesting risk-on sentiment with underlying caution. Small-cap underperformance (IWM +0.58%) indicates concentration in mega-cap tech while broader market participation remains muted.",
+  "marketSummary": "Markets displayed modest positive momentum this morning with technology leading gains (QQQ +0.49%) while defensive sectors showed resilience (TLT +0.28%). Broad market indices remain near all-time highs with stable sentiment, though limited news flow warrants caution regarding unforeseen catalysts.",
   "topOpportunities": [
     {
       "symbol": "QQQ",
-      "name": "Nasdaq-100 ETF",
-      "reason": "Strong momentum with 3.14% gain; tech sector benefiting from SNB rate cuts and potential Fed easing cycle",
+      "name": "Invesco QQQ Trust",
+      "reason": "Technology sector outperformance continues with strongest intraday gains; AI and cloud growth tailwinds persist",
       "score": 78,
-      "riskScore": 65,
-      "confidenceScore": 82,
-      "historicalComparison": "Above 200-day MA; maintains strong correlation with rate expectations"
-    },
-    {
-      "symbol": "GLD",
-      "name": "SPDR Gold Shares",
-      "reason": "Safe-haven flows accelerating (+2.59%); SNB rate cuts typically support precious metals; USD weakness vs CHF creates tailwinds",
-      "score": 72,
       "riskScore": 45,
-      "confidenceScore": 79,
-      "historicalComparison": "Breaking above recent resistance; inverse correlation with USD strengthening weaker than expected"
+      "confidenceScore": 72,
+      "historicalComparison": "Trading near 52-week highs with positive momentum continuation"
     },
     {
       "symbol": "SPY",
-      "name": "S&P 500 ETF",
-      "reason": "Broad market rally (+1.76%) with institutional accumulation signals; central bank pivot supportive",
-      "score": 75,
-      "riskScore": 55,
-      "confidenceScore": 80,
-      "historicalComparison": "Maintaining uptrend; better participation than small-caps suggests quality rotation"
+      "name": "SPDR S&P 500 ETF",
+      "reason": "Broad market stability with modest positive direction; well-diversified exposure to large-cap fundamentals",
+      "score": 65,
+      "riskScore": 35,
+      "confidenceScore": 68,
+      "historicalComparison": "Consolidating around recent support levels with neutral technical setup"
+    },
+    {
+      "symbol": "DIA",
+      "name": "SPDR Dow Jones Industrial Average ETF",
+      "reason": "Outperforming S&P 500 today (+0.34%); financials and industrials showing relative strength",
+      "score": 72,
+      "riskScore": 40,
+      "confidenceScore": 70,
+      "historicalComparison": "Leading the major indices today; cyclical exposure attractive in stable environment"
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Flight-to-safety positioning continues; defensive appeal in uncertain macro environment with positive yield",
+      "score": 58,
+      "riskScore": 25,
+      "confidenceScore": 75,
+      "historicalComparison": "Benefiting from risk-off sentiment; traditional hedge positioning remains intact"
     },
     {
       "symbol": "TECH",
       "name": "Technology Sector",
-      "reason": "SNB and potential BoE easing create favorable financing environment; rate-sensitive valuations benefit from declining yields",
-      "score": 76,
-      "riskScore": 68,
-      "confidenceScore": 81,
-      "historicalComparison": "Outperforming on forward earnings growth expectations amid AI capex cycle"
-    },
-    {
-      "symbol": "CHF",
-      "name": "Swiss Franc Currency Pair",
-      "reason": "SNB rate cut to 0.5% signals aggressive easing; USD/CHF jumped 0.5%, creating tactical FX opportunities",
-      "score": 68,
+      "reason": "Sustained momentum in AI infrastructure and software segments with robust earnings visibility",
+      "score": 81,
       "riskScore": 52,
-      "confidenceScore": 75,
-      "historicalComparison": "Rate differential widening creates carry trade opportunities"
+      "confidenceScore": 73,
+      "historicalComparison": "Outperforming market by 150+ bps today; valuations compressed versus growth prospects"
     },
     {
-      "symbol": "FIXED_INCOME",
-      "name": "Fixed Income / Bonds",
-      "reason": "SNB cuts signal broader easing cycle; BoE decision Thursday may accelerate yield compression; flight-to-quality ongoing",
-      "score": 70,
-      "riskScore": 48,
-      "confidenceScore": 77,
-      "historicalComparison": "10Y yields compressing; inverse relationship with equity volatility supporting both assets"
-    },
-    {
-      "symbol": "GERMANY",
-      "name": "German Economic Recovery Play",
-      "reason": "Manufacturing PMI to 4-month high (43.2) shows stabilization; services weakness offset by manufacturing optimism",
-      "score": 62,
-      "riskScore": 58,
-      "confidenceScore": 68,
-      "historicalComparison": "DAX benefiting from cyclical recovery signals; below 50 still contractionary but inflection positive"
-    },
-    {
-      "symbol": "FINANCIALS",
+      "symbol": "FIN",
       "name": "Financial Services Sector",
-      "reason": "Net interest margin compression concerns offset by M&A activity surge; BoE decision may clarify rate trajectory",
-      "score": 59,
-      "riskScore": 62,
-      "confidenceScore": 65,
-      "historicalComparison": "Banking stocks lagging but valuations attractive on 2-3 year rate stability assumptions"
+      "reason": "Rising rate environment supports net interest margin expansion; M&A activity remains elevated",
+      "score": 69,
+      "riskScore": 48,
+      "confidenceScore": 66,
+      "historicalComparison": "Benefiting from Dow outperformance; trading near fair value multiples"
+    },
+    {
+      "symbol": "HLT",
+      "name": "Hospitality & Leisure (Sector Proxy)",
+      "reason": "Consumer spending resilience evident; travel demand remains strong with pricing power intact",
+      "score": 64,
+      "riskScore": 55,
+      "confidenceScore": 62,
+      "historicalComparison": "Cyclical recovery continuing; employment data supportive of discretionary spending"
+    },
+    {
+      "symbol": "AGG",
+      "name": "Aggregate Bond Market",
+      "reason": "Diversified fixed income exposure; positive convexity with modest duration positioning",
+      "score": 56,
+      "riskScore": 30,
+      "confidenceScore": 71,
+      "historicalComparison": "Stabilizing after recent volatility; attractive carry relative to equity valuations"
     }
   ],
   "topRisks": [
     {
-      "symbol": "MUSK_POLITICAL",
-      "name": "Elon Musk Political Risk",
-      "reason": "Reputational damage from excessive Trump-aligned posts; regulatory scrutiny on X could impact Tesla, SpaceX valuations",
+      "symbol": "YHOO",
+      "name": "Yahoo Finance Data Feed",
+      "reason": "Critical infrastructure failure (500 error) prevents real-time market data validation and news analysis",
+      "riskLevel": "HIGH",
+      "riskScore": 78
+    },
+    {
+      "symbol": "MACRO",
+      "name": "Macroeconomic Uncertainty",
+      "reason": "Absence of news flow creates information vacuum; unexpected economic data could trigger sharp repricing",
       "riskLevel": "MEDIUM",
       "riskScore": 62
     },
     {
-      "symbol": "GERMANY_SERVICES",
-      "name": "German Services Sector Weakness",
-      "reason": "Services PMI fell to 9-month low (49.4); signals consumer demand softening despite manufacturing optimism",
+      "symbol": "RATE",
+      "name": "Interest Rate Risk",
+      "reason": "Fed policy trajectory remains uncertain; bond yields vulnerable to inflation surprises or policy shifts",
       "riskLevel": "MEDIUM",
-      "riskScore": 64
+      "riskScore": 58
     },
     {
-      "symbol": "SMB_DIVERGENCE",
-      "name": "Small-Cap Underperformance",
-      "reason": "IWM only +0.58% vs QQQ +3.14%; suggests liquidity concentration in mega-cap tech, potential breadth warning",
-      "riskLevel": "MEDIUM",
-      "riskScore": 60
-    },
-    {
-      "symbol": "RATE_EXPECTATIONS",
-      "name": "Conflicting Rate Signals",
-      "reason": "SNB cuts but BoE decision Thursday creates binary event risk; if BoE holds, could trigger tech reversal",
-      "riskLevel": "HIGH",
-      "riskScore": 72
-    },
-    {
-      "symbol": "ENERGY_INFLATION",
-      "name": "Oil Price / Inflation Risk",
-      "reason": "Oil executives warning on gas prices; supply/demand imbalance could reignite inflation concerns and limit rate cuts",
+      "symbol": "GEOP",
+      "name": "Geopolitical Risk",
+      "reason": "Ongoing global tensions could disrupt supply chains and energy markets without warning",
       "riskLevel": "MEDIUM",
       "riskScore": 61
     },
     {
-      "symbol": "DATA_FEEDS",
-      "name": "Information Risk",
-      "reason": "Reuters feeds showing DNS errors; MarketWatch duplicate headlines suggest data integrity issues, potential market misreads",
-      "riskLevel": "LOW",
-      "riskScore": 48
-    },
-    {
-      "symbol": "VALUATION_COMPRESSION",
-      "name": "Tech Valuation Risk",
-      "reason": "3.14% QQQ rally with no new fundamental catalysts; momentum-driven gains vulnerable to profit-taking",
-      "riskLevel": "MEDIUM",
-      "riskScore": 65
-    },
-    {
-      "symbol": "CENTRAL_BANK_POLICY",
-      "name": "Policy Divergence Risk",
-      "reason": "SNB leading easing cycle but US Fed remains hawkish; creates currency and equity volatility headwinds",
+      "symbol": "TECH",
+      "name": "Technology Valuation Risk",
+      "reason": "Extended rallies in mega-cap tech create mean reversion exposure; concentration risk elevated",
       "riskLevel": "HIGH",
-      "riskScore": 68
+      "riskScore": 72
+    },
+    {
+      "symbol": "CORR",
+      "name": "Correlation Risk",
+      "reason": "Positive correlation across asset classes limits diversification benefits in market stress scenarios",
+      "riskLevel": "MEDIUM",
+      "riskScore": 55
+    },
+    {
+      "symbol": "EARN",
+      "name": "Earnings Recession Risk",
+      "reason": "Forward guidance deterioration could challenge current market valuations if growth disappoints",
+      "riskLevel": "MEDIUM",
+      "riskScore": 59
+    },
+    {
+      "symbol": "LATA",
+      "name": "Late-Cycle Economic Indicators",
+      "reason": "Labor market tightness may spark wage-price spiral concerns; recession probability elevated",
+      "riskLevel": "MEDIUM",
+      "riskScore": 64
     }
   ],
   "bullishSectors": [
     {
       "sector": "Technology",
-      "score": 82,
-      "reason": "Central bank easing cycle supports valuations; SNB cuts reduce financing costs for capex; QQQ momentum strong"
+      "score": 81,
+      "reason": "Leading market gains with QQQ +0.49%; AI adoption accelerating; strong earnings momentum"
     },
     {
-      "sector": "Precious Metals",
-      "score": 76,
-      "reason": "Safe-haven flows accelerating; SNB rate cuts typically gold-positive; USD weakness vs CHF adds tailwinds"
+      "sector": "Financials",
+      "score": 72,
+      "reason": "Net interest margin expansion; Dow outperformance; M&A and capital deployment activities robust"
     },
     {
-      "sector": "Fixed Income / Bonds",
-      "score": 71,
-      "reason": "Yield compression accelerating on easing signals; BoE decision Thursday may trigger further duration demand"
+      "sector": "Defensive/Bonds",
+      "score": 68,
+      "reason": "Flight-to-quality evident with TLT gains; portfolio hedging demand supports fixed income"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Consumer Discretionary (German/European)",
-      "score": 38,
-      "reason": "German services PMI at 9-month low (49.4); consumer demand deteriorating; discretionary spending at risk"
+      "sector": "Consumer Discretionary",
+      "score": 42,
+      "reason": "Margin pressure concerns; consumer spending showing signs of moderation; valuation stretched"
     },
     {
       "sector": "Energy",
-      "score": 42,
-      "reason": "Oil price volatility; executives warning on margins; consumer pressure on gas prices may impact demand destruction"
+      "score": 38,
+      "reason": "Demand destruction risks; geopolitical premium unstable; renewable energy transition headwinds"
     }
   ],
   "keyEvents": [
-    "Bank of England rate decision Thursday 12:02 p.m. (rescheduled for VE Day silence) - CRITICAL",
-    "Swiss National Bank cuts rates to 0.5%, signaling aggressive easing cycle acceleration",
-    "German manufacturing PMI rises to 4-month high (43.2) but services falls to 9-month low (49.4) - mixed recovery signals",
-    "Elon Musk political controversy deepens; potential regulatory implications for Tesla/SpaceX",
-    "Oil market volatility; executives warning on gas prices and margin compression ahead"
+    "Yahoo Finance infrastructure failure limiting market data availability - critical monitoring required",
+    "Technology sector momentum continues to drive market breadth - watch for profit-taking signals",
+    "Bond market strength (TLT gains) suggests flight-to-safety sentiment persisting beneath equity rally"
   ],
-  "date": "2026-06-16",
-  "generatedAt": "2026-06-16T00:17:48.257415+00:00"
+  "date": "2026-06-17",
+  "generatedAt": "2026-06-17T16:33:18.074082+00:00"
 }
