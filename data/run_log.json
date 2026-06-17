@@ -1,8 +1,19 @@
 {
-  "lastRun": "2026-06-17T18:02:05.584638+00:00",
+  "lastRun": "2026-06-17T19:23:34.083392+00:00",
   "marketStatus": "open",
-  "symbolsFetched": 58,
+  "symbolsFetched": 59,
   "strategiesRun": 7,
-  "tradesExecuted": 0,
-  "recentLog": []
+  "tradesExecuted": 2,
+  "recentLog": [
+    {
+      "ts": "2026-06-17T19:23:01.651399+00:00",
+      "portfolio": "master",
+      "msg": "AUTO-CLOSE MSFT: Stop-loss triggered (-8.7%)"
+    },
+    {
+      "ts": "2026-06-17T19:23:33.579098+00:00",
+      "portfolio": "smallcap",
+      "msg": "BUY 949\u00d7 RCKT @ \u00a33.16 \u2014 Exceptional +12.86% momentum with unusual volume spike suggests strong bullish catalyst; small-cap with clear breakout pattern meets all entry criteria."
+    }
+  ]
 }
