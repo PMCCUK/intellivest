@@ -1,19 +1,66 @@
 {
   "results": {
     "master": {
-      "decisions": [],
-      "assessment": "No positions meet the strict risk-adjusted criteria (Opportunity>80 AND Confidence>75 AND Risk<40); market shows positive momentum but lacks catalysts to justify institutional entry at current valuations\u2014maintaining cash position for higher-conviction opportunities.",
+      "decisions": [
+        {
+          "action": "BUY",
+          "symbol": "AMD",
+          "qty_pct": 5,
+          "opportunityScore": 85,
+          "riskScore": 38,
+          "confidenceScore": 78,
+          "reasoning": "Strong upside momentum (+4.86%) with semiconductor sector tailwinds and acceptable volatility profile for growth allocation."
+        },
+        {
+          "action": "BUY",
+          "symbol": "META",
+          "qty_pct": 5,
+          "opportunityScore": 82,
+          "riskScore": 39,
+          "confidenceScore": 76,
+          "reasoning": "Solid outperformance (+1.71%) with AI narrative strength and valuation recovery potential in mega-cap tech."
+        },
+        {
+          "action": "BUY",
+          "symbol": "AAPL",
+          "qty_pct": 4,
+          "opportunityScore": 81,
+          "riskScore": 35,
+          "confidenceScore": 77,
+          "reasoning": "Defensive mega-cap showing resilience with modest positive momentum and lower volatility characteristics."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "JPM",
+          "qty_pct": 0,
+          "opportunityScore": 72,
+          "riskScore": 42,
+          "confidenceScore": 68,
+          "reasoning": "Financials weakness (-2.46%) lacks conviction without rate clarity; falls below confidence threshold."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "JNJ",
+          "qty_pct": 0,
+          "opportunityScore": 65,
+          "riskScore": 38,
+          "confidenceScore": 62,
+          "reasoning": "Healthcare decline insufficient signal; requires stabilisation and positive catalyst for allocation."
+        }
+      ],
+      "assessment": "Deploy 14% of cash into high-conviction tech/growth positions (AMD, META, AAPL) showing positive momentum and acceptable risk profiles; preserve 86% dry powder pending clarity on rate environment and financial sector recovery.",
       "strategy": "master",
       "strategy_name": "AI Master",
-      "timestamp": "2026-06-19T15:55:54.487960+00:00",
+      "timestamp": "2026-06-19T16:59:21.545481+00:00",
       "prices_used": {
         "AAPL": 298.05,
         "MSFT": 379.44,
-        "NVDA": 210.73,
-        "AMZN": 244.43,
         "META": 577.26,
+        "JPM": 325.26,
         "V": 327.28,
+        "JNJ": 228.43,
         "XOM": 137.84,
+        "SPY": 746.78,
         "QQQ": 740.66,
         "TSLA": 400.53,
         "AMD": 537.41
@@ -23,281 +70,281 @@
       "decisions": [
         {
           "action": "BUY",
-          "symbol": "TSM",
-          "qty_pct": 5,
-          "opportunityScore": 88,
-          "riskScore": 35,
-          "confidenceScore": 82,
-          "reasoning": "Strong +6.94% momentum with semiconductor tailwinds; critical AI infrastructure supplier with proven execution."
-        },
-        {
-          "action": "BUY",
           "symbol": "AMD",
           "qty_pct": 5,
-          "opportunityScore": 85,
+          "opportunityScore": 82,
           "riskScore": 38,
           "confidenceScore": 78,
-          "reasoning": "Leading +4.86% with AI/datacenter competition gaining share from NVIDIA; attractive valuation on momentum."
+          "reasoning": "Strong +4.86% momentum in semiconductor sector with AI tailwinds, meeting all criteria thresholds for entry."
         },
         {
           "action": "BUY",
-          "symbol": "NVDA",
+          "symbol": "ASML",
           "qty_pct": 5,
-          "opportunityScore": 82,
-          "riskScore": 32,
-          "confidenceScore": 80,
-          "reasoning": "Modest +2.97% gain but dominant AI infrastructure play with sustained enterprise demand justifies core position."
+          "opportunityScore": 81,
+          "riskScore": 39,
+          "confidenceScore": 76,
+          "reasoning": "Critical semiconductor equipment supplier showing +3.31% strength as AI infrastructure demand accelerates globally."
+        },
+        {
+          "action": "BUY",
+          "symbol": "META",
+          "qty_pct": 5,
+          "opportunityScore": 80,
+          "riskScore": 35,
+          "confidenceScore": 77,
+          "reasoning": "AI investment thesis gaining traction with +1.71% gains; dominant position in AI-driven advertising and metaverse infrastructure."
         }
       ],
-      "assessment": "Semiconductor/AI infrastructure sector showing healthy breadth with TSM and AMD outperforming; rotating into quality GPU/chip suppliers while valuations permit entry.",
+      "assessment": "High-conviction entry into core AI infrastructure plays (semiconductors, equipment, platforms) capitalizing on sector rotation momentum while maintaining conservative position sizing; holding \u00a385,000 cash for stronger opportunities.",
       "strategy": "growth",
       "strategy_name": "AI Growth",
-      "timestamp": "2026-06-19T15:55:58.664136+00:00",
+      "timestamp": "2026-06-19T16:59:25.286368+00:00",
       "prices_used": {
-        "NVDA": 210.73,
         "MSFT": 379.44,
         "META": 577.26,
-        "AMZN": 244.43,
         "AMD": 537.41,
         "TSLA": 400.53,
         "NFLX": 77.4,
-        "SNOW": 232.33,
-        "PLTR": 128.5,
-        "ASML": 1929.72,
-        "TSM": 462.16
+        "CRM": 151.81,
+        "ASML": 1929.72
       }
     },
     "value": {
-      "decisions": [
-        {
-          "action": "HOLD",
-          "symbol": "V",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 38,
-          "confidenceScore": 70,
-          "reasoning": "Solid fundamentals but opportunity score of 72 falls below the 80 threshold required for entry despite favorable risk profile."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "XOM",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 45,
-          "confidenceScore": 68,
-          "reasoning": "Energy sector headwinds and risk score of 45 exceed threshold; opportunity insufficient to justify entry."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "WMT",
-          "qty_pct": 0,
-          "opportunityScore": 75,
-          "riskScore": 32,
-          "confidenceScore": 72,
-          "reasoning": "Defensive quality name but opportunity of 75 falls short of 80 minimum despite strong confidence and low risk."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "MCD",
-          "qty_pct": 0,
-          "opportunityScore": 70,
-          "riskScore": 42,
-          "confidenceScore": 69,
-          "reasoning": "Mature business with limited upside; opportunity and confidence scores both below thresholds."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "ABBV",
-          "qty_pct": 0,
-          "opportunityScore": 76,
-          "riskScore": 48,
-          "confidenceScore": 71,
-          "reasoning": "Pharma dividend play showing weakness today; opportunity marginally below 80 and risk approaching limit."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "MRK",
-          "qty_pct": 0,
-          "opportunityScore": 74,
-          "riskScore": 40,
-          "confidenceScore": 70,
-          "reasoning": "Quality healthcare name but opportunity of 74 insufficient to trigger entry despite acceptable risk."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "GS",
-          "qty_pct": 0,
-          "opportunityScore": 71,
-          "riskScore": 52,
-          "confidenceScore": 68,
-          "reasoning": "Financial sector uncertainty and elevated risk score of 52 prevent entry despite quality business."
-        }
-      ],
-      "assessment": "Current market conditions present no opportunities meeting strict entry criteria; maintaining cash position until meaningful dislocations create asymmetric risk-reward setups.",
+      "decisions": [],
+      "assessment": "Market showing broad weakness (-0.55% to -2.46%) across quality financials, healthcare, and energy; insufficient conviction to deploy capital without fundamental catalysts or deeper valuation analysis beyond price declines.",
       "strategy": "value",
       "strategy_name": "AI Value",
-      "timestamp": "2026-06-19T15:56:04.046533+00:00",
+      "timestamp": "2026-06-19T16:59:27.274251+00:00",
       "prices_used": {
+        "JPM": 325.26,
+        "BAC": 56.22,
         "V": 327.28,
+        "JNJ": 228.43,
         "XOM": 137.84,
-        "WMT": 117.21,
-        "MCD": 278.65,
-        "ABBV": 216.53,
-        "MRK": 113.9,
-        "GS": 1096.6
+        "CVX": 173.66,
+        "KO": 79.41,
+        "ABBV": 216.53
       }
     },
     "momentum": {
       "decisions": [
         {
           "action": "BUY",
-          "symbol": "EEM",
+          "symbol": "QQQ",
           "qty_pct": 5,
-          "opportunityScore": 82,
+          "opportunityScore": 85,
           "riskScore": 38,
-          "confidenceScore": 78,
-          "reasoning": "Emerging markets showing strongest momentum (+3.28%) with positive trend-following signal; risk manageable given diversified EM exposure."
+          "confidenceScore": 82,
+          "reasoning": "Tech sector showing strong momentum (+2.51%) with multiple growth indicators aligned; broad tech exposure through QQQ captures the trend."
         },
         {
           "action": "BUY",
-          "symbol": "QQQ",
-          "qty_pct": 5,
+          "symbol": "XLK",
+          "qty_pct": 4,
+          "opportunityScore": 82,
+          "riskScore": 35,
+          "confidenceScore": 78,
+          "reasoning": "Technology sector leading with +3.05% gains; XLK provides concentrated sector play complementing QQQ exposure."
+        },
+        {
+          "action": "BUY",
+          "symbol": "EEM",
+          "qty_pct": 4,
           "opportunityScore": 81,
-          "riskScore": 39,
+          "riskScore": 42,
           "confidenceScore": 76,
-          "reasoning": "Nasdaq tech leadership confirmed by +2.51% gain; strong uptrend continuation signal in growth sector rotation."
+          "reasoning": "Emerging markets showing relative outperformance (+3.28% vs broad market), suggesting rotation into EM growth assets."
         },
         {
           "action": "BUY",
           "symbol": "IWM",
-          "qty_pct": 4,
-          "opportunityScore": 80,
-          "riskScore": 37,
-          "confidenceScore": 75,
-          "reasoning": "Small-cap momentum at +1.98% suggests cyclical sector strength; lower allocation to respect relative volatility."
+          "qty_pct": 3,
+          "opportunityScore": 79,
+          "riskScore": 39,
+          "confidenceScore": 74,
+          "reasoning": "Small-cap rallying (+1.98%) indicates broad market participation; tactical diversification from large-cap concentration."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "BITO",
+          "qty_pct": 0,
+          "opportunityScore": 62,
+          "riskScore": 58,
+          "confidenceScore": 65,
+          "reasoning": "Bitcoin proxy declining (-1.83%) with crypto weakness; insufficient signal to initiate position at current momentum."
         },
         {
           "action": "HOLD",
           "symbol": "MSTR",
           "qty_pct": 0,
-          "opportunityScore": 45,
-          "riskScore": 68,
-          "confidenceScore": 52,
-          "reasoning": "Crypto proxy weakness (-3.43%) fails opportunity and confidence thresholds; wait for reversal confirmation."
+          "opportunityScore": 55,
+          "riskScore": 62,
+          "confidenceScore": 58,
+          "reasoning": "Crypto-correlated asset falling sharply (-3.43%); confidence below threshold until reversal confirmation."
         },
         {
           "action": "HOLD",
-          "symbol": "XLE",
+          "symbol": "TLT",
           "qty_pct": 0,
-          "opportunityScore": 38,
-          "riskScore": 52,
-          "confidenceScore": 58,
-          "reasoning": "Energy sector declining (-1.61%); momentum-following strategy avoids counter-trend positioning."
+          "opportunityScore": 48,
+          "riskScore": 44,
+          "confidenceScore": 62,
+          "reasoning": "Bonds flat (+0.51%); equity momentum favors risk-on positioning over bonds currently."
         }
       ],
-      "assessment": "Risk-on momentum favoring growth tech and emerging markets; rotate capital toward positive momentum leaders (QQQ, EEM, IWM) while avoiding energy weakness and crypto volatility.",
+      "assessment": "Risk-on momentum favoring tech and emerging markets; initiating positions in QQQ, XLK, EEM, and IWM while avoiding crypto weakness until reversal confirmation.",
       "strategy": "momentum",
       "strategy_name": "AI Momentum",
-      "timestamp": "2026-06-19T15:56:08.770683+00:00",
+      "timestamp": "2026-06-19T16:59:33.145070+00:00",
       "prices_used": {
+        "SPY": 746.78,
         "QQQ": 740.66,
-        "XLE": 53.79,
+        "XLK": 191.47,
         "XLV": 149.43,
         "XLI": 180.94,
         "TLT": 86.77,
         "IWM": 295.63,
+        "VWO": 60.79,
         "EEM": 70.81,
         "USO": 114.9,
+        "BITO": 8.57,
         "MSTR": 112.56
       }
     },
     "uk": {
       "decisions": [
         {
-          "action": "BUY",
+          "action": "HOLD",
+          "symbol": "AZN",
+          "qty_pct": 0,
+          "opportunityScore": 65,
+          "riskScore": 35,
+          "confidenceScore": 70,
+          "reasoning": "Strong pharma play but recent -1.65% decline lacks sufficient opportunity score (65<80) to trigger entry without confirmation of support levels."
+        },
+        {
+          "action": "HOLD",
           "symbol": "ASML",
-          "qty_pct": 5,
-          "opportunityScore": 82,
+          "qty_pct": 0,
+          "opportunityScore": 72,
+          "riskScore": 45,
+          "confidenceScore": 68,
+          "reasoning": "Excellent +3.31% momentum and European tech leadership, but risk score of 45 exceeds threshold and valuation at \u00a31929.72 warrants caution on entry without pullback."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "SHEL",
+          "qty_pct": 0,
+          "opportunityScore": 55,
+          "riskScore": 52,
+          "confidenceScore": 60,
+          "reasoning": "Energy sector weakness with -1.93% decline; insufficient opportunity and elevated geopolitical/commodity risk prevent entry criteria met."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "GSK",
+          "qty_pct": 0,
+          "opportunityScore": 58,
+          "riskScore": 48,
+          "confidenceScore": 62,
+          "reasoning": "Largest single-day decline at -2.80% suggests potential value, but opportunity (58<80) and confidence (62<75) scores remain below thresholds without catalysts."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "EWU",
+          "qty_pct": 0,
+          "opportunityScore": 52,
+          "riskScore": 42,
+          "confidenceScore": 58,
+          "reasoning": "Broad UK equity exposure declining with minimal conviction; opportunity score insufficient (52<80) for portfolio deployment at current levels."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "EWG",
+          "qty_pct": 0,
+          "opportunityScore": 61,
           "riskScore": 38,
-          "confidenceScore": 78,
-          "reasoning": "European semiconductor leader showing strong positive momentum (+3.31%) with robust fundamentals in high-demand chip equipment sector; relative strength against declining sector peers indicates quality."
+          "confidenceScore": 65,
+          "reasoning": "Germany ETF showing resilience (+0.41%), but opportunity score falls short of 80 threshold needed for conviction entry."
         }
       ],
-      "assessment": "Market showing selective weakness in pharma and energy; ASML's outperformance and European growth positioning offers compelling risk-adjusted opportunity within strict discipline parameters.",
+      "assessment": "Market showing mixed signals with selective strength (ASML tech) offset by defensive weakness (GSK, pharma); no positions meet strict entry criteria (Opportunity>80, Confidence>75, Risk<40)\u2014prudent to hold cash and await clearer opportunities or sector rotation confirmation.",
       "strategy": "uk",
       "strategy_name": "AI UK & Europe",
-      "timestamp": "2026-06-19T15:56:11.656771+00:00",
+      "timestamp": "2026-06-19T16:59:39.291577+00:00",
       "prices_used": {
         "AZN": 174.96,
         "SHEL": 78.83,
         "GSK": 50.69,
         "ASML": 1929.72,
-        "SAP": 155.25,
         "EWU": 45.47,
-        "EWG": 41.53,
-        "EFA": 104.44
+        "EWG": 41.53
       }
     },
     "crypto": {
       "decisions": [
         {
           "action": "BUY",
-          "symbol": "BITF",
-          "qty_pct": 5,
+          "symbol": "HUT",
+          "qty_pct": 4,
           "opportunityScore": 82,
           "riskScore": 38,
           "confidenceScore": 78,
-          "reasoning": "BITF shows strongest positive momentum (+5.30%) among Bitcoin miners with attractive risk-reward; miner strength typically leads broader crypto recovery."
+          "reasoning": "Strongest momentum (+4.70%) among miners with established liquidity; mining sector showing relative strength vs spot/futures crypto proxies."
         },
         {
           "action": "BUY",
           "symbol": "RIOT",
-          "qty_pct": 4,
+          "qty_pct": 3,
           "opportunityScore": 81,
           "riskScore": 39,
           "confidenceScore": 76,
-          "reasoning": "RIOT displaying solid +2.52% momentum as established miner with liquidity; outperforming trust products suggests sector confidence."
+          "reasoning": "Solid +2.52% momentum and lower volatility profile than smaller-cap miners; good leverage to Bitcoin upside."
         },
         {
           "action": "BUY",
-          "symbol": "CLSK",
+          "symbol": "BITF",
           "qty_pct": 3,
-          "opportunityScore": 80,
-          "riskScore": 37,
-          "confidenceScore": 75,
-          "reasoning": "CLSK +2.86% momentum indicates miner sector strength; smaller position sizing balances opportunity with concentration risk."
+          "opportunityScore": 81,
+          "riskScore": 42,
+          "confidenceScore": 74,
+          "reasoning": "Strong +5.30% momentum indicates accumulation; provides diversified miner exposure to Canadian jurisdiction."
         },
         {
           "action": "HOLD",
-          "symbol": "ETHE",
+          "symbol": "GBTC",
           "qty_pct": 0,
           "opportunityScore": 62,
-          "riskScore": 45,
+          "riskScore": 28,
           "confidenceScore": 68,
-          "reasoning": "ETHE negative momentum (-1.50%) and trust structure underperformance; wait for stabilization before entry."
+          "reasoning": "No position currently; spot Bitcoin trust momentum weak, awaiting clearer directional signal before entry."
         },
         {
           "action": "HOLD",
           "symbol": "MSTR",
           "qty_pct": 0,
           "opportunityScore": 58,
-          "riskScore": 42,
-          "confidenceScore": 70,
-          "reasoning": "MSTR sharp decline (-3.43%) without catalyst clarity; excessive volatility fails confidence threshold."
+          "riskScore": 45,
+          "confidenceScore": 62,
+          "reasoning": "Negative momentum (-3.43%) and leverage dynamics unfavorable; wait for stabilization before considering."
         }
       ],
-      "assessment": "Bitcoin mining stocks showing genuine momentum divergence from trust products; tactical allocation to BITF/RIOT/CLSK captures miner strength while avoiding overleveraged asset trusts during mixed sentiment environment.",
+      "assessment": "Crypto miners showing relative outperformance vs. spot/futures proxies; buying top-momentum names (HUT, RIOT, BITF) with disciplined position sizing capitalizes on sector strength while cash reserves remain substantial for opportunistic dips.",
       "strategy": "crypto",
       "strategy_name": "AI Crypto",
-      "timestamp": "2026-06-19T15:56:16.386769+00:00",
+      "timestamp": "2026-06-19T16:59:44.469752+00:00",
       "prices_used": {
         "ETHE": 13.8,
+        "BITO": 8.57,
         "MARA": 14.24,
         "RIOT": 28.12,
+        "HUT": 124.47,
         "BITF": 5.96,
-        "COIN": 163.29,
+        "CIFR": 29.2,
         "MSTR": 112.56,
-        "CLSK": 17.26,
+        "BTBT": 2.19,
+        "WGMI": 72.12,
         "IBIT": 35.64,
         "FBTC": 54.79
       }
@@ -306,76 +353,68 @@
       "decisions": [
         {
           "action": "HOLD",
-          "symbol": "MARA",
-          "qty_pct": 0,
-          "opportunityScore": 62,
-          "riskScore": 48,
-          "confidenceScore": 58,
-          "reasoning": "Positive momentum but lacks catalyst clarity; opportunity score below 75 threshold and confidence insufficient for entry."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "RIOT",
-          "qty_pct": 0,
-          "opportunityScore": 65,
-          "riskScore": 52,
-          "confidenceScore": 61,
-          "reasoning": "Modest gains lack conviction; no unusual volume or specific catalyst to justify entry at current risk/confidence levels."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "CLSK",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 50,
-          "confidenceScore": 64,
-          "reasoning": "Sector momentum present but entry criteria unmet; requires stronger catalyst or volume signal."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "CMPS",
+          "symbol": "CIFR",
           "qty_pct": 0,
           "opportunityScore": 72,
-          "riskScore": 58,
-          "confidenceScore": 66,
-          "reasoning": "5.11% move is notable but risk score exceeds 40 threshold; lacking news confirmation for 75+ opportunity."
+          "riskScore": 48,
+          "confidenceScore": 68,
+          "reasoning": "Strong +10.82% volume surge suggests momentum, but risk score (48) exceeds threshold and opportunity (72) falls short of 80 minimum requirement."
         },
         {
           "action": "HOLD",
           "symbol": "ACMR",
           "qty_pct": 0,
-          "opportunityScore": 71,
-          "riskScore": 62,
-          "confidenceScore": 65,
-          "reasoning": "Strong 14.25% move but high volatility and risk (62) exceed threshold; potential reversal risk without news catalyst."
+          "opportunityScore": 68,
+          "riskScore": 52,
+          "confidenceScore": 64,
+          "reasoning": "Exceptional +14.25% gain is striking but lacks catalyst confirmation, risk is elevated (52), and confidence insufficient without news context."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "BTBT",
+          "qty_pct": 0,
+          "opportunityScore": 70,
+          "riskScore": 46,
+          "confidenceScore": 66,
+          "reasoning": "Solid +7.88% momentum in crypto-adjacent asset, but opportunity (70) and confidence (66) both miss thresholds; risk borderline acceptable."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "CMPS",
+          "qty_pct": 0,
+          "opportunityScore": 69,
+          "riskScore": 47,
+          "confidenceScore": 67,
+          "reasoning": "Respectable +5.11% with moderate technicals, but all three scores fall short of strict buy criteria (80/75/40 thresholds)."
         }
       ],
-      "assessment": "Market lacks sufficient conviction trades; no positions meet strict 80+ Opportunity, 75+ Confidence, and <40 Risk criteria \u2014 maintain cash discipline for higher-quality setups.",
+      "assessment": "Market shows scattered small-cap momentum but no setups meeting strict buy criteria (Opp>80, Conf>75, Risk<40); hold cash and wait for higher-conviction catalysts with clearer risk/reward asymmetry.",
       "strategy": "smallcap",
       "strategy_name": "AI Small Cap",
-      "timestamp": "2026-06-19T15:56:21.850283+00:00",
+      "timestamp": "2026-06-19T16:59:49.037038+00:00",
       "prices_used": {
         "MARA": 14.24,
         "RIOT": 28.12,
-        "CLSK": 17.26,
+        "CIFR": 29.2,
+        "BTBT": 2.19,
         "APPS": 8.63,
-        "PUBM": 11.32,
         "DV": 10.34,
         "CREX": 3.92,
+        "SOUN": 7.14,
         "CMPS": 12.55,
+        "ATAI": 4.08,
         "NVAX": 9.15,
-        "SNDL": 1.44,
+        "NIO": 5.03,
         "XPEV": 13.22,
-        "LI": 13.23,
+        "LCID": 5.38,
         "TLRY": 4.75,
-        "CGC": 0.9682,
         "ACB": 2.95,
+        "CRON": 2.69,
         "ACMR": 109.9,
-        "AEHR": 115.33,
         "VERA": 35.11
       }
     }
   },
   "marketStatus": "open",
-  "runAt": "2026-06-19T15:56:22.354412+00:00"
+  "runAt": "2026-06-19T16:59:49.541169+00:00"
 }
