@@ -1,173 +1,171 @@
 {
-  "marketSummary": "Markets display mixed signals with tech-heavy QQQ leading gains at +2.22%, while blue-chip DIA shows minimal movement at +0.02%, suggesting rotational strength toward growth. Bond yields steady with TLT +0.58%, indicating stable risk sentiment without flight-to-safety pressure. Lack of catalyst news presents opportunity for data-driven positioning ahead of potential macro developments.",
+  "marketSummary": "U.S. equities display broad-based strength this morning with technology leading gains (+2.51% QQQ), supported by solid performance in small-cap indices (+1.98% IWM) and stable bond markets (+0.51% TLT). The absence of significant negative news coupled with across-the-board gains suggests risk-on sentiment is prevailing in today's session.",
   "topOpportunities": [
     {
       "symbol": "QQQ",
-      "name": "Nasdaq-100 ETF",
-      "reason": "Strong momentum at +2.22% suggests technology sector strength; outperformance vs DIA indicates investor confidence in growth narratives",
+      "name": "Invesco QQQ Trust",
+      "reason": "Tech-heavy index showing strongest momentum at +2.51%; typically leads market rallies when risk appetite is elevated",
       "score": 78,
       "riskScore": 65,
-      "confidenceScore": 72,
-      "historicalComparison": "Tech typically leads in low-volatility environments; momentum consistent with Q4 seasonal strength"
+      "confidenceScore": 75,
+      "historicalComparison": "Tech leadership aligns with recent risk-on trends; above typical daily volatility"
     },
     {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "reason": "QQQ strength likely supported by AI/semiconductor leaders; continued demand for AI infrastructure remains structural tailwind",
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "reason": "Small-cap outperformance (+1.98%) indicates broad market participation; suggests confidence in domestic economic fundamentals",
       "score": 74,
       "riskScore": 72,
-      "confidenceScore": 68,
-      "historicalComparison": "NVDA has outperformed during QQQ surges; valuation elevated but growth justifies positioning"
-    },
-    {
-      "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "reason": "AI integration across Office suite and cloud services driving enterprise adoption; positioned to benefit from AI capex cycle",
-      "score": 75,
-      "riskScore": 62,
-      "confidenceScore": 74,
-      "historicalComparison": "MSFT showing resilience in mixed markets; enterprise software typically defensive with growth premium"
+      "confidenceScore": 70,
+      "historicalComparison": "Small-cap strength historically precedes sustained rallies; domestic-focused strength positive signal"
     },
     {
       "symbol": "TLT",
-      "name": "20+ Year Treasury ETF",
-      "reason": "Slight yield curve stabilization at +0.58%; long-duration bonds attractive if Fed pivot accelerates in 2024-2025",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Bond stability (+0.51%) suggests no flight-to-safety panic; supports equity gains as sustainable rather than speculative",
       "score": 62,
-      "riskScore": 48,
-      "confidenceScore": 65,
-      "historicalComparison": "TLT typically rallies 2-3% on major rate cut cycles; current positioning reflects cautious optimism"
+      "riskScore": 25,
+      "confidenceScore": 80,
+      "historicalComparison": "Modest bond gains paired with equity strength typical of healthy bull market environment"
     },
     {
-      "symbol": "TSLA",
-      "name": "Tesla Inc.",
-      "reason": "EV sector beneficiary of tech rally; strong QQQ performance creates positive spillover for growth-oriented auto manufacturers",
-      "score": 68,
-      "riskScore": 78,
-      "confidenceScore": 61,
-      "historicalComparison": "TSLA highly correlated with QQQ sentiment; volatility elevated but secular EV tailwind intact"
+      "symbol": "TECH",
+      "name": "Technology Sector",
+      "reason": "QQQ outperformance reflects strong tech momentum; sector likely benefiting from AI narratives and growth outlook",
+      "score": 76,
+      "riskScore": 68,
+      "confidenceScore": 72,
+      "historicalComparison": "Tech resilience above broader market reflects structural demand tailwinds"
     },
     {
-      "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "reason": "Consumer tech strength coupled with services expansion provides dual growth vectors; iPhone cycle resilience supports valuation",
-      "score": 72,
-      "riskScore": 58,
-      "confidenceScore": 70,
-      "historicalComparison": "AAPL typically supports broad tech rallies; dividend support provides downside cushion"
-    },
-    {
-      "symbol": "AMZN",
-      "name": "Amazon.com Inc.",
-      "reason": "AWS cloud division accelerating amid enterprise AI adoption; e-commerce stability provides earnings floor",
+      "symbol": "SMCAP",
+      "name": "Small-Cap Growth Stocks",
+      "reason": "IWM's strong showing suggests investors rotating into higher-beta opportunities; reflects confidence in earnings growth",
       "score": 71,
-      "riskScore": 61,
-      "confidenceScore": 69,
-      "historicalComparison": "AMZN recently outperformed on cloud commentary; Q4 retail season approaching provides catalyst window"
+      "riskScore": 75,
+      "confidenceScore": 68,
+      "historicalComparison": "Small-cap outperformance historically correlates with economic expansion expectations"
     },
     {
-      "symbol": "IVV",
-      "name": "iShares Core S&P 500 ETF",
-      "reason": "Broad market exposure with defensive positioning possible; DIA weakness suggests opportunity to rebalance toward large-cap core",
-      "score": 65,
-      "riskScore": 52,
-      "confidenceScore": 66,
-      "historicalComparison": "IVV range-bound but foundational; positioning for Q4 earnings season ahead"
+      "symbol": "GROWTH",
+      "name": "Growth Equities",
+      "reason": "QQQ and IWM gains indicate growth outperforming value; suggests inflation concerns are subsiding",
+      "score": 73,
+      "riskScore": 70,
+      "confidenceScore": 71,
+      "historicalComparison": "Growth leadership in low-volatility environment typical of late-cycle expansion phase"
+    },
+    {
+      "symbol": "DOMESTIC",
+      "name": "Domestic U.S. Equities",
+      "reason": "Broad market strength across indices indicates healthy domestic demand; no international headwind signals evident",
+      "score": 75,
+      "riskScore": 62,
+      "confidenceScore": 76,
+      "historicalComparison": "Domestic concentration strength suggests positive earnings revision cycle underway"
+    },
+    {
+      "symbol": "MOMENTUM",
+      "name": "Momentum Strategies",
+      "reason": "Tech and small-cap outperformance creates positive momentum indicators; trend-following strategies showing alpha potential",
+      "score": 70,
+      "riskScore": 73,
+      "confidenceScore": 69,
+      "historicalComparison": "Current momentum metrics above 90-day average; supports tactical overweights"
     }
   ],
   "topRisks": [
     {
-      "symbol": "DIA",
-      "name": "Dow Jones Industrial Average",
-      "reason": "Minimal movement (+0.02%) suggests potential weakness in cyclical/industrial sectors; lagging tech may indicate rotation concerns",
-      "riskLevel": "MEDIUM",
-      "riskScore": 62
-    },
-    {
-      "symbol": "QQQH",
-      "name": "3x Leveraged Nasdaq ETF",
-      "reason": "Leveraged instruments amplify downside risk during tech corrections; momentum reversal could trigger sharp losses",
+      "symbol": "QQQ",
+      "name": "Nasdaq-100 Concentration Risk",
+      "reason": "Heavy concentration in mega-cap tech creates single-sector vulnerability; profit-taking risk elevated after +2.51% spike",
       "riskLevel": "HIGH",
-      "riskScore": 85
+      "riskScore": 72
     },
     {
-      "symbol": "GLD",
-      "name": "SPDR Gold ETF",
-      "reason": "Risk-on sentiment limiting safe-haven demand; geopolitical escalation or Fed pause could trigger reversal volatility",
-      "riskLevel": "MEDIUM",
-      "riskScore": 58
+      "symbol": "VALUATION",
+      "name": "Tech Valuation Risk",
+      "reason": "Technology sector valuations remain elevated; large single-day gains may be unsustainable without earnings support",
+      "riskLevel": "HIGH",
+      "riskScore": 68
     },
     {
-      "symbol": "HYG",
-      "name": "iShares High Yield Bond ETF",
-      "reason": "Credit spreads vulnerable if growth deceleration accelerates; tech revenue concerns could cascade to corporate debt quality",
-      "riskLevel": "MEDIUM",
-      "riskScore": 64
-    },
-    {
-      "symbol": "EEM",
-      "name": "iShares MSCI Emerging Markets ETF",
-      "reason": "EM currencies weakening amid strong dollar; Fed pivot delay extends headwinds for emerging market valuations",
+      "symbol": "IWM",
+      "name": "Small-Cap Liquidity Risk",
+      "reason": "Small-cap strength coupled with outperformance can reverse quickly on negative data; lower liquidity amplifies moves",
       "riskLevel": "MEDIUM",
       "riskScore": 61
     },
     {
-      "symbol": "XLE",
-      "name": "Energy Select Sector ETF",
-      "reason": "Oil demand destruction risk if recession narrative strengthens; tech rally often precedes growth concerns affecting energy",
+      "symbol": "MACRO",
+      "name": "Macro Surprise Risk",
+      "reason": "Absence of news may indicate data blackout period; upcoming economic releases could trigger volatility reversal",
       "riskLevel": "MEDIUM",
-      "riskScore": 67
+      "riskScore": 58
     },
     {
-      "symbol": "TBT",
-      "name": "3x Inverse Long Treasury ETF",
-      "reason": "Inverse Treasury positioning dangerous ahead of potential Fed pivot; QQQ strength masks underlying bond strength signals",
-      "riskLevel": "HIGH",
-      "riskScore": 81
+      "symbol": "RATES",
+      "name": "Interest Rate Risk",
+      "reason": "Bond yields stable but vulnerable to inflation surprises; rapid rate moves could unwind equity gains",
+      "riskLevel": "MEDIUM",
+      "riskScore": 55
     },
     {
-      "symbol": "SQQQ",
-      "name": "3x Inverse Nasdaq ETF",
-      "reason": "Bear positioning against QQQ momentum creates significant downside convexity; elevated decay risk in range-bound markets",
-      "riskLevel": "HIGH",
-      "riskScore": 83
+      "symbol": "SENTIMENT",
+      "name": "Sentiment Extremes Risk",
+      "reason": "Broad-based rallies without news catalyst suggest speculative positioning; reversal risk if sentiment shifts",
+      "riskLevel": "MEDIUM",
+      "riskScore": 64
+    },
+    {
+      "symbol": "EARNINGS",
+      "name": "Earnings Momentum Risk",
+      "reason": "Current gains not backed by earnings announcements; earnings season timing could create disappointment risk",
+      "riskLevel": "MEDIUM",
+      "riskScore": 59
+    },
+    {
+      "symbol": "ROTATION",
+      "name": "Sector Rotation Risk",
+      "reason": "Tech-led rally may indicate value sectors left behind; mean reversion could pressure QQQ outperformance",
+      "riskLevel": "LOW",
+      "riskScore": 52
     }
   ],
   "bullishSectors": [
     {
       "sector": "Technology",
       "score": 82,
-      "reason": "QQQ +2.22% confirms sector strength; AI infrastructure capex cycle, cloud adoption, and enterprise software resilience driving outperformance"
+      "reason": "QQQ's +2.51% gain reflects strong tech momentum; sector shows resilience and leadership in broader market rally"
     },
     {
-      "sector": "Communication Services",
-      "score": 71,
-      "reason": "Digital advertising recovery and streaming subscriber momentum supporting valuations; integrated with technology secular tailwinds"
+      "sector": "Small-Cap Growth",
+      "score": 76,
+      "reason": "IWM outperformance at +1.98% indicates investor confidence in domestic growth; cyclical strength positive"
     },
     {
-      "sector": "Healthcare",
+      "sector": "Fixed Income",
       "score": 68,
-      "reason": "Defensive positioning amid mixed signals; pharma innovation and biotech M&A activity creating upside optionality"
+      "reason": "TLT stability (+0.51%) suggests healthy bond demand; indicates measured rate expectations supporting risk-on environment"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Industrials",
+      "sector": "Defensive/Utilities",
       "score": 38,
-      "reason": "DIA minimal movement indicates cyclical weakness; capex uncertainty and credit spread concerns limiting equipment/machinery demand"
+      "reason": "Underperformance versus growth reflects reduced safe-haven demand; suggests risk appetite outweighing caution"
     },
     {
-      "sector": "Materials",
+      "sector": "Value Equities",
       "score": 42,
-      "reason": "Commodity price pressure from strong dollar; manufacturing slowdown signals reducing input demand for construction/production"
+      "reason": "Tech outperformance implies growth leadership; value rotation stalled as growth captures investor flows"
     }
   ],
   "keyEvents": [
-    "No scheduled macro catalysts identified today - market operating on sentiment-driven positioning",
-    "Earnings season tail-end monitoring critical; Q3 guidance revisions will influence Q4 performance expectations",
-    "Fed speakers scheduled for upcoming week; any hawkish commentary could reverse bond gains and tech momentum",
-    "Tech earnings calendar entering key dates - monitor for cloud/AI margin commentary",
-    "Holiday season retail catalysts approaching; consumer discretionary positioning critical ahead"
+    "No scheduled major economic data or news releases identified for today",
+    "Monitor potential earnings announcements or guidance that could validate current rally",
+    "Watch for any Federal Reserve communications that could impact bond market stability"
   ],
-  "date": "2026-06-18",
-  "generatedAt": "2026-06-18T16:21:52.503182+00:00"
+  "date": "2026-06-19",
+  "generatedAt": "2026-06-19T15:55:53.208154+00:00"
 }
