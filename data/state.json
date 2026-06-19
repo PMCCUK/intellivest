@@ -85,7 +85,7 @@
             "conf": 78
           },
           "reason": "Strong momentum (+1.56%) with semiconductor sector tailwinds and attractive risk-reward profile meets all buy criteria.",
-          "currentPrice": 411.35
+          "currentPrice": 411.39
         },
         "SPY": {
           "qty": 6,
@@ -109,7 +109,7 @@
             "conf": 75
           },
           "reason": "Gold's +1.62% gain amid broader market weakness signals safe-haven demand and portfolio diversification benefit.",
-          "currentPrice": 386.09
+          "currentPrice": 387.16
         },
         "AAPL": {
           "qty": 16,
@@ -133,7 +133,7 @@
             "conf": 76
           },
           "reason": "AI sector leadership with positive momentum (+2.22%) and institutional demand supports conviction buy despite valuation.",
-          "currentPrice": 210.69
+          "currentPrice": 210.73
         },
         "QQQ": {
           "qty": 6,
@@ -231,7 +231,7 @@
         },
         {
           "date": "2026-06-19",
-          "value": 99934.21
+          "value": 100370.16
         }
       ]
     },
@@ -320,7 +320,7 @@
             "conf": 81
           },
           "reason": "Gold momentum (+1.62%) with defensive bid; flight-to-quality hedge against equity concentration while maintaining upside exposure.",
-          "currentPrice": 386.09
+          "currentPrice": 387.16
         },
         "XLF": {
           "qty": 75,
@@ -419,7 +419,7 @@
         },
         {
           "date": "2026-06-19",
-          "value": 100830.46
+          "value": 100335.17
         }
       ]
     },
@@ -520,7 +520,7 @@
             "conf": 78
           },
           "reason": "Infrastructure semiconductor play with +2.65% strength benefiting from AI data center expansion at more reasonable valuation than peers.",
-          "currentPrice": 411.35
+          "currentPrice": 411.39
         },
         "AMZN": {
           "qty": 16,
@@ -575,7 +575,7 @@
         },
         {
           "date": "2026-06-19",
-          "value": 100935.3
+          "value": 101378.72
         }
       ]
     },
@@ -699,7 +699,7 @@
         },
         {
           "date": "2026-06-19",
-          "value": 99711.5
+          "value": 99755.18
         }
       ]
     },
@@ -855,7 +855,7 @@
         },
         {
           "date": "2026-06-19",
-          "value": 101811.35
+          "value": 100700.58
         }
       ]
     },
@@ -872,7 +872,7 @@
             "conf": 78
           },
           "reason": "Investment-grade bank with strong fundamentals, modest valuation relative to earnings power, and defensive characteristics in uncertain markets.",
-          "currentPrice": 332.52
+          "currentPrice": 325.26
         },
         "BAC": {
           "qty": 91,
@@ -884,7 +884,7 @@
             "conf": 76
           },
           "reason": "Undervalued large-cap bank with solid dividend yield, recent momentum, and attractive price-to-book ratio.",
-          "currentPrice": 56.2
+          "currentPrice": 56.22
         },
         "XOM": {
           "qty": 33,
@@ -968,7 +968,7 @@
             "conf": 78
           },
           "reason": "Defensive healthcare dividend aristocrat down 2.11% with strong fundamentals and recession-resistant characteristics; meets all thresholds for value entry.",
-          "currentPrice": 228.39
+          "currentPrice": 228.43
         }
       },
       "trades": [],
@@ -995,12 +995,12 @@
         },
         {
           "date": "2026-06-19",
-          "value": 99170.43
+          "value": 99540.18
         }
       ]
     },
     "smallcap": {
-      "balance": 87057.83000000002,
+      "balance": 82064.63000000002,
       "positions": {
         "AEHR": {
           "qty": 43,
@@ -1024,7 +1024,7 @@
             "conf": 76
           },
           "reason": "Exceptional +12.86% momentum with unusual volume spike suggests strong bullish catalyst; small-cap with clear breakout pattern meets all entry criteria.",
-          "currentPrice": 3.35
+          "currentPrice": 3.37
         },
         "ACMR": {
           "qty": 45,
@@ -1037,6 +1037,18 @@
           },
           "reason": "Exceptional +14.22% momentum with unusual volume spike suggests strong institutional accumulation; biotech/medical device catalyst likely driving breakout above key resistance.",
           "currentPrice": 109.9
+        },
+        "CIFR": {
+          "qty": 171,
+          "entryPrice": 29.2,
+          "entryTs": "2026-06-19T17:30:29.239989+00:00",
+          "aiScores": {
+            "opp": 82,
+            "risk": 38,
+            "conf": 76
+          },
+          "reason": "Exceptional +10.82% momentum with unusual volume surge suggests emerging catalyst; small-cap crypto infrastructure play with strong technical breakout.",
+          "currentPrice": 29.2
         }
       },
       "trades": [],
@@ -1059,12 +1071,26 @@
         },
         {
           "date": "2026-06-19",
-          "value": 100001.35
+          "value": 100160.65
         }
       ]
     }
   },
   "recommendations": [
+    {
+      "id": "1781890229.240002CIFR",
+      "symbol": "CIFR",
+      "strategy": "smallcap",
+      "ts": "2026-06-19T17:30:29.240008+00:00",
+      "entryPrice": 29.2,
+      "oppScore": 82,
+      "riskScore": 38,
+      "confScore": 76,
+      "reasoning": "Exceptional +10.82% momentum with unusual volume surge suggests emerging catalyst; small-cap crypto infrastructure play with strong technical breakout.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
     {
       "id": "1781815422.24553ACMR",
       "symbol": "ACMR",
@@ -2006,6 +2032,11 @@
   ],
   "aiTradeLog": [
     {
+      "ts": "2026-06-19T17:30:29.239999+00:00",
+      "portfolio": "smallcap",
+      "msg": "BUY 171\u00d7 CIFR @ \u00a329.20 \u2014 Exceptional +10.82% momentum with unusual volume surge suggests emerging catalyst; small-cap crypto infrastructure play with strong technical breakout."
+    },
+    {
       "ts": "2026-06-18T20:43:42.245527+00:00",
       "portfolio": "smallcap",
       "msg": "BUY 45\u00d7 ACMR @ \u00a3109.87 \u2014 Exceptional +14.22% momentum with unusual volume spike suggests strong institutional accumulation; biotech/medical device catalyst likely driving breakout above key resistance."
@@ -2362,5 +2393,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-06-19T16:59:49.537393+00:00"
+  "lastRun": "2026-06-19T17:30:29.740287+00:00"
 }
