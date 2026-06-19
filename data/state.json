@@ -61,7 +61,7 @@
             "conf": 77
           },
           "reason": "Only mega-cap with positive momentum (+0.26%) despite sector selloff; AI leadership justifies defensive core holding at reduced valuation.",
-          "currentPrice": 367.04
+          "currentPrice": 368.07
         },
         "JNJ": {
           "qty": 21,
@@ -169,7 +169,7 @@
             "conf": 77
           },
           "reason": "Strong +3.02% movement suggests positive sentiment; large-cap stability with cloud/e-commerce growth catalysts.",
-          "currentPrice": 244.39
+          "currentPrice": 244.43
         }
       },
       "trades": [
@@ -231,7 +231,7 @@
         },
         {
           "date": "2026-06-19",
-          "value": 100370.16
+          "value": 100513.38
         }
       ]
     },
@@ -419,7 +419,7 @@
         },
         {
           "date": "2026-06-19",
-          "value": 100335.17
+          "value": 100579.86
         }
       ]
     },
@@ -496,7 +496,7 @@
             "conf": 77
           },
           "reason": "Positive momentum (+0.26%) among mega-cap tech; diversified AI exposure with solid balance sheet and revenue diversity.",
-          "currentPrice": 367.04
+          "currentPrice": 368.07
         },
         "TSLA": {
           "qty": 12,
@@ -575,7 +575,7 @@
         },
         {
           "date": "2026-06-19",
-          "value": 101378.72
+          "value": 101164.29
         }
       ]
     },
@@ -699,7 +699,7 @@
         },
         {
           "date": "2026-06-19",
-          "value": 99755.18
+          "value": 99453.74
         }
       ]
     },
@@ -855,12 +855,12 @@
         },
         {
           "date": "2026-06-19",
-          "value": 100700.58
+          "value": 101731.45
         }
       ]
     },
     "value": {
-      "balance": 57233.77999999999,
+      "balance": 52338.77999999999,
       "positions": {
         "JPM": {
           "qty": 15,
@@ -944,7 +944,7 @@
             "conf": 81
           },
           "reason": "Morgan Stanley momentum (+2.68%) combined with strong financial sector positioning and quality fundamentals meets all threshold criteria.",
-          "currentPrice": 225.7
+          "currentPrice": 223.21
         },
         "WMT": {
           "qty": 33,
@@ -969,6 +969,18 @@
           },
           "reason": "Defensive healthcare dividend aristocrat down 2.11% with strong fundamentals and recession-resistant characteristics; meets all thresholds for value entry.",
           "currentPrice": 228.43
+        },
+        "BRK-B": {
+          "qty": 10,
+          "entryPrice": 489.5,
+          "entryTs": "2026-06-19T18:52:11.591860+00:00",
+          "aiScores": {
+            "opp": 80,
+            "risk": 28,
+            "conf": 84
+          },
+          "reason": "Warren Buffett's conglomerate showing strength with only 0.36% decline; fortress balance sheet and diversified earnings provide downside protection.",
+          "currentPrice": 489.5
         }
       },
       "trades": [],
@@ -995,7 +1007,7 @@
         },
         {
           "date": "2026-06-19",
-          "value": 99540.18
+          "value": 100061.86
         }
       ]
     },
@@ -1071,12 +1083,26 @@
         },
         {
           "date": "2026-06-19",
-          "value": 100160.65
+          "value": 99960.01
         }
       ]
     }
   },
   "recommendations": [
+    {
+      "id": "1781895131.591873BRK-B",
+      "symbol": "BRK-B",
+      "strategy": "value",
+      "ts": "2026-06-19T18:52:11.591879+00:00",
+      "entryPrice": 489.5,
+      "oppScore": 80,
+      "riskScore": 28,
+      "confScore": 84,
+      "reasoning": "Warren Buffett's conglomerate showing strength with only 0.36% decline; fortress balance sheet and diversified earnings provide downside protection.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
     {
       "id": "1781890229.240002CIFR",
       "symbol": "CIFR",
@@ -1115,7 +1141,7 @@
       "riskScore": 36,
       "confScore": 77,
       "reasoning": "Emerging markets gaining +1.69% in risk-on environment; Iran peace deal narrative supports geopolitical risk relief in developing economies.",
-      "perf1d": null,
+      "perf1d": -0.05,
       "perf7d": null,
       "perf30d": null
     },
@@ -1129,7 +1155,7 @@
       "riskScore": 35,
       "confScore": 78,
       "reasoning": "Defensive healthcare dividend aristocrat down 2.11% with strong fundamentals and recession-resistant characteristics; meets all thresholds for value entry.",
-      "perf1d": null,
+      "perf1d": -0.36,
       "perf7d": null,
       "perf30d": null
     },
@@ -1143,7 +1169,7 @@
       "riskScore": 39,
       "confScore": 76,
       "reasoning": "Positive momentum (+1.35%), significant AI investment thesis, large-scale data infrastructure positioning improving competitiveness.",
-      "perf1d": null,
+      "perf1d": 0.35,
       "perf7d": null,
       "perf30d": null
     },
@@ -1157,7 +1183,7 @@
       "riskScore": 36,
       "confScore": 77,
       "reasoning": "Strong +3.02% movement suggests positive sentiment; large-cap stability with cloud/e-commerce growth catalysts.",
-      "perf1d": null,
+      "perf1d": -0.1,
       "perf7d": null,
       "perf30d": null
     },
@@ -1171,7 +1197,7 @@
       "riskScore": 37,
       "confScore": 76,
       "reasoning": "AWS cloud dominance and AI infrastructure positioning with +2.14% momentum supports strategic allocation.",
-      "perf1d": null,
+      "perf1d": 0.76,
       "perf7d": null,
       "perf30d": null
     },
@@ -2032,6 +2058,11 @@
   ],
   "aiTradeLog": [
     {
+      "ts": "2026-06-19T18:52:11.591870+00:00",
+      "portfolio": "value",
+      "msg": "BUY 10\u00d7 BRK-B @ \u00a3489.50 \u2014 Warren Buffett's conglomerate showing strength with only 0.36% decline; fortress balance sheet and diversified earnings provide downside protection."
+    },
+    {
       "ts": "2026-06-19T17:30:29.239999+00:00",
       "portfolio": "smallcap",
       "msg": "BUY 171\u00d7 CIFR @ \u00a329.20 \u2014 Exceptional +10.82% momentum with unusual volume surge suggests emerging catalyst; small-cap crypto infrastructure play with strong technical breakout."
@@ -2393,5 +2424,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-06-19T17:30:29.740287+00:00"
+  "lastRun": "2026-06-19T18:52:33.343403+00:00"
 }
