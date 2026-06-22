@@ -248,7 +248,7 @@
             "conf": 78
           },
           "reason": "Tech sector showing strongest momentum (+1.56%) with XLK outperforming (+2.17%); growth rotation favored in current market regime.",
-          "currentPrice": 737.81
+          "currentPrice": 736.11
         },
         "EEM": {
           "qty": 45,
@@ -260,7 +260,7 @@
             "conf": 76
           },
           "reason": "Emerging markets accelerating (+2.24%) as global growth expectations improve; SNB rate cut signals accommodative policy environment.",
-          "currentPrice": 71.26
+          "currentPrice": 71.15
         },
         "XLI": {
           "qty": 29,
@@ -296,7 +296,7 @@
             "conf": 79
           },
           "reason": "Bitcoin proxy leading session (+1.30%) signaling crypto momentum revival; institutional exposure through futures ETF reduces custody risk.",
-          "currentPrice": 8.57
+          "currentPrice": 8.75
         },
         "XLK": {
           "qty": 27,
@@ -344,7 +344,7 @@
             "conf": 76
           },
           "reason": "Bond rally strength (+0.71%) amid rate-cut cycle and BoE decision volatility; defensive yield play fits trend.",
-          "currentPrice": 86.08
+          "currentPrice": 86.12
         },
         "DBA": {
           "qty": 151,
@@ -356,7 +356,7 @@
             "conf": 75
           },
           "reason": "Agricultural commodities rallying (+1.21%) suggesting inflation/supply cycle positioning; diversified commodity exposure with momentum.",
-          "currentPrice": 26.7
+          "currentPrice": 26.66
         },
         "VWO": {
           "qty": 49,
@@ -368,7 +368,7 @@
             "conf": 77
           },
           "reason": "Emerging markets gaining +1.69% in risk-on environment; Iran peace deal narrative supports geopolitical risk relief in developing economies.",
-          "currentPrice": 61.35
+          "currentPrice": 61.25
         },
         "GBTC": {
           "qty": 60,
@@ -392,7 +392,7 @@
             "conf": 78
           },
           "reason": "Healthcare sector showing relative strength (+0.68%) against broad market weakness; defensive positioning with positive trend initiation.",
-          "currentPrice": 150.4
+          "currentPrice": 150.06
         }
       },
       "trades": [
@@ -447,7 +447,7 @@
         },
         {
           "date": "2026-06-22",
-          "value": 100594.28
+          "value": 100173.93
         }
       ]
     },
@@ -620,7 +620,7 @@
             "conf": 82
           },
           "reason": "Strong +5.58% momentum, European semiconductor leader with structural growth tailwinds despite macro uncertainty; valuation supported by AI/chip cycle strength.",
-          "currentPrice": 1891.87
+          "currentPrice": 1892.33
         },
         "AZN": {
           "qty": 27,
@@ -656,7 +656,7 @@
             "conf": 79
           },
           "reason": "Broad European exposure with +2.32% momentum provides diversified entry to continent-wide rally.",
-          "currentPrice": 104.64
+          "currentPrice": 104.55
         },
         "EWG": {
           "qty": 71,
@@ -730,12 +730,12 @@
         },
         {
           "date": "2026-06-22",
-          "value": 99402.71
+          "value": 99593.46
         }
       ]
     },
     "crypto": {
-      "balance": 67266.99000000002,
+      "balance": 64248.24000000002,
       "positions": {
         "IBIT": {
           "qty": 84,
@@ -747,7 +747,7 @@
             "conf": 78
           },
           "reason": "IBIT shows strongest spot Bitcoin ETF momentum at +1.48% with lower volatility profile than futures; direct Bitcoin exposure with institutional-grade structure.",
-          "currentPrice": 35.64
+          "currentPrice": 36.46
         },
         "FBTC": {
           "qty": 54,
@@ -759,7 +759,7 @@
             "conf": 77
           },
           "reason": "FBTC demonstrates consistent Bitcoin exposure at +1.50% with high fund inflows; complementary spot Bitcoin holding to IBIT for diversified proxy access.",
-          "currentPrice": 54.77
+          "currentPrice": 56.01
         },
         "HUT": {
           "qty": 43,
@@ -771,7 +771,7 @@
             "conf": 78
           },
           "reason": "Strongest momentum at +7.89% with miner exposure benefiting from crypto recovery; manageable volatility profile relative to peers.",
-          "currentPrice": 124.44
+          "currentPrice": 120.03
         },
         "RIOT": {
           "qty": 195,
@@ -807,7 +807,7 @@
             "conf": 76
           },
           "reason": "Strong +5.14% momentum with miner exposure and volatility profile within acceptable risk tolerance; entry at relatively low absolute price offers asymmetric upside.",
-          "currentPrice": 5.96
+          "currentPrice": 6.29
         },
         "CIFR": {
           "qty": 112,
@@ -819,7 +819,7 @@
             "conf": 76
           },
           "reason": "Strong +3.46% momentum with positive divergence against broader crypto weakness suggests institutional accumulation in crypto infrastructure plays.",
-          "currentPrice": 29.18
+          "currentPrice": 28.28
         },
         "CLSK": {
           "qty": 170,
@@ -831,7 +831,7 @@
             "conf": 77
           },
           "reason": "Clean energy mining play up +3.44% showing resilience; SNB rate cut tailwinds support risk assets and mining margins.",
-          "currentPrice": 17.24
+          "currentPrice": 17.54
         },
         "MARA": {
           "qty": 135,
@@ -843,7 +843,7 @@
             "conf": 75
           },
           "reason": "Miner +1.37% gains outperforming spot crypto trusts indicates operational strength and margin expansion expectations.",
-          "currentPrice": 14.22
+          "currentPrice": 15.05
         },
         "COIN": {
           "qty": 17,
@@ -855,7 +855,19 @@
             "conf": 77
           },
           "reason": "Resilient +0.97% performance amid market decline; regulatory clarity improving and earnings growth potential as volumes recover post-volatility.",
-          "currentPrice": 163.26
+          "currentPrice": 163.98
+        },
+        "BITO": {
+          "qty": 345,
+          "entryPrice": 8.75,
+          "entryTs": "2026-06-22T18:56:12.458131+00:00",
+          "aiScores": {
+            "opp": 82,
+            "risk": 38,
+            "conf": 78
+          },
+          "reason": "Bitcoin futures ETF showing steady +2.22% momentum with liquid, regulated exposure; moderate volatility profile suits current market conditions.",
+          "currentPrice": 8.75
         }
       },
       "trades": [],
@@ -887,6 +899,10 @@
         {
           "date": "2026-06-19",
           "value": 101576.37
+        },
+        {
+          "date": "2026-06-22",
+          "value": 100844.92
         }
       ]
     },
@@ -903,7 +919,7 @@
             "conf": 78
           },
           "reason": "Investment-grade bank with strong fundamentals, modest valuation relative to earnings power, and defensive characteristics in uncertain markets.",
-          "currentPrice": 325.26
+          "currentPrice": 331.65
         },
         "BAC": {
           "qty": 91,
@@ -915,7 +931,7 @@
             "conf": 76
           },
           "reason": "Undervalued large-cap bank with solid dividend yield, recent momentum, and attractive price-to-book ratio.",
-          "currentPrice": 56.22
+          "currentPrice": 57.36
         },
         "XOM": {
           "qty": 33,
@@ -927,7 +943,7 @@
             "conf": 77
           },
           "reason": "Energy major trading down on sector weakness but maintains strong free cash flow, dividend sustainability, and valuation support.",
-          "currentPrice": 137.84
+          "currentPrice": 138.42
         },
         "MRK": {
           "qty": 41,
@@ -939,7 +955,7 @@
             "conf": 79
           },
           "reason": "Pharma blue-chip with diversified pipeline, low volatility, and attractive valuation despite flat recent performance.",
-          "currentPrice": 113.9
+          "currentPrice": 114.78
         },
         "ABBV": {
           "qty": 22,
@@ -951,7 +967,7 @@
             "conf": 80
           },
           "reason": "Dividend aristocrat with stable cash flows, reasonable valuation metrics, and pharmaceutical portfolio diversification.",
-          "currentPrice": 216.53
+          "currentPrice": 230.37
         },
         "CVX": {
           "qty": 26,
@@ -975,7 +991,7 @@
             "conf": 81
           },
           "reason": "Morgan Stanley momentum (+2.68%) combined with strong financial sector positioning and quality fundamentals meets all threshold criteria.",
-          "currentPrice": 223.21
+          "currentPrice": 227.14
         },
         "WMT": {
           "qty": 33,
@@ -987,7 +1003,7 @@
             "conf": 77
           },
           "reason": "Defensive consumer staple down 2.28% creating value entry point; Walmart exhibits resilience and strong fundamentals despite recent weakness.",
-          "currentPrice": 117.21
+          "currentPrice": 117.24
         },
         "JNJ": {
           "qty": 21,
@@ -999,7 +1015,7 @@
             "conf": 78
           },
           "reason": "Defensive healthcare dividend aristocrat down 2.11% with strong fundamentals and recession-resistant characteristics; meets all thresholds for value entry.",
-          "currentPrice": 228.43
+          "currentPrice": 230.54
         },
         "BRK-B": {
           "qty": 10,
@@ -1011,7 +1027,7 @@
             "conf": 84
           },
           "reason": "Warren Buffett's conglomerate showing strength with only 0.36% decline; fortress balance sheet and diversified earnings provide downside protection.",
-          "currentPrice": 489.5
+          "currentPrice": 489.12
         }
       },
       "trades": [],
@@ -1039,6 +1055,10 @@
         {
           "date": "2026-06-19",
           "value": 100061.86
+        },
+        {
+          "date": "2026-06-22",
+          "value": 100114.39
         }
       ]
     },
@@ -1120,6 +1140,20 @@
     }
   },
   "recommendations": [
+    {
+      "id": "1782154572.458146BITO",
+      "symbol": "BITO",
+      "strategy": "crypto",
+      "ts": "2026-06-22T18:56:12.458151+00:00",
+      "entryPrice": 8.75,
+      "oppScore": 82,
+      "riskScore": 38,
+      "confScore": 78,
+      "reasoning": "Bitcoin futures ETF showing steady +2.22% momentum with liquid, regulated exposure; moderate volatility profile suits current market conditions.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
     {
       "id": "1782149073.077268XLV",
       "symbol": "XLV",
@@ -2117,6 +2151,11 @@
   ],
   "aiTradeLog": [
     {
+      "ts": "2026-06-22T18:56:12.458143+00:00",
+      "portfolio": "crypto",
+      "msg": "BUY 345\u00d7 BITO @ \u00a38.75 \u2014 Bitcoin futures ETF showing steady +2.22% momentum with liquid, regulated exposure; moderate volatility profile suits current market conditions."
+    },
+    {
       "ts": "2026-06-22T18:33:01.857888+00:00",
       "portfolio": "uk",
       "msg": "AUTO-CLOSE SAP: Stop-loss triggered (-9.6%)"
@@ -2498,5 +2537,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-06-22T18:33:06.713235+00:00"
+  "lastRun": "2026-06-22T18:56:15.085765+00:00"
 }
