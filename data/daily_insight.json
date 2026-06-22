@@ -1,171 +1,173 @@
 {
-  "marketSummary": "U.S. equities display broad-based strength this morning with technology leading gains (+2.51% QQQ), supported by solid performance in small-cap indices (+1.98% IWM) and stable bond markets (+0.51% TLT). The absence of significant negative news coupled with across-the-board gains suggests risk-on sentiment is prevailing in today's session.",
+  "marketSummary": "Markets opened with modest weakness across all major indices, with tech underperforming (-0.56% QQQ) and bonds declining (-0.78% TLT), suggesting risk-off sentiment. Broad-based weakness in equities and commodities indicates investor caution, though declines remain shallow. Data integrity issues prevent full fundamental analysis at this time.",
   "topOpportunities": [
     {
-      "symbol": "QQQ",
-      "name": "Invesco QQQ Trust",
-      "reason": "Tech-heavy index showing strongest momentum at +2.51%; typically leads market rallies when risk appetite is elevated",
-      "score": 78,
-      "riskScore": 65,
-      "confidenceScore": 75,
-      "historicalComparison": "Tech leadership aligns with recent risk-on trends; above typical daily volatility"
-    },
-    {
-      "symbol": "IWM",
-      "name": "iShares Russell 2000 ETF",
-      "reason": "Small-cap outperformance (+1.98%) indicates broad market participation; suggests confidence in domestic economic fundamentals",
-      "score": 74,
-      "riskScore": 72,
-      "confidenceScore": 70,
-      "historicalComparison": "Small-cap strength historically precedes sustained rallies; domestic-focused strength positive signal"
+      "symbol": "SPY",
+      "name": "S&P 500 ETF",
+      "reason": "Minimal daily decline offers accumulation opportunity; broad market exposure with resilient large-cap fundamentals",
+      "score": 72,
+      "riskScore": 35,
+      "confidenceScore": 68,
+      "historicalComparison": "Similar to August 2023 consolidation patterns preceding rallies"
     },
     {
       "symbol": "TLT",
-      "name": "iShares 20+ Year Treasury Bond ETF",
-      "reason": "Bond stability (+0.51%) suggests no flight-to-safety panic; supports equity gains as sustainable rather than speculative",
-      "score": 62,
-      "riskScore": 25,
-      "confidenceScore": 80,
-      "historicalComparison": "Modest bond gains paired with equity strength typical of healthy bull market environment"
+      "name": "iShares 20+ Year Treasury",
+      "reason": "Flight-to-quality decline presents entry point for fixed income; yield curve stabilization potential",
+      "score": 68,
+      "riskScore": 42,
+      "confidenceScore": 65,
+      "historicalComparison": "Bonds typically outperform during equity volatility spikes"
     },
     {
-      "symbol": "TECH",
-      "name": "Technology Sector",
-      "reason": "QQQ outperformance reflects strong tech momentum; sector likely benefiting from AI narratives and growth outlook",
-      "score": 76,
-      "riskScore": 68,
-      "confidenceScore": 72,
-      "historicalComparison": "Tech resilience above broader market reflects structural demand tailwinds"
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "reason": "Defensive asset pullback amid risk-off conditions; geopolitical uncertainty supports safe-haven demand",
+      "score": 65,
+      "riskScore": 38,
+      "confidenceScore": 62,
+      "historicalComparison": "Gold often bottoms during broad selloffs before reversing"
     },
     {
-      "symbol": "SMCAP",
-      "name": "Small-Cap Growth Stocks",
-      "reason": "IWM's strong showing suggests investors rotating into higher-beta opportunities; reflects confidence in earnings growth",
-      "score": 71,
-      "riskScore": 75,
-      "confidenceScore": 68,
-      "historicalComparison": "Small-cap outperformance historically correlates with economic expansion expectations"
-    },
-    {
-      "symbol": "GROWTH",
-      "name": "Growth Equities",
-      "reason": "QQQ and IWM gains indicate growth outperforming value; suggests inflation concerns are subsiding",
-      "score": 73,
-      "riskScore": 70,
-      "confidenceScore": 71,
-      "historicalComparison": "Growth leadership in low-volatility environment typical of late-cycle expansion phase"
-    },
-    {
-      "symbol": "DOMESTIC",
-      "name": "Domestic U.S. Equities",
-      "reason": "Broad market strength across indices indicates healthy domestic demand; no international headwind signals evident",
-      "score": 75,
-      "riskScore": 62,
-      "confidenceScore": 76,
-      "historicalComparison": "Domestic concentration strength suggests positive earnings revision cycle underway"
-    },
-    {
-      "symbol": "MOMENTUM",
-      "name": "Momentum Strategies",
-      "reason": "Tech and small-cap outperformance creates positive momentum indicators; trend-following strategies showing alpha potential",
+      "symbol": "QQQ",
+      "name": "Nasdaq-100 ETF",
+      "reason": "Tech weakness creates valuation opportunity for quality growth; mega-cap fundamentals remain intact",
       "score": 70,
-      "riskScore": 73,
-      "confidenceScore": 69,
-      "historicalComparison": "Current momentum metrics above 90-day average; supports tactical overweights"
+      "riskScore": 58,
+      "confidenceScore": 64,
+      "historicalComparison": "Comparable to March 2024 tech rotation, recovered within weeks"
+    },
+    {
+      "symbol": "AGG",
+      "name": "Bloomberg Aggregate Bond ETF",
+      "reason": "Mixed duration exposure during rate uncertainty; defensive positioning with yield opportunities",
+      "score": 61,
+      "riskScore": 45,
+      "confidenceScore": 58,
+      "historicalComparison": "Aggregate bonds stabilize during equity drawdowns historically"
+    },
+    {
+      "symbol": "IVV",
+      "name": "iShares Core S&P 500 ETF",
+      "reason": "Cost-effective large-cap exposure; valuations remain reasonable relative to earnings growth",
+      "score": 69,
+      "riskScore": 34,
+      "confidenceScore": 66,
+      "historicalComparison": "Core holdings typically recover first in correction reversal"
+    },
+    {
+      "symbol": "EEM",
+      "name": "iShares MSCI Emerging Markets",
+      "reason": "Emerging markets typically discounted during risk-off; selective value opportunities present",
+      "score": 56,
+      "riskScore": 72,
+      "confidenceScore": 52,
+      "historicalComparison": "EM often provides mean reversion opportunities post-selloffs"
+    },
+    {
+      "symbol": "HYG",
+      "name": "iShares High Yield Corporate Bond",
+      "reason": "Credit spreads likely widening; opportunistic entry for income-focused investors",
+      "score": 58,
+      "riskScore": 68,
+      "confidenceScore": 54,
+      "historicalComparison": "High yield rebounds sharply when risk appetite returns"
     }
   ],
   "topRisks": [
     {
       "symbol": "QQQ",
-      "name": "Nasdaq-100 Concentration Risk",
-      "reason": "Heavy concentration in mega-cap tech creates single-sector vulnerability; profit-taking risk elevated after +2.51% spike",
+      "name": "Nasdaq-100 ETF",
+      "reason": "Higher beta to market corrections; concentration risk in mega-cap tech valuations",
       "riskLevel": "HIGH",
       "riskScore": 72
     },
     {
-      "symbol": "VALUATION",
-      "name": "Tech Valuation Risk",
-      "reason": "Technology sector valuations remain elevated; large single-day gains may be unsustainable without earnings support",
-      "riskLevel": "HIGH",
-      "riskScore": 68
-    },
-    {
-      "symbol": "IWM",
-      "name": "Small-Cap Liquidity Risk",
-      "reason": "Small-cap strength coupled with outperformance can reverse quickly on negative data; lower liquidity amplifies moves",
-      "riskLevel": "MEDIUM",
-      "riskScore": 61
-    },
-    {
-      "symbol": "MACRO",
-      "name": "Macro Surprise Risk",
-      "reason": "Absence of news may indicate data blackout period; upcoming economic releases could trigger volatility reversal",
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury",
+      "reason": "Duration risk if rates rise; inverse relationship to equity recovery momentum",
       "riskLevel": "MEDIUM",
       "riskScore": 58
     },
     {
-      "symbol": "RATES",
-      "name": "Interest Rate Risk",
-      "reason": "Bond yields stable but vulnerable to inflation surprises; rapid rate moves could unwind equity gains",
-      "riskLevel": "MEDIUM",
-      "riskScore": 55
+      "symbol": "EEM",
+      "name": "iShares MSCI Emerging Markets",
+      "reason": "Currency headwinds and geopolitical exposure; vulnerable during USD strength",
+      "riskLevel": "HIGH",
+      "riskScore": 76
     },
     {
-      "symbol": "SENTIMENT",
-      "name": "Sentiment Extremes Risk",
-      "reason": "Broad-based rallies without news catalyst suggest speculative positioning; reversal risk if sentiment shifts",
-      "riskLevel": "MEDIUM",
-      "riskScore": 64
+      "symbol": "HYG",
+      "name": "iShares High Yield Corporate Bond",
+      "reason": "Credit deterioration risk during economic slowdowns; widening spreads likely",
+      "riskLevel": "HIGH",
+      "riskScore": 71
     },
     {
-      "symbol": "EARNINGS",
-      "name": "Earnings Momentum Risk",
-      "reason": "Current gains not backed by earnings announcements; earnings season timing could create disappointment risk",
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "reason": "Opportunity cost risk if equity markets stabilize; inverse inflation trade exposure",
+      "riskLevel": "MEDIUM",
+      "riskScore": 62
+    },
+    {
+      "symbol": "SPY",
+      "name": "S&P 500 ETF",
+      "reason": "Systematic market risk; continued weakness could trigger technical support breaks",
       "riskLevel": "MEDIUM",
       "riskScore": 59
     },
     {
-      "symbol": "ROTATION",
-      "name": "Sector Rotation Risk",
-      "reason": "Tech-led rally may indicate value sectors left behind; mean reversion could pressure QQQ outperformance",
-      "riskLevel": "LOW",
-      "riskScore": 52
+      "symbol": "TQQQ",
+      "name": "Invesco QQQ Trust 3x Leveraged",
+      "reason": "Leverage amplification of tech downside; rapid deterioration in volatility scenarios",
+      "riskLevel": "CRITICAL",
+      "riskScore": 89
+    },
+    {
+      "symbol": "DATA",
+      "name": "Market Data Infrastructure",
+      "reason": "Yahoo Finance outage prevents real-time analysis; information asymmetry increases counterparty risk",
+      "riskLevel": "CRITICAL",
+      "riskScore": 85
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Technology",
-      "score": 82,
-      "reason": "QQQ's +2.51% gain reflects strong tech momentum; sector shows resilience and leadership in broader market rally"
-    },
-    {
-      "sector": "Small-Cap Growth",
-      "score": 76,
-      "reason": "IWM outperformance at +1.98% indicates investor confidence in domestic growth; cyclical strength positive"
+      "sector": "Healthcare/Utilities",
+      "score": 74,
+      "reason": "Defensive sectors outperform during risk-off; stable cash flows support valuations"
     },
     {
       "sector": "Fixed Income",
+      "score": 71,
+      "reason": "Flight-to-quality dynamics favor bonds; duration extension creates total return opportunity"
+    },
+    {
+      "sector": "Consumer Staples",
       "score": 68,
-      "reason": "TLT stability (+0.51%) suggests healthy bond demand; indicates measured rate expectations supporting risk-on environment"
+      "reason": "Recession-resistant demand; valuation resets present value entry points"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Defensive/Utilities",
-      "score": 38,
-      "reason": "Underperformance versus growth reflects reduced safe-haven demand; suggests risk appetite outweighing caution"
+      "sector": "Technology",
+      "score": 28,
+      "reason": "Growth multiple compression risk during rising rate environment; highest beta to equity weakness"
     },
     {
-      "sector": "Value Equities",
-      "score": 42,
-      "reason": "Tech outperformance implies growth leadership; value rotation stalled as growth captures investor flows"
+      "sector": "High Yield/Credit",
+      "score": 35,
+      "reason": "Spread widening likely during selloffs; refinancing risk if rates stabilize higher"
     }
   ],
   "keyEvents": [
-    "No scheduled major economic data or news releases identified for today",
-    "Monitor potential earnings announcements or guidance that could validate current rally",
-    "Watch for any Federal Reserve communications that could impact bond market stability"
+    "Yahoo Finance data infrastructure failure\u2014impact on market analysis and execution timing",
+    "Coordinated weakness across equities, bonds, and commodities\u2014suggests macro uncertainty rather than sector rotation",
+    "Tech underperformance vs. broad market\u2014potential valuation reset opportunity or warning sign for growth concerns",
+    "Flight-to-quality signal\u2014TLT outperformance relative to equities indicates heightened risk aversion",
+    "Shallow sell-off magnitude\u2014<1% moves suggest institutional buying support at current levels"
   ],
-  "date": "2026-06-19",
-  "generatedAt": "2026-06-19T15:55:53.208154+00:00"
+  "date": "2026-06-22",
+  "generatedAt": "2026-06-22T17:24:23.545255+00:00"
 }

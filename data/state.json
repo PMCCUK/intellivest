@@ -236,7 +236,7 @@
       ]
     },
     "momentum": {
-      "balance": 54488.289999999986,
+      "balance": 48477.68999999999,
       "positions": {
         "QQQ": {
           "qty": 5,
@@ -248,7 +248,7 @@
             "conf": 78
           },
           "reason": "Tech sector showing strongest momentum (+1.56%) with XLK outperforming (+2.17%); growth rotation favored in current market regime.",
-          "currentPrice": 740.66
+          "currentPrice": 736.48
         },
         "EEM": {
           "qty": 45,
@@ -272,7 +272,7 @@
             "conf": 78
           },
           "reason": "Industrials showing strongest momentum (+1.17%) with positive trend-following signal; cyclical exposure aligns with sector rotation into economically-sensitive assets.",
-          "currentPrice": 180.94
+          "currentPrice": 181.96
         },
         "IWM": {
           "qty": 17,
@@ -308,7 +308,7 @@
             "conf": 78
           },
           "reason": "Tech sector showing strongest momentum at +2.25% with sustained uptrend; low volatility relative to gains supports trend-following entry.",
-          "currentPrice": 191.44
+          "currentPrice": 191.71
         },
         "GLD": {
           "qty": 13,
@@ -320,7 +320,7 @@
             "conf": 81
           },
           "reason": "Gold momentum (+1.62%) with defensive bid; flight-to-quality hedge against equity concentration while maintaining upside exposure.",
-          "currentPrice": 387.12
+          "currentPrice": 384.65
         },
         "XLF": {
           "qty": 75,
@@ -332,7 +332,7 @@
             "conf": 77
           },
           "reason": "Financials sector outperforming (+1.37%) on potential rate stability; strong sector rotation signal with 2% daily gain suggesting momentum continuation.",
-          "currentPrice": 53.57
+          "currentPrice": 53.77
         },
         "TLT": {
           "qty": 35,
@@ -344,7 +344,7 @@
             "conf": 76
           },
           "reason": "Bond rally strength (+0.71%) amid rate-cut cycle and BoE decision volatility; defensive yield play fits trend.",
-          "currentPrice": 86.75
+          "currentPrice": 86.07
         },
         "DBA": {
           "qty": 151,
@@ -356,7 +356,7 @@
             "conf": 75
           },
           "reason": "Agricultural commodities rallying (+1.21%) suggesting inflation/supply cycle positioning; diversified commodity exposure with momentum.",
-          "currentPrice": 26.63
+          "currentPrice": 26.7
         },
         "VWO": {
           "qty": 49,
@@ -368,7 +368,31 @@
             "conf": 77
           },
           "reason": "Emerging markets gaining +1.69% in risk-on environment; Iran peace deal narrative supports geopolitical risk relief in developing economies.",
-          "currentPrice": 60.77
+          "currentPrice": 61.35
+        },
+        "GBTC": {
+          "qty": 60,
+          "entryPrice": 50.04,
+          "entryTs": "2026-06-22T17:24:33.077229+00:00",
+          "aiScores": {
+            "opp": 82,
+            "risk": 38,
+            "conf": 76
+          },
+          "reason": "Bitcoin proxy showing strong momentum (+2.54%) with crypto gaining relative strength; positioning for potential institutional allocation shift.",
+          "currentPrice": 50.04
+        },
+        "XLV": {
+          "qty": 20,
+          "entryPrice": 150.41,
+          "entryTs": "2026-06-22T17:24:33.077260+00:00",
+          "aiScores": {
+            "opp": 80,
+            "risk": 35,
+            "conf": 78
+          },
+          "reason": "Healthcare sector showing relative strength (+0.68%) against broad market weakness; defensive positioning with positive trend initiation.",
+          "currentPrice": 150.41
         }
       },
       "trades": [
@@ -420,6 +444,10 @@
         {
           "date": "2026-06-19",
           "value": 100329.45
+        },
+        {
+          "date": "2026-06-22",
+          "value": 100522.11
         }
       ]
     },
@@ -592,7 +620,7 @@
             "conf": 82
           },
           "reason": "Strong +5.58% momentum, European semiconductor leader with structural growth tailwinds despite macro uncertainty; valuation supported by AI/chip cycle strength.",
-          "currentPrice": 1929.72
+          "currentPrice": 1892.63
         },
         "AZN": {
           "qty": 27,
@@ -604,7 +632,7 @@
             "conf": 78
           },
           "reason": "Astrazeneca showing positive momentum (+1.04%) with defensive pharma profile; positioned for long-term growth in oncology and cardiovascular pipelines.",
-          "currentPrice": 174.93
+          "currentPrice": 177.22
         },
         "GSK": {
           "qty": 78,
@@ -616,7 +644,7 @@
             "conf": 76
           },
           "reason": "GlaxoSmithKline posting solid gains (+1.20%) with diversified vaccine and specialty pharma portfolio; defensive dividend yield attractive.",
-          "currentPrice": 50.67
+          "currentPrice": 51.09
         },
         "EFA": {
           "qty": 48,
@@ -652,7 +680,7 @@
             "conf": 76
           },
           "reason": "German equity ETF offering diversified exposure to European strength at attractive valuation with modest positive momentum.",
-          "currentPrice": 41.52
+          "currentPrice": 41.57
         }
       },
       "trades": [
@@ -700,6 +728,10 @@
         {
           "date": "2026-06-19",
           "value": 99057.26
+        },
+        {
+          "date": "2026-06-22",
+          "value": 99732.38
         }
       ]
     },
@@ -1090,6 +1122,34 @@
   },
   "recommendations": [
     {
+      "id": "1782149073.077268XLV",
+      "symbol": "XLV",
+      "strategy": "momentum",
+      "ts": "2026-06-22T17:24:33.077270+00:00",
+      "entryPrice": 150.41,
+      "oppScore": 80,
+      "riskScore": 35,
+      "confScore": 78,
+      "reasoning": "Healthcare sector showing relative strength (+0.68%) against broad market weakness; defensive positioning with positive trend initiation.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1782149073.077243GBTC",
+      "symbol": "GBTC",
+      "strategy": "momentum",
+      "ts": "2026-06-22T17:24:33.077250+00:00",
+      "entryPrice": 50.04,
+      "oppScore": 82,
+      "riskScore": 38,
+      "confScore": 76,
+      "reasoning": "Bitcoin proxy showing strong momentum (+2.54%) with crypto gaining relative strength; positioning for potential institutional allocation shift.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
       "id": "1781895131.591873BRK-B",
       "symbol": "BRK-B",
       "strategy": "value",
@@ -1099,7 +1159,7 @@
       "riskScore": 28,
       "confScore": 84,
       "reasoning": "Warren Buffett's conglomerate showing strength with only 0.36% decline; fortress balance sheet and diversified earnings provide downside protection.",
-      "perf1d": null,
+      "perf1d": -0.33,
       "perf7d": null,
       "perf30d": null
     },
@@ -1113,7 +1173,7 @@
       "riskScore": 38,
       "confScore": 76,
       "reasoning": "Exceptional +10.82% momentum with unusual volume surge suggests emerging catalyst; small-cap crypto infrastructure play with strong technical breakout.",
-      "perf1d": null,
+      "perf1d": -4.32,
       "perf7d": null,
       "perf30d": null
     },
@@ -1127,7 +1187,7 @@
       "riskScore": 38,
       "confScore": 76,
       "reasoning": "Exceptional +14.22% momentum with unusual volume spike suggests strong institutional accumulation; biotech/medical device catalyst likely driving breakout above key resistance.",
-      "perf1d": null,
+      "perf1d": -5.21,
       "perf7d": null,
       "perf30d": null
     },
@@ -1408,7 +1468,7 @@
       "confScore": 77,
       "reasoning": "Financials sector outperforming (+1.37%) on potential rate stability; strong sector rotation signal with 2% daily gain suggesting momentum continuation.",
       "perf1d": 0.41,
-      "perf7d": null,
+      "perf7d": 0.81,
       "perf30d": null
     },
     {
@@ -2058,6 +2118,16 @@
   ],
   "aiTradeLog": [
     {
+      "ts": "2026-06-22T17:24:33.077240+00:00",
+      "portfolio": "momentum",
+      "msg": "BUY 60\u00d7 GBTC @ \u00a350.04 \u2014 Bitcoin proxy showing strong momentum (+2.54%) with crypto gaining relative strength; positioning for potential institutional allocation shift."
+    },
+    {
+      "ts": "2026-06-22T17:24:33.077265+00:00",
+      "portfolio": "momentum",
+      "msg": "BUY 20\u00d7 XLV @ \u00a3150.41 \u2014 Healthcare sector showing relative strength (+0.68%) against broad market weakness; defensive positioning with positive trend initiation."
+    },
+    {
       "ts": "2026-06-19T18:52:11.591870+00:00",
       "portfolio": "value",
       "msg": "BUY 10\u00d7 BRK-B @ \u00a3489.50 \u2014 Warren Buffett's conglomerate showing strength with only 0.36% decline; fortress balance sheet and diversified earnings provide downside protection."
@@ -2424,5 +2494,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-06-19T21:49:58.836062+00:00"
+  "lastRun": "2026-06-22T17:24:43.534073+00:00"
 }
