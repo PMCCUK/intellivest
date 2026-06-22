@@ -248,7 +248,7 @@
             "conf": 78
           },
           "reason": "Tech sector showing strongest momentum (+1.56%) with XLK outperforming (+2.17%); growth rotation favored in current market regime.",
-          "currentPrice": 736.48
+          "currentPrice": 737.81
         },
         "EEM": {
           "qty": 45,
@@ -260,7 +260,7 @@
             "conf": 76
           },
           "reason": "Emerging markets accelerating (+2.24%) as global growth expectations improve; SNB rate cut signals accommodative policy environment.",
-          "currentPrice": 70.79
+          "currentPrice": 71.26
         },
         "XLI": {
           "qty": 29,
@@ -272,7 +272,7 @@
             "conf": 78
           },
           "reason": "Industrials showing strongest momentum (+1.17%) with positive trend-following signal; cyclical exposure aligns with sector rotation into economically-sensitive assets.",
-          "currentPrice": 181.96
+          "currentPrice": 181.93
         },
         "IWM": {
           "qty": 17,
@@ -284,7 +284,7 @@
             "conf": 76
           },
           "reason": "Small-cap Russell 2000 outperforming (+1.09%) with domestic growth bias; momentum breakout pattern favors risk-on positioning.",
-          "currentPrice": 295.63
+          "currentPrice": 299.11
         },
         "BITO": {
           "qty": 585,
@@ -344,7 +344,7 @@
             "conf": 76
           },
           "reason": "Bond rally strength (+0.71%) amid rate-cut cycle and BoE decision volatility; defensive yield play fits trend.",
-          "currentPrice": 86.07
+          "currentPrice": 86.08
         },
         "DBA": {
           "qty": 151,
@@ -380,7 +380,7 @@
             "conf": 76
           },
           "reason": "Bitcoin proxy showing strong momentum (+2.54%) with crypto gaining relative strength; positioning for potential institutional allocation shift.",
-          "currentPrice": 50.04
+          "currentPrice": 50.1
         },
         "XLV": {
           "qty": 20,
@@ -392,7 +392,7 @@
             "conf": 78
           },
           "reason": "Healthcare sector showing relative strength (+0.68%) against broad market weakness; defensive positioning with positive trend initiation.",
-          "currentPrice": 150.41
+          "currentPrice": 150.4
         }
       },
       "trades": [
@@ -447,7 +447,7 @@
         },
         {
           "date": "2026-06-22",
-          "value": 100522.11
+          "value": 100594.28
         }
       ]
     },
@@ -608,7 +608,7 @@
       ]
     },
     "uk": {
-      "balance": 75253.29000000002,
+      "balance": 78855.45000000003,
       "positions": {
         "ASML": {
           "qty": 2,
@@ -620,7 +620,7 @@
             "conf": 82
           },
           "reason": "Strong +5.58% momentum, European semiconductor leader with structural growth tailwinds despite macro uncertainty; valuation supported by AI/chip cycle strength.",
-          "currentPrice": 1892.63
+          "currentPrice": 1891.87
         },
         "AZN": {
           "qty": 27,
@@ -632,7 +632,7 @@
             "conf": 78
           },
           "reason": "Astrazeneca showing positive momentum (+1.04%) with defensive pharma profile; positioned for long-term growth in oncology and cardiovascular pipelines.",
-          "currentPrice": 177.22
+          "currentPrice": 177.37
         },
         "GSK": {
           "qty": 78,
@@ -656,19 +656,7 @@
             "conf": 79
           },
           "reason": "Broad European exposure with +2.32% momentum provides diversified entry to continent-wide rally.",
-          "currentPrice": 104.44
-        },
-        "SAP": {
-          "qty": 24,
-          "entryPrice": 165.99,
-          "entryTs": "2026-06-16T15:36:19.637011+00:00",
-          "aiScores": {
-            "opp": 82,
-            "risk": 38,
-            "conf": 78
-          },
-          "reason": "European software leader showing positive momentum (+1.01%) with strong fundamentals; positioned to benefit from rising GDP estimates and digital transformation tailwinds.",
-          "currentPrice": 155.22
+          "currentPrice": 104.64
         },
         "EWG": {
           "qty": 71,
@@ -680,7 +668,7 @@
             "conf": 76
           },
           "reason": "German equity ETF offering diversified exposure to European strength at attractive valuation with modest positive momentum.",
-          "currentPrice": 41.57
+          "currentPrice": 41.61
         }
       },
       "trades": [
@@ -694,6 +682,17 @@
           "entryTs": "2026-06-08T13:58:30.017293+00:00",
           "exitTs": "2026-06-18T18:15:03.276699+00:00",
           "reason": "Stop-loss triggered (-9.5%)"
+        },
+        {
+          "symbol": "SAP",
+          "qty": 24,
+          "entryPrice": 165.99,
+          "exitPrice": 150.09,
+          "pnl": -381.6,
+          "pnlPct": -9.58,
+          "entryTs": "2026-06-16T15:36:19.637011+00:00",
+          "exitTs": "2026-06-22T18:33:01.857883+00:00",
+          "reason": "Stop-loss triggered (-9.6%)"
         }
       ],
       "history": [
@@ -731,7 +730,7 @@
         },
         {
           "date": "2026-06-22",
-          "value": 99732.38
+          "value": 99402.71
         }
       ]
     },
@@ -1454,7 +1453,7 @@
       "confScore": 76,
       "reasoning": "Strong +5.14% momentum with miner exposure and volatility profile within acceptable risk tolerance; entry at relatively low absolute price offers asymmetric upside.",
       "perf1d": 2.54,
-      "perf7d": null,
+      "perf7d": 13.95,
       "perf30d": null
     },
     {
@@ -1482,7 +1481,7 @@
       "confScore": 76,
       "reasoning": "Energy sector fundamentals support valuation; CVX offers dividend stability and long-term energy demand tailwinds.",
       "perf1d": -3.85,
-      "perf7d": null,
+      "perf7d": -6.61,
       "perf30d": null
     },
     {
@@ -2118,6 +2117,11 @@
   ],
   "aiTradeLog": [
     {
+      "ts": "2026-06-22T18:33:01.857888+00:00",
+      "portfolio": "uk",
+      "msg": "AUTO-CLOSE SAP: Stop-loss triggered (-9.6%)"
+    },
+    {
       "ts": "2026-06-22T17:24:33.077240+00:00",
       "portfolio": "momentum",
       "msg": "BUY 60\u00d7 GBTC @ \u00a350.04 \u2014 Bitcoin proxy showing strong momentum (+2.54%) with crypto gaining relative strength; positioning for potential institutional allocation shift."
@@ -2494,5 +2498,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-06-22T17:24:43.534073+00:00"
+  "lastRun": "2026-06-22T18:33:06.713235+00:00"
 }
