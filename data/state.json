@@ -13,7 +13,7 @@
             "conf": 76
           },
           "reason": "Visa up 1.06% showing defensive strength; resilient payments network with lower correlation to tech volatility provides portfolio stability.",
-          "currentPrice": 326.6
+          "currentPrice": 330.93
         },
         "JPM": {
           "qty": 12,
@@ -25,7 +25,7 @@
             "conf": 75
           },
           "reason": "Financial sector outperformer (+0.48%) with sector tailwinds from higher rates; diversifies away from concentrated tech exposure and offers dividend support.",
-          "currentPrice": 331.48
+          "currentPrice": 334.03
         },
         "AMD": {
           "qty": 6,
@@ -49,7 +49,7 @@
             "conf": 76
           },
           "reason": "Exceptional momentum (+2.91%) despite Musk sentiment noise; technical setup suggests continuation bias.",
-          "currentPrice": 400.49
+          "currentPrice": 385.2
         },
         "GOOGL": {
           "qty": 10,
@@ -61,7 +61,7 @@
             "conf": 77
           },
           "reason": "Only mega-cap with positive momentum (+0.26%) despite sector selloff; AI leadership justifies defensive core holding at reduced valuation.",
-          "currentPrice": 349.562
+          "currentPrice": 347.98
         },
         "JNJ": {
           "qty": 21,
@@ -73,7 +73,7 @@
             "conf": 76
           },
           "reason": "Healthcare defensive play gaining +2.08% amid market weakness; pharmaceutical dividend yield and stability attractive in uncertain macro environment.",
-          "currentPrice": 228.43
+          "currentPrice": 237.13
         },
         "AVGO": {
           "qty": 13,
@@ -85,7 +85,7 @@
             "conf": 78
           },
           "reason": "Strong momentum (+1.56%) with semiconductor sector tailwinds and attractive risk-reward profile meets all buy criteria.",
-          "currentPrice": 411.35
+          "currentPrice": 383.46
         },
         "SPY": {
           "qty": 6,
@@ -97,7 +97,7 @@
             "conf": 77
           },
           "reason": "Broad market index with positive momentum provides diversification and systematic exposure at lower volatility than single names.",
-          "currentPrice": 746.78
+          "currentPrice": 737.49
         },
         "GLD": {
           "qty": 7,
@@ -145,7 +145,7 @@
             "conf": 79
           },
           "reason": "Broad tech exposure with exceptional momentum (+3.38%) and liquidity provides efficient market participation.",
-          "currentPrice": 740.66
+          "currentPrice": 719.07
         },
         "META": {
           "qty": 6,
@@ -157,7 +157,7 @@
             "conf": 76
           },
           "reason": "Meta displaying +1.07% upside amid sector weakness; AI monetization thesis intact despite market rotation.",
-          "currentPrice": 563.85
+          "currentPrice": 566.23
         },
         "AMZN": {
           "qty": 20,
@@ -236,11 +236,15 @@
         {
           "date": "2026-06-22",
           "value": 99803.36
+        },
+        {
+          "date": "2026-06-23",
+          "value": 99496.4
         }
       ]
     },
     "momentum": {
-      "balance": 48477.68999999999,
+      "balance": 45485.139999999985,
       "positions": {
         "QQQ": {
           "qty": 5,
@@ -252,7 +256,7 @@
             "conf": 78
           },
           "reason": "Tech sector showing strongest momentum (+1.56%) with XLK outperforming (+2.17%); growth rotation favored in current market regime.",
-          "currentPrice": 715.94
+          "currentPrice": 719.07
         },
         "EEM": {
           "qty": 45,
@@ -264,7 +268,7 @@
             "conf": 76
           },
           "reason": "Emerging markets accelerating (+2.24%) as global growth expectations improve; SNB rate cut signals accommodative policy environment.",
-          "currentPrice": 71.15
+          "currentPrice": 67.66
         },
         "XLI": {
           "qty": 29,
@@ -276,7 +280,7 @@
             "conf": 78
           },
           "reason": "Industrials showing strongest momentum (+1.17%) with positive trend-following signal; cyclical exposure aligns with sector rotation into economically-sensitive assets.",
-          "currentPrice": 178.77
+          "currentPrice": 179.5
         },
         "IWM": {
           "qty": 17,
@@ -288,7 +292,7 @@
             "conf": 76
           },
           "reason": "Small-cap Russell 2000 outperforming (+1.09%) with domestic growth bias; momentum breakout pattern favors risk-on positioning.",
-          "currentPrice": 295.72
+          "currentPrice": 297.25
         },
         "BITO": {
           "qty": 585,
@@ -300,7 +304,7 @@
             "conf": 79
           },
           "reason": "Bitcoin proxy leading session (+1.30%) signaling crypto momentum revival; institutional exposure through futures ETF reduces custody risk.",
-          "currentPrice": 8.47
+          "currentPrice": 8.5
         },
         "XLK": {
           "qty": 27,
@@ -336,7 +340,7 @@
             "conf": 77
           },
           "reason": "Financials sector outperforming (+1.37%) on potential rate stability; strong sector rotation signal with 2% daily gain suggesting momentum continuation.",
-          "currentPrice": 53.94
+          "currentPrice": 53.9
         },
         "TLT": {
           "qty": 35,
@@ -360,7 +364,7 @@
             "conf": 75
           },
           "reason": "Agricultural commodities rallying (+1.21%) suggesting inflation/supply cycle positioning; diversified commodity exposure with momentum.",
-          "currentPrice": 26.7
+          "currentPrice": 26.64
         },
         "VWO": {
           "qty": 49,
@@ -372,7 +376,7 @@
             "conf": 77
           },
           "reason": "Emerging markets gaining +1.69% in risk-on environment; Iran peace deal narrative supports geopolitical risk relief in developing economies.",
-          "currentPrice": 59.45
+          "currentPrice": 59.63
         },
         "GBTC": {
           "qty": 60,
@@ -397,6 +401,18 @@
           },
           "reason": "Healthcare sector showing relative strength (+0.68%) against broad market weakness; defensive positioning with positive trend initiation.",
           "currentPrice": 150.06
+        },
+        "XLE": {
+          "qty": 55,
+          "entryPrice": 54.41,
+          "entryTs": "2026-06-23T17:01:32.130692+00:00",
+          "aiScores": {
+            "opp": 81,
+            "risk": 35,
+            "conf": 77
+          },
+          "reason": "Energy sector +0.65% outperforming risk-off tape; defensive cyclical rotation play with positive relative momentum vs tech and broader indices.",
+          "currentPrice": 54.41
         }
       },
       "trades": [
@@ -455,12 +471,12 @@
         },
         {
           "date": "2026-06-23",
-          "value": 100041.31
+          "value": 100193.07
         }
       ]
     },
     "growth": {
-      "balance": 53030.17000000001,
+      "balance": 48078.49000000001,
       "positions": {
         "ASML": {
           "qty": 2,
@@ -472,7 +488,7 @@
             "conf": 82
           },
           "reason": "Strong +5.58% momentum as critical semiconductor equipment supplier; European manufacturing PMI mixed but ASML benefits from AI chip demand cycle and strong technical setup.",
-          "currentPrice": 1773.75
+          "currentPrice": 1780.49
         },
         "TSM": {
           "qty": 11,
@@ -484,7 +500,7 @@
             "conf": 79
           },
           "reason": "Up +3.23% with positive momentum; foundry exposure to AI growth and strong positioning despite geopolitical risks in Taiwan.",
-          "currentPrice": 439.37
+          "currentPrice": 442.59
         },
         "AMD": {
           "qty": 8,
@@ -532,7 +548,7 @@
             "conf": 77
           },
           "reason": "Positive momentum (+0.26%) among mega-cap tech; diversified AI exposure with solid balance sheet and revenue diversity.",
-          "currentPrice": 345.41
+          "currentPrice": 347.98
         },
         "TSLA": {
           "qty": 12,
@@ -544,7 +560,7 @@
             "conf": 76
           },
           "reason": "Positive momentum at +2.87% with AI/autonomous driving catalysts ahead, though execution risks and valuation volatility warrant measured entry.",
-          "currentPrice": 400.49
+          "currentPrice": 385.2
         },
         "AVGO": {
           "qty": 13,
@@ -556,7 +572,7 @@
             "conf": 78
           },
           "reason": "Infrastructure semiconductor play with +2.65% strength benefiting from AI data center expansion at more reasonable valuation than peers.",
-          "currentPrice": 380.33
+          "currentPrice": 383.46
         },
         "AMZN": {
           "qty": 16,
@@ -580,7 +596,7 @@
             "conf": 76
           },
           "reason": "Positive momentum (+1.35%), significant AI investment thesis, large-scale data infrastructure positioning improving competitiveness.",
-          "currentPrice": 563.17
+          "currentPrice": 566.23
         },
         "MSFT": {
           "qty": 13,
@@ -593,6 +609,18 @@
           },
           "reason": "Strong momentum (+1.46%) with stable fundamentals; core AI/cloud exposure aligns with growth mandate.",
           "currentPrice": 372.71
+        },
+        "CRM": {
+          "qty": 32,
+          "entryPrice": 154.74,
+          "entryTs": "2026-06-23T17:01:25.683660+00:00",
+          "aiScores": {
+            "opp": 82,
+            "risk": 35,
+            "conf": 78
+          },
+          "reason": "Strong positive momentum (+3.08%) in enterprise SaaS with AI integration tailwinds; established profitability reduces downside risk.",
+          "currentPrice": 154.74
         }
       },
       "trades": [],
@@ -631,7 +659,7 @@
         },
         {
           "date": "2026-06-23",
-          "value": 99483.64
+          "value": 99922.58
         }
       ]
     },
@@ -648,7 +676,7 @@
             "conf": 82
           },
           "reason": "Strong +5.58% momentum, European semiconductor leader with structural growth tailwinds despite macro uncertainty; valuation supported by AI/chip cycle strength.",
-          "currentPrice": 1773.75
+          "currentPrice": 1780.49
         },
         "AZN": {
           "qty": 27,
@@ -684,7 +712,7 @@
             "conf": 79
           },
           "reason": "Broad European exposure with +2.32% momentum provides diversified entry to continent-wide rally.",
-          "currentPrice": 104.55
+          "currentPrice": 102.86
         },
         "EWG": {
           "qty": 71,
@@ -696,7 +724,7 @@
             "conf": 76
           },
           "reason": "German equity ETF offering diversified exposure to European strength at attractive valuation with modest positive momentum.",
-          "currentPrice": 40.98
+          "currentPrice": 41.11
         }
       },
       "trades": [
@@ -762,7 +790,7 @@
         },
         {
           "date": "2026-06-23",
-          "value": 99283.26
+          "value": 99222.63
         }
       ]
     },
@@ -779,7 +807,7 @@
             "conf": 78
           },
           "reason": "IBIT shows strongest spot Bitcoin ETF momentum at +1.48% with lower volatility profile than futures; direct Bitcoin exposure with institutional-grade structure.",
-          "currentPrice": 36.5
+          "currentPrice": 35.4
         },
         "FBTC": {
           "qty": 54,
@@ -791,7 +819,7 @@
             "conf": 77
           },
           "reason": "FBTC demonstrates consistent Bitcoin exposure at +1.50% with high fund inflows; complementary spot Bitcoin holding to IBIT for diversified proxy access.",
-          "currentPrice": 56.01
+          "currentPrice": 54.39
         },
         "HUT": {
           "qty": 43,
@@ -815,7 +843,7 @@
             "conf": 76
           },
           "reason": "Second-strongest performer at +6.06% with diversified miner exposure; correlated upside to BTC without single-asset concentration.",
-          "currentPrice": 28.1
+          "currentPrice": 28.67
         },
         "WGMI": {
           "qty": 47,
@@ -851,7 +879,7 @@
             "conf": 76
           },
           "reason": "Strong +3.46% momentum with positive divergence against broader crypto weakness suggests institutional accumulation in crypto infrastructure plays.",
-          "currentPrice": 28.14
+          "currentPrice": 28.16
         },
         "CLSK": {
           "qty": 170,
@@ -875,7 +903,7 @@
             "conf": 75
           },
           "reason": "Miner +1.37% gains outperforming spot crypto trusts indicates operational strength and margin expansion expectations.",
-          "currentPrice": 14.85
+          "currentPrice": 14.77
         },
         "COIN": {
           "qty": 17,
@@ -887,7 +915,7 @@
             "conf": 77
           },
           "reason": "Resilient +0.97% performance amid market decline; regulatory clarity improving and earnings growth potential as volumes recover post-volatility.",
-          "currentPrice": 164.84
+          "currentPrice": 158.41
         },
         "BITO": {
           "qty": 345,
@@ -899,7 +927,7 @@
             "conf": 78
           },
           "reason": "Bitcoin futures ETF showing steady +2.22% momentum with liquid, regulated exposure; moderate volatility profile suits current market conditions.",
-          "currentPrice": 8.76
+          "currentPrice": 8.5
         },
         "GBTC": {
           "qty": 60,
@@ -947,6 +975,10 @@
         {
           "date": "2026-06-22",
           "value": 101211.04
+        },
+        {
+          "date": "2026-06-23",
+          "value": 100400.79
         }
       ]
     },
@@ -1215,6 +1247,34 @@
     }
   },
   "recommendations": [
+    {
+      "id": "1782234092.130704XLE",
+      "symbol": "XLE",
+      "strategy": "momentum",
+      "ts": "2026-06-23T17:01:32.130709+00:00",
+      "entryPrice": 54.41,
+      "oppScore": 81,
+      "riskScore": 35,
+      "confScore": 77,
+      "reasoning": "Energy sector +0.65% outperforming risk-off tape; defensive cyclical rotation play with positive relative momentum vs tech and broader indices.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1782234085.683672CRM",
+      "symbol": "CRM",
+      "strategy": "growth",
+      "ts": "2026-06-23T17:01:25.683679+00:00",
+      "entryPrice": 154.74,
+      "oppScore": 82,
+      "riskScore": 35,
+      "confScore": 78,
+      "reasoning": "Strong positive momentum (+3.08%) in enterprise SaaS with AI integration tailwinds; established profitability reduces downside risk.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
     {
       "id": "1782229435.808316PFE",
       "symbol": "PFE",
@@ -2282,6 +2342,16 @@
   ],
   "aiTradeLog": [
     {
+      "ts": "2026-06-23T17:01:25.683669+00:00",
+      "portfolio": "growth",
+      "msg": "BUY 32\u00d7 CRM @ \u00a3154.74 \u2014 Strong positive momentum (+3.08%) in enterprise SaaS with AI integration tailwinds; established profitability reduces downside risk."
+    },
+    {
+      "ts": "2026-06-23T17:01:32.130702+00:00",
+      "portfolio": "momentum",
+      "msg": "BUY 55\u00d7 XLE @ \u00a354.41 \u2014 Energy sector +0.65% outperforming risk-off tape; defensive cyclical rotation play with positive relative momentum vs tech and broader indices."
+    },
+    {
       "ts": "2026-06-23T15:43:51.039526+00:00",
       "portfolio": "growth",
       "msg": "BUY 13\u00d7 MSFT @ \u00a3372.71 \u2014 Strong momentum (+1.46%) with stable fundamentals; core AI/cloud exposure aligns with growth mandate."
@@ -2698,5 +2768,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-06-23T15:44:13.260230+00:00"
+  "lastRun": "2026-06-23T17:01:43.893116+00:00"
 }
