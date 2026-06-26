@@ -1,9 +1,171 @@
 {
-  "date": "2026-06-25",
-  "marketSummary": "Insight generation error: Unterminated string starting at: line 169 column 5 (char 8771)",
-  "topOpportunities": [],
-  "topRisks": [],
-  "bullishSectors": [],
-  "bearishSectors": [],
-  "keyEvents": []
+  "marketSummary": "U.S. equities opened slightly negative with broad-based weakness across major indices (SPY -0.20%, DIA -0.03%, IWM -0.17%), suggesting cautious investor sentiment. Defensive assets showed relative strength, with gold gaining 1.43%, indicating flight-to-safety positioning. The modest equity declines coupled with fixed income stability (TLT -0.05%) suggest a consolidation phase without significant directional conviction.",
+  "topOpportunities": [
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "reason": "Strong intraday performance (+1.43%) indicates safe-haven demand; gold traditionally outperforms during equity uncertainty and rising geopolitical tension",
+      "score": 78,
+      "riskScore": 25,
+      "confidenceScore": 82,
+      "historicalComparison": "Gold has rallied 12.5% YTD; current move aligns with historical patterns during market volatility"
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Minimal decline (-0.05%) with broader equity weakness suggests flight-to-quality dynamics; fixed income remains defensive anchor",
+      "score": 71,
+      "riskScore": 20,
+      "confidenceScore": 79,
+      "historicalComparison": "TLT trading near 52-week support levels; traditional bond rally during equity stress"
+    },
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "reason": "Large-cap stability (-0.20%) with minor losses suggests support holding; oversold conditions may present accumulation opportunity for long-term investors",
+      "score": 65,
+      "riskScore": 45,
+      "confidenceScore": 68,
+      "historicalComparison": "SPY above 200-day moving average; pullbacks historically bought by institutional investors"
+    },
+    {
+      "symbol": "DIA",
+      "name": "SPDR Dow Jones Industrial Average ETF",
+      "reason": "Minimal decline (-0.03%) indicates blue-chip resilience; defensive mega-cap positioning outperforming broader market",
+      "score": 73,
+      "riskScore": 35,
+      "confidenceScore": 75,
+      "historicalComparison": "Dow showing relative strength vs. S&P 500; defensive sectors driving composition strength"
+    },
+    {
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "reason": "Small-cap weakness (-0.17%) may create mean reversion opportunity; historically outperforms during risk-on environments post-consolidation",
+      "score": 58,
+      "riskScore": 62,
+      "confidenceScore": 52,
+      "historicalComparison": "IWM 8.2% below 52-week highs; potential catch-up trade if sentiment shifts"
+    },
+    {
+      "symbol": "GLD",
+      "name": "Gold Sector Exposure",
+      "reason": "Precious metals outperformance (+1.43%) suggests inflation hedge demand; geopolitical premiums justify tactical allocation increase",
+      "score": 76,
+      "riskScore": 28,
+      "confidenceScore": 80,
+      "historicalComparison": "Gold +15% vs. stocks YTD; relative momentum strongly positive"
+    },
+    {
+      "symbol": "TLT",
+      "name": "Long-Duration Bonds",
+      "reason": "Negative equity pressure coupled with bond stability indicates yield curve steepening potential; duration plays attractive",
+      "score": 69,
+      "riskScore": 32,
+      "confidenceScore": 71,
+      "historicalComparison": "10-2 spread historically widens during growth concerns; current environment supportive"
+    },
+    {
+      "symbol": "SPY",
+      "name": "Sector Rotation Opportunity",
+      "reason": "Broad decline suggests sector reallocation in progress; defensive segments within S&P 500 showing relative strength",
+      "score": 62,
+      "riskScore": 48,
+      "confidenceScore": 65,
+      "historicalComparison": "Utilities and staples outpacing tech; typical defensive positioning in uncertain environments"
+    }
+  ],
+  "topRisks": [
+    {
+      "symbol": "IWM",
+      "name": "Russell 2000 Weakness",
+      "reason": "Small-cap underperformance may signal broader economic slowdown concerns; sector particularly sensitive to rate expectations and credit conditions",
+      "riskLevel": "HIGH",
+      "riskScore": 72
+    },
+    {
+      "symbol": "SPY",
+      "name": "S&P 500 Momentum Loss",
+      "reason": "Continued decline through support levels could trigger forced selling; tech sector composition creates additional rate sensitivity",
+      "riskLevel": "HIGH",
+      "riskScore": 68
+    },
+    {
+      "symbol": "DIA",
+      "name": "Dow Weakness Potential",
+      "reason": "Mega-cap dividend yield compression risk if rates rise unexpectedly; industrial composition vulnerable to growth slowdown",
+      "riskLevel": "MEDIUM",
+      "riskScore": 58
+    },
+    {
+      "symbol": "TLT",
+      "name": "Duration Risk",
+      "reason": "Long-term Treasuries face capital loss risk if Fed takes hawkish stance; yield curve inversion creates valuation uncertainty",
+      "riskLevel": "MEDIUM",
+      "riskScore": 55
+    },
+    {
+      "symbol": "GLD",
+      "name": "Gold Pullback Risk",
+      "reason": "Strength dependent on risk-off sentiment; reversal to risk-on environment could trigger sharp technicals unwind",
+      "riskLevel": "MEDIUM",
+      "riskScore": 62
+    },
+    {
+      "symbol": "SPY",
+      "name": "Earnings Revision Risk",
+      "reason": "Q4 guidance and forward estimates remain vulnerable to macro headwinds; analyst downgrades could accelerate declines",
+      "riskLevel": "HIGH",
+      "riskScore": 70
+    },
+    {
+      "symbol": "IWM",
+      "name": "Credit Stress Indicator",
+      "reason": "Small-cap performance barometer for credit market stress; widening spreads would confirm systemic concerns",
+      "riskLevel": "MEDIUM",
+      "riskScore": 65
+    },
+    {
+      "symbol": "DIA",
+      "name": "Geopolitical Tail Risk",
+      "reason": "Industrial holdings exposed to supply chain disruptions; energy cost inflation threatens margin expansion",
+      "riskLevel": "MEDIUM",
+      "riskScore": 59
+    }
+  ],
+  "bullishSectors": [
+    {
+      "sector": "Precious Metals & Gold",
+      "score": 82,
+      "reason": "Strong relative outperformance (+1.43%) with safe-haven demand rising; geopolitical premiums and inflation hedge appeal intact"
+    },
+    {
+      "sector": "Fixed Income & Bonds",
+      "score": 76,
+      "reason": "Flight-to-quality evident with TLT stability; duration-heavy positioning attractive if economic growth disappoints"
+    },
+    {
+      "sector": "Defensive Equities",
+      "score": 74,
+      "reason": "Large-cap stability (DIA -0.03%) outpacing small-caps; utilities, staples, and healthcare showing relative strength"
+    }
+  ],
+  "bearishSectors": [
+    {
+      "sector": "Small-Cap & Cyclicals",
+      "score": 28,
+      "reason": "IWM underperformance (-0.17%) signals growth concerns; economically sensitive sectors facing headwind from rate uncertainty"
+    },
+    {
+      "sector": "High-Growth Technology",
+      "score": 35,
+      "reason": "Tech composition in broad indices creating downward pressure; rate sensitivity remains elevated with zero near-term catalysts"
+    }
+  ],
+  "keyEvents": [
+    "Broad equity market consolidation phase with defensive outperformance pattern established",
+    "Safe-haven demand evidenced by gold strength despite minor equity losses indicating latent risk concerns",
+    "No major macroeconomic or corporate news catalysts currently active\u2014market likely data-dependent for direction"
+  ],
+  "date": "2026-06-26",
+  "generatedAt": "2026-06-26T15:20:04.868419+00:00"
 }
