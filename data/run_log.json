@@ -1,8 +1,24 @@
 {
-  "lastRun": "2026-06-30T18:55:10.544172+00:00",
+  "lastRun": "2026-06-30T20:26:56.262613+00:00",
   "marketStatus": "open",
   "symbolsFetched": 58,
   "strategiesRun": 7,
-  "tradesExecuted": 0,
-  "recentLog": []
+  "tradesExecuted": 3,
+  "recentLog": [
+    {
+      "ts": "2026-06-30T20:26:28.857243+00:00",
+      "portfolio": "master",
+      "msg": "AUTO-CLOSE AMD: Take-profit triggered (+20.3%)"
+    },
+    {
+      "ts": "2026-06-30T20:26:34.484933+00:00",
+      "portfolio": "growth",
+      "msg": "AUTO-CLOSE AMD: Take-profit triggered (+20.3%)"
+    },
+    {
+      "ts": "2026-06-30T20:26:53.861848+00:00",
+      "portfolio": "crypto",
+      "msg": "AUTO-CLOSE BITO: Stop-loss triggered (-8.8%)"
+    }
+  ]
 }
