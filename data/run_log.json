@@ -1,14 +1,24 @@
 {
-  "lastRun": "2026-06-29T20:21:35.961142+00:00",
+  "lastRun": "2026-06-30T15:23:32.669296+00:00",
   "marketStatus": "open",
-  "symbolsFetched": 60,
+  "symbolsFetched": 59,
   "strategiesRun": 7,
-  "tradesExecuted": 1,
+  "tradesExecuted": 3,
   "recentLog": [
     {
-      "ts": "2026-06-29T20:21:35.455910+00:00",
-      "portfolio": "smallcap",
-      "msg": "BUY 383\u00d7 APPS @ \u00a312.91 \u2014 Strong +16.62% momentum with unusual volume spike suggests institutional accumulation; meets all thresholds for entry."
+      "ts": "2026-06-30T15:23:18.156390+00:00",
+      "portfolio": "momentum",
+      "msg": "AUTO-CLOSE MSTR: Stop-loss triggered (-9.8%)"
+    },
+    {
+      "ts": "2026-06-30T15:23:29.655886+00:00",
+      "portfolio": "crypto",
+      "msg": "AUTO-CLOSE CIFR: Stop-loss triggered (-9.5%)"
+    },
+    {
+      "ts": "2026-06-30T15:23:29.655893+00:00",
+      "portfolio": "crypto",
+      "msg": "AUTO-CLOSE GBTC: Stop-loss triggered (-9.5%)"
     }
   ]
 }
