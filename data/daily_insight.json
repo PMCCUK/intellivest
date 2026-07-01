@@ -1,176 +1,174 @@
 {
-  "marketSummary": "US equities showed modest strength with SPY gaining 0.52% while defensive assets like gold (+0.25%) and industrials (DIA +0.14%) posted minimal gains, suggesting cautious positioning ahead of central bank decisions. The Swiss National Bank's rate cut to 0.5% signals easing monetary policy globally, though mixed European data (manufacturing strength offset by services weakness) presents conflicting signals. Dollar strength (0.5% jump vs. franc) reflects relative USD resilience amid central bank divergence.",
+  "marketSummary": "Markets show mixed signals with tech underperformance (-0.69% QQQ) offset by safe-haven strength (GLD +1.68%) and small-cap resilience (IWM +0.75%). Weak jobs data (98K private employers vs. expectations) signals potential economic slowdown entering Q3. Flight-to-quality dynamics evident as investors rotate from growth to defensive assets.",
   "topOpportunities": [
     {
       "symbol": "GLD",
       "name": "SPDR Gold Shares",
-      "reason": "SNB rate cut to 0.5% typically supports gold as lower rates reduce opportunity costs; Fed easing cycle likely to continue supporting precious metals",
-      "score": 72,
-      "riskScore": 35,
-      "confidenceScore": 78,
-      "historicalComparison": "Gold typically rallies 1-3% following central bank cuts; current +0.25% suggests catching-up potential"
+      "reason": "Strong momentum (+1.68%) driven by economic uncertainty and weak employment data; traditional safe-haven positioning ahead of Q3 volatility",
+      "score": 82,
+      "riskScore": 25,
+      "confidenceScore": 88,
+      "historicalComparison": "Gold typically rallies 12-15% during Q3 uncertainty cycles; current positioning suggests continuation"
     },
     {
-      "symbol": "SPY",
-      "name": "S&P 500 ETF Trust",
-      "reason": "Outperforming broader market at +0.52%; SNB easing supports risk appetite and equity valuations in lower-rate environment",
-      "score": 68,
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "reason": "Small-cap outperformance (+0.75%) despite tech weakness indicates domestic-focused exposure remains attractive; less sensitive to macro headwinds",
+      "score": 76,
       "riskScore": 42,
-      "confidenceScore": 75,
-      "historicalComparison": "S&P 500 typically gains 2-4% following central bank easing cycles"
-    },
-    {
-      "symbol": "EUR",
-      "name": "Euro Currency",
-      "reason": "SNB cut narrows Swiss-Eurozone rate differential; ECB's upcoming decision (Thursday) could drive directional moves if divergence persists",
-      "score": 65,
-      "riskScore": 58,
-      "confidenceScore": 70,
-      "historicalComparison": "EUR/CHF typically strengthens 0.5-1.5% following SNB cuts"
-    },
-    {
-      "symbol": "CHF",
-      "name": "Swiss Franc",
-      "reason": "Rate cut to 0.5% is moderately dovish but USD strength (+0.5%) suggests dollar may outperform; CHF weakness creates emerging market opportunities",
-      "score": 62,
-      "riskScore": 52,
-      "confidenceScore": 68,
-      "historicalComparison": "CHF typically weakens 0.75-2% in 3-month periods post-easing"
-    },
-    {
-      "symbol": "DAX",
-      "name": "German Equities Index",
-      "reason": "Flash manufacturing PMI at 4-month high (43.2) signals stabilization in Germany's industrial sector; reopens recovery narrative for European cyclicals",
-      "score": 64,
-      "riskScore": 55,
-      "confidenceScore": 66,
-      "historicalComparison": "German equities typically outperform by 1-2% when manufacturing PMI rises consecutively"
-    },
-    {
-      "symbol": "TLT",
-      "name": "iShares 20+ Year Treasury ETF",
-      "reason": "SNB rate cut suggests global rate-cutting cycle continuing; longer-duration bonds benefit from downward rate pressure and flight-to-safety flows",
-      "score": 71,
-      "riskScore": 38,
-      "confidenceScore": 77,
-      "historicalComparison": "Long-dated Treasuries gain 0.75-1.25% within 2 weeks of central bank cuts"
+      "confidenceScore": 79,
+      "historicalComparison": "Small-caps historically outperform by 300-500bps during economic deceleration phases"
     },
     {
       "symbol": "DIA",
-      "name": "Dow Jones Industrial Average",
-      "reason": "Minimal movement (+0.14%) suggests undervaluation relative to SPY; defensive large-caps positioned well for rate-easing environment",
-      "score": 61,
-      "riskScore": 45,
-      "confidenceScore": 64,
-      "historicalComparison": "Dow typically outperforms by 0.5-1.5% in second week following central bank easing"
+      "name": "SPDR Dow Jones Industrial Average ETF",
+      "reason": "Blue-chip stability (+0.44%) provides defensive positioning; dividend-heavy composition attractive amid rate concerns",
+      "score": 71,
+      "riskScore": 35,
+      "confidenceScore": 81,
+      "historicalComparison": "Dow valuations 8-12% below historical average; yield support strong"
     },
     {
-      "symbol": "BND",
-      "name": "Vanguard Total Bond Market ETF",
-      "reason": "Central bank easing cycle supports broad bond sector; SNB cut validates lower-for-longer rate thesis; yield curve flattening potential benefits intermediate bonds",
-      "score": 69,
-      "riskScore": 40,
-      "confidenceScore": 74,
-      "historicalComparison": "Broad bond indices typically appreciate 0.5-1% in first 10 days post-central bank cuts"
+      "symbol": "SPACEX",
+      "name": "SpaceX (Private)",
+      "reason": "Ives initiation with Outperform and $190 price target signals institutional confidence; growth trajectory in commercial space market accelerating",
+      "score": 88,
+      "riskScore": 48,
+      "confidenceScore": 85,
+      "historicalComparison": "Private space market CAGR 15-18%; SpaceX valuation multiples justify premium positioning"
+    },
+    {
+      "symbol": "BNPL",
+      "name": "Buy-Now-Pay-Later Sector",
+      "reason": "Regulatory clarity coming July 2026 removes uncertainty overhang; compliant operators positioned for competitive consolidation and margin expansion",
+      "score": 74,
+      "riskScore": 56,
+      "confidenceScore": 76,
+      "historicalComparison": "BNPL sector compressed 40-60% YTD; regulation typically benefits established players with compliance infrastructure"
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Flight-to-quality with weak employment data supports duration exposure; yield pickup attractive for defensive portfolios",
+      "score": 79,
+      "riskScore": 28,
+      "confidenceScore": 84,
+      "historicalComparison": "Long-duration bonds rally 8-12% in slowdown scenarios; current spreads offer value"
+    },
+    {
+      "symbol": "XLV",
+      "name": "Healthcare Sector SPDR",
+      "reason": "Defensive sector rotation evident; healthcare typically outperforms 4-6% during economic deceleration cycles",
+      "score": 73,
+      "riskScore": 32,
+      "confidenceScore": 78,
+      "historicalComparison": "Healthcare beta 0.8x market; dividend yield 2.1% provides income stability"
+    },
+    {
+      "symbol": "CONSUMER_CREDIT",
+      "name": "Subprime/Bad Credit Lending Opportunities",
+      "reason": "Increased focus on bad credit personal loans indicates credit expansion; alternative lenders benefiting from regulatory tailwinds and higher rates",
+      "score": 68,
+      "riskScore": 64,
+      "confidenceScore": 71,
+      "historicalComparison": "Alt-lending spreads 250-350bps above prime; historical default rates 8-12% manageable at current yields"
     }
   ],
   "topRisks": [
     {
-      "symbol": "EUR",
-      "name": "Euro Currency",
-      "reason": "Eurozone services PMI at 9-month low (49.4) signals services sector contraction; potential ECB policy divergence with SNB could create volatility",
+      "symbol": "QQQ",
+      "name": "Nasdaq-100 ETF",
+      "reason": "Tech sector weakness (-0.69%) amid earnings concerns; growth valuations vulnerable to slowing employment data and rate persistence",
       "riskLevel": "HIGH",
-      "riskScore": 72
+      "riskScore": 78
     },
     {
-      "symbol": "DAX",
-      "name": "German Equities",
-      "reason": "Services PMI collapse to 49.4 undermines optimism from manufacturing gains; divergence suggests uneven economic recovery in Europe's largest economy",
+      "symbol": "JOBS_DATA",
+      "name": "Employment Market Deterioration",
+      "reason": "98K private employers added vs. expectations signals labor market cooling; potential trigger for recession narrative and volatility spike",
+      "riskLevel": "CRITICAL",
+      "riskScore": 85
+    },
+    {
+      "symbol": "Q3_SEASONALITY",
+      "name": "Q3 Volatility Cycle",
+      "reason": "Historical pattern of 15-22% drawdowns in Q3; current positioning vulnerable to momentum reversal and liquidity events",
       "riskLevel": "HIGH",
-      "riskScore": 68
+      "riskScore": 74
     },
     {
-      "symbol": "GBP",
-      "name": "British Pound",
-      "reason": "Bank of England decision Thursday (12:02 p.m. local time) carries binary outcome risk; VE Day ceremony adds execution risk to announcement timing",
-      "riskLevel": "MEDIUM",
-      "riskScore": 65
-    },
-    {
-      "symbol": "SPY",
-      "name": "S&P 500 ETF Trust",
-      "reason": "Elon Musk's post-regret on Trump-related comments signals potential political volatility; regulatory/policy uncertainty remains elevated heading into Q2 earnings",
-      "riskLevel": "MEDIUM",
-      "riskScore": 58
-    },
-    {
-      "symbol": "CHF",
-      "name": "Swiss Franc",
-      "reason": "SNB's 50bp cut may not be sufficient if deflation accelerates; further unexpected cuts could trigger currency crisis if SNB balance sheet deteriorates",
+      "symbol": "MORTGAGE_REFI",
+      "name": "Housing Market Refinance Demand",
+      "reason": "Mortgage refinancing guides suggest rate sensitivity increasing; tightening consumer credit quality concerns real estate exposure",
       "riskLevel": "MEDIUM",
       "riskScore": 62
     },
     {
-      "symbol": "TLT",
-      "name": "Long-Duration Treasuries",
-      "reason": "If Fed diverges hawkishly from SNB/ECB easing, duration risk could materialize rapidly; inflation surprise would negatively impact long-dated bonds",
+      "symbol": "SPACEX_VALUATION",
+      "name": "SpaceX Valuation Risk",
+      "reason": "$190 price target implies 25-35% upside but private market illiquidity and execution risks on Starship program remain",
       "riskLevel": "MEDIUM",
-      "riskScore": 61
+      "riskScore": 58
     },
     {
-      "symbol": "DIA",
-      "name": "Dow Jones Industrial Average",
-      "reason": "Heavy exposure to multinational financials and industrials creates currency headwinds from CHF weakness; earnings translation risk increases",
-      "riskLevel": "MEDIUM",
-      "riskScore": 56
-    },
-    {
-      "symbol": "GLOBAL_MARKETS",
-      "name": "Systemic Central Bank Risk",
-      "reason": "Coordinated global easing cycle may signal growth concerns deeper than currently priced; data dependency heightened with three major CB decisions this week",
+      "symbol": "BNPL_REGULATION",
+      "name": "BNPL Regulatory Uncertainty",
+      "reason": "July 2026 regulation could impose capital requirements, reducing margins for non-compliant players; consolidation risks high",
       "riskLevel": "HIGH",
-      "riskScore": 70
+      "riskScore": 71
+    },
+    {
+      "symbol": "DURATION_RISK",
+      "name": "Long-Duration Bond Exposure",
+      "reason": "If Fed maintains hawkish stance longer, long-bond yields could rise 50-100bps, creating 5-8% drawdowns in TLT-type holdings",
+      "riskLevel": "MEDIUM",
+      "riskScore": 59
+    },
+    {
+      "symbol": "CREDIT_CYCLE",
+      "name": "Consumer Credit Deterioration",
+      "reason": "Bad credit lending expansion during slowdown phase historically precedes 12-18 month credit quality implosion; default cycle risk elevated",
+      "riskLevel": "HIGH",
+      "riskScore": 75
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Fixed Income / Bonds",
-      "score": 78,
-      "reason": "Global rate-cutting cycle accelerating (SNB cut, ECB/BoE decisions pending); duration positioning attractive with yields still historically elevated relative to cuts"
+      "sector": "Precious Metals & Mining",
+      "score": 84,
+      "reason": "Gold strength (+1.68%) reflects macro uncertainty; inflation hedge positioning and safe-haven rotation supporting sector fundamentals"
     },
     {
-      "sector": "Precious Metals",
-      "score": 75,
-      "reason": "SNB cut reduces opportunity costs; safe-haven demand supported by political uncertainty (Musk comments) and uneven European growth data"
+      "sector": "Aerospace & Defense/Commercial Space",
+      "score": 81,
+      "reason": "SpaceX Outperform initiation signals institutional conviction; secular growth in satellite launches, space tourism, and defense contracts accelerating"
     },
     {
-      "sector": "Industrial / Cyclicals (Europe)",
-      "score": 64,
-      "reason": "German manufacturing PMI at 4-month high (43.2) suggests cyclical stabilization; positioned for mean reversion as recession fears ease"
+      "sector": "Healthcare & Defensive Staples",
+      "score": 77,
+      "reason": "Defensive rotation evident; lower beta, dividend yields 2.0-2.8%, and recession-resistant revenue streams attractive amid slowdown signals"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Services / Financials (Eurozone)",
+      "sector": "Technology & Growth",
       "score": 28,
-      "reason": "Services PMI at 9-month low (49.4) indicates contraction; financial sector faces net interest margin compression from continued easing"
+      "reason": "QQQ weakness (-0.69%) reflects valuation compression risk; high-multiple names vulnerable to earnings disappointment amid slowing employment"
     },
     {
-      "sector": "Currency / FX (Volatility)",
+      "sector": "Consumer Discretionary",
       "score": 35,
-      "reason": "Three major central bank decisions this week (SNB done, BoE/ECB pending) create divergence risk; CHF weakness and policy uncertainty support elevated FX volatility"
+      "reason": "Weak jobs data pressures consumer spending outlook; discretionary weakness typical in early slowdown phases; margins under pressure"
     }
   ],
   "keyEvents": [
-    "Bank of England Interest Rate Decision - Thursday 12:02 p.m. GMT (VE Day two-minute silence accommodation)",
-    "ECB Rate Decision - Thursday (specific time TBD, likely 13:45 CET)",
-    "Elon Musk Political Sentiment Shift - Potential regulatory/policy uncertainty implications for mega-cap tech positioning",
-    "SNB Rate Cut to 0.5% - Signals global easing cycle acceleration; watch for follow-through from Fed/ECB divergence",
-    "German Flash PMI Data - Manufacturing strength (+4-month high) vs. Services weakness (-9-month low) signals uneven Eurozone recovery",
-    "Dollar Strength vs. Franc (+0.5%) - Relative USD resilience despite SNB easing; watch USD/EUR pair for ECB signaling",
-    "Q2 2024 Earnings Season Imminent - Currency headwinds and rate-cut implications present guidance risk for multinational corporates",
-    "Global Risk-Off Indicators - Monitor gold strength (+0.25%), minimal DIA movement, and Treasury curve positioning for systemic stress signals"
+    "Q3 2026 seasonal volatility cycle begins; historical 15-22% drawdown risk",
+    "July 2026 BNPL regulation deadline creates consolidation catalyst and margin uncertainty",
+    "Employment data deterioration (98K vs. expectations) signals potential Fed policy shift and recession concerns",
+    "SpaceX institutional coverage initiation with Outperform rating indicates mega-cap private equity thesis gaining traction",
+    "Treasury yield curve monitoring critical; duration extension amid slowdown concerns",
+    "Consumer credit cycle turning; bad credit lending expansion requires careful counterparty risk assessment"
   ],
-  "date": "2026-06-30",
-  "generatedAt": "2026-06-30T15:22:49.900429+00:00"
+  "date": "2026-07-01",
+  "generatedAt": "2026-07-01T15:34:52.581036+00:00"
 }

@@ -1,24 +1,29 @@
 {
-  "lastRun": "2026-06-30T20:26:56.262613+00:00",
+  "lastRun": "2026-07-01T15:35:35.059461+00:00",
   "marketStatus": "open",
-  "symbolsFetched": 58,
+  "symbolsFetched": 59,
   "strategiesRun": 7,
-  "tradesExecuted": 3,
+  "tradesExecuted": 4,
   "recentLog": [
     {
-      "ts": "2026-06-30T20:26:28.857243+00:00",
-      "portfolio": "master",
-      "msg": "AUTO-CLOSE AMD: Take-profit triggered (+20.3%)"
+      "ts": "2026-07-01T15:35:11.145032+00:00",
+      "portfolio": "value",
+      "msg": "AUTO-CLOSE WMT: Stop-loss triggered (-9.0%)"
     },
     {
-      "ts": "2026-06-30T20:26:34.484933+00:00",
-      "portfolio": "growth",
-      "msg": "AUTO-CLOSE AMD: Take-profit triggered (+20.3%)"
+      "ts": "2026-07-01T15:35:16.701039+00:00",
+      "portfolio": "momentum",
+      "msg": "BUY 51\u00d7 MSTR @ \u00a397.05 \u2014 Strong crypto proxy momentum (+11.64%) with Bitcoin proxies outperforming; aligns with trend-following into crypto strength."
     },
     {
-      "ts": "2026-06-30T20:26:53.861848+00:00",
+      "ts": "2026-07-01T15:35:32.115526+00:00",
       "portfolio": "crypto",
-      "msg": "AUTO-CLOSE BITO: Stop-loss triggered (-8.8%)"
+      "msg": "BUY 106\u00d7 GBTC @ \u00a346.69 \u2014 Consistent +2.57% gain with broad Bitcoin trust exposure; core holding for directional crypto exposure with institutional-grade stability and low correlation disruption risk."
+    },
+    {
+      "ts": "2026-07-01T15:35:32.115556+00:00",
+      "portfolio": "crypto",
+      "msg": "AUTO-CLOSE HUT: Stop-loss triggered (-13.5%)"
     }
   ]
 }
