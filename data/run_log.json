@@ -1,8 +1,19 @@
 {
-  "lastRun": "2026-07-01T20:22:36.015279+00:00",
+  "lastRun": "2026-07-02T15:05:03.147303+00:00",
   "marketStatus": "open",
   "symbolsFetched": 58,
   "strategiesRun": 7,
-  "tradesExecuted": 0,
-  "recentLog": []
+  "tradesExecuted": 2,
+  "recentLog": [
+    {
+      "ts": "2026-07-02T15:05:00.622237+00:00",
+      "portfolio": "crypto",
+      "msg": "AUTO-CLOSE RIOT: Stop-loss triggered (-9.5%)"
+    },
+    {
+      "ts": "2026-07-02T15:05:00.622244+00:00",
+      "portfolio": "crypto",
+      "msg": "AUTO-CLOSE MARA: Stop-loss triggered (-11.8%)"
+    }
+  ]
 }

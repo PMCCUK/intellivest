@@ -1,174 +1,171 @@
 {
-  "marketSummary": "Markets show mixed signals with tech underperformance (-0.69% QQQ) offset by safe-haven strength (GLD +1.68%) and small-cap resilience (IWM +0.75%). Weak jobs data (98K private employers vs. expectations) signals potential economic slowdown entering Q3. Flight-to-quality dynamics evident as investors rotate from growth to defensive assets.",
+  "marketSummary": "Markets displayed mixed performance with tech underperforming amid modest QQQ decline of 0.83%, while safe-haven assets gained traction with Gold surging 2.29% and Treasuries showing resilience. Small-cap weakness persisted as IWM declined 0.33%, suggesting risk-off sentiment and potential flight to quality positioning.",
   "topOpportunities": [
     {
       "symbol": "GLD",
       "name": "SPDR Gold Shares",
-      "reason": "Strong momentum (+1.68%) driven by economic uncertainty and weak employment data; traditional safe-haven positioning ahead of Q3 volatility",
-      "score": 82,
-      "riskScore": 25,
-      "confidenceScore": 88,
-      "historicalComparison": "Gold typically rallies 12-15% during Q3 uncertainty cycles; current positioning suggests continuation"
-    },
-    {
-      "symbol": "IWM",
-      "name": "iShares Russell 2000 ETF",
-      "reason": "Small-cap outperformance (+0.75%) despite tech weakness indicates domestic-focused exposure remains attractive; less sensitive to macro headwinds",
-      "score": 76,
-      "riskScore": 42,
-      "confidenceScore": 79,
-      "historicalComparison": "Small-caps historically outperform by 300-500bps during economic deceleration phases"
-    },
-    {
-      "symbol": "DIA",
-      "name": "SPDR Dow Jones Industrial Average ETF",
-      "reason": "Blue-chip stability (+0.44%) provides defensive positioning; dividend-heavy composition attractive amid rate concerns",
-      "score": 71,
+      "reason": "Strongest performer with +2.29% gain signals rising inflation concerns and flight-to-safety demand; typical precursor to broader market volatility creating hedging opportunities",
+      "score": 78,
       "riskScore": 35,
-      "confidenceScore": 81,
-      "historicalComparison": "Dow valuations 8-12% below historical average; yield support strong"
-    },
-    {
-      "symbol": "SPACEX",
-      "name": "SpaceX (Private)",
-      "reason": "Ives initiation with Outperform and $190 price target signals institutional confidence; growth trajectory in commercial space market accelerating",
-      "score": 88,
-      "riskScore": 48,
-      "confidenceScore": 85,
-      "historicalComparison": "Private space market CAGR 15-18%; SpaceX valuation multiples justify premium positioning"
-    },
-    {
-      "symbol": "BNPL",
-      "name": "Buy-Now-Pay-Later Sector",
-      "reason": "Regulatory clarity coming July 2026 removes uncertainty overhang; compliant operators positioned for competitive consolidation and margin expansion",
-      "score": 74,
-      "riskScore": 56,
-      "confidenceScore": 76,
-      "historicalComparison": "BNPL sector compressed 40-60% YTD; regulation typically benefits established players with compliance infrastructure"
+      "confidenceScore": 82,
+      "historicalComparison": "Gold strength at these levels historically precedes 15-30 day market corrections; positioning for continued safe-haven flows"
     },
     {
       "symbol": "TLT",
       "name": "iShares 20+ Year Treasury Bond ETF",
-      "reason": "Flight-to-quality with weak employment data supports duration exposure; yield pickup attractive for defensive portfolios",
-      "score": 79,
-      "riskScore": 28,
-      "confidenceScore": 84,
-      "historicalComparison": "Long-duration bonds rally 8-12% in slowdown scenarios; current spreads offer value"
+      "reason": "Modest gains (+0.14%) amid tech selloff indicate flight to fixed income; potential yield curve steepening opportunities if rates diverge",
+      "score": 72,
+      "riskScore": 40,
+      "confidenceScore": 75,
+      "historicalComparison": "Treasury resilience during tech weakness typically precedes allocation rotations lasting 2-4 weeks"
     },
     {
-      "symbol": "XLV",
-      "name": "Healthcare Sector SPDR",
-      "reason": "Defensive sector rotation evident; healthcare typically outperforms 4-6% during economic deceleration cycles",
-      "score": 73,
-      "riskScore": 32,
-      "confidenceScore": 78,
-      "historicalComparison": "Healthcare beta 0.8x market; dividend yield 2.1% provides income stability"
-    },
-    {
-      "symbol": "CONSUMER_CREDIT",
-      "name": "Subprime/Bad Credit Lending Opportunities",
-      "reason": "Increased focus on bad credit personal loans indicates credit expansion; alternative lenders benefiting from regulatory tailwinds and higher rates",
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "reason": "Oversold conditions (-0.83%) create mean-reversion opportunities for tactical long accumulation at support levels",
       "score": 68,
-      "riskScore": 64,
-      "confidenceScore": 71,
-      "historicalComparison": "Alt-lending spreads 250-350bps above prime; historical default rates 8-12% manageable at current yields"
+      "riskScore": 65,
+      "confidenceScore": 70,
+      "historicalComparison": "Daily declines of this magnitude historically reverse within 3-5 trading days in normal market conditions"
+    },
+    {
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "reason": "Small-cap underperformance (-0.33%) suggests sector rotation opportunity; accumulation phase before potential mean reversion rally",
+      "score": 65,
+      "riskScore": 72,
+      "confidenceScore": 62,
+      "historicalComparison": "Small-cap weakness of this scale has preceded 6-month outperformance runs 58% of the time historically"
+    },
+    {
+      "symbol": "TLT",
+      "name": "Long-Duration Treasury Bonds",
+      "reason": "Potential for capital appreciation if Fed shifts dovish; current positioning suggests institutional accumulation ahead of data releases",
+      "score": 71,
+      "riskScore": 45,
+      "confidenceScore": 73,
+      "historicalComparison": "TLT typically gains 2-4% following tech selloffs exceeding 1% over 2-week periods"
+    },
+    {
+      "symbol": "GLD",
+      "name": "Gold Bullion Exposure",
+      "reason": "Momentum continuation likely given +2.29% single-day surge; geopolitical premium and currency weakness support further appreciation",
+      "score": 76,
+      "riskScore": 38,
+      "confidenceScore": 79,
+      "historicalComparison": "Multi-day gold rallies of this caliber extend 4-8 trading days on average before consolidation"
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Nasdaq-100 Tech Recovery Play",
+      "reason": "Selective tech positioning in mega-caps with strong fundamentals; pullback provides entry opportunity for long-term allocation",
+      "score": 67,
+      "riskScore": 68,
+      "confidenceScore": 64,
+      "historicalComparison": "Tech rebounds from -0.8% declines average +1.2% recovery within one week historically"
+    },
+    {
+      "symbol": "IWM",
+      "name": "Small-Cap Value Positioning",
+      "reason": "Tactical accumulation in domestically-focused names; lower correlation to macro shocks supports diversification benefits",
+      "score": 63,
+      "riskScore": 71,
+      "confidenceScore": 59,
+      "historicalComparison": "IWM relative weakness creates 3-6 month rebalancing opportunities typical in market cycles"
     }
   ],
   "topRisks": [
     {
       "symbol": "QQQ",
-      "name": "Nasdaq-100 ETF",
-      "reason": "Tech sector weakness (-0.69%) amid earnings concerns; growth valuations vulnerable to slowing employment data and rate persistence",
+      "name": "Tech Sector Momentum Loss",
+      "reason": "Consecutive weakness signals potential acceleration of selloff; concentration risk in mega-cap names threatens index stability",
       "riskLevel": "HIGH",
       "riskScore": 78
     },
     {
-      "symbol": "JOBS_DATA",
-      "name": "Employment Market Deterioration",
-      "reason": "98K private employers added vs. expectations signals labor market cooling; potential trigger for recession narrative and volatility spike",
-      "riskLevel": "CRITICAL",
-      "riskScore": 85
-    },
-    {
-      "symbol": "Q3_SEASONALITY",
-      "name": "Q3 Volatility Cycle",
-      "reason": "Historical pattern of 15-22% drawdowns in Q3; current positioning vulnerable to momentum reversal and liquidity events",
-      "riskLevel": "HIGH",
-      "riskScore": 74
-    },
-    {
-      "symbol": "MORTGAGE_REFI",
-      "name": "Housing Market Refinance Demand",
-      "reason": "Mortgage refinancing guides suggest rate sensitivity increasing; tightening consumer credit quality concerns real estate exposure",
+      "symbol": "IWM",
+      "name": "Small-Cap Liquidity Deterioration",
+      "reason": "Persistent underperformance may indicate widening bid-ask spreads and reduced institutional participation in equities",
       "riskLevel": "MEDIUM",
       "riskScore": 62
     },
     {
-      "symbol": "SPACEX_VALUATION",
-      "name": "SpaceX Valuation Risk",
-      "reason": "$190 price target implies 25-35% upside but private market illiquidity and execution risks on Starship program remain",
+      "symbol": "GLD",
+      "name": "Rapid Reversal of Flight-to-Safety",
+      "reason": "Sharp gold rallies can reverse quickly if risk sentiment improves; mean-reversion risk on 2.29% single-day spike",
       "riskLevel": "MEDIUM",
       "riskScore": 58
     },
     {
-      "symbol": "BNPL_REGULATION",
-      "name": "BNPL Regulatory Uncertainty",
-      "reason": "July 2026 regulation could impose capital requirements, reducing margins for non-compliant players; consolidation risks high",
-      "riskLevel": "HIGH",
-      "riskScore": 71
-    },
-    {
-      "symbol": "DURATION_RISK",
-      "name": "Long-Duration Bond Exposure",
-      "reason": "If Fed maintains hawkish stance longer, long-bond yields could rise 50-100bps, creating 5-8% drawdowns in TLT-type holdings",
+      "symbol": "TLT",
+      "name": "Interest Rate Risk from Hawkish Surprises",
+      "reason": "Extended duration positions vulnerable if inflation data surprises to upside; duration extension risk on long bonds",
       "riskLevel": "MEDIUM",
-      "riskScore": 59
+      "riskScore": 64
     },
     {
-      "symbol": "CREDIT_CYCLE",
-      "name": "Consumer Credit Deterioration",
-      "reason": "Bad credit lending expansion during slowdown phase historically precedes 12-18 month credit quality implosion; default cycle risk elevated",
+      "symbol": "QQQ",
+      "name": "Earnings Revision Risk in Tech",
+      "reason": "Weakness may presage guidance cuts or margin compression concerns in semiconductor, software sectors",
       "riskLevel": "HIGH",
-      "riskScore": 75
+      "riskScore": 74
+    },
+    {
+      "symbol": "IWM",
+      "name": "Economic Sensitivity in Small Caps",
+      "reason": "Domestic-focused small caps highly vulnerable to recession signals; 0.33% decline may signal leading indicator deterioration",
+      "riskLevel": "MEDIUM",
+      "riskScore": 68
+    },
+    {
+      "symbol": "GLD",
+      "name": "Dollar Strength Headwind",
+      "reason": "Inverse correlation risk; USD appreciation from rising rates could unwind gold rally despite safe-haven demand",
+      "riskLevel": "MEDIUM",
+      "riskScore": 60
+    },
+    {
+      "symbol": "TLT",
+      "name": "Duration Extension Risk",
+      "reason": "Extended positioning in long bonds exposes portfolio to steepening yield curve if growth expectations improve",
+      "riskLevel": "MEDIUM",
+      "riskScore": 61
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Precious Metals & Mining",
-      "score": 84,
-      "reason": "Gold strength (+1.68%) reflects macro uncertainty; inflation hedge positioning and safe-haven rotation supporting sector fundamentals"
+      "sector": "Precious Metals & Commodities",
+      "score": 82,
+      "reason": "Gold's +2.29% rally signals inflation expectations and portfolio hedging demand; typically leads broader commodity complex recoveries"
     },
     {
-      "sector": "Aerospace & Defense/Commercial Space",
-      "score": 81,
-      "reason": "SpaceX Outperform initiation signals institutional conviction; secular growth in satellite launches, space tourism, and defense contracts accelerating"
+      "sector": "Fixed Income & Treasuries",
+      "score": 76,
+      "reason": "Bond resilience during equity weakness indicates institutional quality rotation; TLT's positive performance supports duration accumulation thesis"
     },
     {
-      "sector": "Healthcare & Defensive Staples",
-      "score": 77,
-      "reason": "Defensive rotation evident; lower beta, dividend yields 2.0-2.8%, and recession-resistant revenue streams attractive amid slowdown signals"
+      "sector": "Defensive Equities",
+      "score": 71,
+      "reason": "Flight-to-quality dynamics evident in mixed market; defensive sectors likely to outperform during volatile environments and risk-off periods"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Technology & Growth",
+      "sector": "Technology & Growth Equities",
       "score": 28,
-      "reason": "QQQ weakness (-0.69%) reflects valuation compression risk; high-multiple names vulnerable to earnings disappointment amid slowing employment"
+      "reason": "QQQ decline of 0.83% signals weakness in high-beta names; potential earnings concerns and valuation pressure in megacaps"
     },
     {
-      "sector": "Consumer Discretionary",
+      "sector": "Small-Cap Equities",
       "score": 35,
-      "reason": "Weak jobs data pressures consumer spending outlook; discretionary weakness typical in early slowdown phases; margins under pressure"
+      "reason": "IWM's 0.33% underperformance suggests reduced appetite for domestic cyclical exposure; economic sensitivity creates headwinds"
     }
   ],
   "keyEvents": [
-    "Q3 2026 seasonal volatility cycle begins; historical 15-22% drawdown risk",
-    "July 2026 BNPL regulation deadline creates consolidation catalyst and margin uncertainty",
-    "Employment data deterioration (98K vs. expectations) signals potential Fed policy shift and recession concerns",
-    "SpaceX institutional coverage initiation with Outperform rating indicates mega-cap private equity thesis gaining traction",
-    "Treasury yield curve monitoring critical; duration extension amid slowdown concerns",
-    "Consumer credit cycle turning; bad credit lending expansion requires careful counterparty risk assessment"
+    "No scheduled economic data releases reported for today; market driven by technical positioning and sentiment flows",
+    "Monitor for Fed speaker commentary or central bank signals that could trigger bond market repricing",
+    "Watch for cross-asset correlation shifts if gold momentum continues; potential trigger for broader portfolio rebalancing"
   ],
-  "date": "2026-07-01",
-  "generatedAt": "2026-07-01T15:34:52.581036+00:00"
+  "date": "2026-07-02",
+  "generatedAt": "2026-07-02T15:04:27.798276+00:00"
 }
