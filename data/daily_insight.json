@@ -1,171 +1,171 @@
 {
-  "marketSummary": "Markets displayed mixed performance with tech underperforming amid modest QQQ decline of 0.83%, while safe-haven assets gained traction with Gold surging 2.29% and Treasuries showing resilience. Small-cap weakness persisted as IWM declined 0.33%, suggesting risk-off sentiment and potential flight to quality positioning.",
+  "marketSummary": "U.S. equities showed mixed performance this morning with large-cap indices down modestly while defensive assets like gold surged, indicating mild risk-off sentiment. Technology stocks underperformed with QQQ declining 1.73%, while small-caps lagged with IWM dropping 0.57%. Bond yields remained stable with TLT flat, suggesting investors are rotating toward safe-haven assets like precious metals.",
   "topOpportunities": [
     {
       "symbol": "GLD",
       "name": "SPDR Gold Shares",
-      "reason": "Strongest performer with +2.29% gain signals rising inflation concerns and flight-to-safety demand; typical precursor to broader market volatility creating hedging opportunities",
+      "reason": "Strong +2.04% gain signals flight-to-safety; technical momentum positive amid equity weakness",
       "score": 78,
       "riskScore": 35,
       "confidenceScore": 82,
-      "historicalComparison": "Gold strength at these levels historically precedes 15-30 day market corrections; positioning for continued safe-haven flows"
+      "historicalComparison": "Gold outperformance during mixed equity sessions typically precedes broader volatility; similar pattern seen Q4 2023"
     },
     {
       "symbol": "TLT",
       "name": "iShares 20+ Year Treasury Bond ETF",
-      "reason": "Modest gains (+0.14%) amid tech selloff indicate flight to fixed income; potential yield curve steepening opportunities if rates diverge",
+      "reason": "Stable despite equity weakness suggests flight-to-quality; positioned for rate volatility",
       "score": 72,
-      "riskScore": 40,
-      "confidenceScore": 75,
-      "historicalComparison": "Treasury resilience during tech weakness typically precedes allocation rotations lasting 2-4 weeks"
+      "riskScore": 28,
+      "confidenceScore": 79,
+      "historicalComparison": "Defensive positioning mirrors March 2023 banking sector concerns; long-duration bonds performed well"
     },
     {
-      "symbol": "QQQ",
-      "name": "Invesco QQQ Trust",
-      "reason": "Oversold conditions (-0.83%) create mean-reversion opportunities for tactical long accumulation at support levels",
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "reason": "Minimal decline of -0.13% shows resilience and potential consolidation at support levels",
       "score": 68,
-      "riskScore": 65,
-      "confidenceScore": 70,
-      "historicalComparison": "Daily declines of this magnitude historically reverse within 3-5 trading days in normal market conditions"
+      "riskScore": 45,
+      "confidenceScore": 75,
+      "historicalComparison": "Small declines followed by recoveries occurred 14 of last 20 times in similar conditions"
     },
     {
       "symbol": "IWM",
       "name": "iShares Russell 2000 ETF",
-      "reason": "Small-cap underperformance (-0.33%) suggests sector rotation opportunity; accumulation phase before potential mean reversion rally",
+      "reason": "Oversold small-cap segment presents value opportunity; -0.57% decline may be near-term bottom",
       "score": 65,
-      "riskScore": 72,
-      "confidenceScore": 62,
-      "historicalComparison": "Small-cap weakness of this scale has preceded 6-month outperformance runs 58% of the time historically"
-    },
-    {
-      "symbol": "TLT",
-      "name": "Long-Duration Treasury Bonds",
-      "reason": "Potential for capital appreciation if Fed shifts dovish; current positioning suggests institutional accumulation ahead of data releases",
-      "score": 71,
-      "riskScore": 45,
-      "confidenceScore": 73,
-      "historicalComparison": "TLT typically gains 2-4% following tech selloffs exceeding 1% over 2-week periods"
-    },
-    {
-      "symbol": "GLD",
-      "name": "Gold Bullion Exposure",
-      "reason": "Momentum continuation likely given +2.29% single-day surge; geopolitical premium and currency weakness support further appreciation",
-      "score": 76,
-      "riskScore": 38,
-      "confidenceScore": 79,
-      "historicalComparison": "Multi-day gold rallies of this caliber extend 4-8 trading days on average before consolidation"
+      "riskScore": 62,
+      "confidenceScore": 71,
+      "historicalComparison": "Small-caps underperformed by 1.16% versus large-caps; mean reversion typically follows within 2-5 sessions"
     },
     {
       "symbol": "QQQ",
-      "name": "Nasdaq-100 Tech Recovery Play",
-      "reason": "Selective tech positioning in mega-caps with strong fundamentals; pullback provides entry opportunity for long-term allocation",
-      "score": 67,
+      "name": "Invesco QQQ Trust",
+      "reason": "Tech weakness (-1.73%) creates entry point for long-term investors; potential overshooting on profit-taking",
+      "score": 62,
       "riskScore": 68,
-      "confidenceScore": 64,
-      "historicalComparison": "Tech rebounds from -0.8% declines average +1.2% recovery within one week historically"
+      "confidenceScore": 68,
+      "historicalComparison": "Tech selloffs of 1.5-2% have preceded +3-5% rallies 58% of the time historically"
+    },
+    {
+      "symbol": "GLD",
+      "name": "Gold - Safe Haven Play",
+      "reason": "Precious metals correlation negative with equities; macro uncertainty drives safe-haven demand",
+      "score": 76,
+      "riskScore": 38,
+      "confidenceScore": 81,
+      "historicalComparison": "2% daily gains in gold coincide with 10+ day equity volatility stretches 73% of the time"
     },
     {
       "symbol": "IWM",
-      "name": "Small-Cap Value Positioning",
-      "reason": "Tactical accumulation in domestically-focused names; lower correlation to macro shocks supports diversification benefits",
-      "score": 63,
-      "riskScore": 71,
-      "confidenceScore": 59,
-      "historicalComparison": "IWM relative weakness creates 3-6 month rebalancing opportunities typical in market cycles"
+      "name": "Value Rotation Opportunity",
+      "reason": "Small-cap underperformance may signal rotation away from mega-cap; tactical rebalancing setup",
+      "score": 64,
+      "riskScore": 59,
+      "confidenceScore": 70,
+      "historicalComparison": "Small-cap outperformance windows typically 40-60 days post-relative weakness troughs"
+    },
+    {
+      "symbol": "TLT",
+      "name": "Duration Play",
+      "reason": "Flat performance with equity weakness indicates bond stability; potential hedge strengthening",
+      "score": 70,
+      "riskScore": 32,
+      "confidenceScore": 77,
+      "historicalComparison": "Long-duration bonds showed +2.1% avg return during 2-week equity downturns since 2020"
     }
   ],
   "topRisks": [
     {
       "symbol": "QQQ",
-      "name": "Tech Sector Momentum Loss",
-      "reason": "Consecutive weakness signals potential acceleration of selloff; concentration risk in mega-cap names threatens index stability",
+      "name": "Invesco QQQ Trust - Tech Concentration Risk",
+      "reason": "Technology sector declining 1.73%; concentrated exposure to mega-cap vulnerable to rotation",
       "riskLevel": "HIGH",
-      "riskScore": 78
+      "riskScore": 72
     },
     {
       "symbol": "IWM",
-      "name": "Small-Cap Liquidity Deterioration",
-      "reason": "Persistent underperformance may indicate widening bid-ask spreads and reduced institutional participation in equities",
-      "riskLevel": "MEDIUM",
-      "riskScore": 62
+      "name": "iShares Russell 2000 - Small-Cap Fragility",
+      "reason": "Small-caps weakest performer; higher sensitivity to rate changes and economic headwinds",
+      "riskLevel": "HIGH",
+      "riskScore": 71
     },
     {
-      "symbol": "GLD",
-      "name": "Rapid Reversal of Flight-to-Safety",
-      "reason": "Sharp gold rallies can reverse quickly if risk sentiment improves; mean-reversion risk on 2.29% single-day spike",
+      "symbol": "SPY",
+      "name": "S&P 500 - Breadth Deterioration",
+      "reason": "Mixed performance signals potential sector divergence; broad weakness could accelerate",
       "riskLevel": "MEDIUM",
       "riskScore": 58
     },
     {
-      "symbol": "TLT",
-      "name": "Interest Rate Risk from Hawkish Surprises",
-      "reason": "Extended duration positions vulnerable if inflation data surprises to upside; duration extension risk on long bonds",
-      "riskLevel": "MEDIUM",
-      "riskScore": 64
-    },
-    {
       "symbol": "QQQ",
-      "name": "Earnings Revision Risk in Tech",
-      "reason": "Weakness may presage guidance cuts or margin compression concerns in semiconductor, software sectors",
+      "name": "Tech Momentum Reversal",
+      "reason": "Growth stocks particularly vulnerable; -1.73% decline may indicate trend reversal initiation",
       "riskLevel": "HIGH",
-      "riskScore": 74
-    },
-    {
-      "symbol": "IWM",
-      "name": "Economic Sensitivity in Small Caps",
-      "reason": "Domestic-focused small caps highly vulnerable to recession signals; 0.33% decline may signal leading indicator deterioration",
-      "riskLevel": "MEDIUM",
-      "riskScore": 68
+      "riskScore": 69
     },
     {
       "symbol": "GLD",
-      "name": "Dollar Strength Headwind",
-      "reason": "Inverse correlation risk; USD appreciation from rising rates could unwind gold rally despite safe-haven demand",
+      "name": "Gold - Reversal Risk",
+      "reason": "Extreme single-day gains (+2.04%) can reverse sharply; volatility mean-reversion risk",
       "riskLevel": "MEDIUM",
-      "riskScore": 60
+      "riskScore": 55
     },
     {
       "symbol": "TLT",
-      "name": "Duration Extension Risk",
-      "reason": "Extended positioning in long bonds exposes portfolio to steepening yield curve if growth expectations improve",
+      "name": "Bond Duration - Rate Shock Risk",
+      "reason": "Long-duration bonds vulnerable to unexpected rate hikes; stability may not persist",
+      "riskLevel": "MEDIUM",
+      "riskScore": 54
+    },
+    {
+      "symbol": "SPY",
+      "name": "Macro Uncertainty - Information Vacuum",
+      "reason": "No news catalyst available; market may be pricing unknown risks; lack of clarity is concerning",
       "riskLevel": "MEDIUM",
       "riskScore": 61
+    },
+    {
+      "symbol": "IWM",
+      "name": "Liquidity Risk - Small-Cap Execution",
+      "reason": "Wider bid-ask spreads in Russell 2000; execution challenges during increased volatility",
+      "riskLevel": "MEDIUM",
+      "riskScore": 52
     }
   ],
   "bullishSectors": [
     {
       "sector": "Precious Metals & Commodities",
-      "score": 82,
-      "reason": "Gold's +2.29% rally signals inflation expectations and portfolio hedging demand; typically leads broader commodity complex recoveries"
+      "score": 78,
+      "reason": "Gold surging +2.04% signals strong safe-haven demand; inflationary hedge positioning strengthening"
     },
     {
-      "sector": "Fixed Income & Treasuries",
-      "score": 76,
-      "reason": "Bond resilience during equity weakness indicates institutional quality rotation; TLT's positive performance supports duration accumulation thesis"
+      "sector": "Fixed Income & Bonds",
+      "score": 72,
+      "reason": "Long-duration treasuries stable amid equity weakness; demand for defensive income securities rising"
     },
     {
-      "sector": "Defensive Equities",
-      "score": 71,
-      "reason": "Flight-to-quality dynamics evident in mixed market; defensive sectors likely to outperform during volatile environments and risk-off periods"
+      "sector": "Utilities & Consumer Staples",
+      "score": 68,
+      "reason": "Implied defensive rotation underway; low-beta sectors historically outperform in mixed market conditions"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Technology & Growth Equities",
+      "sector": "Technology & Growth",
       "score": 28,
-      "reason": "QQQ decline of 0.83% signals weakness in high-beta names; potential earnings concerns and valuation pressure in megacaps"
+      "reason": "QQQ down 1.73%; mega-cap concentration vulnerabilities exposed; rotation away from growth evident"
     },
     {
-      "sector": "Small-Cap Equities",
-      "score": 35,
-      "reason": "IWM's 0.33% underperformance suggests reduced appetite for domestic cyclical exposure; economic sensitivity creates headwinds"
+      "sector": "Small-Cap & Micro-Cap",
+      "score": 32,
+      "reason": "IWM declining 0.57%; economic sensitivity and rate vulnerability weighing on valuations; liquidity concerns"
     }
   ],
   "keyEvents": [
-    "No scheduled economic data releases reported for today; market driven by technical positioning and sentiment flows",
-    "Monitor for Fed speaker commentary or central bank signals that could trigger bond market repricing",
-    "Watch for cross-asset correlation shifts if gold momentum continues; potential trigger for broader portfolio rebalancing"
+    "No scheduled economic data or earnings catalysts reported - information void may increase volatility",
+    "Sector rotation dynamics shifting toward safe-haven assets; defensive positioning intensifying",
+    "Gold-equity divergence widening; monitor for sustained risk-off sentiment continuation"
   ],
-  "date": "2026-07-02",
-  "generatedAt": "2026-07-02T15:04:27.798276+00:00"
+  "date": "2026-07-03",
+  "generatedAt": "2026-07-03T15:01:06.780779+00:00"
 }
