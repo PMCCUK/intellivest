@@ -1,166 +1,265 @@
 {
   "results": {
     "master": {
-      "strategy": "master",
-      "strategy_name": "AI Master",
-      "decisions": [],
-      "assessment": "Engine error: Extra data: line 7 column 1 (char 363)",
-      "timestamp": "2026-07-06T18:52:48.598217+00:00"
-    },
-    "growth": {
       "decisions": [
         {
-          "action": "BUY",
-          "symbol": "AMD",
-          "qty_pct": 5,
-          "opportunityScore": 85,
-          "riskScore": 38,
-          "confidenceScore": 82,
-          "reasoning": "Strong +6.94% momentum in semiconductor sector with AI tailwinds; semiconductor demand cycle robust despite macro uncertainty."
-        },
-        {
-          "action": "BUY",
-          "symbol": "TSLA",
-          "qty_pct": 5,
-          "opportunityScore": 82,
-          "riskScore": 39,
-          "confidenceScore": 78,
-          "reasoning": "Significant +5.99% gain reflects positive sentiment; EV/AI positioning strong though valuation remains elevated."
-        },
-        {
-          "action": "BUY",
-          "symbol": "TSM",
-          "qty_pct": 5,
-          "opportunityScore": 88,
-          "riskScore": 36,
-          "confidenceScore": 84,
-          "reasoning": "Foundry leader up +4.76% with structural AI chip demand; critical infrastructure play benefits from geopolitical diversification trends."
-        },
-        {
-          "action": "BUY",
-          "symbol": "AVGO",
-          "qty_pct": 5,
-          "opportunityScore": 83,
-          "riskScore": 37,
-          "confidenceScore": 80,
-          "reasoning": "Broadcom +4.13% as AI infrastructure enabler; strong data center networking exposure with solid margins."
-        },
-        {
-          "action": "BUY",
-          "symbol": "ASML",
-          "qty_pct": 5,
-          "opportunityScore": 86,
-          "riskScore": 35,
-          "confidenceScore": 83,
-          "reasoning": "Semiconductor equipment leader +4.02%; indispensable to chip manufacturing capacity expansion globally."
-        },
-        {
           "action": "HOLD",
-          "symbol": "GOOGL",
+          "symbol": "AAPL",
           "qty_pct": 0,
           "opportunityScore": 72,
-          "riskScore": 42,
-          "confidenceScore": 68,
-          "reasoning": "Only +1.69% movement insufficient to trigger buy; confidence below threshold given macro headwinds."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "MSFT",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 44,
-          "confidenceScore": 70,
-          "reasoning": "Down -1.05%; opportunity score insufficient despite strong fundamentals; better entry points likely."
-        }
-      ],
-      "assessment": "Capitalize on semiconductor/AI infrastructure strength with 5 core positions (\u00a3100k deployed) avoiding macro noise; recession fears present but AI capex cycle remains durable.",
-      "strategy": "growth",
-      "strategy_name": "AI Growth",
-      "timestamp": "2026-07-06T18:52:54.922075+00:00",
-      "prices_used": {
-        "MSFT": 386.39,
-        "GOOGL": 365.98,
-        "AMZN": 245.65,
-        "AVGO": 375.33,
-        "AMD": 553.77,
-        "TSLA": 417.02,
-        "CRM": 166.31,
-        "PLTR": 132.71,
-        "ASML": 1840.43,
-        "TSM": 454.81
-      }
-    },
-    "value": {
-      "strategy": "value",
-      "strategy_name": "AI Value",
-      "decisions": [],
-      "assessment": "Engine error: Unterminated string starting at: line 94 column 17 (char 3040)",
-      "timestamp": "2026-07-06T18:53:02.230071+00:00"
-    },
-    "momentum": {
-      "decisions": [
-        {
-          "action": "BUY",
-          "symbol": "EEM",
-          "qty_pct": 5,
-          "opportunityScore": 85,
-          "riskScore": 38,
-          "confidenceScore": 78,
-          "reasoning": "Emerging markets showing strongest momentum at +2.94% with positive trend acceleration; commodity-linked weakness creates dip-buy opportunity."
-        },
-        {
-          "action": "BUY",
-          "symbol": "DBA",
-          "qty_pct": 5,
-          "opportunityScore": 82,
           "riskScore": 35,
-          "confidenceScore": 76,
-          "reasoning": "Agriculture commodities up +3.07% with OPEC+ production increase signaling inflationary pressure; momentum-following setup with strong conviction."
-        },
-        {
-          "action": "BUY",
-          "symbol": "BITO",
-          "qty_pct": 4,
-          "opportunityScore": 81,
-          "riskScore": 39,
-          "confidenceScore": 74,
-          "reasoning": "Bitcoin proxy showing +3.84% outperformance; crypto momentum accelerating amid macro uncertainty and inflation hedging demand."
-        },
-        {
-          "action": "BUY",
-          "symbol": "XLI",
-          "qty_pct": 5,
-          "opportunityScore": 78,
-          "riskScore": 32,
-          "confidenceScore": 72,
-          "reasoning": "Industrials leading broad market at +0.98%; sector rotation into cyclicals favored over bonds given TLT weakness."
+          "confidenceScore": 70,
+          "reasoning": "Strong momentum and reasonable valuation, but opportunity score falls short of 80 threshold; better entry points likely available."
         },
         {
           "action": "HOLD",
           "symbol": "SPY",
           "qty_pct": 0,
-          "opportunityScore": 65,
-          "riskScore": 35,
+          "opportunityScore": 68,
+          "riskScore": 38,
+          "confidenceScore": 72,
+          "reasoning": "Broad market exposure with positive momentum, but lacks sufficient opportunity score; wait for sector rotation clarity."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "GLD",
+          "qty_pct": 0,
+          "opportunityScore": 71,
+          "riskScore": 32,
           "confidenceScore": 68,
-          "reasoning": "Modest broad-market momentum insufficient vs. higher-conviction sector/commodity plays; Kiyosaki crash warnings add uncertainty."
+          "reasoning": "Safe defensive asset with low risk, but opportunity score insufficient for deployment given current valuations."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "JPM",
+          "qty_pct": 0,
+          "opportunityScore": 75,
+          "riskScore": 42,
+          "confidenceScore": 71,
+          "reasoning": "Financials show strength but risk score exceeds threshold; risk/reward unfavorable at current levels."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "NVDA",
+          "qty_pct": 0,
+          "opportunityScore": 74,
+          "riskScore": 48,
+          "confidenceScore": 69,
+          "reasoning": "Tech strength present but elevated volatility and risk profile exceed acceptable thresholds for new position."
         }
       ],
-      "assessment": "Trend-following setup favors inflation hedges (commodities, EM, crypto) over core equities/bonds; rotate into momentum leaders EEM/DBA/BITO while maintaining tactical XLI exposure for cyclical upside.",
+      "assessment": "Current market conditions lack sufficient risk-adjusted opportunities meeting buy criteria; maintain cash reserves pending clearer entry signals with higher confidence and lower risk profiles.",
+      "strategy": "master",
+      "strategy_name": "AI Master",
+      "timestamp": "2026-07-06T20:20:42.189101+00:00",
+      "prices_used": {
+        "AAPL": 312.66,
+        "NVDA": 195.55,
+        "AMZN": 244.16,
+        "JPM": 337.72,
+        "JNJ": 259.33,
+        "SPY": 751.28,
+        "GLD": 382.13
+      }
+    },
+    "growth": {
+      "decisions": [
+        {
+          "action": "BUY",
+          "symbol": "ASML",
+          "qty_pct": 5,
+          "opportunityScore": 85,
+          "riskScore": 38,
+          "confidenceScore": 82,
+          "reasoning": "Strong +3.15% momentum in semiconductor equipment with structural AI demand tailwinds; critical supplier to chip manufacturers positioned for sustained growth."
+        },
+        {
+          "action": "BUY",
+          "symbol": "TSM",
+          "qty_pct": 5,
+          "opportunityScore": 87,
+          "riskScore": 35,
+          "confidenceScore": 84,
+          "reasoning": "Exceptional +4.06% gain reflects strong foundry demand for advanced chip production; direct AI infrastructure beneficiary with pricing power."
+        },
+        {
+          "action": "BUY",
+          "symbol": "NVDA",
+          "qty_pct": 5,
+          "opportunityScore": 82,
+          "riskScore": 39,
+          "confidenceScore": 78,
+          "reasoning": "Core AI compute leader with modest positive momentum; valuation elevated but secular growth trajectory remains intact."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "AMZN",
+          "qty_pct": 0,
+          "opportunityScore": 71,
+          "riskScore": 42,
+          "confidenceScore": 72,
+          "reasoning": "Positive momentum insufficient to meet 80+ opportunity threshold; cloud/AI exposure adequate through semiconductor holdings."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "NFLX",
+          "qty_pct": 0,
+          "opportunityScore": 64,
+          "riskScore": 48,
+          "confidenceScore": 68,
+          "reasoning": "Negative -2.10% movement and lower growth profile relative to AI infrastructure plays; opportunity score falls below threshold."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "CRM",
+          "qty_pct": 0,
+          "opportunityScore": 69,
+          "riskScore": 41,
+          "confidenceScore": 70,
+          "reasoning": "Slight negative movement and enterprise software exposure dilutes AI infrastructure focus; insufficient opportunity score."
+        }
+      ],
+      "assessment": "Deploy \u00a385,000 (85%) into semiconductor supply chain leaders (ASML, TSM, NVDA) capturing structural AI infrastructure demand; maintain \u00a315,000 cash reserve for conviction opportunities with stronger entry signals.",
+      "strategy": "growth",
+      "strategy_name": "AI Growth",
+      "timestamp": "2026-07-06T20:20:48.046614+00:00",
+      "prices_used": {
+        "NVDA": 195.55,
+        "AMZN": 244.16,
+        "NFLX": 76.02,
+        "CRM": 165.65,
+        "ASML": 1825.07,
+        "TSM": 451.79
+      }
+    },
+    "value": {
+      "decisions": [
+        {
+          "action": "BUY",
+          "symbol": "BAC",
+          "qty_pct": 5,
+          "opportunityScore": 82,
+          "riskScore": 38,
+          "confidenceScore": 78,
+          "reasoning": "Strong fundamentals in financial services with positive momentum (+1.99%), reasonable valuation, and cyclical upside potential in current economic environment."
+        },
+        {
+          "action": "BUY",
+          "symbol": "JNJ",
+          "qty_pct": 5,
+          "opportunityScore": 81,
+          "riskScore": 35,
+          "confidenceScore": 76,
+          "reasoning": "Defensive blue-chip with dip (-1.41%) presenting entry opportunity; stable dividend, strong balance sheet, and pharmaceutical moat justify accumulation."
+        },
+        {
+          "action": "BUY",
+          "symbol": "CVX",
+          "qty_pct": 4,
+          "opportunityScore": 80,
+          "riskScore": 39,
+          "confidenceScore": 75,
+          "reasoning": "Energy sector value play with minimal decline (-0.65%); strong cash generation, dividend yield support, and geopolitical supply concerns support position."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "GS",
+          "qty_pct": 0,
+          "opportunityScore": 72,
+          "riskScore": 42,
+          "confidenceScore": 68,
+          "reasoning": "Recent Jim Cramer endorsement already reflected in +3.36% move; entry now lacks margin of safety despite financial sector strength."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "JPM",
+          "qty_pct": 0,
+          "opportunityScore": 68,
+          "riskScore": 41,
+          "confidenceScore": 70,
+          "reasoning": "Quality bank but modest upside (+0.97%) and valuation near fair value; insufficient opportunity margin given current positioning."
+        }
+      ],
+      "assessment": "Market favoring financials and selected blue-chips; deploying 14% of capital into defensive value plays (BAC, JNJ, CVX) with solid fundamentals while avoiding momentum-driven positions lacking fundamental support.",
+      "strategy": "value",
+      "strategy_name": "AI Value",
+      "timestamp": "2026-07-06T20:20:53.118249+00:00",
+      "prices_used": {
+        "JPM": 337.72,
+        "BAC": 59.9,
+        "JNJ": 259.33,
+        "CVX": 168.1,
+        "WMT": 110.65,
+        "MCD": 279.5,
+        "ABBV": 254.76,
+        "GS": 1055.29,
+        "MS": 222.1
+      }
+    },
+    "momentum": {
+      "decisions": [
+        {
+          "action": "BUY",
+          "symbol": "GBTC",
+          "qty_pct": 5,
+          "opportunityScore": 85,
+          "riskScore": 38,
+          "confidenceScore": 78,
+          "reasoning": "Crypto proxy showing strong momentum (+3.69%) with bullish Bitcoin sentiment; fits trend-following mandate with acceptable volatility profile."
+        },
+        {
+          "action": "BUY",
+          "symbol": "XLK",
+          "qty_pct": 5,
+          "opportunityScore": 82,
+          "riskScore": 35,
+          "confidenceScore": 76,
+          "reasoning": "Technology sector leading momentum (+1.65%); Cramer coverage of AVGO and TER confirms sector strength; outperforming broader market."
+        },
+        {
+          "action": "BUY",
+          "symbol": "VWO",
+          "qty_pct": 4,
+          "opportunityScore": 81,
+          "riskScore": 39,
+          "confidenceScore": 74,
+          "reasoning": "Emerging markets showing strong relative performance (+1.74%); sector rotation into higher-beta growth markets with favorable momentum."
+        },
+        {
+          "action": "BUY",
+          "symbol": "GLD",
+          "qty_pct": 3,
+          "opportunityScore": 78,
+          "riskScore": 22,
+          "confidenceScore": 72,
+          "reasoning": "Gold rising (+1.06%) amid risk-on sentiment; defensive positioning and inflation hedge; low correlation diversifier."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "XLE",
+          "qty_pct": 0,
+          "opportunityScore": 68,
+          "riskScore": 52,
+          "confidenceScore": 62,
+          "reasoning": "Energy negative (-0.17%); momentum broken; insufficient confluence for entry."
+        }
+      ],
+      "assessment": "Tech-led rally with strong crypto and emerging market momentum; rotate into XLK/GBTC/VWO while maintaining gold hedge; avoid energy weakness until reversal confirmation.",
       "strategy": "momentum",
       "strategy_name": "AI Momentum",
-      "timestamp": "2026-07-06T18:53:07.881521+00:00",
+      "timestamp": "2026-07-06T20:20:58.813784+00:00",
       "prices_used": {
-        "SPY": 751.63,
-        "XLF": 56.08,
-        "XLE": 53.25,
-        "XLI": 185.72,
-        "TLT": 85.38,
-        "IWM": 299.57,
-        "EEM": 67.63,
-        "DBA": 27.56,
-        "USO": 104.2,
-        "BITO": 8.66,
-        "MSTR": 101.36
+        "SPY": 751.28,
+        "XLK": 183.57,
+        "XLF": 56.14,
+        "XLE": 53.13,
+        "XLV": 161.96,
+        "XLI": 185.56,
+        "GLD": 382.13,
+        "IWM": 298.9,
+        "VWO": 60.07,
+        "GBTC": 49.4,
+        "MSTR": 100.77
       }
     },
     "uk": {
@@ -170,95 +269,203 @@
           "symbol": "ASML",
           "qty_pct": 5,
           "opportunityScore": 85,
-          "riskScore": 35,
+          "riskScore": 38,
           "confidenceScore": 82,
-          "reasoning": "Strong +4.02% momentum, European semiconductor leader with structural growth tailwinds in AI/chip demand; momentum + fundamentals support entry at 5% allocation."
+          "reasoning": "European semiconductor leader showing strong momentum (+3.15%) with robust demand tailwinds in AI/chip manufacturing; quality compounder at premium valuation justified by growth."
+        },
+        {
+          "action": "BUY",
+          "symbol": "SHEL",
+          "qty_pct": 4,
+          "opportunityScore": 81,
+          "riskScore": 35,
+          "confidenceScore": 76,
+          "reasoning": "FTSE 100 energy major with defensive cash generation and modest uptick; provides portfolio diversification against tech concentration and energy transition exposure."
         },
         {
           "action": "HOLD",
-          "symbol": "SHEL",
+          "symbol": "AZN",
           "qty_pct": 0,
           "opportunityScore": 72,
-          "riskScore": 45,
+          "riskScore": 42,
           "confidenceScore": 68,
-          "reasoning": "OPEC+ output increase threatens oil prices; opportunity score below 80 threshold and geopolitical risk elevated\u2014wait for clearer directional bias."
+          "reasoning": "Quality pharma name but current -2.56% weakness lacks clear catalyst; wait for better entry point or confirmed momentum reversal."
         },
         {
           "action": "HOLD",
-          "symbol": "EWU",
+          "symbol": "GSK",
           "qty_pct": 0,
           "opportunityScore": 65,
-          "riskScore": 50,
-          "confidenceScore": 60,
-          "reasoning": "Broad UK tracker showing minimal momentum (+0.04%); macro uncertainty from recession warnings and interest rate outlook limits conviction for new allocation."
+          "riskScore": 45,
+          "confidenceScore": 62,
+          "reasoning": "Defensive pharma but execution risks and restructuring uncertainty; confidence insufficient for new position at current valuations."
         },
         {
           "action": "HOLD",
-          "symbol": "EWG",
+          "symbol": "EFA",
           "qty_pct": 0,
           "opportunityScore": 70,
           "riskScore": 48,
-          "confidenceScore": 65,
-          "reasoning": "Germany ETF shows modest +0.78% gain but structural headwinds persist; confidence insufficient at 65% and opportunity at 70%\u2014below dual thresholds."
+          "confidenceScore": 64,
+          "reasoning": "Broad European ETF lacks tactical edge; individual stock picks provide better risk-adjusted returns in current environment."
         }
       ],
-      "assessment": "Risk-off sentiment dominates newsflow (crash warnings, recession fears); only ASML meets buy criteria on momentum + secular AI growth; maintain 95% cash dry powder to deploy on capitulation or clearer macro clarity.",
+      "assessment": "Selective entry into quality European leaders\u2014ASML captures semiconductor strength while SHEL provides diversification; maintains 91% cash to exploit further opportunities as market volatility persists.",
       "strategy": "uk",
       "strategy_name": "AI UK & Europe",
-      "timestamp": "2026-07-06T18:53:13.138770+00:00",
+      "timestamp": "2026-07-06T20:21:04.124401+00:00",
       "prices_used": {
-        "SHEL": 78.07,
-        "ASML": 1840.43,
-        "EWU": 47.18,
-        "EWG": 42.64
+        "AZN": 190.16,
+        "SHEL": 78.14,
+        "GSK": 53.09,
+        "ASML": 1825.07,
+        "EWU": 47.22,
+        "EWG": 42.66,
+        "EFA": 105.46
       }
     },
     "crypto": {
-      "decisions": [],
-      "assessment": "Market shows crypto proxy strength with broad-based gains across miners and trusts, but macro uncertainty (bubble warnings, server errors, geopolitical tensions) and lack of clear directional catalysts warrant defensive positioning; no trades meet buy criteria (Opportunity>80, Confidence>75, Risk<40) given volatility and insufficient conviction.",
+      "decisions": [
+        {
+          "action": "BUY",
+          "symbol": "GBTC",
+          "qty_pct": 3,
+          "opportunityScore": 82,
+          "riskScore": 38,
+          "confidenceScore": 78,
+          "reasoning": "Strong +3.69% momentum with broad crypto rally; Bitcoin trust offers liquid, regulated exposure to BTC price appreciation with controlled volatility."
+        },
+        {
+          "action": "BUY",
+          "symbol": "ETHE",
+          "qty_pct": 3,
+          "opportunityScore": 85,
+          "riskScore": 39,
+          "confidenceScore": 79,
+          "reasoning": "Leading momentum at +5.45% correlates with positive BTC movement; Ethereum trust provides diversified crypto exposure to smart contract ecosystem."
+        },
+        {
+          "action": "BUY",
+          "symbol": "HUT",
+          "qty_pct": 2,
+          "opportunityScore": 84,
+          "riskScore": 42,
+          "confidenceScore": 76,
+          "reasoning": "Best performer at +6.84% signals strong miner sentiment; HUT offers leveraged crypto upside through proven Canadian mining operator with lower correlation risk."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "MARA",
+          "qty_pct": 0,
+          "opportunityScore": 74,
+          "riskScore": 45,
+          "confidenceScore": 68,
+          "reasoning": "Solid +4.44% but miner volatility and leverage (>40% risk) fall short of buy threshold; monitor for deeper accumulation."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "BITF",
+          "qty_pct": 0,
+          "opportunityScore": 28,
+          "riskScore": 85,
+          "confidenceScore": 35,
+          "reasoning": "Sharp -14.68% decline signals distress; high risk and low confidence disqualify despite potential mean-reversion play."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "MSTR",
+          "qty_pct": 0,
+          "opportunityScore": 45,
+          "riskScore": 48,
+          "confidenceScore": 62,
+          "reasoning": "Flat 0.00% return despite crypto rally suggests underperformance; wait for clearer directional confirmation before entry."
+        }
+      ],
+      "assessment": "Crypto momentum is strong across primary proxies (GBTC +3.69%, ETHE +5.45%) with miner enthusiasm; deploy 8% of capital into top-3 liquid, regulated vehicles while avoiding high-volatility miner leverage and distressed assets like BITF.",
       "strategy": "crypto",
       "strategy_name": "AI Crypto",
-      "timestamp": "2026-07-06T18:53:16.066883+00:00",
+      "timestamp": "2026-07-06T20:21:10.855601+00:00",
       "prices_used": {
-        "ETHE": 14.52,
-        "BITO": 8.66,
-        "HUT": 102.23,
+        "GBTC": 49.4,
+        "ETHE": 14.5,
+        "MARA": 12.95,
+        "RIOT": 22.87,
+        "HUT": 103.78,
         "BITF": 4.59,
-        "CIFR": 21.43,
-        "MSTR": 101.36,
-        "CLSK": 13.51,
-        "BTBT": 1.76,
-        "WGMI": 56.31,
-        "FBTC": 55.52
+        "CIFR": 21.73,
+        "MSTR": 100.77,
+        "BTBT": 1.74,
+        "WGMI": 56.48,
+        "IBIT": 36.12,
+        "FBTC": 55.43
       }
     },
     "smallcap": {
-      "decisions": [],
-      "assessment": "Market conditions show scattered momentum across small-caps with no candidates meeting strict entry criteria (Opportunity>80 AND Confidence>75 AND Risk<40); prefer cash preservation given macro uncertainty and server issues preventing full data validation.",
+      "decisions": [
+        {
+          "action": "HOLD",
+          "symbol": "MARA",
+          "qty_pct": 0,
+          "opportunityScore": 72,
+          "riskScore": 48,
+          "confidenceScore": 68,
+          "reasoning": "Bitcoin miner showing solid momentum (+4.44%) but opportunity score falls short of 80 threshold and risk sits above 40 limit; insufficient edge to initiate."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "LCID",
+          "qty_pct": 0,
+          "opportunityScore": 76,
+          "riskScore": 52,
+          "confidenceScore": 65,
+          "reasoning": "EV stock with eye-catching +9.54% move and high opportunity, but confidence below 75 and risk above 40; lacks conviction for entry."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "CIFR",
+          "qty_pct": 0,
+          "opportunityScore": 74,
+          "riskScore": 55,
+          "confidenceScore": 62,
+          "reasoning": "Cipher Mining shows +8.43% unusual volume but fails all three criteria (Opp<80, Conf<75, Risk>40); waiting for clearer setup."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "NIO",
+          "qty_pct": 0,
+          "opportunityScore": 68,
+          "riskScore": 58,
+          "confidenceScore": 59,
+          "reasoning": "Chinese EV showing modest recovery but scores across board fall below required thresholds; no catalyst visible to justify small-cap risk."
+        }
+      ],
+      "assessment": "Market showing scattered small-cap activity (crypto miners, EV names) but no setups meet strict buy criteria (Opp>80 AND Conf>75 AND Risk<40); remain in cash and wait for higher-conviction catalyst-driven entry points.",
       "strategy": "smallcap",
       "strategy_name": "AI Small Cap",
-      "timestamp": "2026-07-06T18:53:18.013995+00:00",
+      "timestamp": "2026-07-06T20:21:16.116919+00:00",
       "prices_used": {
-        "CIFR": 21.43,
-        "CLSK": 13.51,
-        "BTBT": 1.76,
-        "APPS": 11.61,
-        "PUBM": 13.41,
-        "DV": 11.64,
-        "CREX": 4.2,
-        "ATAI": 4.89,
-        "NIO": 5.01,
-        "XPEV": 13.51,
-        "LI": 11.96,
-        "RIVN": 19.74,
-        "TLRY": 4.41,
-        "CGC": 0.9736,
-        "ACMR": 100,
-        "AEHR": 71.95,
-        "RCKT": 4.08
+        "MARA": 12.95,
+        "RIOT": 22.87,
+        "CIFR": 21.73,
+        "BTBT": 1.74,
+        "APPS": 11.18,
+        "PUBM": 13.52,
+        "ATAI": 4.96,
+        "NVAX": 9.35,
+        "SNDL": 1.3,
+        "NIO": 5.02,
+        "XPEV": 13.56,
+        "LI": 12.02,
+        "LCID": 6.66,
+        "CGC": 0.96,
+        "ACB": 2.71,
+        "CRON": 2.76,
+        "ACMR": 98.52,
+        "RCKT": 3.99,
+        "VERA": 40.13
       }
     }
   },
   "marketStatus": "open",
-  "runAt": "2026-07-06T18:53:18.519422+00:00"
+  "runAt": "2026-07-06T20:21:16.622423+00:00"
 }
