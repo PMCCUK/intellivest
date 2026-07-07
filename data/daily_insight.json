@@ -1,176 +1,172 @@
 {
-  "marketSummary": "Markets show mixed performance with technology leading gains (+1.82% QQQ) while traditional equities remain flat. Small-cap strength (+0.90% IWM) suggests risk-on sentiment despite bond weakness. Gold's modest appreciation (+0.53% GLD) indicates safe-haven demand alongside equity participation.",
+  "marketSummary": "US equity markets experienced modest declines across all major indices this morning, with small-caps (IWM) leading losses at -0.76% alongside broad market weakness in SPY (-0.71%). Fixed income and precious metals also retreated slightly, suggesting a risk-off sentiment with no major catalysts driving the selloff. The across-the-board pullback indicates consolidation rather than panic, with all declines remaining contained within normal daily volatility ranges.",
   "topOpportunities": [
     {
-      "symbol": "QQQ",
-      "name": "Nasdaq-100 ETF",
-      "reason": "Strong tech momentum with +1.82% gain; AI and growth sectors driving outperformance",
-      "score": 82,
-      "riskScore": 65,
-      "confidenceScore": 78,
-      "historicalComparison": "Above 3-month trend; outperforming S&P 500 significantly"
-    },
-    {
       "symbol": "IWM",
-      "name": "Russell 2000 Small-Cap ETF",
-      "reason": "Small-cap outperformance (+0.90%) suggests positive economic expectations and domestic focus",
-      "score": 75,
-      "riskScore": 72,
-      "confidenceScore": 71,
-      "historicalComparison": "Elevated vs. large-cap; indicates cyclical strength"
-    },
-    {
-      "symbol": "GLD",
-      "name": "Gold ETF",
-      "reason": "Positive performance (+0.53%) amid mixed equity backdrop provides portfolio diversification hedge",
-      "score": 68,
-      "riskScore": 45,
-      "confidenceScore": 72,
-      "historicalComparison": "Steady performer; maintaining safe-haven status"
-    },
-    {
-      "symbol": "DIA",
-      "name": "Dow Jones Industrial ETF",
-      "reason": "Near-flat performance (-0.01%) suggests stabilization; large-cap dividend stocks defensive positioning",
-      "score": 62,
-      "riskScore": 40,
-      "confidenceScore": 68,
-      "historicalComparison": "Underperforming growth but maintaining stability"
+      "name": "iShares Russell 2000 ETF",
+      "reason": "Small-cap weakness presents value opportunity; historically outperforms during economic recovery phases and typically rebounds sharply from modest 0.76% pullbacks",
+      "score": 72,
+      "riskScore": 68,
+      "confidenceScore": 65,
+      "historicalComparison": "Small-caps showing relative strength despite broader selloff; positioned well for mean reversion"
     },
     {
       "symbol": "TLT",
-      "name": "20+ Year Treasury Bond ETF",
-      "reason": "Minor decline (-0.25%) presents entry opportunity if rate environment stabilizes; long-duration value emerging",
-      "score": 58,
-      "riskScore": 55,
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Bond weakness creates entry opportunity for duration players; flight-to-safety positioning attractive if equity volatility persists",
+      "score": 68,
+      "riskScore": 42,
       "confidenceScore": 62,
-      "historicalComparison": "Modest drawdown; potential accumulation zone"
+      "historicalComparison": "Modest -0.68% decline aligns with typical rebalancing; yields potentially stabilizing"
     },
     {
-      "symbol": "QQQ",
-      "name": "Cloud & SaaS Exposure",
-      "reason": "Tech rally strength suggests growth narrative renewal; secular trends intact in software/infrastructure",
-      "score": 79,
-      "riskScore": 70,
-      "confidenceScore": 75,
-      "historicalComparison": "Outperforming value significantly; momentum accelerating"
+      "symbol": "DIA",
+      "name": "SPDR Dow Jones Industrial Average ETF",
+      "reason": "Defensive blue-chip exposure with smallest decline (-0.47%) suggests large-cap resilience; quality portfolio construction appealing in uncertain environment",
+      "score": 70,
+      "riskScore": 55,
+      "confidenceScore": 68,
+      "historicalComparison": "Dow outperforming broader market; large-cap momentum intact despite sector rotation"
     },
     {
-      "symbol": "IWM",
-      "name": "Domestic-Focused Cyclicals",
-      "reason": "Small-cap gains reflect domestic strength; opportunity in reopening/domestic consumption plays",
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "reason": "Core market exposure at 0.71% discount; broad-based index provides diversification with attractive entry before potential recovery bounce",
       "score": 71,
-      "riskScore": 68,
-      "confidenceScore": 69,
-      "historicalComparison": "Relative strength vs. mega-cap; cyclical rotation signal"
+      "riskScore": 58,
+      "confidenceScore": 66,
+      "historicalComparison": "S&P 500 pullbacks of this magnitude historically reverse within 3-5 trading sessions"
     },
     {
       "symbol": "GLD",
-      "name": "Inflation Hedge Position",
-      "reason": "Gold participation amid equity strength suggests inflation concerns; portfolio insurance value high",
+      "name": "SPDR Gold Shares ETF",
+      "reason": "Precious metals weakness alongside equity decline suggests limited safe-haven demand; potential undervaluation if risk-off sentiment intensifies",
       "score": 65,
-      "riskScore": 50,
-      "confidenceScore": 70,
-      "historicalComparison": "Stable inflation hedge; non-correlated gains"
+      "riskScore": 62,
+      "confidenceScore": 59,
+      "historicalComparison": "Gold showing relative stability with only -0.46% decline; technical support levels remain intact"
+    },
+    {
+      "symbol": "SCHX",
+      "name": "Schwab U.S. Large-Cap ETF",
+      "reason": "Large-cap core holdings outperforming; quality secular growth names likely to benefit from post-correction rebalancing flows",
+      "score": 69,
+      "riskScore": 52,
+      "confidenceScore": 64,
+      "historicalComparison": "Large-cap relative strength provides alpha opportunity in consolidation phase"
+    },
+    {
+      "symbol": "BND",
+      "name": "Vanguard Total Bond Market ETF",
+      "reason": "Broad bond exposure provides yield with lower volatility; attractive allocation during equity weakness for portfolio rebalancing",
+      "score": 67,
+      "riskScore": 45,
+      "confidenceScore": 61,
+      "historicalComparison": "Bond market showing stability; income generation superior to short-term cash equivalents"
+    },
+    {
+      "symbol": "VOOG",
+      "name": "Vanguard S&P 500 Growth ETF",
+      "reason": "Growth exposure on dip provides long-term accumulation opportunity; secular tailwinds remain intact despite short-term consolidation",
+      "score": 68,
+      "riskScore": 65,
+      "confidenceScore": 60,
+      "historicalComparison": "Growth pullbacks of <1% typically represent buying opportunities historically"
     }
   ],
   "topRisks": [
     {
-      "symbol": "QQQ",
-      "name": "Nasdaq-100 ETF",
-      "reason": "Strong rally creates elevated valuation risk; potential mean-reversion pullback if growth narrative shifts",
-      "riskLevel": "HIGH",
-      "riskScore": 72
-    },
-    {
       "symbol": "IWM",
-      "name": "Russell 2000 Small-Cap ETF",
-      "reason": "Small-cap outperformance unsustained by macro data; liquidity and sector concentration risks elevated",
-      "riskLevel": "HIGH",
-      "riskScore": 70
-    },
-    {
-      "symbol": "TLT",
-      "name": "20+ Year Treasury Bond ETF",
-      "reason": "Duration risk remains; rising rate environment or inflation surprise could accelerate losses",
-      "riskLevel": "HIGH",
+      "name": "iShares Russell 2000 ETF",
+      "reason": "Small-cap beta amplification; highest declining index suggests elevated sensitivity to broader market deterioration or rate cycle concerns",
+      "riskLevel": "MEDIUM",
       "riskScore": 68
     },
     {
-      "symbol": "DIA",
-      "name": "Dow Jones Industrial ETF",
-      "reason": "Flat performance amid market rally signals lagging defensive positioning; sector rotation risk",
-      "riskLevel": "MEDIUM",
-      "riskScore": 58
-    },
-    {
-      "symbol": "GLD",
-      "name": "Gold ETF",
-      "reason": "Limited upside if USD strengthens or real rates stabilize; inverse correlation to equity rally risk",
-      "riskLevel": "MEDIUM",
-      "riskScore": 55
-    },
-    {
-      "symbol": "QQQ",
-      "name": "Tech Concentration Risk",
-      "reason": "Mega-cap tech dependency creates single-sector volatility; regulatory/antitrust headwinds potential",
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "reason": "Broad market exposure; continued selling could accelerate if key support levels breached or negative catalysts emerge",
       "riskLevel": "MEDIUM",
       "riskScore": 62
     },
     {
-      "symbol": "IWM",
-      "name": "Economic Sensitivity Risk",
-      "reason": "Small-caps highly sensitive to rate environment; potential Fed policy shifts pose downside threat",
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Duration risk elevated; bond yields vulnerable to inflation surprises or Fed policy shifts; inverse price-yield dynamics concerning",
       "riskLevel": "MEDIUM",
-      "riskScore": 64
+      "riskScore": 65
     },
     {
-      "symbol": "TLT",
-      "name": "Yield Curve Risk",
-      "reason": "Inverted yield curve pressures long-duration bonds; curve normalization could steepen losses",
+      "symbol": "VOOG",
+      "name": "Vanguard S&P 500 Growth ETF",
+      "reason": "Growth sector concentration; elevated valuation multiples risk mean reversion in correction scenarios; rate sensitivity significant",
       "riskLevel": "MEDIUM",
       "riskScore": 66
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares ETF",
+      "reason": "Momentum breakdown risk; weak performance alongside equities suggests safe-haven flows absent; technical deterioration possible",
+      "riskLevel": "MEDIUM",
+      "riskScore": 61
+    },
+    {
+      "symbol": "DIA",
+      "name": "SPDR Dow Jones Industrial Average ETF",
+      "reason": "Large-cap dividend exposure vulnerable if economic data disappoints; dividend sustainability concerns in recessionary scenarios",
+      "riskLevel": "LOW",
+      "riskScore": 55
+    },
+    {
+      "symbol": "BND",
+      "name": "Vanguard Total Bond Market ETF",
+      "reason": "Credit spread widening risk; corporate bond holdings vulnerable to earnings surprises or credit cycle deterioration",
+      "riskLevel": "LOW",
+      "riskScore": 52
+    },
+    {
+      "symbol": "SCHX",
+      "name": "Schwab U.S. Large-Cap ETF",
+      "reason": "Sector concentration risks; technology and financial holdings vulnerable to valuation compression or interest rate headwinds",
+      "riskLevel": "MEDIUM",
+      "riskScore": 58
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Technology & Growth",
-      "score": 85,
-      "reason": "QQQ +1.82% leadership; AI momentum, cloud adoption, and secular digital transformation trends intact"
+      "sector": "Large-Cap Equities",
+      "score": 72,
+      "reason": "DIA outperforming with smallest decline indicates institutional quality positioning; blue-chip dividend stocks remain defensive havens"
     },
     {
-      "sector": "Small-Cap Cyclicals",
-      "score": 76,
-      "reason": "IWM +0.90% strength indicates domestic economic confidence; domestic consumption and reopening plays viable"
-    },
-    {
-      "sector": "Precious Metals & Commodities",
+      "sector": "Fixed Income / Bonds",
       "score": 68,
-      "reason": "Gold's modest gains amid risk-on sentiment suggest inflation-hedging demand; safe-haven participation ongoing"
+      "reason": "TLT weakness creates attractive entry; flight-to-quality dynamics may support duration assets if equity volatility accelerates"
+    },
+    {
+      "sector": "Diversified Index Funds",
+      "score": 70,
+      "reason": "Broad-based indices near support levels; mean reversion probability high after <1% daily declines; fundamental backdrop remains supportive"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Fixed Income & Bonds",
-      "score": 32,
-      "reason": "TLT -0.25% decline; duration risk elevated in uncertain rate environment; yield compression pressures valuations"
+      "sector": "Small-Cap Equities",
+      "score": 24,
+      "reason": "IWM leading losses with -0.76%; beta amplification suggests reduced risk appetite; economic sensitivity concerning"
     },
     {
-      "sector": "Traditional Industrials & Dividend Stocks",
-      "score": 38,
-      "reason": "DIA -0.01% lagging; sector underperformance suggests capital rotation away from defensive value plays"
+      "sector": "Precious Metals",
+      "score": 32,
+      "reason": "GLD weakness despite equity selloff indicates absent safe-haven flows; suggests market participants not signaling flight-to-safety"
     }
   ],
   "keyEvents": [
-    "No major economic data or corporate earnings releases scheduled; market driven by sector momentum and macro sentiment",
-    "Monitor Fed communications for rate guidance; any hawkish signals could pressure TLT and QQQ valuations",
-    "Watch for tech earnings cycle; Q3 results critical for validating current QQQ rally sustainability",
-    "Small-cap performance inflection point; IWM sustainability depends on economic data confirmation",
-    "Geopolitical developments and supply chain news could impact commodity prices and GLD positioning",
-    "Earnings season progression will determine if current equity strength reflects fundamentals or sentiment",
-    "Treasury yield movements critical indicator; any sharp moves could unwind current risk-on positioning",
-    "Institutional positioning data release may reveal exposure levels supporting current momentum trades"
+    "Broad-based equity market pullback with synchronized declines across all major indices",
+    "Fixed income and commodities weakness suggesting absence of traditional risk-off safe-haven rotations",
+    "Small-cap underperformance relative to large-caps indicating selective risk reduction rather than systemic concerns",
+    "No macro catalysts identified; consolidation pattern suggests technical profit-taking or rebalancing flows"
   ],
-  "date": "2026-07-06",
-  "generatedAt": "2026-07-06T16:16:15.137092+00:00"
+  "date": "2026-07-07",
+  "generatedAt": "2026-07-07T15:39:18.259108+00:00"
 }
