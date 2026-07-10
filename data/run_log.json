@@ -1,8 +1,19 @@
 {
-  "lastRun": "2026-07-09T20:16:04.990339+00:00",
+  "lastRun": "2026-07-10T15:26:22.067279+00:00",
   "marketStatus": "open",
-  "symbolsFetched": 58,
+  "symbolsFetched": 59,
   "strategiesRun": 7,
-  "tradesExecuted": 0,
-  "recentLog": []
+  "tradesExecuted": 2,
+  "recentLog": [
+    {
+      "ts": "2026-07-10T15:25:48.402036+00:00",
+      "portfolio": "master",
+      "msg": "AUTO-CLOSE META: Take-profit triggered (+21.3%)"
+    },
+    {
+      "ts": "2026-07-10T15:25:53.580101+00:00",
+      "portfolio": "growth",
+      "msg": "AUTO-CLOSE PLTR: Stop-loss triggered (-8.1%)"
+    }
+  ]
 }
