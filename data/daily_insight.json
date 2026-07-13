@@ -1,174 +1,171 @@
 {
-  "marketSummary": "Equity markets display modest positive momentum across major indices with broad-based but modest gains (SPY +0.17%, DIA +0.27%), while fixed income and precious metals remain under pressure. Fed policy uncertainty and geopolitical tensions are tempering upside, though intermediate-term technicals remain constructive. Capital allocation activity in semiconductors and AI infrastructure suggests selective optimism in growth-oriented sectors.",
+  "marketSummary": "Markets display modest weakness across all major indices, with gold leading declines at -2.28% amid potential dollar strength or reduced inflation hedging demand. Equities remain relatively resilient with SPY and IWM down less than 0.5%, suggesting underlying stability despite headwinds. The absence of major news catalysts indicates a consolidation phase, creating both tactical opportunities and risks for positioning.",
   "topOpportunities": [
     {
-      "symbol": "SK Hynix",
-      "name": "SK Hynix - Semiconductor Memory",
-      "reason": "Blockbuster $26.5B US IPO with indicated 17% opening premium signals strong institutional demand for chip sector exposure amid AI infrastructure buildout",
-      "score": 88,
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Minor decline (-0.41%) on risk-off sentiment suggests potential entry point for bond investors; rates may stabilize or decline if growth concerns persist",
+      "score": 72,
       "riskScore": 35,
-      "confidenceScore": 92,
-      "historicalComparison": "Similar scale to recent mega-cap IPOs; positions firm as memory supplier to AI ecosystem"
+      "confidenceScore": 68,
+      "historicalComparison": "Trading near recent support levels; yield curve dynamics favor longer duration positioning"
     },
     {
-      "symbol": "TERAWULF",
-      "name": "TeraWulf - AI Infrastructure/Data Centers",
-      "reason": "$3.5B debt raise for Anthropic AI data center buildout indicates strong capex cycle in AI compute infrastructure with secular tailwinds",
-      "score": 85,
-      "riskScore": 42,
-      "confidenceScore": 88,
-      "historicalComparison": "Reflects accelerating AI infrastructure spending trend; comparable to 2017-2018 cloud buildout"
-    },
-    {
-      "symbol": "QQQ",
-      "name": "Nasdaq-100 ETF - Tech/Growth",
-      "reason": "Despite modest +0.01% move, technicals remain bullish intermediate-term with semiconductor and AI narratives driving sector rotation",
-      "score": 79,
-      "riskScore": 48,
-      "confidenceScore": 82,
-      "historicalComparison": "Currently consolidating within established uptrend; positioning before potential acceleration phase"
-    },
-    {
-      "symbol": "DIA",
-      "name": "Dow Jones Industrial Average ETF",
-      "reason": "Outperforming indices (+0.27%) suggests institutional money rotating toward blue-chip stability amid policy uncertainty",
-      "score": 74,
-      "riskScore": 32,
-      "confidenceScore": 78,
-      "historicalComparison": "Defensive rotation pattern consistent with risk-on-risk-off transitions"
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "reason": "Small-cap weakness (-0.50%) is modest relative to large-caps; potential mean reversion play as domestic-focused stocks often bounce on stabilization",
+      "score": 68,
+      "riskScore": 52,
+      "confidenceScore": 62,
+      "historicalComparison": "Resilience during broad selloffs historically precedes outperformance in recovery phases"
     },
     {
       "symbol": "SPY",
-      "name": "S&P 500 ETF - Broad Market",
-      "reason": "Steady +0.17% gains with broad participation indicates healthy market breadth; technical assessment bullish intermediate-term",
-      "score": 76,
-      "riskScore": 38,
-      "confidenceScore": 81,
-      "historicalComparison": "Consolidation within established uptrend provides low-risk entry for systematic allocators"
+      "name": "SPDR S&P 500 ETF Trust",
+      "reason": "Large-cap stability at -0.39% decline demonstrates defensive positioning; oversold conditions may present accumulation opportunity for long-term investors",
+      "score": 70,
+      "riskScore": 40,
+      "confidenceScore": 70,
+      "historicalComparison": "Minor losses on no-news days often precede rebound; support levels holding suggests institutional buying"
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares ETF",
+      "reason": "Sharp decline (-2.28%) likely technical/momentum driven rather than fundamental; oversold conditions create contrarian entry for inflation hedges",
+      "score": 65,
+      "riskScore": 48,
+      "confidenceScore": 59,
+      "historicalComparison": "Extreme single-day moves in gold often reverse; -2%+ declines historically revert within 3-5 trading days"
+    },
+    {
+      "symbol": "IWM",
+      "name": "Small-Cap Value Rotation Play",
+      "reason": "Domestic earnings growth potential paired with current undervaluation; valuations attractive relative to large-cap peers",
+      "score": 66,
+      "riskScore": 55,
+      "confidenceScore": 61,
+      "historicalComparison": "Small-caps typically outperform in mid-cycle expansions; current positioning suggests limited downside"
     },
     {
       "symbol": "TLT",
-      "name": "20+ Year Treasury Bond ETF",
-      "reason": "Fed divide on rate outlook creates fixed income opportunity; +0.13% gain despite economic resilience suggests flight-to-quality demand",
-      "score": 71,
-      "riskScore": 45,
-      "confidenceScore": 75,
-      "historicalComparison": "Yields attractive relative to historical averages; positioning for dovish pivot scenario"
+      "name": "Duration Extension Strategy",
+      "reason": "Bond volatility remains contained; yields potentially attracting buyers if Fed signals dovish tilt",
+      "score": 64,
+      "riskScore": 42,
+      "confidenceScore": 58,
+      "historicalComparison": "Longer treasuries provide portfolio diversification; -0.41% decline is healthy correction for entry"
     },
     {
-      "symbol": "SEMICONDUCTOR",
-      "name": "Semiconductor Sector",
-      "reason": "SK Hynix capital raising and AI data center buildout confirm sustained demand cycle; memory chips remain critical bottleneck",
-      "score": 87,
-      "riskScore": 44,
-      "confidenceScore": 90,
-      "historicalComparison": "Current cycle stronger than 2021-2022 with structural AI demand underpinning valuations"
+      "symbol": "SPY",
+      "name": "Large-Cap Dividend Strategy",
+      "reason": "Mature companies in SPY components offer yield support; weakness creates rebalancing opportunities",
+      "score": 69,
+      "riskScore": 38,
+      "confidenceScore": 67,
+      "historicalComparison": "S&P 500 dividend yields attractive relative to 10-year treasuries on any weakness"
     },
     {
-      "symbol": "AI_INFRASTRUCTURE",
-      "name": "AI Data Centers & Compute",
-      "reason": "TeraWulf debt raise validates $3.5B+ capex requirements; secular shift from software to infrastructure spending",
-      "score": 84,
-      "riskScore": 48,
-      "confidenceScore": 87,
-      "historicalComparison": "Comparable to early cloud infrastructure cycle; multi-year growth runway visible"
+      "symbol": "GLD",
+      "name": "Tactical Gold Accumulation",
+      "reason": "Geopolitical hedging demand remains relevant; sharp technicals suggest capitulation buying opportunities",
+      "score": 62,
+      "riskScore": 51,
+      "confidenceScore": 56,
+      "historicalComparison": "Gold volatility inversely correlated with risk assets; current decline may signal equity support ahead"
     }
   ],
   "topRisks": [
     {
-      "symbol": "FED",
-      "name": "Federal Reserve - Policy Uncertainty",
-      "reason": "Minutes expose 'deep divide' on interest-rate outlook; lack of consensus increases volatility and policy error risk",
-      "riskLevel": "HIGH",
-      "riskScore": 78
-    },
-    {
       "symbol": "GLD",
-      "name": "Gold ETF - Precious Metals",
-      "reason": "Decline of -0.38% reflects risk-on sentiment but signals inflation hedges being sold; vulnerable to deflationary scenarios",
-      "riskLevel": "MEDIUM",
-      "riskScore": 62
-    },
-    {
-      "symbol": "GEOPOLITICAL",
-      "name": "Middle East Tensions",
-      "reason": "Ongoing geopolitical uncertainty in Middle East creating oil price volatility and tail-risk scenarios for energy/supply chains",
-      "riskLevel": "HIGH",
-      "riskScore": 75
-    },
-    {
-      "symbol": "SK Hynix",
-      "name": "SK Hynix - IPO Execution Risk",
-      "reason": "17% opening premium leaves limited upside in first weeks; IPO lockup expirations and profit-taking present downside risks",
-      "riskLevel": "MEDIUM",
-      "riskScore": 58
-    },
-    {
-      "symbol": "TERAWULF",
-      "name": "TeraWulf - Execution & Leverage Risk",
-      "reason": "$3.5B debt raise substantially increases leverage; AI infrastructure demand assumptions may not materialize as expected",
-      "riskLevel": "MEDIUM",
-      "riskScore": 65
-    },
-    {
-      "symbol": "QQQ",
-      "name": "Tech Concentration Risk",
-      "reason": "Minimal +0.01% movement despite positive sentiment indicates consolidation; concentrated exposure to AI narrative vulnerable to sentiment shift",
+      "name": "Gold Sector Volatility Risk",
+      "reason": "Accelerating downward momentum at -2.28% may indicate shift in safe-haven demand; further weakness if USD strengthens",
       "riskLevel": "HIGH",
       "riskScore": 72
     },
     {
-      "symbol": "JPY",
-      "name": "Japanese Yen Strength",
-      "reason": "Pension fund repatriation efforts may accelerate capital flows; currency volatility could disrupt emerging market carry trades and risk appetite",
+      "symbol": "IWM",
+      "name": "Small-Cap Liquidity Risk",
+      "reason": "Russell 2000 concentration in illiquid names creates leverage during selloffs; leverage and margin calls amplify declines",
+      "riskLevel": "MEDIUM",
+      "riskScore": 58
+    },
+    {
+      "symbol": "TLT",
+      "name": "Interest Rate Risk",
+      "reason": "Long-duration bonds vulnerable to rising rates; Fed policy shifts could trigger significant losses in 20+ year treasuries",
+      "riskLevel": "HIGH",
+      "riskScore": 68
+    },
+    {
+      "symbol": "SPY",
+      "name": "Earnings Deterioration Risk",
+      "reason": "Absence of news catalysts masks underlying earnings concerns; Q3/Q4 guidance could disappoint investors",
+      "riskLevel": "MEDIUM",
+      "riskScore": 62
+    },
+    {
+      "symbol": "GLD",
+      "name": "Macro Headwind Risk",
+      "reason": "Real yields rising or inflation expectations falling could sustain gold weakness; structural shift away from hedging demand",
+      "riskLevel": "MEDIUM",
+      "riskScore": 65
+    },
+    {
+      "symbol": "IWM",
+      "name": "Economic Sensitivity Risk",
+      "reason": "Small-caps disproportionately affected by recession concerns; limited pricing power vs. large-cap peers",
       "riskLevel": "MEDIUM",
       "riskScore": 61
     },
     {
-      "symbol": "VALUATION",
-      "name": "Equity Valuation Risk",
-      "reason": "Sector rallies in semiconductors and AI infrastructure pricing in significant future growth; vulnerable to earnings disappointment or macro slowdown",
-      "riskLevel": "HIGH",
-      "riskScore": 73
+      "symbol": "TLT",
+      "name": "Inflation Surprise Risk",
+      "reason": "Unexpected CPI/PCE readings could trigger rapid bond selloff; -0.41% decline may be prelude to larger moves",
+      "riskLevel": "MEDIUM",
+      "riskScore": 59
+    },
+    {
+      "symbol": "SPY",
+      "name": "Valuation Compression Risk",
+      "reason": "Large-cap multiples may not sustain current levels if growth expectations moderate; -0.39% could be early warning",
+      "riskLevel": "MEDIUM",
+      "riskScore": 60
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Semiconductors & Chip Manufacturing",
-      "score": 89,
-      "reason": "SK Hynix $26.5B capital raise, memory demand tailwinds from AI, and structural supply constraints support extended bull market"
+      "sector": "Consumer Discretionary",
+      "score": 68,
+      "reason": "Modest equity weakness presents entry points; consumer spending resilience and healthy savings rates support underlying demand"
     },
     {
-      "sector": "AI Infrastructure & Data Centers",
-      "score": 86,
-      "reason": "TeraWulf $3.5B debt raise validates capex cycle; secular shift from software to compute infrastructure with multi-year growth runway"
+      "sector": "Technology",
+      "score": 71,
+      "reason": "AI tailwinds continue; limited decline in SPY (-0.39%) suggests tech holdings supporting broad index; valuation reset may attract capital"
     },
     {
-      "sector": "Large-Cap Equities (Financials, Industrials)",
-      "score": 77,
-      "reason": "DIA outperformance suggests institutional rotation toward blue-chip stability; dividend-paying industrials attractive amid rate uncertainty"
+      "sector": "Financials",
+      "score": 65,
+      "reason": "Higher rates benefit net interest margins; bond weakness creates opportunities in financial services; banking sector stabilization supports lending growth"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Precious Metals & Gold",
-      "score": 38,
-      "reason": "GLD -0.38% decline indicates risk-on sentiment rotation away from inflation hedges; vulnerable if deflationary pressures emerge"
+      "sector": "Precious Metals",
+      "score": 28,
+      "reason": "Gold leading declines at -2.28% signals weakening inflation hedging demand; USD strength and real yield pressures persist"
     },
     {
-      "sector": "Long-Duration Growth (if rates rise)",
-      "score": 42,
-      "reason": "Fed divide creates uncertainty; hawkish scenario would pressure unprofitable tech; current consolidation in QQQ (+0.01%) suggests limited near-term catalysts"
+      "sector": "Utilities",
+      "score": 38,
+      "reason": "Bond weakness (-0.41% TLT) typically pressure defensive utility valuations; rising rates hurt dividend discount models for stable income plays"
     }
   ],
   "keyEvents": [
-    "Fed Minutes Reveal Deep Policy Divide - Rate guidance uncertainty likely to create elevated volatility",
-    "SK Hynix $26.5B Blockbuster IPO (17% opening premium indicated) - Validates semiconductor cycle strength",
-    "TeraWulf $3.5B Debt Raise for AI Data Center Buildout - Signals acceleration in AI infrastructure capex",
-    "Yen Strengthens on Pension Fund Repatriation Signals - Potential disruption to global carry trades and risk appetite",
-    "Middle East Tensions Impact Oil Prices - Geopolitical tail risks contained but monitoring required",
-    "Technical Assessment: Bullish Intermediate-Term - Supports further equity upside within consolidation band"
+    "Monitoring for Fed speakers or policy signals amid modest market weakness",
+    "Watch for earnings pre-announcements that could justify today's consolidation",
+    "Tracking USD strength catalyst behind gold weakness and potential portfolio implications"
   ],
-  "date": "2026-07-10",
-  "generatedAt": "2026-07-10T15:25:43.709490+00:00"
+  "date": "2026-07-13",
+  "generatedAt": "2026-07-13T15:38:44.485602+00:00"
 }
