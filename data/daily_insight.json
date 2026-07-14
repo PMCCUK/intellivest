@@ -1,171 +1,176 @@
 {
-  "marketSummary": "Markets display modest weakness across all major indices, with gold leading declines at -2.28% amid potential dollar strength or reduced inflation hedging demand. Equities remain relatively resilient with SPY and IWM down less than 0.5%, suggesting underlying stability despite headwinds. The absence of major news catalysts indicates a consolidation phase, creating both tactical opportunities and risks for positioning.",
+  "marketSummary": "Markets opened with modest gains across major indices, driven by strength in technology and precious metals. Gold surged 1.96% amid crypto rally and CPI concerns, while tech remains bifurcated between AI enthusiasm and valuation scrutiny. Mixed signals from earnings (IBM warning, Target reassessment, BMW strength) suggest selective stock-picking environment over broad-based rally.",
   "topOpportunities": [
     {
-      "symbol": "TLT",
-      "name": "iShares 20+ Year Treasury Bond ETF",
-      "reason": "Minor decline (-0.41%) on risk-off sentiment suggests potential entry point for bond investors; rates may stabilize or decline if growth concerns persist",
-      "score": 72,
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "reason": "Strong 1.96% gain reflects safe-haven demand and crypto-driven inflation concerns; technical momentum positive",
+      "score": 78,
       "riskScore": 35,
-      "confidenceScore": 68,
-      "historicalComparison": "Trading near recent support levels; yield curve dynamics favor longer duration positioning"
+      "confidenceScore": 82,
+      "historicalComparison": "Outperforming equity indices; typical flight-to-safety pattern during macro uncertainty"
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "reason": "1.11% gain despite AI scrutiny suggests quality tech names holding support; selective rotation rather than capitulation",
+      "score": 72,
+      "riskScore": 60,
+      "confidenceScore": 70,
+      "historicalComparison": "Underperforming broader market slightly; positioning for AI winners vs. losers ongoing"
+    },
+    {
+      "symbol": "CLSK",
+      "name": "CleanSpark Inc.",
+      "reason": "$6.6B HPC data center lease signals strong demand in AI infrastructure; crypto-positive catalyst",
+      "score": 85,
+      "riskScore": 72,
+      "confidenceScore": 88,
+      "historicalComparison": "Major contract win demonstrates sector tailwinds; HPC infrastructure play gaining institutional traction"
     },
     {
       "symbol": "IWM",
       "name": "iShares Russell 2000 ETF",
-      "reason": "Small-cap weakness (-0.50%) is modest relative to large-caps; potential mean reversion play as domestic-focused stocks often bounce on stabilization",
+      "reason": "0.50% gain shows small-cap resilience; potential value play amid large-cap rotation concerns",
       "score": 68,
-      "riskScore": 52,
-      "confidenceScore": 62,
-      "historicalComparison": "Resilience during broad selloffs historically precedes outperformance in recovery phases"
+      "riskScore": 65,
+      "confidenceScore": 65,
+      "historicalComparison": "Lagging large-caps but showing relative strength; potential mean reversion opportunity"
+    },
+    {
+      "symbol": "BMW",
+      "name": "BMW Group",
+      "reason": "U.S. business outperforming during economic uncertainty; luxury automotive showing resilience despite macro headwinds",
+      "score": 74,
+      "riskScore": 58,
+      "confidenceScore": 76,
+      "historicalComparison": "Defying sector concerns; discretionary strength suggests consumer confidence remains intact"
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "0.39% gain reflects flight-to-safety; potential hedge for equity volatility given AI re-pricing",
+      "score": 66,
+      "riskScore": 40,
+      "confidenceScore": 72,
+      "historicalComparison": "Modest strength typical of declining rate expectations or tail-risk hedging"
+    },
+    {
+      "symbol": "CRYPTO",
+      "name": "Bitcoin/Cryptocurrency Complex",
+      "reason": "CPI-fueled surge suggests inflation hedge demand; crypto leading commodity rally narrative",
+      "score": 79,
+      "riskScore": 78,
+      "confidenceScore": 75,
+      "historicalComparison": "Strong correlation with gold; crypto outperformance suggests risk-on sentiment with inflation protection"
     },
     {
       "symbol": "SPY",
       "name": "SPDR S&P 500 ETF Trust",
-      "reason": "Large-cap stability at -0.39% decline demonstrates defensive positioning; oversold conditions may present accumulation opportunity for long-term investors",
+      "reason": "0.38% gain shows market breadth holding; broad-based support despite sector-specific warnings",
       "score": 70,
-      "riskScore": 40,
-      "confidenceScore": 70,
-      "historicalComparison": "Minor losses on no-news days often precede rebound; support levels holding suggests institutional buying"
-    },
-    {
-      "symbol": "GLD",
-      "name": "SPDR Gold Shares ETF",
-      "reason": "Sharp decline (-2.28%) likely technical/momentum driven rather than fundamental; oversold conditions create contrarian entry for inflation hedges",
-      "score": 65,
-      "riskScore": 48,
-      "confidenceScore": 59,
-      "historicalComparison": "Extreme single-day moves in gold often reverse; -2%+ declines historically revert within 3-5 trading days"
-    },
-    {
-      "symbol": "IWM",
-      "name": "Small-Cap Value Rotation Play",
-      "reason": "Domestic earnings growth potential paired with current undervaluation; valuations attractive relative to large-cap peers",
-      "score": 66,
       "riskScore": 55,
-      "confidenceScore": 61,
-      "historicalComparison": "Small-caps typically outperform in mid-cycle expansions; current positioning suggests limited downside"
-    },
-    {
-      "symbol": "TLT",
-      "name": "Duration Extension Strategy",
-      "reason": "Bond volatility remains contained; yields potentially attracting buyers if Fed signals dovish tilt",
-      "score": 64,
-      "riskScore": 42,
-      "confidenceScore": 58,
-      "historicalComparison": "Longer treasuries provide portfolio diversification; -0.41% decline is healthy correction for entry"
-    },
-    {
-      "symbol": "SPY",
-      "name": "Large-Cap Dividend Strategy",
-      "reason": "Mature companies in SPY components offer yield support; weakness creates rebalancing opportunities",
-      "score": 69,
-      "riskScore": 38,
-      "confidenceScore": 67,
-      "historicalComparison": "S&P 500 dividend yields attractive relative to 10-year treasuries on any weakness"
-    },
-    {
-      "symbol": "GLD",
-      "name": "Tactical Gold Accumulation",
-      "reason": "Geopolitical hedging demand remains relevant; sharp technicals suggest capitulation buying opportunities",
-      "score": 62,
-      "riskScore": 51,
-      "confidenceScore": 56,
-      "historicalComparison": "Gold volatility inversely correlated with risk assets; current decline may signal equity support ahead"
+      "confidenceScore": 73,
+      "historicalComparison": "Steady performer; marginally underperforming Nasdaq but maintaining technical support levels"
     }
   ],
   "topRisks": [
     {
-      "symbol": "GLD",
-      "name": "Gold Sector Volatility Risk",
-      "reason": "Accelerating downward momentum at -2.28% may indicate shift in safe-haven demand; further weakness if USD strengthens",
+      "symbol": "IBM",
+      "name": "IBM Corporation",
+      "reason": "Major stock crash following guidance warning signals enterprise tech spending concerns; may indicate AI investment slowdown",
       "riskLevel": "HIGH",
-      "riskScore": 72
+      "riskScore": 82
     },
     {
-      "symbol": "IWM",
-      "name": "Small-Cap Liquidity Risk",
-      "reason": "Russell 2000 concentration in illiquid names creates leverage during selloffs; leverage and margin calls amplify declines",
+      "symbol": "TGT",
+      "name": "Target Corporation",
+      "reason": "Fundamental reassessment ongoing; operational issues require clarification; consumer discretionary vulnerability",
+      "riskLevel": "HIGH",
+      "riskScore": 75
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "reason": "AI trade facing increased scrutiny; valuation concerns may trigger profit-taking in overextended positions",
+      "riskLevel": "HIGH",
+      "riskScore": 78
+    },
+    {
+      "symbol": "SK Hynix",
+      "name": "SK Hynix Inc.",
+      "reason": "Semiconductor weakness amid semiconductor cycle concerns; memory chip oversupply risk",
       "riskLevel": "MEDIUM",
-      "riskScore": 58
-    },
-    {
-      "symbol": "TLT",
-      "name": "Interest Rate Risk",
-      "reason": "Long-duration bonds vulnerable to rising rates; Fed policy shifts could trigger significant losses in 20+ year treasuries",
-      "riskLevel": "HIGH",
       "riskScore": 68
     },
     {
-      "symbol": "SPY",
-      "name": "Earnings Deterioration Risk",
-      "reason": "Absence of news catalysts masks underlying earnings concerns; Q3/Q4 guidance could disappoint investors",
+      "symbol": "SEMI",
+      "name": "Semiconductor Sector",
+      "reason": "Broad-based tech stock selloff suggests chip sector vulnerability; AI capex growth may face headwinds",
       "riskLevel": "MEDIUM",
-      "riskScore": 62
+      "riskScore": 70
     },
     {
-      "symbol": "GLD",
-      "name": "Macro Headwind Risk",
-      "reason": "Real yields rising or inflation expectations falling could sustain gold weakness; structural shift away from hedging demand",
+      "symbol": "CLSK",
+      "name": "CleanSpark Inc.",
+      "reason": "Valuation risk on contract wins; execution risk on $6.6B commitment; regulatory/power grid concerns",
       "riskLevel": "MEDIUM",
-      "riskScore": 65
+      "riskScore": 72
     },
     {
-      "symbol": "IWM",
-      "name": "Economic Sensitivity Risk",
-      "reason": "Small-caps disproportionately affected by recession concerns; limited pricing power vs. large-cap peers",
-      "riskLevel": "MEDIUM",
-      "riskScore": 61
+      "symbol": "GROWTH",
+      "name": "Growth Stock Sector",
+      "reason": "Bifurcation between AI winners/losers; multiple compression risk if rate expectations shift higher",
+      "riskLevel": "HIGH",
+      "riskScore": 76
     },
     {
-      "symbol": "TLT",
-      "name": "Inflation Surprise Risk",
-      "reason": "Unexpected CPI/PCE readings could trigger rapid bond selloff; -0.41% decline may be prelude to larger moves",
+      "symbol": "MACRO",
+      "name": "Macro Environment",
+      "reason": "CPI concerns and crypto surge suggest inflation fears; Fed policy clarity needed; recessionary tail risks",
       "riskLevel": "MEDIUM",
-      "riskScore": 59
-    },
-    {
-      "symbol": "SPY",
-      "name": "Valuation Compression Risk",
-      "reason": "Large-cap multiples may not sustain current levels if growth expectations moderate; -0.39% could be early warning",
-      "riskLevel": "MEDIUM",
-      "riskScore": 60
+      "riskScore": 69
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Consumer Discretionary",
-      "score": 68,
-      "reason": "Modest equity weakness presents entry points; consumer spending resilience and healthy savings rates support underlying demand"
+      "sector": "Precious Metals & Gold",
+      "score": 82,
+      "reason": "1.96% GLD surge reflects inflation hedge demand; crypto correlation strengthening safe-haven narrative"
     },
     {
-      "sector": "Technology",
-      "score": 71,
-      "reason": "AI tailwinds continue; limited decline in SPY (-0.39%) suggests tech holdings supporting broad index; valuation reset may attract capital"
+      "sector": "AI Infrastructure & Data Centers",
+      "score": 80,
+      "reason": "CleanSpark $6.6B contract validates HPC infrastructure thesis; institutional AI capex acceleration"
     },
     {
-      "sector": "Financials",
-      "score": 65,
-      "reason": "Higher rates benefit net interest margins; bond weakness creates opportunities in financial services; banking sector stabilization supports lending growth"
+      "sector": "Luxury Automotive",
+      "score": 74,
+      "reason": "BMW U.S. business resilience suggests high-net-worth consumer strength; discretionary demand intact"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Precious Metals",
-      "score": 28,
-      "reason": "Gold leading declines at -2.28% signals weakening inflation hedging demand; USD strength and real yield pressures persist"
+      "sector": "Enterprise Technology & Software",
+      "score": 35,
+      "reason": "IBM major warning signals IT capex pullback concerns; AI investment ROI scrutiny emerging"
     },
     {
-      "sector": "Utilities",
+      "sector": "Semiconductor Manufacturing",
       "score": 38,
-      "reason": "Bond weakness (-0.41% TLT) typically pressure defensive utility valuations; rising rates hurt dividend discount models for stable income plays"
+      "reason": "SK Hynix weakness reflects memory oversupply; cycle maturation concerns despite AI hype"
     }
   ],
   "keyEvents": [
-    "Monitoring for Fed speakers or policy signals amid modest market weakness",
-    "Watch for earnings pre-announcements that could justify today's consolidation",
-    "Tracking USD strength catalyst behind gold weakness and potential portfolio implications"
+    "IBM guidance warning triggers enterprise tech spending concerns and analyst downgrades",
+    "CleanSpark $6.6B HPC data center lease validates AI infrastructure investment thesis",
+    "CPI-driven crypto surge and gold rally (1.96%) signal inflation hedge demand resurgence",
+    "Tech sector bifurcation: AI trade scrutiny creates winners/losers divergence; valuation vulnerability",
+    "Target reassessment underway\u2014fundamental questions beyond initial market perception",
+    "BMW U.S. business outperformance defies macro headwinds; consumer discretionary resilience",
+    "Semiconductor sector weakness despite AI tailwinds suggests cyclical oversupply concerns",
+    "Bond yields (TLT +0.39%) showing safe-haven inflows amid market uncertainty"
   ],
-  "date": "2026-07-13",
-  "generatedAt": "2026-07-13T15:38:44.485602+00:00"
+  "date": "2026-07-14",
+  "generatedAt": "2026-07-14T14:42:09.057625+00:00"
 }
