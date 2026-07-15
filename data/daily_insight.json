@@ -1,176 +1,173 @@
 {
-  "marketSummary": "Markets opened with modest gains across major indices, driven by strength in technology and precious metals. Gold surged 1.96% amid crypto rally and CPI concerns, while tech remains bifurcated between AI enthusiasm and valuation scrutiny. Mixed signals from earnings (IBM warning, Target reassessment, BMW strength) suggest selective stock-picking environment over broad-based rally.",
+  "marketSummary": "U.S. equities showed mixed performance with small-caps and large-caps outperforming while tech faced mild headwinds. The broad market remains in modest positive territory with defensive positioning evident in bond strength. Without significant news catalysts, markets appear to be consolidating recent gains with selective sector rotation.",
   "topOpportunities": [
-    {
-      "symbol": "GLD",
-      "name": "SPDR Gold Shares",
-      "reason": "Strong 1.96% gain reflects safe-haven demand and crypto-driven inflation concerns; technical momentum positive",
-      "score": 78,
-      "riskScore": 35,
-      "confidenceScore": 82,
-      "historicalComparison": "Outperforming equity indices; typical flight-to-safety pattern during macro uncertainty"
-    },
-    {
-      "symbol": "QQQ",
-      "name": "Invesco QQQ Trust",
-      "reason": "1.11% gain despite AI scrutiny suggests quality tech names holding support; selective rotation rather than capitulation",
-      "score": 72,
-      "riskScore": 60,
-      "confidenceScore": 70,
-      "historicalComparison": "Underperforming broader market slightly; positioning for AI winners vs. losers ongoing"
-    },
-    {
-      "symbol": "CLSK",
-      "name": "CleanSpark Inc.",
-      "reason": "$6.6B HPC data center lease signals strong demand in AI infrastructure; crypto-positive catalyst",
-      "score": 85,
-      "riskScore": 72,
-      "confidenceScore": 88,
-      "historicalComparison": "Major contract win demonstrates sector tailwinds; HPC infrastructure play gaining institutional traction"
-    },
     {
       "symbol": "IWM",
       "name": "iShares Russell 2000 ETF",
-      "reason": "0.50% gain shows small-cap resilience; potential value play amid large-cap rotation concerns",
-      "score": 68,
-      "riskScore": 65,
-      "confidenceScore": 65,
-      "historicalComparison": "Lagging large-caps but showing relative strength; potential mean reversion opportunity"
-    },
-    {
-      "symbol": "BMW",
-      "name": "BMW Group",
-      "reason": "U.S. business outperforming during economic uncertainty; luxury automotive showing resilience despite macro headwinds",
-      "score": 74,
-      "riskScore": 58,
-      "confidenceScore": 76,
-      "historicalComparison": "Defying sector concerns; discretionary strength suggests consumer confidence remains intact"
-    },
-    {
-      "symbol": "TLT",
-      "name": "iShares 20+ Year Treasury Bond ETF",
-      "reason": "0.39% gain reflects flight-to-safety; potential hedge for equity volatility given AI re-pricing",
-      "score": 66,
-      "riskScore": 40,
-      "confidenceScore": 72,
-      "historicalComparison": "Modest strength typical of declining rate expectations or tail-risk hedging"
-    },
-    {
-      "symbol": "CRYPTO",
-      "name": "Bitcoin/Cryptocurrency Complex",
-      "reason": "CPI-fueled surge suggests inflation hedge demand; crypto leading commodity rally narrative",
-      "score": 79,
-      "riskScore": 78,
+      "reason": "Russell 2000 leads with +0.58%, suggesting strong small-cap momentum and potential economic resilience. Undervaluation relative to large-caps continues to attract value investors.",
+      "score": 78,
+      "riskScore": 62,
       "confidenceScore": 75,
-      "historicalComparison": "Strong correlation with gold; crypto outperformance suggests risk-on sentiment with inflation protection"
+      "historicalComparison": "Small-caps outperforming in inflationary/recovery environments; momentum aligns with historical patterns"
+    },
+    {
+      "symbol": "DIA",
+      "name": "SPDR Dow Jones Industrial Average ETF",
+      "reason": "Dow Jones components (+0.41%) showing stability with dividend-paying blue chips offering defensive income. Rotation toward quality industrials evident.",
+      "score": 72,
+      "riskScore": 45,
+      "confidenceScore": 80,
+      "historicalComparison": "Dow strength typically precedes sustained rallies; current setup mirrors pre-expansion patterns"
     },
     {
       "symbol": "SPY",
       "name": "SPDR S&P 500 ETF Trust",
-      "reason": "0.38% gain shows market breadth holding; broad-based support despite sector-specific warnings",
-      "score": 70,
+      "reason": "S&P 500 positive momentum (+0.25%) provides broad market exposure with core holdings in secular growth themes. Institutional buying support evident.",
+      "score": 68,
       "riskScore": 55,
-      "confidenceScore": 73,
-      "historicalComparison": "Steady performer; marginally underperforming Nasdaq but maintaining technical support levels"
-    }
-  ],
-  "topRisks": [
-    {
-      "symbol": "IBM",
-      "name": "IBM Corporation",
-      "reason": "Major stock crash following guidance warning signals enterprise tech spending concerns; may indicate AI investment slowdown",
-      "riskLevel": "HIGH",
-      "riskScore": 82
+      "confidenceScore": 77,
+      "historicalComparison": "S&P 500 consolidation phase typical before breakout; current levels supported by earnings fundamentals"
     },
     {
-      "symbol": "TGT",
-      "name": "Target Corporation",
-      "reason": "Fundamental reassessment ongoing; operational issues require clarification; consumer discretionary vulnerability",
-      "riskLevel": "HIGH",
-      "riskScore": 75
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Bond strength (+0.26%) indicates flight-to-quality demand and potential rate stability. Inverse correlation with equities provides portfolio diversification.",
+      "score": 65,
+      "riskScore": 38,
+      "confidenceScore": 78,
+      "historicalComparison": "Bond rallies often precede equity corrections or consolidations; current strength suggests caution in risk assets"
     },
     {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust",
-      "reason": "AI trade facing increased scrutiny; valuation concerns may trigger profit-taking in overextended positions",
-      "riskLevel": "HIGH",
-      "riskScore": 78
+      "reason": "Despite -0.60% decline, Nasdaq weakness may present contrarian entry opportunity. Tech sector pullbacks often create accumulation zones for long-term positions.",
+      "score": 61,
+      "riskScore": 68,
+      "confidenceScore": 62,
+      "historicalComparison": "Tech drawdowns of <1% historically reversed within 3-5 trading days; support levels intact"
     },
     {
-      "symbol": "SK Hynix",
-      "name": "SK Hynix Inc.",
-      "reason": "Semiconductor weakness amid semiconductor cycle concerns; memory chip oversupply risk",
+      "symbol": "XLV",
+      "name": "Healthcare Sector (proxy)",
+      "reason": "Healthcare benefiting from defensive rotation; aging demographics and pricing power provide secular tailwinds independent of macro conditions.",
+      "score": 71,
+      "riskScore": 48,
+      "confidenceScore": 74,
+      "historicalComparison": "Healthcare outperformance during mixed market environments; 10-year relative strength trend positive"
+    },
+    {
+      "symbol": "XLI",
+      "name": "Industrials Sector (proxy)",
+      "reason": "Industrial cyclicals showing strength aligned with small-cap rally, suggesting confidence in continued economic activity and infrastructure spending.",
+      "score": 69,
+      "riskScore": 58,
+      "confidenceScore": 71,
+      "historicalComparison": "Industrials correlation with leading economic indicators suggests expansion phase; capex trends favorable"
+    },
+    {
+      "symbol": "XLU",
+      "name": "Utilities Sector (proxy)",
+      "reason": "Utilities typically strengthen during bond rallies; current TLT strength indicates demand for stable cash flows and defensive positioning.",
+      "score": 63,
+      "riskScore": 42,
+      "confidenceScore": 73,
+      "historicalComparison": "Utilities thrive in low-volatility, stable rate environments; current macro backdrop supportive"
+    }
+  ],
+  "topRisks": [
+    {
+      "symbol": "QQQ",
+      "name": "Nasdaq Underperformance",
+      "reason": "Tech weakness (-0.60%) suggests potential loss of leadership in market rally. Concentration risk in mega-cap growth stocks remains elevated.",
       "riskLevel": "MEDIUM",
-      "riskScore": 68
+      "riskScore": 62
     },
     {
-      "symbol": "SEMI",
-      "name": "Semiconductor Sector",
-      "reason": "Broad-based tech stock selloff suggests chip sector vulnerability; AI capex growth may face headwinds",
+      "symbol": "TLT",
+      "name": "Bond Market Divergence Risk",
+      "reason": "Rising bond prices while equities gain may indicate growth slowdown expectations. Duration risk if yields spike unexpectedly.",
       "riskLevel": "MEDIUM",
-      "riskScore": 70
+      "riskScore": 58
     },
     {
-      "symbol": "CLSK",
-      "name": "CleanSpark Inc.",
-      "reason": "Valuation risk on contract wins; execution risk on $6.6B commitment; regulatory/power grid concerns",
+      "symbol": "IWM",
+      "name": "Small-Cap Volatility",
+      "reason": "Russell 2000 outperformance unsustainable if momentum reverses. Higher beta amplifies downside moves during corrections.",
       "riskLevel": "MEDIUM",
-      "riskScore": 72
+      "riskScore": 65
     },
     {
-      "symbol": "GROWTH",
-      "name": "Growth Stock Sector",
-      "reason": "Bifurcation between AI winners/losers; multiple compression risk if rate expectations shift higher",
-      "riskLevel": "HIGH",
-      "riskScore": 76
+      "symbol": "SPY",
+      "name": "Valuation Compression Risk",
+      "reason": "S&P 500 gains amid no news suggests technical bounce rather than fundamental support. Earnings expectations may be challenged.",
+      "riskLevel": "MEDIUM",
+      "riskScore": 60
+    },
+    {
+      "symbol": "DIA",
+      "name": "Dividend Sustainability Risk",
+      "reason": "Dow dividend yields attractive but vulnerable to economic slowdown. Rate environment could pressure valuations on yield-chasing trades.",
+      "riskLevel": "LOW",
+      "riskScore": 52
+    },
+    {
+      "symbol": "XLV",
+      "name": "Regulatory Headwinds",
+      "reason": "Healthcare sector faces ongoing drug pricing regulation threats and reimbursement pressures from policy changes.",
+      "riskLevel": "MEDIUM",
+      "riskScore": 59
+    },
+    {
+      "symbol": "XLI",
+      "name": "Economic Cycle Peak Risk",
+      "reason": "Industrials leadership assumes continued expansion. Leading indicators showing softness could reverse cyclical outperformance quickly.",
+      "riskLevel": "MEDIUM",
+      "riskScore": 63
     },
     {
       "symbol": "MACRO",
-      "name": "Macro Environment",
-      "reason": "CPI concerns and crypto surge suggest inflation fears; Fed policy clarity needed; recessionary tail risks",
-      "riskLevel": "MEDIUM",
-      "riskScore": 69
+      "name": "Data Vacuum Risk",
+      "reason": "Absence of news creates information void; unexpected economic data or geopolitical events could trigger sharp repricing. Markets vulnerable to surprise volatility.",
+      "riskLevel": "HIGH",
+      "riskScore": 71
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Precious Metals & Gold",
-      "score": 82,
-      "reason": "1.96% GLD surge reflects inflation hedge demand; crypto correlation strengthening safe-haven narrative"
+      "sector": "Small-Cap / Financials",
+      "score": 76,
+      "reason": "Russell 2000 leading rally with +0.58%; financial sector benefits from stable-to-rising rates and economic activity. Banking system strength supports leverage cycles."
     },
     {
-      "sector": "AI Infrastructure & Data Centers",
-      "score": 80,
-      "reason": "CleanSpark $6.6B contract validates HPC infrastructure thesis; institutional AI capex acceleration"
+      "sector": "Industrials / Materials",
+      "score": 73,
+      "reason": "Blue-chip industrial outperformance (+0.41% Dow) indicates confidence in capex spending and supply-side recovery. Commodity demand stabilizing."
     },
     {
-      "sector": "Luxury Automotive",
-      "score": 74,
-      "reason": "BMW U.S. business resilience suggests high-net-worth consumer strength; discretionary demand intact"
+      "sector": "Healthcare / Defensives",
+      "score": 68,
+      "reason": "Defensive rotation evident with bond strength; healthcare valuations reasonable with secular growth catalysts from aging demographics and innovation."
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Enterprise Technology & Software",
-      "score": 35,
-      "reason": "IBM major warning signals IT capex pullback concerns; AI investment ROI scrutiny emerging"
+      "sector": "Technology / Growth",
+      "score": 38,
+      "reason": "Nasdaq underperformance (-0.60%) suggests growth stock fatigue. Elevated valuations vulnerable to rising rates; mega-cap concentration risk persists."
     },
     {
-      "sector": "Semiconductor Manufacturing",
-      "score": 38,
-      "reason": "SK Hynix weakness reflects memory oversupply; cycle maturation concerns despite AI hype"
+      "sector": "Consumer Discretionary",
+      "score": 42,
+      "reason": "Mixed signals with bond strength suggesting demand softness. Consumer confidence indicators questioned; discretionary spending sensitive to rate environment shifts."
     }
   ],
   "keyEvents": [
-    "IBM guidance warning triggers enterprise tech spending concerns and analyst downgrades",
-    "CleanSpark $6.6B HPC data center lease validates AI infrastructure investment thesis",
-    "CPI-driven crypto surge and gold rally (1.96%) signal inflation hedge demand resurgence",
-    "Tech sector bifurcation: AI trade scrutiny creates winners/losers divergence; valuation vulnerability",
-    "Target reassessment underway\u2014fundamental questions beyond initial market perception",
-    "BMW U.S. business outperformance defies macro headwinds; consumer discretionary resilience",
-    "Semiconductor sector weakness despite AI tailwinds suggests cyclical oversupply concerns",
-    "Bond yields (TLT +0.39%) showing safe-haven inflows amid market uncertainty"
+    "Market consolidation phase with lack of catalysts creating information vacuum and positioning risk",
+    "Tech sector underperformance warrants monitoring for leadership shift away from mega-cap growth",
+    "Bond market strength contradicts equity momentum; watch for growth recession signals in upcoming data releases",
+    "Small-cap outperformance dependent on continued economic resilience; economic calendar critical this week",
+    "Earnings season timeline approaching; guidance revisions will test current valuation assumptions"
   ],
-  "date": "2026-07-14",
-  "generatedAt": "2026-07-14T14:42:09.057625+00:00"
+  "date": "2026-07-15",
+  "generatedAt": "2026-07-15T14:41:23.371094+00:00"
 }
