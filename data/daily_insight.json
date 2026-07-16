@@ -1,173 +1,171 @@
 {
-  "marketSummary": "U.S. equities showed mixed performance with small-caps and large-caps outperforming while tech faced mild headwinds. The broad market remains in modest positive territory with defensive positioning evident in bond strength. Without significant news catalysts, markets appear to be consolidating recent gains with selective sector rotation.",
+  "marketSummary": "Markets displayed mixed sentiment this morning with modest gains in equities offset by weakness in commodities and bonds. The Dow Jones outperformed with a +0.23% gain while the S&P 500 remained essentially flat at -0.08%, suggesting a flight to large-cap stability. Broad-based selling pressure in gold (-1.48%) and Treasury bonds (-0.39%) indicates renewed inflation concerns or risk-off positioning despite the absence of major economic catalysts.",
   "topOpportunities": [
     {
-      "symbol": "IWM",
-      "name": "iShares Russell 2000 ETF",
-      "reason": "Russell 2000 leads with +0.58%, suggesting strong small-cap momentum and potential economic resilience. Undervaluation relative to large-caps continues to attract value investors.",
-      "score": 78,
-      "riskScore": 62,
-      "confidenceScore": 75,
-      "historicalComparison": "Small-caps outperforming in inflationary/recovery environments; momentum aligns with historical patterns"
-    },
-    {
       "symbol": "DIA",
-      "name": "SPDR Dow Jones Industrial Average ETF",
-      "reason": "Dow Jones components (+0.41%) showing stability with dividend-paying blue chips offering defensive income. Rotation toward quality industrials evident.",
+      "name": "Dow Jones Industrial Average ETF",
+      "reason": "Outperforming S&P 500 with positive momentum; blue-chip dividend stocks offer stability in uncertain macro environment",
       "score": 72,
-      "riskScore": 45,
-      "confidenceScore": 80,
-      "historicalComparison": "Dow strength typically precedes sustained rallies; current setup mirrors pre-expansion patterns"
+      "riskScore": 35,
+      "confidenceScore": 68,
+      "historicalComparison": "Above 200-day MA; defensive positioning aligned with current volatility regime"
     },
     {
       "symbol": "SPY",
-      "name": "SPDR S&P 500 ETF Trust",
-      "reason": "S&P 500 positive momentum (+0.25%) provides broad market exposure with core holdings in secular growth themes. Institutional buying support evident.",
+      "name": "S&P 500 ETF Trust",
+      "reason": "Slight weakness presents accumulation opportunity near technical support; broad diversification mitigates sector-specific risks",
       "score": 68,
-      "riskScore": 55,
-      "confidenceScore": 77,
-      "historicalComparison": "S&P 500 consolidation phase typical before breakout; current levels supported by earnings fundamentals"
+      "riskScore": 42,
+      "confidenceScore": 65,
+      "historicalComparison": "Trading slightly below recent highs; support zone established"
+    },
+    {
+      "symbol": "GLD",
+      "name": "Gold ETF",
+      "reason": "Sharp 1.48% selloff may be overdone; gold typically attractive during geopolitical uncertainty and currency instability",
+      "score": 64,
+      "riskScore": 48,
+      "confidenceScore": 62,
+      "historicalComparison": "Recent pullback from $370 resistance offers mean reversion trade setup"
     },
     {
       "symbol": "TLT",
       "name": "iShares 20+ Year Treasury Bond ETF",
-      "reason": "Bond strength (+0.26%) indicates flight-to-quality demand and potential rate stability. Inverse correlation with equities provides portfolio diversification.",
-      "score": 65,
-      "riskScore": 38,
-      "confidenceScore": 78,
-      "historicalComparison": "Bond rallies often precede equity corrections or consolidations; current strength suggests caution in risk assets"
-    },
-    {
-      "symbol": "QQQ",
-      "name": "Invesco QQQ Trust",
-      "reason": "Despite -0.60% decline, Nasdaq weakness may present contrarian entry opportunity. Tech sector pullbacks often create accumulation zones for long-term positions.",
+      "reason": "Long-duration bonds showing weakness; potential entry point if Fed shifts dovish; strong convexity protection",
       "score": 61,
-      "riskScore": 68,
-      "confidenceScore": 62,
-      "historicalComparison": "Tech drawdowns of <1% historically reversed within 3-5 trading days; support levels intact"
+      "riskScore": 55,
+      "confidenceScore": 58,
+      "historicalComparison": "Yields rising but still historically suppressed; duration risk priced in"
     },
     {
-      "symbol": "XLV",
-      "name": "Healthcare Sector (proxy)",
-      "reason": "Healthcare benefiting from defensive rotation; aging demographics and pricing power provide secular tailwinds independent of macro conditions.",
-      "score": 71,
-      "riskScore": 48,
-      "confidenceScore": 74,
-      "historicalComparison": "Healthcare outperformance during mixed market environments; 10-year relative strength trend positive"
+      "symbol": "FINANCIALS",
+      "name": "Financial Sector Basket",
+      "reason": "Rising bond volatility and yield curve steepening create favorable conditions for net-interest-margin expansion",
+      "score": 70,
+      "riskScore": 46,
+      "confidenceScore": 66,
+      "historicalComparison": "Sector relative strength improving on duration-sensitive flows"
     },
     {
-      "symbol": "XLI",
-      "name": "Industrials Sector (proxy)",
-      "reason": "Industrial cyclicals showing strength aligned with small-cap rally, suggesting confidence in continued economic activity and infrastructure spending.",
-      "score": 69,
-      "riskScore": 58,
-      "confidenceScore": 71,
-      "historicalComparison": "Industrials correlation with leading economic indicators suggests expansion phase; capex trends favorable"
+      "symbol": "TECHNOLOGY",
+      "name": "Technology Sector",
+      "reason": "Large-cap tech showed resilience in flat market; AI and cloud computing fundamentals remain strong despite near-term consolidation",
+      "score": 66,
+      "riskScore": 52,
+      "confidenceScore": 63,
+      "historicalComparison": "Outperformance vs. market validates sector leadership thesis"
     },
     {
-      "symbol": "XLU",
-      "name": "Utilities Sector (proxy)",
-      "reason": "Utilities typically strengthen during bond rallies; current TLT strength indicates demand for stable cash flows and defensive positioning.",
+      "symbol": "ENERGY",
+      "name": "Energy Sector",
+      "reason": "Commodity weakness presents contrarian entry; geopolitical premiums remain embedded in crude; supply constraints structural",
       "score": 63,
-      "riskScore": 42,
-      "confidenceScore": 73,
-      "historicalComparison": "Utilities thrive in low-volatility, stable rate environments; current macro backdrop supportive"
+      "riskScore": 58,
+      "confidenceScore": 60,
+      "historicalComparison": "Lagging market on macro concerns; reversal setup forming"
+    },
+    {
+      "symbol": "HEALTHCARE",
+      "name": "Healthcare Sector",
+      "reason": "Defensive positioning appropriate in mixed market; aging demographics and pricing power support long-term growth",
+      "score": 67,
+      "riskScore": 38,
+      "confidenceScore": 64,
+      "historicalComparison": "Consistent outperformance in risk-off environments; downside protection proven"
     }
   ],
   "topRisks": [
     {
-      "symbol": "QQQ",
-      "name": "Nasdaq Underperformance",
-      "reason": "Tech weakness (-0.60%) suggests potential loss of leadership in market rally. Concentration risk in mega-cap growth stocks remains elevated.",
-      "riskLevel": "MEDIUM",
-      "riskScore": 62
+      "symbol": "RATES",
+      "name": "Interest Rate Risk",
+      "reason": "Bond weakness signals potential higher-for-longer rate environment; impact on equity valuations and refinancing needs significant",
+      "riskLevel": "HIGH",
+      "riskScore": 75
     },
     {
-      "symbol": "TLT",
-      "name": "Bond Market Divergence Risk",
-      "reason": "Rising bond prices while equities gain may indicate growth slowdown expectations. Duration risk if yields spike unexpectedly.",
-      "riskLevel": "MEDIUM",
-      "riskScore": 58
+      "symbol": "INFLATION",
+      "name": "Inflation Resurgence Risk",
+      "reason": "Gold selloff may indicate inflation expectations declining or dollar strength; commodity weakness creates conflicting signals",
+      "riskLevel": "HIGH",
+      "riskScore": 72
     },
     {
-      "symbol": "IWM",
-      "name": "Small-Cap Volatility",
-      "reason": "Russell 2000 outperformance unsustainable if momentum reverses. Higher beta amplifies downside moves during corrections.",
+      "symbol": "CURRENCY",
+      "name": "US Dollar Strength Risk",
+      "reason": "Concurrent weakness in gold and bonds suggests dollar rally pressuring commodity-linked returns and emerging markets",
       "riskLevel": "MEDIUM",
       "riskScore": 65
     },
     {
-      "symbol": "SPY",
-      "name": "Valuation Compression Risk",
-      "reason": "S&P 500 gains amid no news suggests technical bounce rather than fundamental support. Earnings expectations may be challenged.",
+      "symbol": "GEOPOLITICAL",
+      "name": "Geopolitical Risk",
+      "reason": "Persistent tensions could trigger energy shocks and supply chain disruptions; no major news today masks underlying fragility",
       "riskLevel": "MEDIUM",
-      "riskScore": 60
+      "riskScore": 68
     },
     {
-      "symbol": "DIA",
-      "name": "Dividend Sustainability Risk",
-      "reason": "Dow dividend yields attractive but vulnerable to economic slowdown. Rate environment could pressure valuations on yield-chasing trades.",
-      "riskLevel": "LOW",
-      "riskScore": 52
-    },
-    {
-      "symbol": "XLV",
-      "name": "Regulatory Headwinds",
-      "reason": "Healthcare sector faces ongoing drug pricing regulation threats and reimbursement pressures from policy changes.",
-      "riskLevel": "MEDIUM",
-      "riskScore": 59
-    },
-    {
-      "symbol": "XLI",
-      "name": "Economic Cycle Peak Risk",
-      "reason": "Industrials leadership assumes continued expansion. Leading indicators showing softness could reverse cyclical outperformance quickly.",
-      "riskLevel": "MEDIUM",
-      "riskScore": 63
-    },
-    {
-      "symbol": "MACRO",
-      "name": "Data Vacuum Risk",
-      "reason": "Absence of news creates information void; unexpected economic data or geopolitical events could trigger sharp repricing. Markets vulnerable to surprise volatility.",
+      "symbol": "EARNINGS",
+      "name": "Earnings Recession Risk",
+      "reason": "Flat equity performance amid macro headwinds suggests earnings consensus at risk; guidance cuts increasingly probable",
       "riskLevel": "HIGH",
       "riskScore": 71
+    },
+    {
+      "symbol": "LIQUIDITY",
+      "name": "Liquidity Risk",
+      "reason": "Mixed market signals and absence of news indicate potential for sharp moves on unexpected catalysts; thin positioning exposed",
+      "riskLevel": "MEDIUM",
+      "riskScore": 62
+    },
+    {
+      "symbol": "RECESSION",
+      "name": "Economic Slowdown Risk",
+      "reason": "Treasury weakness and equity stagnation consistent with growth concerns; credit spreads require monitoring",
+      "riskLevel": "MEDIUM",
+      "riskScore": 66
+    },
+    {
+      "symbol": "VALUATION",
+      "name": "Valuation Risk",
+      "reason": "Growth multiples vulnerable to further rate increases; S&P 500 consolidation may precede repricing lower",
+      "riskLevel": "HIGH",
+      "riskScore": 73
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Small-Cap / Financials",
-      "score": 76,
-      "reason": "Russell 2000 leading rally with +0.58%; financial sector benefits from stable-to-rising rates and economic activity. Banking system strength supports leverage cycles."
+      "sector": "Financials",
+      "score": 74,
+      "reason": "Rising rate volatility and steepening yield curve expand net-interest margins; outperformance of DIA reflects financial strength"
     },
     {
-      "sector": "Industrials / Materials",
-      "score": 73,
-      "reason": "Blue-chip industrial outperformance (+0.41% Dow) indicates confidence in capex spending and supply-side recovery. Commodity demand stabilizing."
+      "sector": "Large-Cap Technology",
+      "score": 71,
+      "reason": "Resilience in flat market demonstrates defensive characteristics; AI momentum and enterprise spending remain supportive"
     },
     {
-      "sector": "Healthcare / Defensives",
+      "sector": "Healthcare & Utilities",
       "score": 68,
-      "reason": "Defensive rotation evident with bond strength; healthcare valuations reasonable with secular growth catalysts from aging demographics and innovation."
+      "reason": "Defensive characteristics attractive in uncertain environment; stable cash flows and dividend yields offset growth concerns"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Technology / Growth",
-      "score": 38,
-      "reason": "Nasdaq underperformance (-0.60%) suggests growth stock fatigue. Elevated valuations vulnerable to rising rates; mega-cap concentration risk persists."
+      "sector": "Commodities & Materials",
+      "score": 35,
+      "reason": "Gold weakness signals risk-off sentiment; industrial metals vulnerable to slowdown narratives; supply isn't supporting prices"
     },
     {
-      "sector": "Consumer Discretionary",
-      "score": 42,
-      "reason": "Mixed signals with bond strength suggesting demand softness. Consumer confidence indicators questioned; discretionary spending sensitive to rate environment shifts."
+      "sector": "Fixed Income",
+      "score": 38,
+      "reason": "TLT decline suggests duration pressure; yields may not peak yet; reinvestment risk elevated in transition environment"
     }
   ],
   "keyEvents": [
-    "Market consolidation phase with lack of catalysts creating information vacuum and positioning risk",
-    "Tech sector underperformance warrants monitoring for leadership shift away from mega-cap growth",
-    "Bond market strength contradicts equity momentum; watch for growth recession signals in upcoming data releases",
-    "Small-cap outperformance dependent on continued economic resilience; economic calendar critical this week",
-    "Earnings season timeline approaching; guidance revisions will test current valuation assumptions"
+    "No major economic data or earnings releases reported for today",
+    "Monitor Fed speakers and yield curve evolution for rate guidance signals",
+    "Watch for geopolitical developments given energy volatility signals"
   ],
-  "date": "2026-07-15",
-  "generatedAt": "2026-07-15T14:41:23.371094+00:00"
+  "date": "2026-07-16",
+  "generatedAt": "2026-07-16T14:52:08.850877+00:00"
 }
