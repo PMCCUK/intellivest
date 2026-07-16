@@ -1,8 +1,29 @@
 {
-  "lastRun": "2026-07-16T18:02:38.485735+00:00",
+  "lastRun": "2026-07-16T19:38:54.100455+00:00",
   "marketStatus": "open",
   "symbolsFetched": 59,
   "strategiesRun": 7,
-  "tradesExecuted": 0,
-  "recentLog": []
+  "tradesExecuted": 4,
+  "recentLog": [
+    {
+      "ts": "2026-07-16T19:38:37.507065+00:00",
+      "portfolio": "momentum",
+      "msg": "SELL 151\u00d7 DBA @ \u00a327.62 \u2014 Commodity complex deteriorating (-1.29%) with weak demand signals from European PMI divergence; downtrend momentum unfavorable. \u2014 P&L: +\u00a3138.92"
+    },
+    {
+      "ts": "2026-07-16T19:38:37.507077+00:00",
+      "portfolio": "momentum",
+      "msg": "SELL 46\u00d7 USO @ \u00a3119.34 \u2014 Energy weakness (-1.68%) reflects softening global growth expectations; risk-off environment depresses crude demand outlook. \u2014 P&L: +\u00a3510.60"
+    },
+    {
+      "ts": "2026-07-16T19:38:49.182544+00:00",
+      "portfolio": "crypto",
+      "msg": "AUTO-CLOSE HUT: Stop-loss triggered (-8.7%)"
+    },
+    {
+      "ts": "2026-07-16T19:38:53.593520+00:00",
+      "portfolio": "smallcap",
+      "msg": "AUTO-CLOSE CMPS: Stop-loss triggered (-8.1%)"
+    }
+  ]
 }
