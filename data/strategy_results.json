@@ -2,22 +2,58 @@
   "results": {
     "master": {
       "decisions": [],
-      "assessment": "Market experiencing broad-based decline with tech sector weakness; insufficient conviction signals to deploy capital with required opportunity>80, confidence>75, and risk<40 thresholds met simultaneously.",
+      "assessment": "Insufficient data quality due to Reuters service error prevents reliable opportunity assessment; maintaining cash position until confidence criteria can be properly evaluated.",
       "strategy": "master",
       "strategy_name": "AI Master",
-      "timestamp": "2026-07-17T14:24:05.671189+00:00",
+      "timestamp": "2026-07-17T15:56:15.735339+00:00",
       "prices_used": {
-        "AAPL": 330.64,
-        "MSFT": 393.1,
-        "NVDA": 205.05,
-        "GOOGL": 345.24,
-        "AMZN": 248.21,
-        "META": 633.06,
-        "XOM": 148.39,
-        "SPY": 746.67,
-        "QQQ": 697.72,
-        "GLD": 367.25,
-        "AVGO": 371.14
+        "AAPL": 333.15,
+        "MSFT": 392.42,
+        "GOOGL": 347.68,
+        "AMZN": 248.47,
+        "META": 630.61,
+        "JPM": 344.62,
+        "SPY": 746.12,
+        "TSLA": 381.81,
+        "AVGO": 372.09,
+        "AMD": 497.04
+      }
+    },
+    "growth": {
+      "decisions": [],
+      "assessment": "Market correction across tech sector presents tactical opportunities, but Reuters news outage prevents reliable fundamental analysis\u2014maintaining cash position until market data normalizes and clearer entry signals emerge with Opportunity>80 AND Confidence>75 thresholds.",
+      "strategy": "growth",
+      "strategy_name": "AI Growth",
+      "timestamp": "2026-07-17T15:56:18.186621+00:00",
+      "prices_used": {
+        "MSFT": 392.42,
+        "GOOGL": 347.68,
+        "META": 630.61,
+        "AMZN": 248.47,
+        "AVGO": 372.09,
+        "AMD": 497.04,
+        "TSLA": 381.81,
+        "NFLX": 68.73,
+        "SNOW": 264.81,
+        "ASML": 1773.04,
+        "TSM": 400.68
+      }
+    },
+    "value": {
+      "decisions": [],
+      "assessment": "Insufficient reliable data to make value-based investment decisions; Reuters outage prevents proper fundamental analysis and valuation assessment across all candidates.",
+      "strategy": "value",
+      "strategy_name": "AI Value",
+      "timestamp": "2026-07-17T15:56:19.749209+00:00",
+      "prices_used": {
+        "JPM": 344.62,
+        "CVX": 186.09,
+        "WMT": 115.41,
+        "KO": 82.85,
+        "BRK-B": 495.77,
+        "ABBV": 258,
+        "GS": 1080.43,
+        "MS": 217.63
       }
     },
     "momentum": {
@@ -26,50 +62,126 @@
           "action": "BUY",
           "symbol": "USO",
           "qty_pct": 5,
-          "opportunityScore": 85,
+          "opportunityScore": 82,
           "riskScore": 38,
           "confidenceScore": 78,
-          "reasoning": "Strong +3.25% momentum in energy sector; oil breakout signal aligns with trend-following; momentum persisting while broader market weak suggests sector rotation into commodities."
+          "reasoning": "Strong +3.04% intraday momentum in energy commodities with XLE also positive; energy sector rotation signal with acceptable volatility profile."
         },
         {
           "action": "BUY",
-          "symbol": "XLE",
+          "symbol": "DBA",
           "qty_pct": 4,
-          "opportunityScore": 82,
+          "opportunityScore": 81,
           "riskScore": 35,
           "confidenceScore": 76,
-          "reasoning": "Energy sector ETF gaining +1.35% against market weakness; confirms USO thesis and provides diversified energy exposure with lower volatility."
+          "reasoning": "Agricultural commodities showing +0.83% strength; broad commodity rotation play with lower drawdown risk than single-commodity exposure."
         },
         {
-          "action": "BUY",
-          "symbol": "GLD",
-          "qty_pct": 4,
-          "opportunityScore": 80,
-          "riskScore": 32,
-          "confidenceScore": 74,
-          "reasoning": "Safe-haven gold rallying +0.63% as equities decline; defensive positioning warranted in risk-off environment with tech weakness."
+          "action": "HOLD",
+          "symbol": "TLT",
+          "qty_pct": 0,
+          "opportunityScore": 72,
+          "riskScore": 42,
+          "confidenceScore": 68,
+          "reasoning": "Modest +0.50% yield-defensive signal insufficient to trigger entry without conviction on macro direction."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "GBTC",
+          "qty_pct": 0,
+          "opportunityScore": 65,
+          "riskScore": 58,
+          "confidenceScore": 62,
+          "reasoning": "Crypto proxy showing -1.57% weakness; insufficient momentum confirmation and elevated volatility risk for entry."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "VWO",
+          "qty_pct": 0,
+          "opportunityScore": 58,
+          "riskScore": 52,
+          "confidenceScore": 64,
+          "reasoning": "Emerging markets down -1.78%; trend deteriorating; no entry signal at current momentum state."
         }
       ],
-      "assessment": "Market showing classic risk-off behavior with commodity strength (oil +3.25%) offsetting broad equity weakness; momentum strategy favors energy and precious metals rotation away from growth.",
+      "assessment": "Commodity complex showing rotation strength (energy/agriculture outperforming); deploying 9% into USO/DBA momentum plays while awaiting clearer sector conviction post-data disruption.",
       "strategy": "momentum",
       "strategy_name": "AI Momentum",
-      "timestamp": "2026-07-17T14:24:09.735083+00:00",
+      "timestamp": "2026-07-17T15:56:24.894003+00:00",
       "prices_used": {
-        "SPY": 746.67,
-        "QQQ": 697.72,
-        "XLE": 57.79,
-        "XLV": 162.61,
-        "GLD": 367.25,
-        "IWM": 295.76,
-        "EEM": 63.3,
-        "DBA": 27.77,
-        "USO": 123.18,
-        "BITO": 8.59,
-        "GBTC": 49.04,
-        "MSTR": 93.23
+        "SPY": 746.12,
+        "XLF": 56.51,
+        "XLE": 57.4,
+        "XLV": 162.04,
+        "XLI": 180.6,
+        "TLT": 84.63,
+        "VWO": 57.79,
+        "DBA": 27.82,
+        "USO": 122.93,
+        "GBTC": 49,
+        "MSTR": 93.66
+      }
+    },
+    "uk": {
+      "decisions": [],
+      "assessment": "Market data is insufficient due to Reuters outage; no trades execute until Opportunity>80 AND Confidence>75 AND Risk<40 criteria are clearly met with reliable fundamental and technical analysis.",
+      "strategy": "uk",
+      "strategy_name": "AI UK & Europe",
+      "timestamp": "2026-07-17T15:56:26.675713+00:00",
+      "prices_used": {
+        "AZN": 169.27,
+        "SHEL": 86.93,
+        "GSK": 51.6,
+        "ASML": 1773.04,
+        "SAP": 158.04,
+        "EWU": 47,
+        "EWG": 41.18,
+        "EFA": 103.34
+      }
+    },
+    "crypto": {
+      "decisions": [],
+      "assessment": "Market-wide decline with no clear catalysts and missing news infrastructure prevents high-conviction entries; maintaining cash position until opportunity and confidence thresholds are clearly met.",
+      "strategy": "crypto",
+      "strategy_name": "AI Crypto",
+      "timestamp": "2026-07-17T15:56:28.134748+00:00",
+      "prices_used": {
+        "GBTC": 49,
+        "MARA": 10.66,
+        "HUT": 90.79,
+        "BITF": 4.49,
+        "COIN": 156.21,
+        "MSTR": 93.66,
+        "CLSK": 12.65,
+        "BTBT": 1.43,
+        "WGMI": 46.98,
+        "FBTC": 55.06
+      }
+    },
+    "smallcap": {
+      "decisions": [],
+      "assessment": "Insufficient reliable market data (Reuters error) and no stocks meeting strict criteria (Opportunity>80 AND Confidence>75 AND Risk<40); maintaining cash position until higher conviction opportunities emerge.",
+      "strategy": "smallcap",
+      "strategy_name": "AI Small Cap",
+      "timestamp": "2026-07-17T15:56:29.903634+00:00",
+      "prices_used": {
+        "MARA": 10.66,
+        "CLSK": 12.65,
+        "BTBT": 1.43,
+        "PUBM": 12.85,
+        "CREX": 3.38,
+        "CMPS": 12.39,
+        "NVAX": 8.16,
+        "NIO": 4.86,
+        "LI": 12.5,
+        "RIVN": 17.08,
+        "CGC": 0.9249,
+        "ACB": 2.61,
+        "CRON": 2.78,
+        "VERA": 38.83
       }
     }
   },
-  "marketStatus": "pre-market",
-  "runAt": "2026-07-17T14:24:10.241353+00:00"
+  "marketStatus": "open",
+  "runAt": "2026-07-17T15:56:30.409461+00:00"
 }

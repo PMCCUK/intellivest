@@ -357,7 +357,7 @@
       ]
     },
     "momentum": {
-      "balance": 42553.81999999999,
+      "balance": 38575.55999999999,
       "positions": {
         "QQQ": {
           "qty": 5,
@@ -393,7 +393,7 @@
             "conf": 78
           },
           "reason": "Industrials showing strongest momentum (+1.17%) with positive trend-following signal; cyclical exposure aligns with sector rotation into economically-sensitive assets.",
-          "currentPrice": 179.39
+          "currentPrice": 180.6
         },
         "IWM": {
           "qty": 17,
@@ -453,7 +453,7 @@
             "conf": 77
           },
           "reason": "Financials sector outperforming (+1.37%) on potential rate stability; strong sector rotation signal with 2% daily gain suggesting momentum continuation.",
-          "currentPrice": 56.54
+          "currentPrice": 56.51
         },
         "TLT": {
           "qty": 35,
@@ -465,7 +465,7 @@
             "conf": 76
           },
           "reason": "Bond rally strength (+0.71%) amid rate-cut cycle and BoE decision volatility; defensive yield play fits trend.",
-          "currentPrice": 84.15
+          "currentPrice": 84.63
         },
         "VWO": {
           "qty": 49,
@@ -477,7 +477,7 @@
             "conf": 77
           },
           "reason": "Emerging markets gaining +1.69% in risk-on environment; Iran peace deal narrative supports geopolitical risk relief in developing economies.",
-          "currentPrice": 58.8
+          "currentPrice": 57.79
         },
         "XLV": {
           "qty": 20,
@@ -489,7 +489,7 @@
             "conf": 78
           },
           "reason": "Healthcare sector showing relative strength (+0.68%) against broad market weakness; defensive positioning with positive trend initiation.",
-          "currentPrice": 162.61
+          "currentPrice": 162.04
         },
         "XLE": {
           "qty": 55,
@@ -501,7 +501,7 @@
             "conf": 77
           },
           "reason": "Energy sector +0.65% outperforming risk-off tape; defensive cyclical rotation play with positive relative momentum vs tech and broader indices.",
-          "currentPrice": 57.79
+          "currentPrice": 57.4
         },
         "MSTR": {
           "qty": 51,
@@ -513,7 +513,7 @@
             "conf": 82
           },
           "reason": "Strong crypto proxy momentum (+11.64%) with Bitcoin proxies outperforming; aligns with trend-following into crypto strength.",
-          "currentPrice": 93.23
+          "currentPrice": 93.66
         },
         "USO": {
           "qty": 40,
@@ -525,7 +525,19 @@
             "conf": 78
           },
           "reason": "Strong +3.25% momentum in energy sector; oil breakout signal aligns with trend-following; momentum persisting while broader market weak suggests sector rotation into commodities.",
-          "currentPrice": 123.18
+          "currentPrice": 122.93
+        },
+        "DBA": {
+          "qty": 143,
+          "entryPrice": 27.82,
+          "entryTs": "2026-07-17T15:56:24.894054+00:00",
+          "aiScores": {
+            "opp": 81,
+            "risk": 35,
+            "conf": 76
+          },
+          "reason": "Agricultural commodities showing +0.83% strength; broad commodity rotation play with lower drawdown risk than single-commodity exposure.",
+          "currentPrice": 27.82
         }
       },
       "trades": [
@@ -700,7 +712,7 @@
         },
         {
           "date": "2026-07-17",
-          "value": 99687.37
+          "value": 100135.07
         }
       ]
     },
@@ -2173,6 +2185,20 @@
     }
   },
   "recommendations": [
+    {
+      "id": "1784303784.894068DBA",
+      "symbol": "DBA",
+      "strategy": "momentum",
+      "ts": "2026-07-17T15:56:24.894073+00:00",
+      "entryPrice": 27.82,
+      "oppScore": 81,
+      "riskScore": 35,
+      "confScore": 76,
+      "reasoning": "Agricultural commodities showing +0.83% strength; broad commodity rotation play with lower drawdown risk than single-commodity exposure.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
     {
       "id": "1784298249.735148USO",
       "symbol": "USO",
@@ -3884,6 +3910,11 @@
   ],
   "aiTradeLog": [
     {
+      "ts": "2026-07-17T15:56:24.894065+00:00",
+      "portfolio": "momentum",
+      "msg": "BUY 143\u00d7 DBA @ \u00a327.82 \u2014 Agricultural commodities showing +0.83% strength; broad commodity rotation play with lower drawdown risk than single-commodity exposure."
+    },
+    {
       "ts": "2026-07-17T14:24:09.735144+00:00",
       "portfolio": "momentum",
       "msg": "BUY 40\u00d7 USO @ \u00a3123.18 \u2014 Strong +3.25% momentum in energy sector; oil breakout signal aligns with trend-following; momentum persisting while broader market weak suggests sector rotation into commodities."
@@ -4735,5 +4766,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-07-17T14:24:10.235537+00:00"
+  "lastRun": "2026-07-17T15:56:30.403798+00:00"
 }
