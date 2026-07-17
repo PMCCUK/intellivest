@@ -2,88 +2,59 @@
   "results": {
     "master": {
       "decisions": [],
-      "assessment": "Market showing broad weakness across mega-cap tech (-0.5% to -2.9%) with no clear catalysts and degraded data access; insufficient conviction to deploy capital without reliable fundamental information.",
+      "assessment": "Market showing broad weakness (-1% to -3% across tech and financials) with no triggering news; insufficient conviction to deploy capital given lack of catalysts\u2014defensive positioning warranted.",
       "strategy": "master",
       "strategy_name": "AI Master",
-      "timestamp": "2026-07-17T18:00:57.480099+00:00",
+      "timestamp": "2026-07-17T19:38:55.676195+00:00",
       "prices_used": {
-        "AAPL": 331.7,
-        "MSFT": 395.06,
-        "NVDA": 204.51,
-        "GOOGL": 344.06,
-        "AMZN": 247.71,
-        "META": 649.2,
-        "V": 358.29,
-        "JNJ": 252.69,
-        "SPY": 744.65,
-        "QQQ": 698.73,
-        "TSLA": 382.32,
-        "AVGO": 374.18
+        "AAPL": 332.74,
+        "GOOGL": 344.37,
+        "META": 643.04,
+        "JPM": 340.71,
+        "V": 357.82,
+        "JNJ": 253.26,
+        "XOM": 147.51,
+        "SPY": 743.2,
+        "QQQ": 696.61,
+        "GLD": 367.73,
+        "TSLA": 382.19
       }
     },
     "growth": {
       "decisions": [],
-      "assessment": "Market pullback across mega-cap tech provides potential entry points, but news feed disruption limits conviction; awaiting clearer signals before deploying capital into positions that don't meet the strict 80+ Opportunity, 75+ Confidence, <40 Risk thresholds.",
+      "assessment": "Market-wide selloff across all holdings with no news catalyst presents unclear risk/reward; maintaining cash position until opportunity scores exceed 80 with confidence above 75 and risk below 40.",
       "strategy": "growth",
       "strategy_name": "AI Growth",
-      "timestamp": "2026-07-17T18:01:00.000070+00:00",
+      "timestamp": "2026-07-17T19:38:57.532765+00:00",
       "prices_used": {
-        "NVDA": 204.51,
-        "MSFT": 395.06,
-        "GOOGL": 344.06,
-        "META": 649.2,
-        "AMZN": 247.71,
-        "AVGO": 374.18,
-        "TSLA": 382.32,
-        "CRM": 171.61,
-        "SNOW": 268.59,
-        "TSM": 399.27
+        "GOOGL": 344.37,
+        "META": 643.04,
+        "TSLA": 382.19,
+        "NFLX": 68.63,
+        "CRM": 171.04,
+        "SNOW": 267.5,
+        "PLTR": 132.19,
+        "ASML": 1762.37
       }
     },
     "value": {
-      "decisions": [
-        {
-          "action": "BUY",
-          "symbol": "KO",
-          "qty_pct": 5,
-          "opportunityScore": 82,
-          "riskScore": 38,
-          "confidenceScore": 78,
-          "reasoning": "Coca-Cola's -4.63% dip presents a value entry for a defensive dividend aristocrat with strong moat and resilient fundamentals."
-        },
-        {
-          "action": "BUY",
-          "symbol": "JNJ",
-          "qty_pct": 5,
-          "opportunityScore": 81,
-          "riskScore": 35,
-          "confidenceScore": 76,
-          "reasoning": "Healthcare defensive stock near 52-week lows with +1.09% momentum shows strong relative strength and clinical-stage pipeline support."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "BRK-B",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 32,
-          "confidenceScore": 68,
-          "reasoning": "Quality conglomerate but current technicals don't meet buy threshold; monitor for deeper pullback."
-        }
-      ],
-      "assessment": "Market weakness in financials (GS, MS) and selective consumer pressure (KO) creates tactical entry points in high-quality defensive names; limited data availability warrants cautious position sizing.",
+      "decisions": [],
+      "assessment": "Current market conditions lack sufficient conviction for new positions; no stocks meet the stringent buy criteria (Opportunity>80, Confidence>75, Risk<40) without fundamental data or catalysts to justify entry at these valuations.",
       "strategy": "value",
       "strategy_name": "AI Value",
-      "timestamp": "2026-07-17T18:01:04.095321+00:00",
+      "timestamp": "2026-07-17T19:38:59.450429+00:00",
       "prices_used": {
-        "V": 358.29,
-        "JNJ": 252.69,
-        "PFE": 25.03,
-        "KO": 80.99,
-        "BRK-B": 491.16,
-        "ABBV": 255.58,
-        "MRK": 127.14,
-        "GS": 1076.72,
-        "MS": 215.61
+        "JPM": 340.71,
+        "V": 357.82,
+        "JNJ": 253.26,
+        "PFE": 25.12,
+        "XOM": 147.51,
+        "WMT": 114.47,
+        "KO": 81.44,
+        "MCD": 267.28,
+        "ABBV": 256.37,
+        "MRK": 127.39,
+        "MS": 214.7
       }
     },
     "momentum": {
@@ -94,234 +65,162 @@
           "qty_pct": 5,
           "opportunityScore": 85,
           "riskScore": 38,
-          "confidenceScore": 82,
-          "reasoning": "Energy momentum breakout with +4.38% surge; XLE also positive; crude showing strong institutional buying signal in commodity space."
+          "confidenceScore": 78,
+          "reasoning": "Strong +3.69% intraday momentum in energy futures with geopolitical tailwinds; momentum follow signals entry despite volatility."
         },
         {
           "action": "BUY",
           "symbol": "DBA",
           "qty_pct": 4,
-          "opportunityScore": 81,
-          "riskScore": 35,
+          "opportunityScore": 82,
+          "riskScore": 36,
           "confidenceScore": 76,
-          "reasoning": "Broad agriculture commodity ETF showing +0.87% strength; paired with USO positioning captures commodity rotation theme."
+          "reasoning": "Commodities breadth signal with +0.87% gain; agricultural/commodity rotation underway as equities weaken."
         },
         {
           "action": "BUY",
-          "symbol": "TLT",
+          "symbol": "GLD",
           "qty_pct": 3,
-          "opportunityScore": 78,
+          "opportunityScore": 81,
           "riskScore": 32,
-          "confidenceScore": 72,
-          "reasoning": "Long-duration bonds rallying (+0.39%) while equities decline; defensive hedge and yield play as trend shifts away from growth."
+          "confidenceScore": 77,
+          "reasoning": "Safe-haven bid emerges with +0.76% gain as equities sell off; classic defensive rotation in downtrend environment."
         },
         {
           "action": "HOLD",
-          "symbol": "GBTC",
+          "symbol": "BITO",
           "qty_pct": 0,
           "opportunityScore": 62,
           "riskScore": 45,
-          "confidenceScore": 58,
-          "reasoning": "Crypto proxy showing minor weakness; lacks conviction signal despite commodity strength."
+          "confidenceScore": 68,
+          "reasoning": "Crypto proxy too flat (-0.11%) and lacks conviction; insufficient momentum signal to justify entry at this stage."
         },
         {
           "action": "HOLD",
           "symbol": "QQQ",
           "qty_pct": 0,
-          "opportunityScore": 45,
-          "riskScore": 48,
-          "confidenceScore": 52,
-          "reasoning": "Tech underperforming in sector rotation; awaiting clearer momentum before entry."
+          "opportunityScore": 55,
+          "riskScore": 42,
+          "confidenceScore": 60,
+          "reasoning": "Tech declining -1.32% but no reversal signal yet; wait for stabilization or clearer trend confirmation."
         }
       ],
-      "assessment": "Commodity and energy momentum breakout paired with defensive bond positioning; rotating away from tech/growth into inflation hedges and fixed income as broader equity weakness emerges.",
+      "assessment": "Broad equity selloff (-1%+) with money rotating into commodities, energy, and safe havens; deploy tactically into trending commodities (USO, DBA, GLD) while equities lack momentum confirmation.",
       "strategy": "momentum",
       "strategy_name": "AI Momentum",
-      "timestamp": "2026-07-17T18:01:09.337286+00:00",
+      "timestamp": "2026-07-17T19:39:05.148756+00:00",
       "prices_used": {
-        "SPY": 744.65,
-        "QQQ": 698.73,
-        "XLF": 56.35,
-        "XLE": 57.53,
-        "XLV": 161.01,
-        "TLT": 84.54,
-        "IWM": 294.35,
-        "VWO": 57.81,
+        "SPY": 743.2,
+        "QQQ": 696.61,
+        "XLK": 176.14,
+        "XLF": 56.18,
+        "XLV": 161.06,
+        "XLI": 179.62,
+        "GLD": 367.73,
+        "IWM": 293.71,
+        "VWO": 57.8,
+        "EEM": 63.37,
         "DBA": 27.83,
-        "USO": 124.52,
+        "USO": 123.7,
         "BITO": 8.71,
-        "GBTC": 49.63
+        "GBTC": 49.72
       }
     },
     "uk": {
       "decisions": [
         {
           "action": "HOLD",
-          "symbol": "SHEL",
+          "symbol": "AZN",
           "qty_pct": 0,
           "opportunityScore": 72,
-          "riskScore": 38,
+          "riskScore": 35,
           "confidenceScore": 68,
-          "reasoning": "Energy sector showing strength (+1.96%) but opportunity score falls short of 80 threshold; insufficient conviction to initiate new position at current levels."
+          "reasoning": "Quality pharma name but opportunity score of 72 falls short of 80 threshold; insufficient conviction to initiate position."
         },
         {
           "action": "HOLD",
           "symbol": "GSK",
           "qty_pct": 0,
           "opportunityScore": 65,
-          "riskScore": 45,
-          "confidenceScore": 60,
-          "reasoning": "Negative momentum (-2.98%) with elevated risk profile; lacks the opportunity and confidence thresholds required for entry."
+          "riskScore": 42,
+          "confidenceScore": 62,
+          "reasoning": "Recent 2.22% weakness and risk score of 42 exceeds tolerance; opportunity insufficient at 65 to justify entry."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "ASML",
+          "qty_pct": 0,
+          "opportunityScore": 78,
+          "riskScore": 38,
+          "confidenceScore": 71,
+          "reasoning": "Strong European semiconductor leader but opportunity of 78 marginally below 80 threshold; awaiting clearer entry signal."
         },
         {
           "action": "HOLD",
           "symbol": "EWU",
           "qty_pct": 0,
-          "opportunityScore": 58,
-          "riskScore": 42,
-          "confidenceScore": 55,
-          "reasoning": "Broad UK equity exposure showing weakness; insufficient opportunity score and confidence level to deploy capital."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "EWG",
-          "qty_pct": 0,
-          "opportunityScore": 62,
+          "opportunityScore": 70,
           "riskScore": 44,
-          "confidenceScore": 58,
-          "reasoning": "European index showing minor weakness; opportunity and confidence levels remain below deployment thresholds."
+          "confidenceScore": 65,
+          "reasoning": "Broad UK exposure but fails multiple criteria: opportunity 70, risk 44, confidence 65; conditions not met for deployment."
         }
       ],
-      "assessment": "Market conditions lack sufficient conviction; no positions meet buy criteria of Opportunity>80, Confidence>75, and Risk<40\u2014maintaining cash reserves pending clearer entry signals or higher-conviction opportunities.",
+      "assessment": "Market lacks sufficient conviction signals across quality UK and European leaders; maintaining cash discipline while awaiting opportunities meeting all three criteria thresholds.",
       "strategy": "uk",
       "strategy_name": "AI UK & Europe",
-      "timestamp": "2026-07-17T18:01:13.956417+00:00",
+      "timestamp": "2026-07-17T19:39:09.697563+00:00",
       "prices_used": {
-        "SHEL": 86.75,
-        "GSK": 51.2,
-        "EWU": 46.83,
-        "EWG": 41.13
+        "AZN": 168.63,
+        "GSK": 51.6,
+        "ASML": 1762.37,
+        "EWU": 46.82
       }
     },
     "crypto": {
-      "decisions": [
-        {
-          "action": "HOLD",
-          "symbol": "GBTC",
-          "qty_pct": 0,
-          "opportunityScore": 62,
-          "riskScore": 38,
-          "confidenceScore": 71,
-          "reasoning": "Minor negative momentum (-0.30%) with soft market sentiment; insufficient opportunity threshold to initiate position despite acceptable risk profile."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "ETHE",
-          "qty_pct": 0,
-          "opportunityScore": 58,
-          "riskScore": 42,
-          "confidenceScore": 68,
-          "reasoning": "Ethereum weakness (-1.59%) suggests consolidation phase; lacks conviction signal and fails opportunity threshold."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "HUT",
-          "qty_pct": 0,
-          "opportunityScore": 71,
-          "riskScore": 44,
-          "confidenceScore": 73,
-          "reasoning": "Bitcoin miner showing relative strength (+2.56%) but fails opportunity>80 threshold; warrants monitoring for entry setup."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "COIN",
-          "qty_pct": 0,
-          "opportunityScore": 65,
-          "riskScore": 39,
-          "confidenceScore": 72,
-          "reasoning": "Coinbase spot trading stabilizing (-0.47%) but lacks sufficient momentum or market catalyst for position entry."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "BITO",
-          "qty_pct": 0,
-          "opportunityScore": 59,
-          "riskScore": 41,
-          "confidenceScore": 70,
-          "reasoning": "Bitcoin futures ETF flat (-0.11%) with weak directional signal and insufficient opportunity score."
-        }
-      ],
-      "assessment": "Crypto market exhibits cautious consolidation with mixed sector momentum; no positions meet buy criteria (Opportunity>80, Confidence>75, Risk<40) due to lack of conviction signals and unconfirmed MarketWatch data access; maintain cash and monitor for stronger accumulation setup.",
+      "decisions": [],
+      "assessment": "All crypto proxies showing mild red momentum with no catalyst news; no positions meet buy criteria (Opportunity<80 or Confidence<75) warranting deployment of \u00a3100k cash at this time.",
       "strategy": "crypto",
       "strategy_name": "AI Crypto",
-      "timestamp": "2026-07-17T18:01:18.951850+00:00",
+      "timestamp": "2026-07-17T19:39:11.407861+00:00",
       "prices_used": {
-        "GBTC": 49.63,
-        "ETHE": 14.89,
+        "GBTC": 49.72,
         "BITO": 8.71,
-        "HUT": 94.26,
-        "CIFR": 17.57,
-        "COIN": 159.74,
-        "CLSK": 13.03,
-        "IBIT": 36.31,
-        "FBTC": 55.77
+        "CIFR": 17.45,
+        "BTBT": 1.41,
+        "WGMI": 47.46,
+        "IBIT": 36.37,
+        "FBTC": 55.84
       }
     },
     "smallcap": {
-      "decisions": [
-        {
-          "action": "HOLD",
-          "symbol": "LCID",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 62,
-          "confidenceScore": 68,
-          "reasoning": "Strong +10.53% momentum but risk score exceeds threshold at 62; insufficient confidence to justify entry with unclear catalysts."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "CLSK",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 58,
-          "confidenceScore": 65,
-          "reasoning": "Modest positive momentum but fails opportunity threshold; data limitations prevent high-confidence scoring."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "CREX",
-          "qty_pct": 0,
-          "opportunityScore": 71,
-          "riskScore": 66,
-          "confidenceScore": 62,
-          "reasoning": "Positive volume signal but risk too high and confidence insufficient; awaiting clearer technical setup."
-        }
-      ],
-      "assessment": "No actionable setups meet buy criteria (Opportunity >80 AND Confidence >75 AND Risk <40); news feed degradation limits catalyst verification; maintain cash and monitor for high-conviction pullbacks in quality small-caps.",
+      "decisions": [],
+      "assessment": "No tradeable opportunities identified; all candidates fail the strict criteria (Opportunity>80 AND Confidence>75 AND Risk<40). Market lacks clear catalysts with sufficient conviction to deploy capital on small-caps.",
       "strategy": "smallcap",
       "strategy_name": "AI Small Cap",
-      "timestamp": "2026-07-17T18:01:22.694777+00:00",
+      "timestamp": "2026-07-17T19:39:12.966478+00:00",
       "prices_used": {
-        "CIFR": 17.57,
-        "CLSK": 13.03,
-        "APPS": 8.38,
-        "PUBM": 12.91,
-        "DV": 11.49,
-        "CREX": 3.46,
-        "SOUN": 6.4,
-        "CMPS": 12.57,
-        "ATAI": 7.2,
-        "NVAX": 8.23,
+        "CIFR": 17.45,
+        "BTBT": 1.41,
+        "PUBM": 12.66,
+        "DV": 11.44,
+        "CREX": 3.47,
+        "SOUN": 6.32,
+        "CMPS": 12.48,
+        "ATAI": 7.18,
         "SNDL": 1.31,
-        "XPEV": 13.47,
-        "LI": 12.52,
-        "LCID": 7.14,
-        "CGC": 0.9286,
-        "ACB": 2.65,
-        "CRON": 2.77
+        "XPEV": 13.49,
+        "LI": 12.5,
+        "RIVN": 17.32,
+        "TLRY": 4.32,
+        "CGC": 0.9333,
+        "CRON": 2.77,
+        "ACMR": 84.48,
+        "AEHR": 80.31,
+        "RCKT": 3.44,
+        "VERA": 38.11
       }
     }
   },
   "marketStatus": "open",
-  "runAt": "2026-07-17T18:01:23.200942+00:00"
+  "runAt": "2026-07-17T19:39:13.472618+00:00"
 }
