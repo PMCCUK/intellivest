@@ -357,7 +357,7 @@
       ]
     },
     "momentum": {
-      "balance": 47481.01999999999,
+      "balance": 42553.81999999999,
       "positions": {
         "QQQ": {
           "qty": 5,
@@ -369,7 +369,7 @@
             "conf": 78
           },
           "reason": "Tech sector showing strongest momentum (+1.56%) with XLK outperforming (+2.17%); growth rotation favored in current market regime.",
-          "currentPrice": 710.89
+          "currentPrice": 697.72
         },
         "EEM": {
           "qty": 45,
@@ -381,7 +381,7 @@
             "conf": 76
           },
           "reason": "Emerging markets accelerating (+2.24%) as global growth expectations improve; SNB rate cut signals accommodative policy environment.",
-          "currentPrice": 64.16
+          "currentPrice": 63.3
         },
         "XLI": {
           "qty": 29,
@@ -405,7 +405,7 @@
             "conf": 76
           },
           "reason": "Small-cap Russell 2000 outperforming (+1.09%) with domestic growth bias; momentum breakout pattern favors risk-on positioning.",
-          "currentPrice": 295.66
+          "currentPrice": 295.76
         },
         "BITO": {
           "qty": 585,
@@ -417,7 +417,7 @@
             "conf": 79
           },
           "reason": "Bitcoin proxy leading session (+1.30%) signaling crypto momentum revival; institutional exposure through futures ETF reduces custody risk.",
-          "currentPrice": 8.88
+          "currentPrice": 8.59
         },
         "XLK": {
           "qty": 27,
@@ -441,7 +441,7 @@
             "conf": 81
           },
           "reason": "Gold momentum (+1.62%) with defensive bid; flight-to-quality hedge against equity concentration while maintaining upside exposure.",
-          "currentPrice": 366.04
+          "currentPrice": 367.25
         },
         "XLF": {
           "qty": 75,
@@ -489,7 +489,7 @@
             "conf": 78
           },
           "reason": "Healthcare sector showing relative strength (+0.68%) against broad market weakness; defensive positioning with positive trend initiation.",
-          "currentPrice": 161.42
+          "currentPrice": 162.61
         },
         "XLE": {
           "qty": 55,
@@ -501,7 +501,7 @@
             "conf": 77
           },
           "reason": "Energy sector +0.65% outperforming risk-off tape; defensive cyclical rotation play with positive relative momentum vs tech and broader indices.",
-          "currentPrice": 57.04
+          "currentPrice": 57.79
         },
         "MSTR": {
           "qty": 51,
@@ -513,7 +513,19 @@
             "conf": 82
           },
           "reason": "Strong crypto proxy momentum (+11.64%) with Bitcoin proxies outperforming; aligns with trend-following into crypto strength.",
-          "currentPrice": 93.82
+          "currentPrice": 93.23
+        },
+        "USO": {
+          "qty": 40,
+          "entryPrice": 123.18,
+          "entryTs": "2026-07-17T14:24:09.735128+00:00",
+          "aiScores": {
+            "opp": 85,
+            "risk": 38,
+            "conf": 78
+          },
+          "reason": "Strong +3.25% momentum in energy sector; oil breakout signal aligns with trend-following; momentum persisting while broader market weak suggests sector rotation into commodities.",
+          "currentPrice": 123.18
         }
       },
       "trades": [
@@ -685,6 +697,10 @@
         {
           "date": "2026-07-16",
           "value": 100239.94
+        },
+        {
+          "date": "2026-07-17",
+          "value": 99687.37
         }
       ]
     },
@@ -2158,6 +2174,20 @@
   },
   "recommendations": [
     {
+      "id": "1784298249.735148USO",
+      "symbol": "USO",
+      "strategy": "momentum",
+      "ts": "2026-07-17T14:24:09.735154+00:00",
+      "entryPrice": 123.18,
+      "oppScore": 85,
+      "riskScore": 38,
+      "confScore": 78,
+      "reasoning": "Strong +3.25% momentum in energy sector; oil breakout signal aligns with trend-following; momentum persisting while broader market weak suggests sector rotation into commodities.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
       "id": "1784138582.993502ETHE",
       "symbol": "ETHE",
       "strategy": "crypto",
@@ -3079,7 +3109,7 @@
       "reasoning": "Resilient +0.97% performance amid market decline; regulatory clarity improving and earnings growth potential as volumes recover post-volatility.",
       "perf1d": -1.63,
       "perf7d": -7.86,
-      "perf30d": null
+      "perf30d": -7.68
     },
     {
       "id": "1781635448.760404DBA",
@@ -3853,6 +3883,11 @@
     }
   ],
   "aiTradeLog": [
+    {
+      "ts": "2026-07-17T14:24:09.735144+00:00",
+      "portfolio": "momentum",
+      "msg": "BUY 40\u00d7 USO @ \u00a3123.18 \u2014 Strong +3.25% momentum in energy sector; oil breakout signal aligns with trend-following; momentum persisting while broader market weak suggests sector rotation into commodities."
+    },
     {
       "ts": "2026-07-16T19:38:37.507065+00:00",
       "portfolio": "momentum",
@@ -4700,5 +4735,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-07-16T21:45:01.169739+00:00"
+  "lastRun": "2026-07-17T14:24:10.235537+00:00"
 }
