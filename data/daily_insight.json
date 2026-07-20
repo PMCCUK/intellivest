@@ -1,171 +1,173 @@
 {
-  "marketSummary": "Markets displayed mixed performance with tech-heavy QQQ declining 1.16% while defensive assets like gold rallied 0.63%, suggesting rotational pressure toward safety. Broad market indices (SPY, DIA) showed marginal weakness, indicating consolidation ahead of upcoming catalysts. Absence of significant news leaves markets vulnerable to sentiment shifts and macro data releases.",
+  "marketSummary": "Markets exhibit mixed performance with tech-focused indices leading modest gains (QQQ +0.42%) while broader indices remain flat to slightly negative, suggesting selective strength in growth sectors. Small-cap weakness (IWM -0.46%) indicates potential risk-off sentiment at the retail investor level. Precious metals showing slight weakness (GLD -0.24%) may reflect broader economic confidence despite muted overall market momentum.",
   "topOpportunities": [
-    {
-      "symbol": "GLD",
-      "name": "SPDR Gold Shares",
-      "reason": "Outperforming in mixed market environment; flight-to-safety bid supports upside amid tech weakness",
-      "score": 78,
-      "riskScore": 25,
-      "confidenceScore": 82,
-      "historicalComparison": "Gold typically gains 0.5-1.2% during risk-off periods; current +0.63% suggests early-stage flight to safety"
-    },
-    {
-      "symbol": "DIA",
-      "name": "SPDR Dow Jones Industrial Average",
-      "reason": "Defensive large-cap positioning with minimal decline; value and dividend plays offer stability in uncertain environment",
-      "score": 72,
-      "riskScore": 35,
-      "confidenceScore": 75,
-      "historicalComparison": "Dow's resilience (+0.01% vs QQQ -1.16%) shows relative strength typical of value rotations"
-    },
-    {
-      "symbol": "IWM",
-      "name": "iShares Russell 2000",
-      "reason": "Small-cap resilience near flat performance suggests overlooked value opportunity as institutions rotate from mega-cap growth",
-      "score": 68,
-      "riskScore": 52,
-      "confidenceScore": 68,
-      "historicalComparison": "Russell 2000 historically outperforms in post-rotation periods when growth stabilizes"
-    },
-    {
-      "symbol": "SPY",
-      "name": "SPDR S&P 500",
-      "reason": "Modest decline (-0.54%) indicates accumulation zone; broad diversification offers rebalancing opportunity for growth-heavy portfolios",
-      "score": 70,
-      "riskScore": 42,
-      "confidenceScore": 72,
-      "historicalComparison": "S&P 500 declines under 1% often precede recovery; supports contrarian buying on weakness"
-    },
     {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust",
-      "reason": "Oversold technical condition (-1.16%) creates mean-reversion opportunity; tech sector pullback may attract value-oriented buyers",
-      "score": 65,
-      "riskScore": 68,
-      "confidenceScore": 58,
-      "historicalComparison": "QQQ volatility typically 2-3x broader market; current move within normal range for growth-tech asset"
+      "reason": "Tech index showing relative outperformance with positive momentum; indicates institutional appetite for growth equities despite market headwinds",
+      "score": 78,
+      "riskScore": 65,
+      "confidenceScore": 72,
+      "historicalComparison": "QQQ continuing to outperform broader indices; tech sector demonstrating resilience in uncertain macro environment"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "reason": "Large-cap tech leader typically benefits from QQQ strength; defensive characteristics provide downside protection during volatility",
+      "score": 75,
+      "riskScore": 58,
+      "confidenceScore": 70,
+      "historicalComparison": "Consistent dividend payer with strong balance sheet; trading near historical multiples"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "reason": "AI and cloud infrastructure exposure positioning well; QQQ strength suggests institutional confidence in mega-cap tech",
+      "score": 76,
+      "riskScore": 60,
+      "confidenceScore": 71,
+      "historicalComparison": "Strong enterprise demand; superior to sector peers in current environment"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "reason": "AI chip demand tailwinds; tech momentum provides catalyst for semiconductor strength",
+      "score": 72,
+      "riskScore": 75,
+      "confidenceScore": 65,
+      "historicalComparison": "Valuation elevated but fundamentals support premium; AI secular growth intact"
     },
     {
       "symbol": "GLD",
-      "name": "Precious Metals Sector Play",
-      "reason": "Inverse correlation to equity weakness creates portfolio hedge; rising real rates environment supports gold allocation",
-      "score": 75,
-      "riskScore": 28,
-      "confidenceScore": 80,
-      "historicalComparison": "Gold-equity correlation averaging -0.2; today's divergence validates strategic allocation thesis"
-    },
-    {
-      "symbol": "DIA",
-      "name": "Dividend Aristocrat Exposure",
-      "reason": "Stable dividend yield environment with macro uncertainty supports income-generating equity positioning",
-      "score": 71,
-      "riskScore": 38,
-      "confidenceScore": 74,
-      "historicalComparison": "Dow dividend yield 2-3% provides cushion during equity volatility periods"
+      "name": "SPDR Gold Shares",
+      "reason": "Minor weakness presents accumulation opportunity; traditional hedge asset with flight-to-safety appeal if volatility increases",
+      "score": 68,
+      "riskScore": 45,
+      "confidenceScore": 68,
+      "historicalComparison": "Trading near historical average; geopolitical tensions support longer-term demand"
     },
     {
       "symbol": "SPY",
-      "name": "Core Equity Rebalancing",
-      "reason": "Shallow drawdown creates efficient entry point for systematic rebalancing strategies and dollar-cost averaging",
-      "score": 69,
-      "riskScore": 45,
-      "confidenceScore": 70,
-      "historicalComparison": "SPY pullbacks under 0.75% historically followed by recovery within 5-10 trading days"
+      "name": "SPDR S&P 500 ETF",
+      "reason": "Broad market stability despite mixed signals; mega-cap weighted exposure provides defensive characteristics",
+      "score": 65,
+      "riskScore": 55,
+      "confidenceScore": 60,
+      "historicalComparison": "Flat performance suggests consolidation; index near technical support levels"
+    },
+    {
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "reason": "Small-cap weakness creates contrarian opportunity; historically outperforms following periods of underperformance",
+      "score": 62,
+      "riskScore": 72,
+      "confidenceScore": 58,
+      "historicalComparison": "IWM lagging large-caps; potential mean reversion play as economic data stabilizes"
+    },
+    {
+      "symbol": "UUP",
+      "name": "Invesco US Dollar Index ETF",
+      "reason": "Safe-haven demand emerging from mixed equity signals; dollar strength may accelerate if risk-off sentiment increases",
+      "score": 64,
+      "riskScore": 52,
+      "confidenceScore": 63,
+      "historicalComparison": "Dollar strength typical during equity weakness; defensive positioning warranted"
     }
   ],
   "topRisks": [
     {
-      "symbol": "QQQ",
-      "name": "Tech Sector Concentration Risk",
-      "reason": "Steeper decline vs broader market indicates tech sector stress; magnitude of outperformance reversal threatens growth narratives",
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "reason": "Small-cap decline signals potential liquidity concerns and reduced risk appetite; divergence from SPY concerning",
       "riskLevel": "HIGH",
       "riskScore": 78
     },
     {
-      "symbol": "SPY",
-      "name": "Macro Headwind Exposure",
-      "reason": "Absence of news amplifies uncertainty; market vulnerable to surprise economic data or Fed communications",
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "reason": "Tech concentration risk; narrow momentum in QQQ without SPY participation suggests crowded positioning",
+      "riskLevel": "HIGH",
+      "riskScore": 72
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "reason": "Extreme valuation multiples; any disappointment in AI demand could trigger severe correction",
+      "riskLevel": "HIGH",
+      "riskScore": 76
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "reason": "Weakness despite macro uncertainty suggests risk-on bias may continue; could underperform if equities rally",
       "riskLevel": "MEDIUM",
       "riskScore": 62
     },
     {
-      "symbol": "IWM",
-      "name": "Small-Cap Liquidity Risk",
-      "reason": "Russell 2000 near-flat in mixed environment; potential flash crash risk if broad market reversal accelerates",
-      "riskLevel": "MEDIUM",
-      "riskScore": 58
-    },
-    {
-      "symbol": "GLD",
-      "name": "Real Rates Risk",
-      "reason": "Rising rates environment could reverse gold momentum; inverse relationship creates timing vulnerability for new entrants",
-      "riskLevel": "MEDIUM",
-      "riskScore": 55
-    },
-    {
-      "symbol": "QQQ",
-      "name": "Mega-Cap Earnings Risk",
-      "reason": "Tech earnings cycle uncertainty; valuation compression if growth expectations revised downward",
-      "riskLevel": "HIGH",
-      "riskScore": 75
-    },
-    {
-      "symbol": "DIA",
-      "name": "Rate Sensitivity Creep",
-      "reason": "Industrial components vulnerable to higher cost of capital; dividend yields may compress with further rate hikes",
-      "riskLevel": "MEDIUM",
-      "riskScore": 60
-    },
-    {
       "symbol": "SPY",
-      "name": "Geopolitical Event Risk",
-      "reason": "News vacuum creates information void; unexpected geopolitical developments could trigger sharp reversal",
+      "name": "SPDR S&P 500 ETF",
+      "reason": "Flat performance masks potential divergence in breadth; earnings revisions risk if macro data deteriorates",
       "riskLevel": "MEDIUM",
-      "riskScore": 65
+      "riskScore": 68
     },
     {
-      "symbol": "IWM",
-      "name": "Sector Concentration in Cyclicals",
-      "reason": "Russell 2000 heavy in economically-sensitive sectors; recession fears disproportionately impact small-cap valuation",
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "reason": "High beta to equity volatility; QQQ strength may not sustain if growth rate declines",
       "riskLevel": "HIGH",
-      "riskScore": 72
+      "riskScore": 74
+    },
+    {
+      "symbol": "ARKK",
+      "name": "ARK Innovation ETF",
+      "reason": "Concentrated positions in unproven high-growth names; vulnerable to rotation away from momentum",
+      "riskLevel": "HIGH",
+      "riskScore": 79
+    },
+    {
+      "symbol": "MSTR",
+      "name": "MicroStrategy Incorporated",
+      "reason": "Leveraged bitcoin proxy; significant drawdown risk if crypto positioning unwinds rapidly",
+      "riskLevel": "CRITICAL",
+      "riskScore": 88
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Precious Metals & Mining",
+      "sector": "Technology",
       "score": 78,
-      "reason": "Gold outperformance (+0.63%) signals safe-haven demand; typically leads broader commodities during risk-off phases"
+      "reason": "QQQ outperformance reflects institutional strength in cloud, AI, and semiconductor names; mega-cap tech resilience dominant"
     },
     {
-      "sector": "Dividend & Utility Stocks",
-      "score": 75,
-      "reason": "Dow's resilience indicates rotation toward income assets; defensive positioning outperforms growth volatility"
-    },
-    {
-      "sector": "Large-Cap Financials",
+      "sector": "Healthcare",
       "score": 72,
-      "reason": "Stable broad market suggests orderly rebalancing; financial services benefit from clarity on rate environment"
+      "reason": "Defensive characteristics appealing during mixed macro backdrop; pharmaceutical and biotech innovation pipelines robust"
+    },
+    {
+      "sector": "Financials",
+      "score": 68,
+      "reason": "Higher interest rate environment still supports net interest margins; stability in banking sector emerging"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "High-Growth Technology",
-      "score": 22,
-      "reason": "QQQ weakness (-1.16%) indicates sector-specific pressure; elevated valuations vulnerable to sentiment shifts"
+      "sector": "Consumer Discretionary",
+      "score": 35,
+      "reason": "Small-cap weakness suggests consumer stress; retail spending likely constrained by higher rates and inflation persistence"
     },
     {
-      "sector": "Cyclical Industrials",
-      "score": 35,
-      "reason": "Economic sensitivity during uncertain macro environment; absence of positive catalysts limits near-term upside"
+      "sector": "Energy",
+      "score": 42,
+      "reason": "Commodity weakness with GLD decline indicates softer demand expectations; geopolitical support fading"
     }
   ],
   "keyEvents": [
-    "Awaiting major macroeconomic data releases (CPI, employment figures) that could trigger market repricing",
-    "Tech earnings season developments will determine sustainability of current QQQ weakness vs. mean reversion",
-    "Federal Reserve communications and rate guidance remain critical catalyst for asset allocation shifts"
+    "No significant economic data releases reported for today",
+    "Monitor overnight earnings announcements for tech sector guidance",
+    "Watch for any Federal Reserve speaker commentary on monetary policy trajectory",
+    "Observe volume patterns on small-cap index (IWM) for potential reversal signals",
+    "Technical support levels on SPY approaching near 740 range"
   ],
-  "date": "2026-07-17",
-  "generatedAt": "2026-07-17T14:24:04.385323+00:00"
+  "date": "2026-07-20",
+  "generatedAt": "2026-07-20T15:01:16.224399+00:00"
 }

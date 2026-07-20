@@ -1042,7 +1042,7 @@
             "conf": 82
           },
           "reason": "Strong +5.58% momentum, European semiconductor leader with structural growth tailwinds despite macro uncertainty; valuation supported by AI/chip cycle strength.",
-          "currentPrice": 1762.37
+          "currentPrice": 1735.12
         },
         "GSK": {
           "qty": 78,
@@ -1054,7 +1054,7 @@
             "conf": 76
           },
           "reason": "GlaxoSmithKline posting solid gains (+1.20%) with diversified vaccine and specialty pharma portfolio; defensive dividend yield attractive.",
-          "currentPrice": 51.6
+          "currentPrice": 50.83
         },
         "EFA": {
           "qty": 48,
@@ -1066,7 +1066,7 @@
             "conf": 79
           },
           "reason": "Broad European exposure with +2.32% momentum provides diversified entry to continent-wide rally.",
-          "currentPrice": 103.33
+          "currentPrice": 102.96
         },
         "EWG": {
           "qty": 71,
@@ -1078,7 +1078,7 @@
             "conf": 76
           },
           "reason": "German equity ETF offering diversified exposure to European strength at attractive valuation with modest positive momentum.",
-          "currentPrice": 41.13
+          "currentPrice": 41
         },
         "SAP": {
           "qty": 19,
@@ -1090,7 +1090,7 @@
             "conf": 76
           },
           "reason": "European tech leader showing relative strength (+2.49%) as software/SaaS benefits from digital transformation thesis despite broader tech selloff.",
-          "currentPrice": 158.64
+          "currentPrice": 155.85
         },
         "SHEL": {
           "qty": 37,
@@ -1102,7 +1102,7 @@
             "conf": 76
           },
           "reason": "Energy major showing resilience despite -0.40% move; SNB rate cut supports risk appetite while Swiss franc weakness aids energy valuations globally.",
-          "currentPrice": 86.75
+          "currentPrice": 86.62
         },
         "AZN": {
           "qty": 29,
@@ -1264,11 +1264,15 @@
         {
           "date": "2026-07-17",
           "value": 98840.75
+        },
+        {
+          "date": "2026-07-20",
+          "value": 98944.46
         }
       ]
     },
     "crypto": {
-      "balance": 65048.02000000001,
+      "balance": 59256.180000000015,
       "positions": {
         "IBIT": {
           "qty": 84,
@@ -1280,7 +1284,7 @@
             "conf": 78
           },
           "reason": "IBIT shows strongest spot Bitcoin ETF momentum at +1.48% with lower volatility profile than futures; direct Bitcoin exposure with institutional-grade structure.",
-          "currentPrice": 36.31
+          "currentPrice": 36.5
         },
         "FBTC": {
           "qty": 54,
@@ -1304,7 +1308,7 @@
             "conf": 78
           },
           "reason": "Strongest momentum (+3.13%) among all holdings with exchange exposure to rising crypto activity; regulatory clarity improving sentiment.",
-          "currentPrice": 159.74
+          "currentPrice": 157.71
         },
         "MSTR": {
           "qty": 33,
@@ -1316,7 +1320,7 @@
             "conf": 78
           },
           "reason": "MSTR showing strong positive momentum (+7.28%) as sole gainer; Bitcoin proxy with leveraged upside potential and acceptable volatility profile.",
-          "currentPrice": 98.7
+          "currentPrice": 95.95
         },
         "GBTC": {
           "qty": 106,
@@ -1328,7 +1332,7 @@
             "conf": 80
           },
           "reason": "Consistent +2.57% gain with broad Bitcoin trust exposure; core holding for directional crypto exposure with institutional-grade stability and low correlation disruption risk.",
-          "currentPrice": 49.63
+          "currentPrice": 49.87
         },
         "BITO": {
           "qty": 362,
@@ -1340,7 +1344,7 @@
             "conf": 76
           },
           "reason": "BITO maintains positive momentum (+2.26%) as most resilient asset; futures-based structure provides clean Bitcoin exposure without custody risks.",
-          "currentPrice": 8.71
+          "currentPrice": 8.74
         },
         "CLSK": {
           "qty": 353,
@@ -1352,7 +1356,7 @@
             "conf": 82
           },
           "reason": "Strong bullish momentum (+10.28%) backed by $6.6B data centre lease announcement, providing fundamental growth catalyst for Bitcoin mining operations amid crypto surge.",
-          "currentPrice": 13.03
+          "currentPrice": 14.19
         },
         "ETHE": {
           "qty": 310,
@@ -1365,6 +1369,30 @@
           },
           "reason": "Ethereum trust showing +2.71% with broad crypto recovery; exposure to ETH ecosystem strength without direct spot volatility.",
           "currentPrice": 14.89
+        },
+        "MARA": {
+          "qty": 248,
+          "entryPrice": 11.67,
+          "entryTs": "2026-07-20T15:01:35.057269+00:00",
+          "aiScores": {
+            "opp": 82,
+            "risk": 38,
+            "conf": 76
+          },
+          "reason": "Strong miner momentum (+9.17%) with established liquidity; Bitcoin mining correlation provides leveraged exposure without direct spot volatility.",
+          "currentPrice": 11.67
+        },
+        "HUT": {
+          "qty": 29,
+          "entryPrice": 99.92,
+          "entryTs": "2026-07-20T15:01:35.057295+00:00",
+          "aiScores": {
+            "opp": 85,
+            "risk": 39,
+            "conf": 78
+          },
+          "reason": "Exceptional daily gain (+9.26%) combined with stable Canadian miner fundamentals; outperforming peer group signals sector strength.",
+          "currentPrice": 99.92
         }
       },
       "trades": [
@@ -1682,6 +1710,10 @@
         {
           "date": "2026-07-17",
           "value": 95965.81
+        },
+        {
+          "date": "2026-07-20",
+          "value": 96774.57
         }
       ]
     },
@@ -2201,6 +2233,34 @@
     }
   },
   "recommendations": [
+    {
+      "id": "1784559695.057301HUT",
+      "symbol": "HUT",
+      "strategy": "crypto",
+      "ts": "2026-07-20T15:01:35.057303+00:00",
+      "entryPrice": 99.92,
+      "oppScore": 85,
+      "riskScore": 39,
+      "confScore": 78,
+      "reasoning": "Exceptional daily gain (+9.26%) combined with stable Canadian miner fundamentals; outperforming peer group signals sector strength.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
+    {
+      "id": "1784559695.057283MARA",
+      "symbol": "MARA",
+      "strategy": "crypto",
+      "ts": "2026-07-20T15:01:35.057289+00:00",
+      "entryPrice": 11.67,
+      "oppScore": 82,
+      "riskScore": 38,
+      "confScore": 76,
+      "reasoning": "Strong miner momentum (+9.17%) with established liquidity; Bitcoin mining correlation provides leveraged exposure without direct spot volatility.",
+      "perf1d": null,
+      "perf7d": null,
+      "perf30d": null
+    },
     {
       "id": "1784303784.894068DBA",
       "symbol": "DBA",
@@ -2969,7 +3029,7 @@
       "reasoning": "Warren Buffett's conglomerate showing strength with only 0.36% decline; fortress balance sheet and diversified earnings provide downside protection.",
       "perf1d": -0.33,
       "perf7d": 1.87,
-      "perf30d": null
+      "perf30d": 0.12
     },
     {
       "id": "1781890229.240002CIFR",
@@ -2983,7 +3043,7 @@
       "reasoning": "Exceptional +10.82% momentum with unusual volume surge suggests emerging catalyst; small-cap crypto infrastructure play with strong technical breakout.",
       "perf1d": -4.32,
       "perf7d": -11.16,
-      "perf30d": null
+      "perf30d": -32.29
     },
     {
       "id": "1781815422.24553ACMR",
@@ -2997,7 +3057,7 @@
       "reasoning": "Exceptional +14.22% momentum with unusual volume spike suggests strong institutional accumulation; biotech/medical device catalyst likely driving breakout above key resistance.",
       "perf1d": -5.21,
       "perf7d": -6.92,
-      "perf30d": null
+      "perf30d": -24.06
     },
     {
       "id": "1781806497.819047VWO",
@@ -3011,7 +3071,7 @@
       "reasoning": "Emerging markets gaining +1.69% in risk-on environment; Iran peace deal narrative supports geopolitical risk relief in developing economies.",
       "perf1d": -0.05,
       "perf7d": -3.29,
-      "perf30d": null
+      "perf30d": -4.74
     },
     {
       "id": "1781806492.387486JNJ",
@@ -3053,7 +3113,7 @@
       "reasoning": "Strong +3.02% movement suggests positive sentiment; large-cap stability with cloud/e-commerce growth catalysts.",
       "perf1d": -0.1,
       "perf7d": -5.4,
-      "perf30d": null
+      "perf30d": 2.13
     },
     {
       "id": "1781799718.698901AMZN",
@@ -3067,7 +3127,7 @@
       "reasoning": "AWS cloud dominance and AI infrastructure positioning with +2.14% momentum supports strategic allocation.",
       "perf1d": 0.76,
       "perf7d": -6.13,
-      "perf30d": null
+      "perf30d": 3.01
     },
     {
       "id": "1781724213.579101RCKT",
@@ -3926,6 +3986,16 @@
   ],
   "aiTradeLog": [
     {
+      "ts": "2026-07-20T15:01:35.057280+00:00",
+      "portfolio": "crypto",
+      "msg": "BUY 248\u00d7 MARA @ \u00a311.67 \u2014 Strong miner momentum (+9.17%) with established liquidity; Bitcoin mining correlation provides leveraged exposure without direct spot volatility."
+    },
+    {
+      "ts": "2026-07-20T15:01:35.057300+00:00",
+      "portfolio": "crypto",
+      "msg": "BUY 29\u00d7 HUT @ \u00a399.92 \u2014 Exceptional daily gain (+9.26%) combined with stable Canadian miner fundamentals; outperforming peer group signals sector strength."
+    },
+    {
       "ts": "2026-07-17T15:56:24.894065+00:00",
       "portfolio": "momentum",
       "msg": "BUY 143\u00d7 DBA @ \u00a327.82 \u2014 Agricultural commodities showing +0.83% strength; broad commodity rotation play with lower drawdown risk than single-commodity exposure."
@@ -4782,5 +4852,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-07-17T21:32:43.885318+00:00"
+  "lastRun": "2026-07-20T15:01:37.685455+00:00"
 }
