@@ -1,53 +1,19 @@
 {
   "results": {
     "master": {
-      "decisions": [
-        {
-          "action": "BUY",
-          "symbol": "AMD",
-          "qty_pct": 5,
-          "opportunityScore": 85,
-          "riskScore": 38,
-          "confidenceScore": 78,
-          "reasoning": "Strong +5.12% momentum in semiconductor sector with solid technical setup; semi strength supported by AI demand thesis despite volatility risks."
-        },
-        {
-          "action": "BUY",
-          "symbol": "JPM",
-          "qty_pct": 4,
-          "opportunityScore": 82,
-          "riskScore": 35,
-          "confidenceScore": 76,
-          "reasoning": "Banking sector strength (+1.07%) with BoE rate decision Thursday providing clarity; financial stability and dividend yield offer defensive positioning."
-        },
-        {
-          "action": "BUY",
-          "symbol": "GLD",
-          "qty_pct": 3,
-          "opportunityScore": 81,
-          "riskScore": 28,
-          "confidenceScore": 77,
-          "reasoning": "Gold +1.55% amid SNB rate cut and currency volatility; defensive hedge against macro uncertainty with low correlation to equities."
-        }
-      ],
-      "assessment": "Mixed macro backdrop (European PMI divergence, BoE decision risk) favors selective positioning in momentum semiconductors, financials, and gold hedges rather than broad market exposure.",
+      "decisions": [],
+      "assessment": "Market data is compromised (Yahoo Finance error); insufficient reliable information to execute trades meeting confidence threshold of 75+. Recommend holding cash pending data restoration.",
       "strategy": "master",
       "strategy_name": "AI Master",
-      "timestamp": "2026-07-21T14:54:00.471943+00:00",
+      "timestamp": "2026-07-21T16:01:46.187326+00:00",
       "prices_used": {
-        "MSFT": 400.92,
-        "NVDA": 205.51,
-        "GOOGL": 349.47,
-        "AMZN": 248.32,
-        "META": 649.68,
-        "JPM": 342.48,
-        "JNJ": 250.31,
-        "SPY": 746.88,
-        "QQQ": 706.85,
-        "GLD": 373.31,
-        "TSLA": 383.42,
-        "AVGO": 384.62,
-        "AMD": 529.34
+        "AAPL": 328.82,
+        "MSFT": 398.5,
+        "AMZN": 248.05,
+        "JPM": 343.93,
+        "GLD": 374.01,
+        "AVGO": 385.84,
+        "AMD": 532.97
       }
     },
     "growth": {
@@ -56,172 +22,86 @@
           "action": "BUY",
           "symbol": "AMD",
           "qty_pct": 5,
-          "opportunityScore": 85,
+          "opportunityScore": 82,
           "riskScore": 38,
-          "confidenceScore": 82,
-          "reasoning": "Strong +5.12% momentum in semiconductor sector with solid fundamentals; positioned well for AI infrastructure demand despite competitive pressures."
+          "confidenceScore": 76,
+          "reasoning": "Strong +5.84% momentum in AI-driven semiconductor sector with solid technicals, meets all thresholds for entry."
         },
         {
           "action": "BUY",
-          "symbol": "TSLA",
+          "symbol": "TSM",
           "qty_pct": 5,
-          "opportunityScore": 82,
+          "opportunityScore": 81,
           "riskScore": 39,
-          "confidenceScore": 78,
-          "reasoning": "Exceptional +3.75% daily gain suggests positive sentiment shift; Musk's X post acknowledgment may reduce political headline risk near-term."
+          "confidenceScore": 77,
+          "reasoning": "Critical AI chip manufacturer showing +4.41% strength; foundational play for tech growth thesis."
         },
         {
           "action": "BUY",
           "symbol": "AVGO",
-          "qty_pct": 4,
-          "opportunityScore": 81,
-          "riskScore": 35,
-          "confidenceScore": 79,
-          "reasoning": "Best daily performer at +1.71% with semiconductor exposure to data center and AI infrastructure buildout; lower volatility than peers."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "NVDA",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 42,
-          "confidenceScore": 68,
-          "reasoning": "Core AI play but modest momentum; better risk-adjusted opportunities available in AMD/AVGO today."
+          "qty_pct": 5,
+          "opportunityScore": 80,
+          "riskScore": 37,
+          "confidenceScore": 75,
+          "reasoning": "Infrastructure semiconductor leader up +2.03% with steady data center demand supporting AI deployment."
         },
         {
           "action": "HOLD",
           "symbol": "MSFT",
           "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 38,
-          "confidenceScore": 71,
-          "reasoning": "Slight negative momentum on stabilizing day; hold cash for higher-conviction opportunities."
+          "opportunityScore": 72,
+          "riskScore": 42,
+          "confidenceScore": 68,
+          "reasoning": "Quality AI play but slight downside and data gaps prevent conviction entry; monitor for better entry."
         },
         {
           "action": "HOLD",
-          "symbol": "PLTR",
+          "symbol": "AMZN",
+          "qty_pct": 0,
+          "opportunityScore": 71,
+          "riskScore": 41,
+          "confidenceScore": 69,
+          "reasoning": "Cloud/AI exposure insufficient given slight decline; awaiting stronger signal."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "CRM",
           "qty_pct": 0,
           "opportunityScore": 65,
-          "riskScore": 44,
-          "confidenceScore": 62,
-          "reasoning": "Marginal decline insufficient for entry; valuation less compelling than semiconductor plays today."
+          "riskScore": 45,
+          "confidenceScore": 71,
+          "reasoning": "Enterprise AI sentiment mixed; -2.11% move and data outage reduce confidence below threshold."
         }
       ],
-      "assessment": "Semiconductor strength (AMD +5.12%, AVGO +1.71%) coupled with TSLA sentiment recovery presents tactical entry opportunity; SNB rate cuts and weak German services PMI support defensive positioning but growth window remains open for AI infrastructure beneficiaries.",
+      "assessment": "Semiconductor infrastructure showing resilience in AI cycle; seize high-conviction hardware plays while data limitations prevent broader positioning.",
       "strategy": "growth",
       "strategy_name": "AI Growth",
-      "timestamp": "2026-07-21T14:54:07.065481+00:00",
+      "timestamp": "2026-07-21T16:01:52.144098+00:00",
       "prices_used": {
-        "NVDA": 205.51,
-        "MSFT": 400.92,
-        "GOOGL": 349.47,
-        "META": 649.68,
-        "AMZN": 248.32,
-        "AVGO": 384.62,
-        "AMD": 529.34,
-        "TSLA": 383.42,
-        "SNOW": 275.32,
-        "PLTR": 134.2
+        "MSFT": 398.5,
+        "AMZN": 248.05,
+        "AVGO": 385.84,
+        "AMD": 532.97,
+        "CRM": 170.12,
+        "TSM": 420.06
       }
     },
     "value": {
-      "decisions": [
-        {
-          "action": "HOLD",
-          "symbol": "JPM",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 35,
-          "confidenceScore": 70,
-          "reasoning": "Quality financial play with positive momentum, but opportunity score falls short of 80 threshold; BoE rate decision Thursday adds near-term uncertainty."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "JNJ",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 28,
-          "confidenceScore": 72,
-          "reasoning": "Defensive healthcare dividend stock with solid fundamentals, but valuation lacks compelling margin of safety at current levels."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "CVX",
-          "qty_pct": 0,
-          "opportunityScore": 65,
-          "riskScore": 42,
-          "confidenceScore": 68,
-          "reasoning": "Energy exposure faces headwinds from mixed economic data and currency volatility; risk score exceeds threshold."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "WMT",
-          "qty_pct": 0,
-          "opportunityScore": 75,
-          "riskScore": 32,
-          "confidenceScore": 76,
-          "reasoning": "Resilient retailer but down 1.45% today without clear catalyst; opportunity score just below buy threshold given macro uncertainty."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "KO",
-          "qty_pct": 0,
-          "opportunityScore": 70,
-          "riskScore": 30,
-          "confidenceScore": 68,
-          "reasoning": "Stable consumer staple, but lacks sufficient valuation discount to trigger buy signal in current environment."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "MCD",
-          "qty_pct": 0,
-          "opportunityScore": 66,
-          "riskScore": 38,
-          "confidenceScore": 65,
-          "reasoning": "Quality business down 1.01%, but economic headwinds (Germany services PMI at 9-month low) create caution on timing."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "BRK-B",
-          "qty_pct": 0,
-          "opportunityScore": 73,
-          "riskScore": 33,
-          "confidenceScore": 74,
-          "reasoning": "Berkshire's fortress balance sheet attractive, but current valuation lacks sufficient margin of safety for entry."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "ABBV",
-          "qty_pct": 0,
-          "opportunityScore": 71,
-          "riskScore": 36,
-          "confidenceScore": 69,
-          "reasoning": "Pharma dividend play with modest gain, but opportunity score insufficient for value-based entry at present levels."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "GS",
-          "qty_pct": 0,
-          "opportunityScore": 78,
-          "riskScore": 44,
-          "confidenceScore": 72,
-          "reasoning": "Strong financial momentum up 1.67%, but risk score elevated at 44; awaiting BoE clarity before committing capital."
-        }
-      ],
-      "assessment": "Mixed economic signals (Germany manufacturing recovery vs. services contraction) and macro uncertainty (BoE decision, SNB cuts, dollar strength) warrant cautious positioning; no positions meet buy criteria\u2014maintaining dry powder for clearer opportunities with stronger fundamentals and safer entry points.",
+      "decisions": [],
+      "assessment": "Unable to execute trades due to incomplete market data (Yahoo Finance error); fundamental analysis cannot be conducted without recent financial metrics, earnings data, and valuation ratios required to meet the 80+ Opportunity and 75+ Confidence thresholds.",
       "strategy": "value",
       "strategy_name": "AI Value",
-      "timestamp": "2026-07-21T14:54:14.881816+00:00",
+      "timestamp": "2026-07-21T16:01:54.223099+00:00",
       "prices_used": {
-        "JPM": 342.48,
-        "JNJ": 250.31,
-        "CVX": 190.1,
-        "WMT": 110.57,
-        "KO": 81.94,
-        "MCD": 264.94,
-        "BRK-B": 488.94,
-        "ABBV": 255.51,
-        "GS": 1072.7
+        "JPM": 343.93,
+        "PFE": 24.89,
+        "CVX": 190.33,
+        "MCD": 264.46,
+        "BRK-B": 489.44,
+        "ABBV": 255.19,
+        "MRK": 125.21,
+        "GS": 1081.03,
+        "MS": 215.53
       }
     },
     "momentum": {
@@ -230,65 +110,66 @@
           "action": "BUY",
           "symbol": "MSTR",
           "qty_pct": 5,
-          "opportunityScore": 87,
+          "opportunityScore": 85,
           "riskScore": 38,
-          "confidenceScore": 82,
-          "reasoning": "Bitcoin proxy showing strongest momentum (+5.80%) with crypto trend acceleration; BITO also up 2.83% confirming sector tailwind."
+          "confidenceScore": 78,
+          "reasoning": "Strong crypto proxy momentum with +4.79% gain and Bitcoin-correlated uptrend establishing; within risk parameters."
+        },
+        {
+          "action": "BUY",
+          "symbol": "EEM",
+          "qty_pct": 5,
+          "opportunityScore": 82,
+          "riskScore": 39,
+          "confidenceScore": 76,
+          "reasoning": "Emerging markets showing strongest sector rotation signal at +2.75% with risk-on sentiment developing."
         },
         {
           "action": "BUY",
           "symbol": "XLK",
           "qty_pct": 5,
-          "opportunityScore": 84,
-          "riskScore": 32,
-          "confidenceScore": 79,
-          "reasoning": "Tech sector rotating to strength (+2.24%) as QQQ outperforms SPY; defensive momentum play with lower volatility."
+          "opportunityScore": 81,
+          "riskScore": 37,
+          "confidenceScore": 77,
+          "reasoning": "Technology leading with +2.50% gain amid growth momentum; strong trend-following signal."
         },
         {
           "action": "BUY",
           "symbol": "GLD",
           "qty_pct": 4,
-          "opportunityScore": 81,
-          "riskScore": 28,
-          "confidenceScore": 76,
-          "reasoning": "Gold rallying (+1.55%) on SNB rate cut and EUR weakness; safe-haven demand increasing amid mixed economic signals."
+          "opportunityScore": 80,
+          "riskScore": 36,
+          "confidenceScore": 75,
+          "reasoning": "Gold +1.74% indicating defensive hedge demand; complements risk-on positioning for balance."
         },
         {
           "action": "BUY",
-          "symbol": "VWO",
+          "symbol": "USO",
           "qty_pct": 3,
-          "opportunityScore": 78,
-          "riskScore": 42,
-          "confidenceScore": 71,
-          "reasoning": "Emerging markets momentum (+1.48%) tracking alongside dollar strength reversal; lower conviction due to geopolitical headwinds."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "QQQ",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 45,
-          "confidenceScore": 68,
-          "reasoning": "Good momentum but already capturing via XLK and MSTR positions; avoid overlap."
+          "opportunityScore": 79,
+          "riskScore": 41,
+          "confidenceScore": 72,
+          "reasoning": "Oil +2.44% showing commodity strength but energy sector lagging; tactical allocation only."
         }
       ],
-      "assessment": "Momentum favors crypto proxies and tech; ECB/SNB easing backdrop supports gold; position defensively given mixed EU data and BoE uncertainty Thursday.",
+      "assessment": "Risk-on momentum phase with technology, emerging markets, and crypto proxies leading; insufficient data reliability (Yahoo error) requires conservative position sizing across 5 positions deploying 22% of capital.",
       "strategy": "momentum",
       "strategy_name": "AI Momentum",
-      "timestamp": "2026-07-21T14:54:20.554424+00:00",
+      "timestamp": "2026-07-21T16:02:02.667019+00:00",
       "prices_used": {
-        "SPY": 746.88,
-        "QQQ": 706.85,
-        "XLK": 179.64,
-        "XLF": 56.08,
-        "XLE": 58.13,
-        "XLV": 159.52,
-        "XLI": 178.99,
-        "GLD": 373.31,
-        "IWM": 294.76,
-        "VWO": 58.79,
-        "BITO": 9.07,
-        "MSTR": 103.49
+        "XLK": 180.1,
+        "XLF": 56.16,
+        "XLE": 58.31,
+        "XLV": 159.27,
+        "GLD": 374.01,
+        "TLT": 83.69,
+        "IWM": 295.41,
+        "VWO": 58.88,
+        "EEM": 65.31,
+        "DBA": 28.09,
+        "USO": 128.57,
+        "GBTC": 51.67,
+        "MSTR": 102.51
       }
     },
     "uk": {
@@ -300,193 +181,163 @@
           "opportunityScore": 72,
           "riskScore": 35,
           "confidenceScore": 68,
-          "reasoning": "Strong pharmaceutical name with positive momentum, but opportunity score falls short of 80 threshold; await better entry point or clarity on pipeline catalysts."
+          "reasoning": "Strong pharma performer with positive momentum, but insufficient opportunity score (72<80) and confidence (68<75) to meet buy criteria; data gaps due to Yahoo Finance outage limit conviction."
         },
         {
           "action": "HOLD",
-          "symbol": "SHEL",
-          "qty_pct": 0,
-          "opportunityScore": 65,
-          "riskScore": 45,
-          "confidenceScore": 62,
-          "reasoning": "Energy sector faces headwinds from mixed economic signals; modest gains insufficient to justify entry given elevated oil price volatility and energy transition risks."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "EWG",
+          "symbol": "GSK",
           "qty_pct": 0,
           "opportunityScore": 68,
-          "riskScore": 48,
+          "riskScore": 38,
           "confidenceScore": 65,
-          "reasoning": "German manufacturing PMI improvement offset by services collapse to 9-month low; mixed signals and economic uncertainty prevent confident positioning."
+          "reasoning": "Modest gains amid sector recovery, but fails multiple criteria thresholds; incomplete market data prevents full fundamental assessment."
         },
         {
           "action": "HOLD",
-          "symbol": "EFA",
+          "symbol": "SAP",
           "qty_pct": 0,
-          "opportunityScore": 71,
-          "riskScore": 42,
-          "confidenceScore": 70,
-          "reasoning": "Broad European exposure shows resilience, but SNB rate cut and dollar strength create near-term headwinds; insufficient catalyst for deployment of full cash."
+          "opportunityScore": 55,
+          "riskScore": 52,
+          "confidenceScore": 58,
+          "reasoning": "Negative price action and elevated risk profile do not meet entry criteria; insufficient data to identify value opportunity."
         },
         {
           "action": "HOLD",
           "symbol": "EWU",
           "qty_pct": 0,
-          "opportunityScore": 69,
-          "riskScore": 44,
-          "confidenceScore": 66,
-          "reasoning": "UK equity ETF awaiting BoE decision Thursday; premature to commit capital before central bank guidance clarifies inflation and rate trajectory."
+          "opportunityScore": 60,
+          "riskScore": 42,
+          "confidenceScore": 62,
+          "reasoning": "Broad market ETF showing resilience but lacks conviction threshold; Yahoo Finance outage prevents detailed sector analysis."
         }
       ],
-      "assessment": "Mixed European economic signals, SNB easing, and upcoming BoE decision create uncertainty; no positions meet buy criteria (Opp>80, Conf>75, Risk<40)\u2014maintain cash for higher-conviction opportunities.",
+      "assessment": "Market data integrity compromised by Yahoo Finance outage; no trades warranted until full fundamental and technical data restore confidence above 75% and opportunity above 80% thresholds.",
       "strategy": "uk",
       "strategy_name": "AI UK & Europe",
-      "timestamp": "2026-07-21T14:54:27.325331+00:00",
+      "timestamp": "2026-07-21T16:02:07.328014+00:00",
       "prices_used": {
-        "AZN": 166.48,
-        "SHEL": 86.95,
-        "EWU": 46.62,
-        "EWG": 41.24,
-        "EFA": 103.77
+        "AZN": 166.97,
+        "GSK": 50.65,
+        "SAP": 155.5,
+        "EWU": 46.71
       }
     },
     "crypto": {
       "decisions": [
         {
-          "action": "BUY",
-          "symbol": "COIN",
-          "qty_pct": 5,
-          "opportunityScore": 85,
-          "riskScore": 38,
-          "confidenceScore": 78,
-          "reasoning": "Strongest momentum at +11.56% with positive crypto sentiment; Coinbase benefits from institutional adoption during bull runs and provides diversified exchange exposure."
-        },
-        {
-          "action": "BUY",
-          "symbol": "MARA",
-          "qty_pct": 4,
-          "opportunityScore": 82,
-          "riskScore": 42,
-          "confidenceScore": 76,
-          "reasoning": "Bitcoin miner showing +6.60% momentum with lower volatility profile than direct Bitcoin proxies; leverages mining economics during potential BTC strength."
-        },
-        {
-          "action": "BUY",
-          "symbol": "ETHE",
-          "qty_pct": 3,
-          "opportunityScore": 78,
-          "riskScore": 39,
-          "confidenceScore": 72,
-          "reasoning": "Ethereum trust modest +1.96% gain with stable institutional structure; diversifies away from Bitcoin-only exposure at lower momentum threshold."
-        },
-        {
           "action": "HOLD",
-          "symbol": "BITF",
+          "symbol": "GBTC",
           "qty_pct": 0,
-          "opportunityScore": 71,
-          "riskScore": 52,
-          "confidenceScore": 68,
-          "reasoning": "Excessive +9.87% single-day spike suggests overheating; risk score exceeds threshold despite high opportunity."
+          "opportunityScore": 65,
+          "riskScore": 35,
+          "confidenceScore": 70,
+          "reasoning": "Modest BTC proxy momentum (+2.42%) but insufficient opportunity threshold; wait for clearer trend confirmation before entry."
         },
         {
           "action": "HOLD",
-          "symbol": "CIFR",
+          "symbol": "ETHE",
+          "qty_pct": 0,
+          "opportunityScore": 62,
+          "riskScore": 38,
+          "confidenceScore": 68,
+          "reasoning": "ETH trust showing weaker momentum (+1.76%) relative to BTC proxies; lower confidence warrants sideline position."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "MARA",
           "qty_pct": 0,
           "opportunityScore": 72,
-          "riskScore": 55,
-          "confidenceScore": 65,
-          "reasoning": "Double-digit momentum (+10.61%) indicates speculative froth; unknown fundamentals and high volatility breach risk tolerance."
+          "riskScore": 45,
+          "confidenceScore": 70,
+          "reasoning": "Strong miner momentum (+7.11%) but elevated volatility risk and technical data gaps prevent confident entry above 75% threshold."
         },
         {
           "action": "HOLD",
-          "symbol": "BITO",
+          "symbol": "RIOT",
+          "qty_pct": 0,
+          "opportunityScore": 73,
+          "riskScore": 46,
+          "confidenceScore": 69,
+          "reasoning": "Robust miner gains (+7.09%) attractive but risk score marginally above comfort zone without fundamental confirmation."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "HUT",
           "qty_pct": 0,
           "opportunityScore": 74,
-          "riskScore": 41,
+          "riskScore": 44,
           "confidenceScore": 71,
-          "reasoning": "Bitcoin futures ETF meets technical thresholds but redundant with COIN/ETHE allocation; preserve capital for higher-conviction trades."
+          "reasoning": "Leading miner momentum (+6.97%) and lower risk profile compelling, but Yahoo Finance outage prevents confirming volume/trend data needed for 80+ opportunity."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "COIN",
+          "qty_pct": 0,
+          "opportunityScore": 78,
+          "riskScore": 42,
+          "confidenceScore": 72,
+          "reasoning": "Coinbase's strong +12.66% gain suggests institutional interest, but infrastructure outage blocks verification of broader market sentiment required for 80+ confidence."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "MSTR",
+          "qty_pct": 0,
+          "opportunityScore": 68,
+          "riskScore": 41,
+          "confidenceScore": 70,
+          "reasoning": "Moderate +4.79% correlation with BTC appreciated but lacks catalyst urgency to exceed opportunity threshold without data confirmation."
         }
       ],
-      "assessment": "Crypto market showing broad bullish momentum (+2-11%) with SNB rate cut supporting risk appetite; SNB/BOE decisions this week create macro headwinds\u2014recommend defensive positioning with 12% deployment across institutional-grade proxies (COIN, MARA, ETHE) while avoiding speculative microcaps until momentum stabilizes.",
+      "assessment": "Sector exhibits broad bullish momentum across miners (+7%), proxies (+2%), and trading platforms (+12%), but Yahoo Finance infrastructure failure prevents high-conviction entry decisions; maintaining cash reserves until data integrity restored and opportunity scores exceed 80-point threshold with >75% confidence.",
       "strategy": "crypto",
       "strategy_name": "AI Crypto",
-      "timestamp": "2026-07-21T14:54:34.927330+00:00",
+      "timestamp": "2026-07-21T16:02:14.416449+00:00",
       "prices_used": {
-        "ETHE": 15.62,
-        "BITO": 9.07,
-        "MARA": 12.44,
-        "HUT": 106.8,
+        "GBTC": 51.67,
+        "ETHE": 15.59,
+        "MARA": 12.5,
+        "RIOT": 21.31,
+        "HUT": 107.96,
         "BITF": 4.34,
-        "CIFR": 22.72,
-        "COIN": 178.97,
-        "MSTR": 103.49,
-        "WGMI": 55.83,
-        "IBIT": 37.89
+        "CIFR": 23.78,
+        "COIN": 180.74,
+        "MSTR": 102.51,
+        "CLSK": 15.59,
+        "BTBT": 1.6,
+        "FBTC": 58.01
       }
     },
     "smallcap": {
-      "decisions": [
-        {
-          "action": "BUY",
-          "symbol": "AEHR",
-          "qty_pct": 5,
-          "opportunityScore": 82,
-          "riskScore": 38,
-          "confidenceScore": 76,
-          "reasoning": "Exceptional +23.38% momentum with unusual volume spike suggests strong semiconductor demand catalyst; meets all thresholds with low risk profile."
-        },
-        {
-          "action": "BUY",
-          "symbol": "ACMR",
-          "qty_pct": 5,
-          "opportunityScore": 81,
-          "riskScore": 39,
-          "confidenceScore": 74,
-          "reasoning": "Strong +9.72% move with elevated volume indicates institutional interest; healthcare sector showing resilience despite macro headwinds."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "MARA",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 52,
-          "confidenceScore": 62,
-          "reasoning": "Good momentum at +6.60% but crypto correlation risk elevated; lacks clear catalyst and confidence threshold too low."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "CIFR",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 48,
-          "confidenceScore": 68,
-          "reasoning": "Strong +10.61% volume but insufficient news context to confirm catalyst; confidence score below 75 threshold."
-        }
-      ],
-      "assessment": "Selective entry on AEHR and ACMR capitalizes on unusual momentum spikes in quality small-caps; macro headwinds (SNB cuts, weak services PMI) warrant caution on broader positioning, keeping 90% dry powder for better risk-reward setups.",
+      "decisions": [],
+      "assessment": "Insufficient data to execute strategy \u2014 Yahoo Finance error prevents proper scoring of opportunity, confidence, and risk metrics; all candidates fail the mandatory thresholds (Opportunity>80, Confidence>75, Risk<40) without reliable fundamentals, technicals, and catalyst confirmation.",
       "strategy": "smallcap",
       "strategy_name": "AI Small Cap",
-      "timestamp": "2026-07-21T14:54:39.762978+00:00",
+      "timestamp": "2026-07-21T16:02:16.633415+00:00",
       "prices_used": {
-        "MARA": 12.44,
-        "CIFR": 22.72,
-        "APPS": 8.89,
+        "MARA": 12.5,
+        "RIOT": 21.31,
+        "CIFR": 23.78,
+        "CLSK": 15.59,
+        "BTBT": 1.6,
+        "PUBM": 12.8,
+        "DV": 11.34,
         "CREX": 3.38,
-        "ATAI": 7.19,
-        "NVAX": 8.01,
-        "SNDL": 1.27,
-        "NIO": 4.85,
-        "XPEV": 13.12,
-        "LCID": 6.95,
-        "CGC": 0.949,
-        "ACB": 2.66,
-        "ACMR": 90.54,
-        "AEHR": 95.45,
-        "VERA": 36.98
+        "SOUN": 6.49,
+        "ATAI": 7.22,
+        "NVAX": 8.04,
+        "NIO": 4.83,
+        "XPEV": 13.19,
+        "RIVN": 17.68,
+        "LCID": 7.01,
+        "TLRY": 4.32,
+        "CRON": 2.81,
+        "ACMR": 91.65,
+        "AEHR": 96.11,
+        "RCKT": 3.41,
+        "VERA": 36.89
       }
     }
   },
   "marketStatus": "open",
-  "runAt": "2026-07-21T14:54:40.269332+00:00"
+  "runAt": "2026-07-21T16:02:17.139535+00:00"
 }
