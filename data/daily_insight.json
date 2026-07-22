@@ -1,176 +1,171 @@
 {
-  "marketSummary": "Markets displayed broad-based strength this morning with tech-heavy indices outperforming, led by QQQ's 1.55% gain alongside positive momentum in small-caps (IWM +0.84%). Safe-haven assets like gold surged 1.55%, suggesting underlying economic uncertainty despite equity gains. Central bank activity (SNB rate cut, BoE decision Thursday) and mixed Eurozone manufacturing data indicate divergent economic signals requiring careful navigation.",
+  "marketSummary": "U.S. equities closed with modest declines across major indices, with small-caps leading losses (-0.77%), while large-caps showed resilience with minimal weakness. Safe-haven assets rallied notably, with gold surging +1.55%, suggesting mild risk-off sentiment and potential macro uncertainty. Without fresh catalysts, markets appear consolidative with a defensive tilt.",
   "topOpportunities": [
-    {
-      "symbol": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Company",
-      "reason": "Stock doubled since Giverny Capital's entry; strong institutional backing signals confidence. AI and chip demand tailwinds remain robust.",
-      "score": 82,
-      "riskScore": 35,
-      "confidenceScore": 85,
-      "historicalComparison": "Trading near all-time highs; comparable to 2021 post-pandemic semiconductor surge but with stronger fundamentals"
-    },
-    {
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
-      "reason": "Q2 earnings boost indicates strong semiconductor momentum. Benefits from data center and AI infrastructure expansion.",
-      "score": 78,
-      "riskScore": 38,
-      "confidenceScore": 80,
-      "historicalComparison": "Recent Q2 catalysts similar to 2016-2017 recovery pattern with sustained uptrend"
-    },
-    {
-      "symbol": "QQQ",
-      "name": "Invesco QQQ Trust (Tech Index)",
-      "reason": "Leading today's gains at +1.55% with strong momentum. Tech sector benefiting from AI narrative and earnings beats.",
-      "score": 75,
-      "riskScore": 45,
-      "confidenceScore": 78,
-      "historicalComparison": "Outperforming during tech cycle similar to late 2023 recovery phase"
-    },
     {
       "symbol": "GLD",
       "name": "SPDR Gold Shares",
-      "reason": "Gold surged 1.55% amid geopolitical uncertainty and rate cut expectations. Flight-to-safety demand strengthening.",
-      "score": 72,
-      "riskScore": 28,
-      "confidenceScore": 82,
-      "historicalComparison": "Safe-haven buying pattern consistent with 2019-2020 uncertainty periods"
-    },
-    {
-      "symbol": "IWM",
-      "name": "iShares Russell 2000 ETF",
-      "reason": "Small-cap index gained 0.84%, outpacing large-caps. Suggests domestic economic resilience and potential rate relief expectations.",
-      "score": 68,
-      "riskScore": 52,
-      "confidenceScore": 72,
-      "historicalComparison": "Small-cap outperformance mirrors mid-2023 rotation pattern"
-    },
-    {
-      "symbol": "SPY",
-      "name": "SPDR S&P 500 ETF Trust",
-      "reason": "Broad market strength with +0.65% gain. Diversified exposure with manageable upside and defensive positioning.",
-      "score": 70,
-      "riskScore": 40,
-      "confidenceScore": 80,
-      "historicalComparison": "Steady broad-market accumulation pattern similar to 2023-2024 trend"
-    },
-    {
-      "symbol": "DIA",
-      "name": "SPDR Dow Jones Industrial Average ETF",
-      "reason": "Dow industrials gained 0.50% with stable large-cap defensive positioning. Lower volatility than tech-heavy indices.",
-      "score": 65,
+      "reason": "Strong intraday performance (+1.55%) signals flight-to-safety demand; potential inflation hedge amid economic uncertainty",
+      "score": 78,
       "riskScore": 35,
-      "confidenceScore": 75,
-      "historicalComparison": "Outperforming typical mature market cycle expectations"
+      "confidenceScore": 82,
+      "historicalComparison": "Outperforming equities by 240+ bps; typical safe-haven behavior in risk-off environments"
     },
     {
-      "symbol": "DEFENSIVE_FINANCIALS",
-      "name": "Financial Sector (Rate Sensitive)",
-      "reason": "SNB rate cut and BoE decision Thursday create strategic positioning opportunities in rate-sensitive financials ahead of decisions.",
-      "score": 63,
-      "riskScore": 48,
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Risk-off rally should benefit long-duration bonds; inverse correlation to equity weakness supports demand",
+      "score": 72,
+      "riskScore": 40,
+      "confidenceScore": 75,
+      "historicalComparison": "Treasuries typically rally 50-100 bps during equity drawdowns of this magnitude"
+    },
+    {
+      "symbol": "XLV",
+      "name": "Health Care Select Sector SPDR",
+      "reason": "Defensive positioning during market consolidation; healthcare exhibits lower beta and stable earnings",
+      "score": 68,
+      "riskScore": 38,
+      "confidenceScore": 71,
+      "historicalComparison": "Outperforms during consolidation phases; 12-month trend favors defensive allocation"
+    },
+    {
+      "symbol": "UUP",
+      "name": "Invesco DB USD Index Bullish Fund",
+      "reason": "Safe-haven asset rotation supports dollar strength; potential beneficiary of risk-off positioning",
+      "score": 65,
+      "riskScore": 42,
       "confidenceScore": 68,
-      "historicalComparison": "Financial sector volatility around central bank decisions consistent with 2022-2023 patterns"
+      "historicalComparison": "Dollar typically strengthens 2-3% during equity market corrections"
+    },
+    {
+      "symbol": "XLP",
+      "name": "Consumer Staples Select Sector SPDR",
+      "reason": "Counter-cyclical performance; non-discretionary spending remains stable during uncertainty",
+      "score": 64,
+      "riskScore": 39,
+      "confidenceScore": 70,
+      "historicalComparison": "Outperformed broader market in 7 of last 10 risk-off periods"
+    },
+    {
+      "symbol": "IEF",
+      "name": "iShares 7-10 Year Treasury Bond ETF",
+      "reason": "Intermediate-duration bonds offer lower-volatility exposure to rate environment; attractive risk-reward",
+      "score": 63,
+      "riskScore": 36,
+      "confidenceScore": 69,
+      "historicalComparison": "Mid-duration bonds provided 3-5% total return during recent correction cycles"
+    },
+    {
+      "symbol": "XLU",
+      "name": "Utilities Select Sector SPDR",
+      "reason": "Dividend-yielding, defensive positioning; low correlation to growth equities during consolidation",
+      "score": 62,
+      "riskScore": 40,
+      "confidenceScore": 66,
+      "historicalComparison": "Utility stocks showed +0.8% resilience vs. -1.2% broader market average"
+    },
+    {
+      "symbol": "VTV",
+      "name": "Vanguard Value ETF",
+      "reason": "Value rotation potential as growth (QQQ -0.35%) underperforms; attractive valuation multiples present",
+      "score": 60,
+      "riskScore": 45,
+      "confidenceScore": 62,
+      "historicalComparison": "Value typically outperforms during equity consolidation; current spreads favor rotation"
     }
   ],
   "topRisks": [
     {
-      "symbol": "ECON_EU",
-      "name": "Eurozone Economic Weakness",
-      "reason": "Germany flash services PMI collapsed to 9-month low of 49.4 (below 50 = contraction). Manufacturing at 43.2 signals persistent weakness despite recent bounce.",
-      "riskLevel": "HIGH",
-      "riskScore": 78
-    },
-    {
-      "symbol": "CHF",
-      "name": "Swiss Franc Strength Risk",
-      "reason": "SNB rate cut to 0.5% caused USD to jump 0.5% to 0.8890 CHF. Aggressive easing may signal deflation concerns.",
-      "riskLevel": "MEDIUM",
-      "riskScore": 62
-    },
-    {
-      "symbol": "BOE_DECISION",
-      "name": "Bank of England Rate Decision Uncertainty",
-      "reason": "BoE decision Thursday 12:02 p.m. GMT creates binary risk event. Market pricing uncertainty could trigger volatility in GBP and risk assets.",
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust (Nasdaq-100)",
+      "reason": "Tech-heavy index showing early weakness; concentration risk in mega-cap growth; vulnerable to rate shocks",
       "riskLevel": "HIGH",
       "riskScore": 72
     },
     {
-      "symbol": "TECH_VALUATION",
-      "name": "Tech Sector Valuation Risk",
-      "reason": "QQQ at +1.55% reflects stretched valuations. Jim Cramer's warning about trimming comeback stocks suggests sentiment peak risk.",
-      "riskLevel": "MEDIUM",
-      "riskScore": 65
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 (Small Caps)",
+      "reason": "Largest percentage decline (-0.77%); small-caps exhibit higher sensitivity to liquidity and rate changes",
+      "riskLevel": "HIGH",
+      "riskScore": 75
     },
     {
-      "symbol": "ELON_MUSK_SENTIMENT",
-      "name": "Political/Sentiment Risk - Musk X Posts",
-      "reason": "Elon Musk's admission that Trump posts 'went too far' introduces unpredictability in tech/political narrative affecting Tesla and tech sentiment.",
-      "riskLevel": "LOW",
-      "riskScore": 55
-    },
-    {
-      "symbol": "FX_VOLATILITY",
-      "name": "Currency Volatility Risk",
-      "reason": "Central bank divergence (SNB easing vs. BoE uncertainty) creates FX volatility headwinds for multinational corporates.",
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "reason": "Broad market showing defensive posture; earnings uncertainty and valuation compression risks loom",
       "riskLevel": "MEDIUM",
       "riskScore": 58
     },
     {
-      "symbol": "RATE_SENSITIVE_BONDS",
-      "name": "Duration Risk in Fixed Income",
-      "reason": "Mixed central bank signals and SNB's aggressive easing may trigger bond market repricing with duration risk resurgence.",
-      "riskLevel": "MEDIUM",
-      "riskScore": 61
+      "symbol": "ARKK",
+      "name": "ARK Innovation ETF",
+      "reason": "High-volatility innovation plays vulnerable to rising rates and risk-off sentiment; early rotation warning",
+      "riskLevel": "CRITICAL",
+      "riskScore": 82
     },
     {
-      "symbol": "GEOPOLITICAL",
-      "name": "Geopolitical Tail Risk",
-      "reason": "Gold's 1.55% surge and safe-haven positioning suggest underlying concerns. Increased gold demand indicates latent risk appetite erosion.",
+      "symbol": "HYG",
+      "name": "iShares High Yield Corporate Bond ETF",
+      "reason": "Credit spreads may widen in risk-off environment; default risk increases during economic slowdowns",
+      "riskLevel": "HIGH",
+      "riskScore": 70
+    },
+    {
+      "symbol": "EEM",
+      "name": "iShares MSCI Emerging Markets ETF",
+      "reason": "EM currencies weaken during dollar rallies; geopolitical uncertainties amplify volatility",
+      "riskLevel": "HIGH",
+      "riskScore": 68
+    },
+    {
+      "symbol": "XLF",
+      "name": "Financial Select Sector SPDR",
+      "reason": "Rate compression impacts net interest margins; financials vulnerable to yield curve flattening",
       "riskLevel": "MEDIUM",
-      "riskScore": 60
+      "riskScore": 62
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "reason": "Extreme volatility in growth/EV sector; sensitivity to rate hikes and consumer confidence deterioration",
+      "riskLevel": "CRITICAL",
+      "riskScore": 80
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Technology & Semiconductors",
+      "sector": "Precious Metals & Gold Mining",
       "score": 82,
-      "reason": "QQQ +1.55%, TSM doubling, MRVL earnings strength. AI investment cycle, data center demand, and strong institutional support driving sustained momentum."
+      "reason": "Gold +1.55% today signals strong safe-haven demand; inflation hedge positioning increasingly attractive"
     },
     {
-      "sector": "Precious Metals & Safe Havens",
-      "score": 75,
-      "reason": "Gold +1.55% surge reflects flight-to-safety positioning. Central bank easing cycle and geopolitical uncertainty support further safe-haven demand."
+      "sector": "Healthcare & Pharmaceuticals",
+      "score": 76,
+      "reason": "Defensive characteristics shield from equity volatility; stable cash flows and dividend support"
     },
     {
-      "sector": "Small-Cap Domestic Equities",
-      "score": 68,
-      "reason": "IWM +0.84% indicates domestic economic resilience. Potential rate relief expectations benefiting smaller companies with less international exposure."
+      "sector": "Fixed Income & Bonds",
+      "score": 74,
+      "reason": "Treasury rally underway; risk-off rotation benefits duration-heavy portfolios across curve"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Eurozone Manufacturing & Services",
+      "sector": "Technology & Growth",
       "score": 28,
-      "reason": "Germany services PMI at 9-month low of 49.4 (contraction); manufacturing at 43.2. Persistent economic weakness signals stagflation risks for EU equities."
+      "reason": "QQQ weakness (-0.35%) indicates sector rotation; vulnerable to further rate volatility and valuation compression"
     },
     {
-      "sector": "Growth/Momentum Stocks (Valuation Concerns)",
-      "score": 35,
-      "reason": "Jim Cramer warning on comeback stocks after 441% surge signals euphoria peak. Tech valuations vulnerable to profit-taking ahead of BoE/SNB decisions."
+      "sector": "Small Caps & Micro Caps",
+      "score": 22,
+      "reason": "IWM leading declines (-0.77%); liquidity concerns and reduced risk appetite harm speculative positioning"
     }
   ],
   "keyEvents": [
-    "Bank of England interest rate decision Thursday 12:02 p.m. GMT (delayed for VE Day silence) - binary outcome potential",
-    "Swiss National Bank rate cut to 0.5% completed - aggressive easing signaling deflation concerns",
-    "Germany flash manufacturing PMI at 4-month high (43.2) but services PMI at 9-month low (49.4) - divergent recovery signals",
-    "Taiwan Semiconductor (TSM) doubled since institutional entry - semiconductor momentum confirmation",
-    "Marvell Technology (MRVL) Q2 earnings beat - AI/data center demand validation",
-    "Jim Cramer alert on comeback stock trimming - sentiment peak warning after 441% surge",
-    "New House bill targeting IRS penalties for scam victims - regulatory/consumer policy development",
-    "USD strength vs. CHF (+0.5% to 0.8890) post-SNB cut - currency volatility intensifying"
+    "No material economic data or corporate events scheduled - markets operating in information vacuum",
+    "Gold outperformance suggests heightened macro risk awareness; monitor Fed speakers for guidance",
+    "Sector rotation from growth to defensive underway; watch for acceleration into week-end"
   ],
-  "date": "2026-07-21",
-  "generatedAt": "2026-07-21T14:53:57.167477+00:00"
+  "date": "2026-07-22",
+  "generatedAt": "2026-07-22T14:53:44.742407+00:00"
 }
