@@ -1,171 +1,171 @@
 {
-  "marketSummary": "U.S. equities displayed mixed sentiment this morning with the broad S&P 500 essentially flat (+0.01%), while precious metals showed modest strength with Gold gaining 0.29%. Small-cap weakness (-0.41% on IWM) suggests investor caution toward riskier assets despite stable large-cap performance. Without fresh catalysts, markets appear to be consolidating ahead of potential economic data releases.",
+  "marketSummary": "Mixed market signals emerge with blue-chip and small-cap indices showing modest gains (+0.32% and +0.25% respectively), while tech-heavy QQQ declines -0.88%, suggesting sector rotation away from growth. Bond strength (TLT +0.56%) indicates defensive positioning and potential rate expectations stabilization. Overall market breadth remains cautious with no significant catalysts driving conviction.",
   "topOpportunities": [
     {
-      "symbol": "GLD",
-      "name": "SPDR Gold Shares",
-      "reason": "Safe-haven demand remains steady with positive momentum; geopolitical uncertainty typically supports precious metals",
+      "symbol": "DIA",
+      "name": "Dow Jones Industrial Average",
+      "reason": "Outperforming tech with +0.32% gain; classic value rotation supported by bond yield stability",
       "score": 72,
       "riskScore": 35,
       "confidenceScore": 68,
-      "historicalComparison": "Gold holding near elevated levels, maintaining safe-haven premium typical of uncertain macro environments"
-    },
-    {
-      "symbol": "SPY",
-      "name": "S&P 500 ETF",
-      "reason": "Large-cap stability provides defensive positioning; mega-cap tech continues to support market floor",
-      "score": 65,
-      "riskScore": 40,
-      "confidenceScore": 72,
-      "historicalComparison": "Flat performance masks underlying sector rotation; valuations remain stretched but supported by earnings"
+      "historicalComparison": "Performing above 200-day MA; typical strength when bonds stabilize"
     },
     {
       "symbol": "TLT",
-      "name": "iShares 20+ Year Treasury Bond",
-      "reason": "Bond market likely pricing in rate stability; duration positioning attractive if inflation concerns ease",
-      "score": 58,
-      "riskScore": 45,
-      "confidenceScore": 55,
-      "historicalComparison": "Long-duration bonds underperformed recently; potential mean reversion if yields decline"
+      "name": "20+ Year Treasury Bond ETF",
+      "reason": "Bond strength (+0.56%) signals flight-to-safety; yields may be finding support level",
+      "score": 70,
+      "riskScore": 40,
+      "confidenceScore": 75,
+      "historicalComparison": "Safe haven demand consistent with recent volatility patterns"
     },
     {
-      "symbol": "XLE",
-      "name": "Energy Select Sector SPDR",
-      "reason": "Energy sector valuation remains attractive relative to market; geopolitical premium supports commodities",
-      "score": 61,
-      "riskScore": 60,
-      "confidenceScore": 58,
-      "historicalComparison": "Energy historically cyclical; current positioning reflects balanced supply-demand expectations"
-    },
-    {
-      "symbol": "UUP",
-      "name": "Invesco DB USD Index",
-      "reason": "Dollar strength reflects risk-off sentiment and relative safety positioning",
-      "score": 59,
-      "riskScore": 50,
+      "symbol": "IWM",
+      "name": "Russell 2000 Small-Cap ETF",
+      "reason": "Small-cap resilience (+0.25%) despite macro headwinds; potential value play on domestic cyclicals",
+      "score": 65,
+      "riskScore": 55,
       "confidenceScore": 62,
-      "historicalComparison": "USD index near elevated levels; continued strength if Fed maintains restrictive stance"
+      "historicalComparison": "Holding support; outperformance vs QQQ suggests selective risk appetite"
     },
     {
       "symbol": "XLV",
-      "name": "Health Care Select Sector SPDR",
-      "reason": "Healthcare provides defensive characteristics; pharmaceutical sector benefits from aging demographics",
-      "score": 67,
-      "riskScore": 38,
+      "name": "Healthcare Sector ETF",
+      "reason": "Defensive characteristics align with current market risk-off tone; dividend yield attractive",
+      "score": 68,
+      "riskScore": 42,
       "confidenceScore": 70,
-      "historicalComparison": "Healthcare sector maintains premium valuation; consistent earnings growth supports defensive positioning"
+      "historicalComparison": "Consistent outperformance during uncertainty periods"
     },
     {
       "symbol": "XLU",
-      "name": "Utilities Select Sector SPDR",
-      "reason": "Utility dividend yields attractive in higher rate environment; stable regulated cash flows",
-      "score": 64,
-      "riskScore": 35,
-      "confidenceScore": 68,
-      "historicalComparison": "Utilities historically provide 3-4% yields; performing well during economic uncertainty"
+      "name": "Utilities Sector ETF",
+      "reason": "Bond yield strength supports utility valuations; stable cash flows resilient in slowdown",
+      "score": 66,
+      "riskScore": 38,
+      "confidenceScore": 73,
+      "historicalComparison": "Historically strongest during rate stabilization phases"
     },
     {
-      "symbol": "BND",
-      "name": "Vanguard Total Bond Market ETF",
-      "reason": "Broad bond exposure provides portfolio stability; yield curve normalization supports intermediate bonds",
-      "score": 56,
-      "riskScore": 42,
-      "confidenceScore": 60,
-      "historicalComparison": "Bond market consolidating; potential inflection point if growth concerns increase"
+      "symbol": "GLD",
+      "name": "Gold ETF",
+      "reason": "Defensive positioning and bond strength supportive; inflation hedge amid uncertainty",
+      "score": 64,
+      "riskScore": 45,
+      "confidenceScore": 68,
+      "historicalComparison": "Typical strength when equity volatility rises and real yields stabilize"
+    },
+    {
+      "symbol": "XLE",
+      "name": "Energy Sector ETF",
+      "reason": "Value rotation and potential geopolitical premium; beneficiary of rate stabilization narrative",
+      "score": 61,
+      "riskScore": 62,
+      "confidenceScore": 58,
+      "historicalComparison": "Cyclical play on macro stabilization; contrarian to current tech weakness"
+    },
+    {
+      "symbol": "XLF",
+      "name": "Financial Sector ETF",
+      "reason": "Bond yield stabilization favorable for banking margins; value trade gaining traction",
+      "score": 59,
+      "riskScore": 58,
+      "confidenceScore": 55,
+      "historicalComparison": "Rate environment becoming more supportive after recent volatility"
     }
   ],
   "topRisks": [
     {
-      "symbol": "IWM",
-      "name": "iShares Russell 2000 Small-Cap",
-      "reason": "Small-cap weakness signals risk-off sentiment and potential economic slowdown concerns; liquidity concerns in downturn",
+      "symbol": "QQQ",
+      "name": "Nasdaq-100 Index",
+      "reason": "Tech selloff (-0.88%) indicates growth concerns; AI enthusiasm may be cooling amid rate pressures",
       "riskLevel": "HIGH",
       "riskScore": 72
     },
     {
-      "symbol": "SPY",
-      "name": "S&P 500 ETF",
-      "reason": "Valuation stretched for mega-cap constituents; concentration risk in AI-driven tech stocks",
-      "riskLevel": "MEDIUM",
-      "riskScore": 65
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "reason": "Tech weakness concentrated in mega-caps; valuation vulnerability if rate volatility resumes",
+      "riskLevel": "HIGH",
+      "riskScore": 75
     },
     {
-      "symbol": "QQQ",
-      "name": "Invesco QQQ Trust (Nasdaq-100)",
-      "reason": "Extreme concentration in mega-cap tech; elevated valuations vulnerable to interest rate surprises",
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "reason": "Tech/EV sector exposed to QQQ rotation; macro-sensitive to rate environment shifts",
       "riskLevel": "HIGH",
       "riskScore": 78
     },
     {
-      "symbol": "HYG",
-      "name": "iShares High Yield Corporate Bond",
-      "reason": "Credit spread compression limits upside; recession would trigger significant repricing",
-      "riskLevel": "HIGH",
-      "riskScore": 70
+      "symbol": "SPY",
+      "name": "S&P 500 Index",
+      "reason": "Sector divergence warning sign; concentration risk in struggling mega-cap tech names",
+      "riskLevel": "MEDIUM",
+      "riskScore": 65
     },
     {
-      "symbol": "EEM",
-      "name": "iShares MSCI Emerging Markets ETF",
-      "reason": "China economic slowdown concerns; currency depreciation risks in emerging markets",
+      "symbol": "ARKK",
+      "name": "ARK Innovation ETF",
+      "reason": "Growth/innovation exposure highest risk in current rotation; rate-sensitive positioning",
+      "riskLevel": "HIGH",
+      "riskScore": 76
+    },
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin/Crypto Complex",
+      "reason": "Risk-off sentiment headwind; correlated to equity volatility and growth concerns",
       "riskLevel": "MEDIUM",
       "riskScore": 68
     },
     {
-      "symbol": "XLF",
-      "name": "Financial Select Sector SPDR",
-      "reason": "Net interest margin compression if rates decline; banking sector earnings pressure",
+      "symbol": "HYG",
+      "name": "High Yield Bond ETF",
+      "reason": "Credit spread widening risk if growth fears accelerate; rate sensitivity on upside",
       "riskLevel": "MEDIUM",
       "riskScore": 62
     },
     {
-      "symbol": "USO",
-      "name": "U.S. Oil ETF",
-      "reason": "Commodity volatility; geopolitical supply risks balanced against demand destruction concerns",
-      "riskLevel": "MEDIUM",
-      "riskScore": 66
-    },
-    {
-      "symbol": "EWG",
-      "name": "iShares Germany ETF",
-      "reason": "European economic stagnation concerns; energy price volatility impacts manufacturing sector",
-      "riskLevel": "MEDIUM",
-      "riskScore": 64
+      "symbol": "SOXL",
+      "name": "Semiconductor 3x Leveraged ETF",
+      "reason": "Extreme leverage on declining tech sector; amplified downside in QQQ weakness",
+      "riskLevel": "CRITICAL",
+      "riskScore": 88
     }
   ],
   "bullishSectors": [
     {
-      "sector": "Healthcare",
+      "sector": "Treasuries/Fixed Income",
+      "score": 78,
+      "reason": "TLT strength (+0.56%) reflects safe-haven demand; potential yield curve stabilization supporting longer duration"
+    },
+    {
+      "sector": "Defensive/Staples",
       "score": 74,
-      "reason": "Defensive characteristics, consistent earnings growth, and demographic tailwinds support healthcare valuations; pharmaceutical innovation pipeline remains strong"
+      "reason": "Value rotation evident in DIA/IWM strength; utilities and healthcare outperforming volatile growth equities"
     },
     {
-      "sector": "Precious Metals & Commodities",
+      "sector": "Financials/Banking",
       "score": 68,
-      "reason": "Safe-haven demand evident in gold strength; geopolitical premium supports metals complex and provides inflation hedge"
-    },
-    {
-      "sector": "Utilities & Consumer Staples",
-      "score": 71,
-      "reason": "Stable dividend yields, defensive positioning during uncertainty, and earnings resilience make these sectors attractive in current environment"
+      "reason": "Bond yield stabilization improving net interest margin outlook; value trade gaining momentum vs growth"
     }
   ],
   "bearishSectors": [
     {
-      "sector": "Small-Cap Equities",
+      "sector": "Technology/Growth",
       "score": 28,
-      "reason": "IWM weakness signals heightened risk aversion; small-caps vulnerable to recession, liquidity constraints, and higher borrowing costs"
+      "reason": "QQQ -0.88% decline; mega-cap exposure vulnerable to rate volatility; AI enthusiasm cooling amid macro headwinds"
     },
     {
-      "sector": "Technology (Mega-Cap Concentration)",
+      "sector": "Cryptocurrencies/Digital Assets",
       "score": 35,
-      "reason": "Extreme valuation multiples on mega-cap constituents create tail risk; regulatory scrutiny and AI bubble concerns pressuring sector"
+      "reason": "Risk-off sentiment headwind; correlation to growth equities; rate environment uncertainty suppressing speculative appetite"
     }
   ],
   "keyEvents": [
-    "No scheduled economic data or corporate events available for today",
-    "Monitor Fed communications and inflation expectations for market direction",
-    "Watch for earnings season progression and guidance revisions"
+    "No scheduled economic data or earnings announcements today",
+    "Monitor for overnight market developments and pre-market reversals in tech sector",
+    "Watch bond yields for signals on Fed rate expectations and recession probability"
   ],
-  "date": "2026-07-24",
-  "generatedAt": "2026-07-24T14:42:37.716610+00:00"
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T15:36:13.762584+00:00"
 }
