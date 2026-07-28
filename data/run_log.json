@@ -1,8 +1,19 @@
 {
-  "lastRun": "2026-07-27T20:02:39.615304+00:00",
+  "lastRun": "2026-07-28T15:10:48.490499+00:00",
   "marketStatus": "open",
-  "symbolsFetched": 58,
+  "symbolsFetched": 60,
   "strategiesRun": 7,
-  "tradesExecuted": 0,
-  "recentLog": []
+  "tradesExecuted": 2,
+  "recentLog": [
+    {
+      "ts": "2026-07-28T15:10:33.849810+00:00",
+      "portfolio": "growth",
+      "msg": "AUTO-CLOSE ASML: Stop-loss triggered (-9.7%)"
+    },
+    {
+      "ts": "2026-07-28T15:10:44.194572+00:00",
+      "portfolio": "uk",
+      "msg": "AUTO-CLOSE ASML: Stop-loss triggered (-9.7%)"
+    }
+  ]
 }
