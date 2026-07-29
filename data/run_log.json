@@ -1,19 +1,29 @@
 {
-  "lastRun": "2026-07-29T15:04:03.088375+00:00",
+  "lastRun": "2026-07-29T16:02:49.969383+00:00",
   "marketStatus": "open",
   "symbolsFetched": 59,
   "strategiesRun": 7,
-  "tradesExecuted": 2,
+  "tradesExecuted": 4,
   "recentLog": [
     {
-      "ts": "2026-07-29T15:03:51.738190+00:00",
-      "portfolio": "value",
-      "msg": "AUTO-CLOSE MS: Stop-loss triggered (-9.1%)"
+      "ts": "2026-07-29T16:02:24.670623+00:00",
+      "portfolio": "growth",
+      "msg": "AUTO-CLOSE CRM: Take-profit triggered (+22.3%)"
     },
     {
-      "ts": "2026-07-29T15:03:58.310430+00:00",
-      "portfolio": "uk",
-      "msg": "AUTO-CLOSE SAP: Take-profit triggered (+20.9%)"
+      "ts": "2026-07-29T16:02:47.523425+00:00",
+      "portfolio": "crypto",
+      "msg": "AUTO-CLOSE MARA: Stop-loss triggered (-11.4%)"
+    },
+    {
+      "ts": "2026-07-29T16:02:47.523432+00:00",
+      "portfolio": "crypto",
+      "msg": "AUTO-CLOSE HUT: Stop-loss triggered (-11.5%)"
+    },
+    {
+      "ts": "2026-07-29T16:02:47.523437+00:00",
+      "portfolio": "crypto",
+      "msg": "AUTO-CLOSE RIOT: Stop-loss triggered (-11.5%)"
     }
   ]
 }
