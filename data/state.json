@@ -1149,7 +1149,7 @@
       ]
     },
     "uk": {
-      "balance": 75710.62000000002,
+      "balance": 79229.80000000002,
       "positions": {
         "GSK": {
           "qty": 78,
@@ -1161,7 +1161,7 @@
             "conf": 76
           },
           "reason": "GlaxoSmithKline posting solid gains (+1.20%) with diversified vaccine and specialty pharma portfolio; defensive dividend yield attractive.",
-          "currentPrice": 53.93
+          "currentPrice": 52.77
         },
         "EFA": {
           "qty": 48,
@@ -1173,7 +1173,7 @@
             "conf": 79
           },
           "reason": "Broad European exposure with +2.32% momentum provides diversified entry to continent-wide rally.",
-          "currentPrice": 103.96
+          "currentPrice": 103.28
         },
         "EWG": {
           "qty": 71,
@@ -1185,19 +1185,7 @@
             "conf": 76
           },
           "reason": "German equity ETF offering diversified exposure to European strength at attractive valuation with modest positive momentum.",
-          "currentPrice": 41.95
-        },
-        "SAP": {
-          "qty": 19,
-          "entryPrice": 153.24,
-          "entryTs": "2026-06-23T17:25:01.275177+00:00",
-          "aiScores": {
-            "opp": 81,
-            "risk": 38,
-            "conf": 76
-          },
-          "reason": "European tech leader showing relative strength (+2.49%) as software/SaaS benefits from digital transformation thesis despite broader tech selloff.",
-          "currentPrice": 179.4
+          "currentPrice": 41.86
         },
         "SHEL": {
           "qty": 37,
@@ -1268,6 +1256,17 @@
           "entryTs": "2026-06-08T13:58:30.017267+00:00",
           "exitTs": "2026-07-28T15:10:44.194567+00:00",
           "reason": "Stop-loss triggered (-9.7%)"
+        },
+        {
+          "symbol": "SAP",
+          "qty": 19,
+          "entryPrice": 153.24,
+          "exitPrice": 185.22,
+          "pnl": 607.62,
+          "pnlPct": 20.87,
+          "entryTs": "2026-06-23T17:25:01.275177+00:00",
+          "exitTs": "2026-07-29T15:03:58.310425+00:00",
+          "reason": "Take-profit triggered (+20.9%)"
         }
       ],
       "history": [
@@ -1410,6 +1409,10 @@
         {
           "date": "2026-07-28",
           "value": 99404.14
+        },
+        {
+          "date": "2026-07-29",
+          "value": 99120.93
         }
       ]
     },
@@ -1936,7 +1939,7 @@
       ]
     },
     "value": {
-      "balance": 29075.529999999984,
+      "balance": 33401.94999999998,
       "positions": {
         "JPM": {
           "qty": 15,
@@ -1948,7 +1951,7 @@
             "conf": 78
           },
           "reason": "Investment-grade bank with strong fundamentals, modest valuation relative to earnings power, and defensive characteristics in uncertain markets.",
-          "currentPrice": 354.59
+          "currentPrice": 350.66
         },
         "BAC": {
           "qty": 91,
@@ -1960,7 +1963,7 @@
             "conf": 76
           },
           "reason": "Undervalued large-cap bank with solid dividend yield, recent momentum, and attractive price-to-book ratio.",
-          "currentPrice": 62.34
+          "currentPrice": 62.07
         },
         "MRK": {
           "qty": 41,
@@ -1972,7 +1975,7 @@
             "conf": 79
           },
           "reason": "Pharma blue-chip with diversified pipeline, low volatility, and attractive valuation despite flat recent performance.",
-          "currentPrice": 131.46
+          "currentPrice": 130.58
         },
         "ABBV": {
           "qty": 22,
@@ -1984,19 +1987,7 @@
             "conf": 80
           },
           "reason": "Dividend aristocrat with stable cash flows, reasonable valuation metrics, and pharmaceutical portfolio diversification.",
-          "currentPrice": 259.05
-        },
-        "MS": {
-          "qty": 21,
-          "entryPrice": 226.74,
-          "entryTs": "2026-06-17T17:30:03.835935+00:00",
-          "aiScores": {
-            "opp": 85,
-            "risk": 35,
-            "conf": 81
-          },
-          "reason": "Morgan Stanley momentum (+2.68%) combined with strong financial sector positioning and quality fundamentals meets all threshold criteria.",
-          "currentPrice": 211.8
+          "currentPrice": 266.38
         },
         "JNJ": {
           "qty": 21,
@@ -2020,7 +2011,7 @@
             "conf": 84
           },
           "reason": "Warren Buffett's conglomerate showing strength with only 0.36% decline; fortress balance sheet and diversified earnings provide downside protection.",
-          "currentPrice": 508.31
+          "currentPrice": 509.29
         },
         "MCD": {
           "qty": 18,
@@ -2032,7 +2023,7 @@
             "conf": 76
           },
           "reason": "Sharp -3.05% pullback likely overdone for defensive consumer staple with pricing power; provides attractive entry point with strong franchise economics and dividend support.",
-          "currentPrice": 274.34
+          "currentPrice": 271.64
         },
         "PFE": {
           "qty": 201,
@@ -2044,7 +2035,7 @@
             "conf": 78
           },
           "reason": "Pharmaceutical leader trading at valuation discount with stable dividend yield and strong fundamentals despite minor intraday weakness.",
-          "currentPrice": 24.85
+          "currentPrice": 25.23
         },
         "XOM": {
           "qty": 21,
@@ -2056,7 +2047,7 @@
             "conf": 76
           },
           "reason": "Energy sector down 2.03% offering value; strong free cash flow generation and dividends provide downside protection amid macro uncertainty.",
-          "currentPrice": 152.41
+          "currentPrice": 158.08
         },
         "GS": {
           "qty": 4,
@@ -2068,7 +2059,7 @@
             "conf": 76
           },
           "reason": "Goldman Sachs down 4.27% intraday presents a value opportunity for a quality financial institution with strong fundamentals; pullback appears overdone relative to underlying earnings power.",
-          "currentPrice": 1043.61
+          "currentPrice": 994.52
         },
         "WMT": {
           "qty": 46,
@@ -2080,7 +2071,7 @@
             "conf": 79
           },
           "reason": "Walmart's -4.56% dip creates value entry for defensive retail leader with strong fundamentals; store closures are industry-wide, not WMT-specific weakness, and the stock remains strategically sound.",
-          "currentPrice": 114
+          "currentPrice": 113.09
         },
         "V": {
           "qty": 14,
@@ -2092,7 +2083,7 @@
             "conf": 76
           },
           "reason": "Visa demonstrates pricing power, secular growth in digital payments, strong balance sheet, and consistent profitability with positive momentum (+2.01%).",
-          "currentPrice": 368.67
+          "currentPrice": 369.9
         },
         "KO": {
           "qty": 61,
@@ -2152,6 +2143,17 @@
           "entryTs": "2026-06-17T17:30:03.835962+00:00",
           "exitTs": "2026-07-01T15:35:11.145026+00:00",
           "reason": "Stop-loss triggered (-9.0%)"
+        },
+        {
+          "symbol": "MS",
+          "qty": 21,
+          "entryPrice": 226.74,
+          "exitPrice": 206.02,
+          "pnl": -435.12,
+          "pnlPct": -9.14,
+          "entryTs": "2026-06-17T17:30:03.835935+00:00",
+          "exitTs": "2026-07-29T15:03:51.738185+00:00",
+          "reason": "Stop-loss triggered (-9.1%)"
         }
       ],
       "history": [
@@ -2274,6 +2276,10 @@
         {
           "date": "2026-07-28",
           "value": 101209.34
+        },
+        {
+          "date": "2026-07-29",
+          "value": 102132.99
         }
       ]
     },
@@ -2592,7 +2598,7 @@
       "confScore": 76,
       "reasoning": "Exceptional +7.14% single-day gain indicates technical breakout; Canadian miner with lower leverage than peers presents asymmetric risk/reward.",
       "perf1d": 0.86,
-      "perf7d": null,
+      "perf7d": -19.68,
       "perf30d": null
     },
     {
@@ -4446,6 +4452,16 @@
   ],
   "aiTradeLog": [
     {
+      "ts": "2026-07-29T15:03:51.738190+00:00",
+      "portfolio": "value",
+      "msg": "AUTO-CLOSE MS: Stop-loss triggered (-9.1%)"
+    },
+    {
+      "ts": "2026-07-29T15:03:58.310430+00:00",
+      "portfolio": "uk",
+      "msg": "AUTO-CLOSE SAP: Take-profit triggered (+20.9%)"
+    },
+    {
       "ts": "2026-07-28T19:59:13.487053+00:00",
       "portfolio": "smallcap",
       "msg": "AUTO-CLOSE CIFR: Stop-loss triggered (-15.9%)"
@@ -5452,5 +5468,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-07-28T21:46:53.329693+00:00"
+  "lastRun": "2026-07-29T15:04:03.081482+00:00"
 }
