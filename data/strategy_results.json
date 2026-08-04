@@ -1,144 +1,407 @@
 {
   "results": {
     "master": {
-      "decisions": [],
-      "assessment": "Market data appears unreliable due to news feed errors (500 errors across major financial sources); withholding all trades until data integrity is confirmed and fundamental news context is restored.",
+      "decisions": [
+        {
+          "action": "BUY",
+          "symbol": "NVDA",
+          "qty_pct": 5,
+          "opportunityScore": 85,
+          "riskScore": 38,
+          "confidenceScore": 78,
+          "reasoning": "Strong momentum (+1.95%) in AI-critical semiconductor with balanced risk profile; QQQ strength supports tech allocation."
+        },
+        {
+          "action": "BUY",
+          "symbol": "MSFT",
+          "qty_pct": 5,
+          "opportunityScore": 82,
+          "riskScore": 36,
+          "confidenceScore": 76,
+          "reasoning": "Outperforming broad market (+1.83%) with diversified revenue streams and AI leadership positioning."
+        },
+        {
+          "action": "BUY",
+          "symbol": "GLD",
+          "qty_pct": 4,
+          "opportunityScore": 81,
+          "riskScore": 28,
+          "confidenceScore": 77,
+          "reasoning": "Defensive hedge with low correlation to equities; provides portfolio stability during tech-heavy allocation."
+        }
+      ],
+      "assessment": "Market favors quality growth (QQQ +2.83%) with selective momentum; building diversified core positions in mega-cap tech and defensive gold while META weakness suggests sector selectivity warranted.",
       "strategy": "master",
       "strategy_name": "AI Master",
-      "timestamp": "2026-08-04T15:14:52.567039+00:00",
+      "timestamp": "2026-08-04T16:27:55.464628+00:00",
       "prices_used": {
-        "GOOGL": 376.94,
-        "META": 581.89,
-        "JPM": 361.15,
-        "V": 368.14,
-        "JNJ": 252.23,
-        "XOM": 153.03,
-        "SPY": 766.95,
-        "QQQ": 717.35,
-        "GLD": 374.78,
-        "TSLA": 324.49,
-        "AVGO": 411.42,
-        "AMD": 519.52
+        "AAPL": 306.69,
+        "MSFT": 496.59,
+        "NVDA": 210.66,
+        "GOOGL": 376.15,
+        "META": 581.96,
+        "JNJ": 253.14,
+        "QQQ": 719.88,
+        "GLD": 374.96,
+        "TSLA": 325.29,
+        "AVGO": 416.2
       }
     },
     "growth": {
-      "decisions": [],
-      "assessment": "Unable to execute trading decisions due to critical data integrity issues\u2014major financial news sources returning errors prevents reliable fundamental analysis and risk assessment for any positions.",
+      "decisions": [
+        {
+          "action": "BUY",
+          "symbol": "AVGO",
+          "qty_pct": 5,
+          "opportunityScore": 85,
+          "riskScore": 38,
+          "confidenceScore": 78,
+          "reasoning": "Strong semiconductor momentum with +6.11% gain today; critical AI infrastructure play with solid uptrend confirmation."
+        },
+        {
+          "action": "BUY",
+          "symbol": "ASML",
+          "qty_pct": 5,
+          "opportunityScore": 82,
+          "riskScore": 35,
+          "confidenceScore": 76,
+          "reasoning": "Essential chip manufacturing equipment supplier showing +3.14% strength; structural AI demand tailwind with limited competition."
+        },
+        {
+          "action": "BUY",
+          "symbol": "SNOW",
+          "qty_pct": 5,
+          "opportunityScore": 81,
+          "riskScore": 39,
+          "confidenceScore": 77,
+          "reasoning": "Data cloud platform gaining traction with +3.19% momentum; positioned for enterprise AI/analytics adoption cycle."
+        },
+        {
+          "action": "BUY",
+          "symbol": "NVDA",
+          "qty_pct": 5,
+          "opportunityScore": 88,
+          "riskScore": 32,
+          "confidenceScore": 82,
+          "reasoning": "Dominant AI accelerator supplier with consistent upside; driving generative AI infrastructure buildout globally."
+        },
+        {
+          "action": "BUY",
+          "symbol": "MSFT",
+          "qty_pct": 5,
+          "opportunityScore": 84,
+          "riskScore": 36,
+          "confidenceScore": 79,
+          "reasoning": "Leading AI integration with enterprise customers; +1.83% stability reflects strong investor conviction in OpenAI partnership."
+        }
+      ],
+      "assessment": "Selective entry into high-conviction AI infrastructure winners showing positive momentum; semiconductor supply chain and cloud data platforms offering asymmetric risk-reward for next 12-month growth phase.",
       "strategy": "growth",
       "strategy_name": "AI Growth",
-      "timestamp": "2026-08-04T15:14:54.600653+00:00",
+      "timestamp": "2026-08-04T16:28:00.676880+00:00",
       "prices_used": {
-        "GOOGL": 376.94,
-        "META": 581.89,
-        "AVGO": 411.42,
-        "AMD": 519.52,
-        "TSLA": 324.49,
-        "NFLX": 72.99,
-        "CRM": 189.53,
-        "SNOW": 315.83,
-        "PLTR": 158.61,
-        "ASML": 1701.41
+        "NVDA": 210.66,
+        "MSFT": 496.59,
+        "GOOGL": 376.15,
+        "META": 581.96,
+        "AVGO": 416.2,
+        "TSLA": 325.29,
+        "NFLX": 72.71,
+        "CRM": 189.25,
+        "SNOW": 317.34,
+        "ASML": 1694.14
       }
     },
     "value": {
-      "decisions": [],
-      "assessment": "Unable to execute trades: critical news feed failures (Reuters, MarketWatch, Yahoo Finance all returning errors) prevent reliable fundamental analysis and opportunity assessment required for value investing decisions.",
+      "decisions": [
+        {
+          "action": "BUY",
+          "symbol": "PFE",
+          "qty_pct": 5,
+          "opportunityScore": 82,
+          "riskScore": 38,
+          "confidenceScore": 76,
+          "reasoning": "Pharmaceutical sector fundamentals remain strong with PFE trading at reasonable valuations; positive momentum (+1.92%) suggests institutional accumulation despite modest market weakness."
+        },
+        {
+          "action": "BUY",
+          "symbol": "MRK",
+          "qty_pct": 5,
+          "opportunityScore": 81,
+          "riskScore": 37,
+          "confidenceScore": 77,
+          "reasoning": "Merck displays solid dividend yield and defensive characteristics with positive price action (+1.15%), meeting value criteria with controlled downside risk."
+        },
+        {
+          "action": "BUY",
+          "symbol": "WMT",
+          "qty_pct": 5,
+          "opportunityScore": 83,
+          "riskScore": 35,
+          "confidenceScore": 78,
+          "reasoning": "Walmart's resilient consumer staples positioning and stable cash flows provide value at current levels; minor weakness (-0.44%) creates entry opportunity."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "JNJ",
+          "qty_pct": 0,
+          "opportunityScore": 76,
+          "riskScore": 42,
+          "confidenceScore": 72,
+          "reasoning": "Quality name but falls short of opportunity threshold (76<80); better risk-adjusted opportunities available."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "GS",
+          "qty_pct": 0,
+          "opportunityScore": 68,
+          "riskScore": 58,
+          "confidenceScore": 71,
+          "reasoning": "Recent +3.42% spike may reflect momentum rather than fundamental value; financial sector cyclical risk elevated."
+        }
+      ],
+      "assessment": "Defensive value plays in pharma and consumer staples present better risk-adjusted opportunities than momentum-driven financials; deploying 15% of capital in three quality positions with superior fundamentals.",
       "strategy": "value",
       "strategy_name": "AI Value",
-      "timestamp": "2026-08-04T15:14:56.335965+00:00",
+      "timestamp": "2026-08-04T16:28:05.820201+00:00",
       "prices_used": {
-        "JPM": 361.15,
-        "V": 368.14,
-        "JNJ": 252.23,
-        "XOM": 153.03,
-        "WMT": 109.81,
-        "KO": 86.14,
-        "MCD": 269.65,
-        "ABBV": 244.32,
-        "MRK": 127.75,
-        "MS": 217.46
+        "JNJ": 253.14,
+        "PFE": 25.51,
+        "CVX": 190.73,
+        "WMT": 110.22,
+        "KO": 86.2,
+        "MCD": 268.02,
+        "MRK": 129.24,
+        "GS": 1062.17,
+        "MS": 218.22
       }
     },
     "momentum": {
-      "decisions": [],
-      "assessment": "Critical data integrity issue: Reuters, MarketWatch, and Yahoo Finance all returning 500 errors prevents reliable momentum/trend analysis; no trades initiated until market data sources restore normal operation and signal quality can be verified.",
+      "decisions": [
+        {
+          "action": "BUY",
+          "symbol": "XLK",
+          "qty_pct": 5,
+          "opportunityScore": 87,
+          "riskScore": 32,
+          "confidenceScore": 82,
+          "reasoning": "Technology sector showing strongest momentum at +4.63% with sustained uptrend; high conviction secular growth driver in risk-on environment."
+        },
+        {
+          "action": "BUY",
+          "symbol": "QQQ",
+          "qty_pct": 5,
+          "opportunityScore": 85,
+          "riskScore": 38,
+          "confidenceScore": 80,
+          "reasoning": "Nasdaq-100 momentum accelerating at +2.83% with tech leadership; core trend-following position for growth exposure."
+        },
+        {
+          "action": "BUY",
+          "symbol": "EEM",
+          "qty_pct": 4,
+          "opportunityScore": 81,
+          "riskScore": 36,
+          "confidenceScore": 76,
+          "reasoning": "Emerging markets outperforming developed at +2.38%; rotation signal into higher-growth, lower-valuation sectors."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "USO",
+          "qty_pct": 0,
+          "opportunityScore": 42,
+          "riskScore": 58,
+          "confidenceScore": 55,
+          "reasoning": "Energy decline (-5.01%) signals broken momentum; insufficient opportunity and confidence to initiate position."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "DBA",
+          "qty_pct": 0,
+          "opportunityScore": 38,
+          "riskScore": 52,
+          "confidenceScore": 48,
+          "reasoning": "Agriculture commodities negative (-0.76%) without clear trend; fails opportunity threshold."
+        }
+      ],
+      "assessment": "Risk-on momentum favors growth/tech and emerging markets; avoid energy/commodities until trend reversal confirmed.",
       "strategy": "momentum",
       "strategy_name": "AI Momentum",
-      "timestamp": "2026-08-04T15:14:58.118174+00:00",
+      "timestamp": "2026-08-04T16:28:10.538021+00:00",
       "prices_used": {
-        "SPY": 766.95,
-        "QQQ": 717.35,
-        "XLK": 185.27,
-        "XLF": 57.9,
-        "XLE": 58.44,
-        "XLI": 184.79,
-        "GLD": 374.78,
-        "IWM": 299.92,
-        "VWO": 59.88,
-        "DBA": 27.54,
-        "USO": 117.22,
-        "BITO": 8.66
+        "QQQ": 719.88,
+        "XLK": 186.28,
+        "XLF": 57.91,
+        "XLE": 58.47,
+        "XLI": 185.74,
+        "GLD": 374.96,
+        "VWO": 59.97,
+        "EEM": 65.85,
+        "DBA": 27.58,
+        "USO": 116
       }
     },
     "uk": {
-      "decisions": [],
-      "assessment": "Unable to execute trades due to critical news feed failures preventing fundamental analysis; maintaining cash position until reliable market data is restored.",
+      "decisions": [
+        {
+          "action": "HOLD",
+          "symbol": "AZN",
+          "qty_pct": 0,
+          "opportunityScore": 65,
+          "riskScore": 35,
+          "confidenceScore": 70,
+          "reasoning": "Stable pharma play but lacks sufficient opportunity score (65<80) to trigger buy despite acceptable risk/confidence metrics."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "SHEL",
+          "qty_pct": 0,
+          "opportunityScore": 55,
+          "riskScore": 55,
+          "confidenceScore": 60,
+          "reasoning": "Energy sector weakness with negative momentum fails multiple criteria (opportunity 55<80, risk 55>40, confidence 60<75)."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "GSK",
+          "qty_pct": 0,
+          "opportunityScore": 60,
+          "riskScore": 40,
+          "confidenceScore": 65,
+          "reasoning": "Pharmaceutical holding lacks opportunity threshold (60<80) despite marginal positive price action."
+        },
+        {
+          "action": "BUY",
+          "symbol": "ASML",
+          "qty_pct": 5,
+          "opportunityScore": 86,
+          "riskScore": 38,
+          "confidenceScore": 82,
+          "reasoning": "European semiconductor leader with strong +3.14% momentum, robust technicals, and all metrics exceed thresholds (Opp:86>80, Risk:38<40, Conf:82>75)."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "EWU",
+          "qty_pct": 0,
+          "opportunityScore": 68,
+          "riskScore": 42,
+          "confidenceScore": 72,
+          "reasoning": "UK equity ETF shows modest gains but risk exceeds threshold (42>40) and opportunity insufficient (68<80)."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "EWG",
+          "qty_pct": 0,
+          "opportunityScore": 72,
+          "riskScore": 39,
+          "confidenceScore": 74,
+          "reasoning": "German equity ETF has good risk profile but fails opportunity threshold (72<80) and confidence just below minimum (74<75)."
+        }
+      ],
+      "assessment": "Selective deployment warranted; ASML represents the only compelling entry point meeting all buy criteria with strong European tech momentum, while broader indices and defensive pharma/energy positions lack sufficient opportunity in current market conditions.",
       "strategy": "uk",
       "strategy_name": "AI UK & Europe",
-      "timestamp": "2026-08-04T15:14:59.798987+00:00",
+      "timestamp": "2026-08-04T16:28:16.134265+00:00",
       "prices_used": {
-        "AZN": 157.42,
-        "SHEL": 89.63,
-        "ASML": 1701.41,
-        "EWU": 48.39,
-        "EWG": 43.62
+        "AZN": 157.79,
+        "SHEL": 89.64,
+        "GSK": 51.54,
+        "ASML": 1694.14,
+        "EWU": 48.42,
+        "EWG": 43.68
       }
     },
     "crypto": {
-      "decisions": [],
-      "assessment": "Market data integrity compromised due to critical news feed failures (500 errors across Reuters, MarketWatch, Yahoo Finance); unable to perform fundamental analysis or validate price movements\u2014maintaining cash position until reliable data sources and market context are restored.",
+      "decisions": [
+        {
+          "action": "HOLD",
+          "symbol": "MARA",
+          "qty_pct": 0,
+          "opportunityScore": 62,
+          "riskScore": 45,
+          "confidenceScore": 68,
+          "reasoning": "Minimal momentum (+0.09%), insufficient opportunity and confidence scores to meet buy threshold despite acceptable risk profile."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "BITF",
+          "qty_pct": 0,
+          "opportunityScore": 71,
+          "riskScore": 52,
+          "confidenceScore": 64,
+          "reasoning": "Strong intraday move (+5.79%) lacks macro confirmation; confidence below 75 threshold and no corroborating news justifies cautious stance."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "CIFR",
+          "qty_pct": 0,
+          "opportunityScore": 28,
+          "riskScore": 68,
+          "confidenceScore": 42,
+          "reasoning": "Sharp decline (-10.02%) signals deteriorating momentum with elevated risk; fail all buy criteria despite potential contrarian value."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "CLSK",
+          "qty_pct": 0,
+          "opportunityScore": 55,
+          "riskScore": 48,
+          "confidenceScore": 61,
+          "reasoning": "Minimal negative drift (-0.41%) with weak opportunity signal; insufficient catalyst or momentum to warrant position initiation."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "WGMI",
+          "qty_pct": 0,
+          "opportunityScore": 52,
+          "riskScore": 44,
+          "confidenceScore": 58,
+          "reasoning": "Slight underperformance (-1.02%) lacks directional clarity; opportunity and confidence both fall short of thresholds without corroborating news."
+        }
+      ],
+      "assessment": "Crypto-proxy equities show mixed weak signals with no position meeting buy criteria (Opportunity>80, Confidence>75, Risk<40); maintain cash reserves pending stronger momentum confirmation or macro catalyst.",
       "strategy": "crypto",
       "strategy_name": "AI Crypto",
-      "timestamp": "2026-08-04T15:15:01.996071+00:00",
+      "timestamp": "2026-08-04T16:28:22.476175+00:00",
       "prices_used": {
-        "BITO": 8.66,
-        "MARA": 11.64,
-        "RIOT": 21.84,
-        "HUT": 107.05,
+        "MARA": 11.76,
         "BITF": 4.2,
-        "CIFR": 22.09,
-        "BTBT": 1.4,
-        "WGMI": 54.4,
-        "IBIT": 36.27
+        "CIFR": 21.74,
+        "CLSK": 14.59,
+        "WGMI": 54.19
       }
     },
     "smallcap": {
       "decisions": [],
-      "assessment": "Unable to execute trades: Critical data infrastructure failure (Reuters, MarketWatch, Yahoo Finance all returning errors) prevents reliable opportunity scoring, confidence assessment, and risk evaluation; all positions remain on hold until news feeds restore.",
+      "assessment": "No positions meet the strict criteria (Opportunity>80, Confidence>75, Risk<40) \u2014 market lacks catalysts and sufficient conviction signals; holding cash for better setups.",
       "strategy": "smallcap",
       "strategy_name": "AI Small Cap",
-      "timestamp": "2026-08-04T15:15:03.673523+00:00",
+      "timestamp": "2026-08-04T16:28:24.032638+00:00",
       "prices_used": {
-        "MARA": 11.64,
-        "RIOT": 21.84,
-        "CIFR": 22.09,
-        "BTBT": 1.4,
-        "PUBM": 13.51,
-        "DV": 11.85,
-        "ATAI": 7.19,
-        "NVAX": 7.63,
-        "NIO": 4.81,
-        "XPEV": 12.02,
-        "LI": 12.79,
-        "RIVN": 15.76,
-        "CGC": 0.942,
-        "CRON": 2.85,
-        "ACMR": 82.98,
-        "RCKT": 3.42,
-        "VERA": 31.08
+        "MARA": 11.76,
+        "CIFR": 21.74,
+        "CLSK": 14.59,
+        "DV": 11.83,
+        "CREX": 3.12,
+        "SOUN": 6.44,
+        "CMPS": 11.58,
+        "ATAI": 7.16,
+        "NVAX": 7.66,
+        "SNDL": 1.22,
+        "NIO": 4.79,
+        "LI": 12.88,
+        "RIVN": 15.92,
+        "LCID": 7.68,
+        "TLRY": 4.53,
+        "CGC": 0.9356,
+        "ACB": 2.8,
+        "CRON": 2.81,
+        "ACMR": 83.38,
+        "RCKT": 3.5,
+        "VERA": 31.06
       }
     }
   },
   "marketStatus": "open",
-  "runAt": "2026-08-04T15:15:04.180868+00:00"
+  "runAt": "2026-08-04T16:28:24.539979+00:00"
 }
