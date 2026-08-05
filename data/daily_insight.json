@@ -1,9 +1,171 @@
 {
-  "date": "2026-08-04",
-  "marketSummary": "Insight generation error: Extra data: line 175 column 1 (char 7514)",
-  "topOpportunities": [],
-  "topRisks": [],
-  "bullishSectors": [],
-  "bearishSectors": [],
-  "keyEvents": []
+  "marketSummary": "Markets display mixed signals with defensive assets outperforming growth equities. Gold's significant 4.35% surge suggests risk-off sentiment and inflation hedging demand, while tech-heavy QQQ remains flat amid broader equity gains. Bonds and Dow strength indicate investors rotating toward stability and value.",
+  "topOpportunities": [
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "reason": "Strong 4.35% gain signals safe-haven demand and potential inflation concerns; momentum may continue with geopolitical uncertainty",
+      "score": 78,
+      "riskScore": 35,
+      "confidenceScore": 82,
+      "historicalComparison": "Gold outperforming equities typically precedes risk-off environments; current move aligns with historical safe-haven patterns"
+    },
+    {
+      "symbol": "DIA",
+      "name": "SPDR Dow Jones Industrial Average ETF",
+      "reason": "Leading gainers at +1.11% suggests value and dividend stocks attracting capital; large-cap stability preferred in uncertain markets",
+      "score": 72,
+      "riskScore": 38,
+      "confidenceScore": 75,
+      "historicalComparison": "Dow outperformance vs tech is reversal from 2023 trend; indicates potential sector rotation to defensive names"
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Bond rally continuation (+0.27%) suggests falling rate expectations; flight-to-quality positioning ahead of potential economic slowdown",
+      "score": 68,
+      "riskScore": 42,
+      "confidenceScore": 70,
+      "historicalComparison": "Concurrent gold and bond strength mimics 2022 safe-haven playbook; sustained duration may follow"
+    },
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "reason": "Modest +0.31% gain shows resilience; S&P 500 breadth positive despite tech weakness suggests healthy underlying market structure",
+      "score": 65,
+      "riskScore": 48,
+      "confidenceScore": 68,
+      "historicalComparison": "Broad market outperforming QQQ indicates defensive rotation is controlled; S&P 500 typically leads through uncertainty"
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "reason": "Tech near-flat despite broader gains may indicate oversold conditions; potential mean reversion play if growth sentiment returns",
+      "score": 58,
+      "riskScore": 62,
+      "confidenceScore": 55,
+      "historicalComparison": "Tech underperformance temporary vs. historical growth dominance; QQQ typically recovers in risk-on environments"
+    },
+    {
+      "symbol": "AGG",
+      "name": "iShares Core U.S. Aggregate Bond ETF",
+      "reason": "Implied strength from TLT rally; broad bond exposure offers yield and capital appreciation if rates continue declining",
+      "score": 63,
+      "riskScore": 40,
+      "confidenceScore": 67,
+      "historicalComparison": "Bond rally may extend if Fed signals dovish pivot; BGZ historically correlates with rate environment shifts"
+    },
+    {
+      "symbol": "VTV",
+      "name": "Vanguard Value ETF",
+      "reason": "Value rotation evident from DIA strength; valuations attractive relative to growth; dividend yield provides income cushion",
+      "score": 70,
+      "riskScore": 45,
+      "confidenceScore": 72,
+      "historicalComparison": "Value outperforming growth mirrors early 2024 patterns; style rotation may accelerate with economic uncertainty"
+    },
+    {
+      "symbol": "SCHP",
+      "name": "Schwab U.S. Tips ETF",
+      "reason": "TIPS demand likely elevated given gold strength; inflation hedge positioning across portfolio warranted in current environment",
+      "score": 66,
+      "riskScore": 38,
+      "confidenceScore": 69,
+      "historicalComparison": "Concurrent TIPS and gold demand suggests real rate compression expectations; historically precedes risk events"
+    }
+  ],
+  "topRisks": [
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "reason": "Tech sector divergence from broader market; negative momentum and underperformance signal growth investor capitulation or valuation concerns",
+      "riskLevel": "MEDIUM",
+      "riskScore": 62
+    },
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "reason": "Muted gains despite risk-off environment suggest underlying weakness; potential for sharp reversal if safe-haven rally reverses abruptly",
+      "riskLevel": "MEDIUM",
+      "riskScore": 58
+    },
+    {
+      "symbol": "DIA",
+      "name": "SPDR Dow Jones Industrial Average ETF",
+      "reason": "Outperformance may be unsustainable; Dow concentration risk in cyclical industrials if economic slowdown accelerates",
+      "riskLevel": "MEDIUM",
+      "riskScore": 55
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "reason": "Duration risk significant; elevated yields make bonds vulnerable if Fed stays restrictive; potential sharp losses if rate expectations reverse",
+      "riskLevel": "HIGH",
+      "riskScore": 72
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "reason": "Momentum-driven rally may be unsustainable; strong dollar historically headwind; reversal risk if risk sentiment returns quickly",
+      "riskLevel": "MEDIUM",
+      "riskScore": 60
+    },
+    {
+      "symbol": "MARKET_BREADTH",
+      "name": "Equity Market Breadth",
+      "reason": "Mixed signals between indices suggest weak market internals; narrow leadership in Dow while QQQ lags indicates breadth deterioration risk",
+      "riskLevel": "HIGH",
+      "riskScore": 68
+    },
+    {
+      "symbol": "MACRO_UNCERTAINTY",
+      "name": "Macroeconomic Environment",
+      "reason": "No news available limits visibility; markets pricing in significant unknowns; gap risk on unexpected data surprises or geopolitical events",
+      "riskLevel": "HIGH",
+      "riskScore": 70
+    },
+    {
+      "symbol": "LIQUIDITY_RISK",
+      "name": "Market Liquidity",
+      "reason": "Divergent asset class performance with minimal volume context suggests potential for liquidity stress; thin trading could amplify moves",
+      "riskLevel": "MEDIUM",
+      "riskScore": 59
+    }
+  ],
+  "bullishSectors": [
+    {
+      "sector": "Precious Metals & Mining",
+      "score": 78,
+      "reason": "Gold's 4.35% rally reflects strong safe-haven demand and inflation hedging; mining equities typically follow bullion with leverage"
+    },
+    {
+      "sector": "Utilities & Consumer Staples",
+      "score": 72,
+      "reason": "Defensive rotation evident from DIA gains; utilities and staples provide dividend yield and recession protection in uncertain environment"
+    },
+    {
+      "sector": "Fixed Income & Bonds",
+      "score": 75,
+      "reason": "TLT and implied AGG strength signal flight-to-quality; bond sector benefits from potential rate cuts and risk-off environment continuation"
+    }
+  ],
+  "bearishSectors": [
+    {
+      "sector": "Technology",
+      "score": 35,
+      "reason": "QQQ's -0.10% underperformance amid broader gains signals growth sector weakness; valuations and rate sensitivity creating headwinds"
+    },
+    {
+      "sector": "Discretionary Consumer",
+      "score": 40,
+      "reason": "Safe-haven rotation away from cyclical spending; consumer discretionary typically underperforms in risk-off environments with economic slowdown fears"
+    }
+  ],
+  "keyEvents": [
+    "Gold surge amid safe-haven demand signals potential macroeconomic uncertainty or geopolitical event",
+    "Tech underperformance vs. broader market indicates sector rotation to defensive value positioning",
+    "Bond rally (TLT +0.27%) suggests market pricing in lower rates or economic slowdown expectations"
+  ],
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T15:06:42.534503+00:00"
 }
