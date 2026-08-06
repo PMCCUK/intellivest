@@ -3,289 +3,215 @@
     "master": {
       "decisions": [
         {
-          "action": "BUY",
-          "symbol": "GLD",
-          "qty_pct": 3,
-          "opportunityScore": 82,
-          "riskScore": 35,
-          "confidenceScore": 78,
-          "reasoning": "Strong +4.14% momentum with safe-haven appeal; defensive positioning justified in uncertain macro environment."
+          "action": "HOLD",
+          "symbol": "MSFT",
+          "qty_pct": 0,
+          "opportunityScore": 72,
+          "riskScore": 38,
+          "confidenceScore": 71,
+          "reasoning": "Strong momentum (+2.06%) but confidence falls 4 points short of 75% threshold; wait for confirmation."
         },
         {
-          "action": "BUY",
-          "symbol": "NVDA",
-          "qty_pct": 4,
-          "opportunityScore": 81,
-          "riskScore": 38,
-          "confidenceScore": 76,
-          "reasoning": "Largest single-day mover at +3.43% with structural AI demand tailwinds; volatility managed by sector conviction."
+          "action": "HOLD",
+          "symbol": "GLD",
+          "qty_pct": 0,
+          "opportunityScore": 68,
+          "riskScore": 32,
+          "confidenceScore": 69,
+          "reasoning": "Low-risk diversifier with positive momentum, but opportunity score of 68 insufficient to meet 80+ buy signal."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "SPY",
+          "qty_pct": 0,
+          "opportunityScore": 65,
+          "riskScore": 35,
+          "confidenceScore": 62,
+          "reasoning": "Broad market exposure lacks conviction; MarketWatch error limits data reliability for tactical positioning."
         }
       ],
-      "assessment": "Market showing selective strength in defensive assets and AI-exposed tech; GLD and NVDA meet risk-adjusted criteria while broader volatility (AMD -7.04%, GOOGL -4.03%) warrants cautious positioning.",
+      "assessment": "Market data integrity compromised by MarketWatch error; no positions meet buy criteria (Opportunity>80, Confidence>75, Risk<40 simultaneously), warranting cash preservation pending clearer signals.",
       "strategy": "master",
       "strategy_name": "AI Master",
-      "timestamp": "2026-08-05T20:02:43.851389+00:00",
+      "timestamp": "2026-08-06T15:05:13.700308+00:00",
       "prices_used": {
-        "AAPL": 311,
-        "MSFT": 487.46,
-        "NVDA": 219.22,
-        "GOOGL": 362.43,
-        "META": 588.77,
-        "V": 368.54,
-        "XOM": 151.61,
-        "GLD": 389.64,
-        "TSLA": 321.55,
-        "AMD": 482.05
+        "AAPL": 312.9,
+        "MSFT": 497.5,
+        "NVDA": 217.93,
+        "GOOGL": 360.81,
+        "AMZN": 273.69,
+        "META": 591.54,
+        "V": 368.52,
+        "JNJ": 256.63,
+        "SPY": 770.29,
+        "GLD": 391.63
       }
     },
     "growth": {
       "decisions": [],
-      "assessment": "No positions meet the strict entry criteria (Opportunity>80, Confidence>75, Risk<40) without recent catalysts or technical setup confirmation; maintaining cash reserves for higher-conviction opportunities.",
+      "assessment": "Insufficient market data due to news feed error; awaiting reliable signals before deploying capital.",
       "strategy": "growth",
       "strategy_name": "AI Growth",
-      "timestamp": "2026-08-05T20:02:45.661934+00:00",
+      "timestamp": "2026-08-06T15:05:15.264861+00:00",
       "prices_used": {
-        "NVDA": 219.22,
-        "MSFT": 487.46,
-        "GOOGL": 362.43,
-        "META": 588.77,
-        "AMD": 482.05,
-        "TSLA": 321.55,
-        "CRM": 192.98,
-        "SNOW": 316.84,
-        "PLTR": 158.43,
-        "ASML": 1678.22,
-        "TSM": 414
+        "NVDA": 217.93,
+        "MSFT": 497.5,
+        "GOOGL": 360.81,
+        "META": 591.54,
+        "AMZN": 273.69,
+        "SNOW": 318.75,
+        "PLTR": 156.7
       }
     },
     "value": {
       "decisions": [],
-      "assessment": "Current market conditions lack sufficient fundamental catalysts and valuations do not present compelling opportunities meeting our strict buy criteria of Opportunity>80, Confidence>75, and Risk<40.",
+      "assessment": "Insufficient reliable data to make investment decisions; MarketWatch outage prevents fundamental analysis confirmation, and current market movement is negligible across all positions.",
       "strategy": "value",
       "strategy_name": "AI Value",
-      "timestamp": "2026-08-05T20:02:47.379668+00:00",
+      "timestamp": "2026-08-06T15:05:16.926929+00:00",
       "prices_used": {
-        "V": 368.54,
-        "XOM": 151.61,
-        "CVX": 186.42,
-        "MCD": 274,
-        "MRK": 128.32
+        "BAC": 63.22,
+        "V": 368.52,
+        "JNJ": 256.63,
+        "BRK-B": 518.84,
+        "ABBV": 243.54,
+        "MS": 216.99
       }
     },
     "momentum": {
       "decisions": [
         {
           "action": "BUY",
-          "symbol": "GLD",
+          "symbol": "USO",
           "qty_pct": 5,
-          "opportunityScore": 85,
-          "riskScore": 35,
-          "confidenceScore": 82,
-          "reasoning": "Strong +4.14% intraday momentum in gold suggests flight-to-safety bid; defensive commodity positioning aligns with trend-following discipline."
+          "opportunityScore": 82,
+          "riskScore": 38,
+          "confidenceScore": 78,
+          "reasoning": "Energy sector showing strong momentum (+2.05% intraday, XLE +0.89%), oil demand resilient, and USO displaying clear breakout pattern warranting tactical entry."
         },
         {
           "action": "BUY",
-          "symbol": "XLV",
-          "qty_pct": 4,
+          "symbol": "GLD",
+          "qty_pct": 5,
           "opportunityScore": 81,
-          "riskScore": 38,
-          "confidenceScore": 78,
-          "reasoning": "Healthcare sector showing relative strength (+1.27%) amid broad flat market; defensive rotation play with positive momentum."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "GBTC",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 52,
-          "confidenceScore": 68,
-          "reasoning": "Crypto proxy gains (+0.93%) insufficient to justify entry against elevated volatility risk; awaits stronger directional conviction."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "XLK",
-          "qty_pct": 0,
-          "opportunityScore": 65,
-          "riskScore": 45,
-          "confidenceScore": 62,
-          "reasoning": "Tech slight decline lacks momentum confirmation; insufficient opportunity threshold despite sector relevance."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "XLE",
-          "qty_pct": 0,
-          "opportunityScore": 58,
-          "riskScore": 48,
-          "confidenceScore": 55,
-          "reasoning": "Energy weakness (-2.07%) presents value trap risk; no confirmation of reversal pattern."
+          "riskScore": 35,
+          "confidenceScore": 76,
+          "reasoning": "Gold rallying (+0.51%) amid macro uncertainty, safe-haven bid strengthening, technicals constructive for risk-off positioning."
         }
       ],
-      "assessment": "Risk-off setup with gold and healthcare showing relative strength; initiating defensive momentum positions with 9% deployed, preserving 91% dry powder for higher-conviction entries.",
+      "assessment": "Selective momentum opportunity in energy (USO strength) and defensive gold positioning; broad market flatness and server outage warrant cautious deployment of 10% of capital while maintaining dry powder for clearer signals.",
       "strategy": "momentum",
       "strategy_name": "AI Momentum",
-      "timestamp": "2026-08-05T20:02:52.238841+00:00",
+      "timestamp": "2026-08-06T15:05:21.271925+00:00",
       "prices_used": {
-        "XLK": 185.9,
-        "XLE": 57.31,
-        "XLV": 164.16,
-        "XLI": 186.35,
-        "GLD": 389.64,
-        "VWO": 60.01,
-        "EEM": 65.72,
-        "DBA": 27.63,
-        "USO": 114.88,
-        "GBTC": 50.19,
-        "MSTR": 98.37
+        "SPY": 770.29,
+        "XLK": 186.2,
+        "XLF": 57.86,
+        "XLE": 57.82,
+        "XLV": 163.71,
+        "XLI": 185.84,
+        "GLD": 391.63,
+        "IWM": 300.49,
+        "VWO": 60.17,
+        "EEM": 65.41,
+        "DBA": 27.57,
+        "USO": 117.24,
+        "GBTC": 50.15,
+        "MSTR": 97.94
       }
     },
     "uk": {
-      "decisions": [
-        {
-          "action": "HOLD",
-          "symbol": "AZN",
-          "qty_pct": 0,
-          "opportunityScore": 72,
-          "riskScore": 35,
-          "confidenceScore": 68,
-          "reasoning": "Strong pharma momentum (+3.78%) but opportunity score falls short of 80 threshold; insufficient conviction to initiate position without catalyst."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "SHEL",
-          "qty_pct": 0,
-          "opportunityScore": 65,
-          "riskScore": 48,
-          "confidenceScore": 62,
-          "reasoning": "Energy weakness (-2.32%) coupled with elevated commodity volatility and risk above 40; waiting for clearer entry signals."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "ASML",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 42,
-          "confidenceScore": 70,
-          "reasoning": "Semiconductor leader down 1.97% but valuation/momentum signals remain below buy threshold; risk marginally elevated in tech sector."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "SAP",
-          "qty_pct": 0,
-          "opportunityScore": 75,
-          "riskScore": 38,
-          "confidenceScore": 73,
-          "reasoning": "European software quality play but modest +0.94% move and opportunity 5 points below trigger; awaiting technical confirmation."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "EWG",
-          "qty_pct": 0,
-          "opportunityScore": 62,
-          "riskScore": 45,
-          "confidenceScore": 60,
-          "reasoning": "Germany ETF showing weakness; lack of positive catalyst and below-threshold opportunity score."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "EFA",
-          "qty_pct": 0,
-          "opportunityScore": 58,
-          "riskScore": 46,
-          "confidenceScore": 55,
-          "reasoning": "Broad European exposure flat; insufficient momentum or opportunity to justify deployment of capital."
-        }
-      ],
-      "assessment": "No positions meet buy criteria (Opp>80, Conf>75, Risk<40); market lacks sufficient conviction signals\u2014cash retained for higher-quality entry points.",
+      "decisions": [],
+      "assessment": "Market data is insufficient due to MarketWatch service error; without recent news context and fundamental analysis, no positions meet the required thresholds (Opportunity>80, Confidence>75, Risk<40) to justify deployment of capital.",
       "strategy": "uk",
       "strategy_name": "AI UK & Europe",
-      "timestamp": "2026-08-05T20:02:58.503268+00:00",
+      "timestamp": "2026-08-06T15:05:24.742148+00:00",
       "prices_used": {
-        "AZN": 161.5,
-        "SHEL": 87.76,
-        "ASML": 1678.22,
-        "SAP": 197.33,
-        "EWG": 43.64,
-        "EFA": 107.43
+        "SHEL": 89.3,
+        "GSK": 52.15,
+        "SAP": 197.12,
+        "EWU": 48.45,
+        "EFA": 107.82
       }
     },
     "crypto": {
       "decisions": [],
-      "assessment": "Market showing mixed momentum with selective strength in spot Bitcoin trusts (GBTC, IBIT, FBTC) and Ethereum (ETHE), but broad miner weakness (HUT -8.30%, CLSK -4.73%, WGMI -4.78%) signals caution; no positions meet buy criteria (Opportunity>80, Confidence>75, Risk<40) given high volatility and lack of catalysts, so holding cash is prudent.",
+      "assessment": "Market data integrity compromised (MarketWatch 500 error) and momentum signals are mixed with insufficient conviction\u2014holding cash pending clearer directional bias and reliable data confirmation.",
       "strategy": "crypto",
       "strategy_name": "AI Crypto",
-      "timestamp": "2026-08-05T20:03:01.049980+00:00",
+      "timestamp": "2026-08-06T15:05:26.320756+00:00",
       "prices_used": {
-        "GBTC": 50.19,
-        "ETHE": 15.45,
-        "MARA": 11.24,
-        "RIOT": 21.522,
-        "HUT": 92.76,
-        "BITF": 4.11,
-        "MSTR": 98.37,
-        "CLSK": 13.5,
+        "GBTC": 50.15,
+        "ETHE": 15.42,
+        "RIOT": 22.23,
+        "HUT": 93.24,
+        "BITF": 3.93,
+        "CIFR": 19.02,
+        "MSTR": 97.94,
+        "CLSK": 13.4,
         "BTBT": 1.38,
-        "WGMI": 50.23,
-        "IBIT": 36.74,
-        "FBTC": 56.42
+        "WGMI": 50.29,
+        "IBIT": 36.69
       }
     },
     "smallcap": {
       "decisions": [
         {
           "action": "HOLD",
-          "symbol": "APPS",
+          "symbol": "SOUN",
           "qty_pct": 0,
           "opportunityScore": 72,
-          "riskScore": 58,
-          "confidenceScore": 65,
-          "reasoning": "Extreme +38% move warrants caution; lacks confirmation of catalyst, risk of mean reversion too high despite strong momentum."
+          "riskScore": 52,
+          "confidenceScore": 68,
+          "reasoning": "Strong momentum (+12.60%) but risk exceeds threshold at 52; insufficient confidence data to justify entry despite unusual volume signal."
         },
         {
           "action": "HOLD",
-          "symbol": "MARA",
+          "symbol": "AEHR",
+          "qty_pct": 0,
+          "opportunityScore": 71,
+          "riskScore": 48,
+          "confidenceScore": 69,
+          "reasoning": "Solid momentum (+4.85%) and moderate risk, but confidence score falls short of 75% requirement without recent catalyst confirmation."
+        },
+        {
+          "action": "HOLD",
+          "symbol": "RIOT",
           "qty_pct": 0,
           "opportunityScore": 68,
-          "riskScore": 52,
-          "confidenceScore": 62,
-          "reasoning": "Bitcoin miner down 4.3% shows weakness; needs consolidation and clearer catalyst before entry meets threshold criteria."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "LCID",
-          "qty_pct": 0,
-          "opportunityScore": 55,
-          "riskScore": 72,
-          "confidenceScore": 48,
-          "reasoning": "Steep -13.88% decline with no news catalyst signals distress; high risk and low confidence prevent consideration."
+          "riskScore": 46,
+          "confidenceScore": 67,
+          "reasoning": "Modest gains with acceptable risk but opportunity and confidence both below thresholds; awaiting clearer technical setup."
         }
       ],
-      "assessment": "No positions meet strict buy criteria (Opportunity>80 AND Confidence>75 AND Risk<40); market showing momentum but lacking clear catalysts and conviction\u2014preserve capital and wait for higher-conviction setups.",
+      "assessment": "No qualifying opportunities meet all three criteria (Opportunity>80, Confidence>75, Risk<40); MarketWatch data unavailable limits catalyst analysis\u2014maintain cash and wait for higher-conviction setups.",
       "strategy": "smallcap",
       "strategy_name": "AI Small Cap",
-      "timestamp": "2026-08-05T20:03:04.998188+00:00",
+      "timestamp": "2026-08-06T15:05:30.195554+00:00",
       "prices_used": {
-        "MARA": 11.24,
-        "RIOT": 21.522,
-        "CLSK": 13.5,
+        "RIOT": 22.23,
+        "CIFR": 19.02,
+        "CLSK": 13.4,
         "BTBT": 1.38,
-        "APPS": 13.17,
-        "PUBM": 13.51,
-        "DV": 11.99,
-        "SOUN": 6.43,
-        "NVAX": 7.7,
+        "PUBM": 13.57,
+        "DV": 11.89,
+        "CREX": 2.96,
+        "SOUN": 7.24,
+        "CMPS": 13.46,
+        "ATAI": 7.23,
+        "NVAX": 7.71,
         "SNDL": 1.21,
-        "NIO": 4.655,
-        "XPEV": 11.785,
-        "LI": 12.81,
-        "LCID": 6.7,
-        "CGC": 0.9317,
-        "CRON": 2.72,
-        "ACMR": 79.9,
-        "RCKT": 3.5,
-        "VERA": 30.35
+        "NIO": 4.62,
+        "XPEV": 11.72,
+        "LCID": 6.97,
+        "ACB": 3,
+        "ACMR": 79.8,
+        "AEHR": 103.57,
+        "RCKT": 3.57,
+        "VERA": 31.4
       }
     }
   },
   "marketStatus": "open",
-  "runAt": "2026-08-05T20:03:05.505874+00:00"
+  "runAt": "2026-08-06T15:05:30.703265+00:00"
 }
