@@ -3,215 +3,139 @@
     "master": {
       "decisions": [
         {
-          "action": "HOLD",
-          "symbol": "MSFT",
-          "qty_pct": 0,
-          "opportunityScore": 72,
+          "action": "BUY",
+          "symbol": "NVDA",
+          "qty_pct": 5,
+          "opportunityScore": 82,
           "riskScore": 38,
-          "confidenceScore": 71,
-          "reasoning": "Strong momentum (+2.06%) but confidence falls 4 points short of 75% threshold; wait for confirmation."
+          "confidenceScore": 78,
+          "reasoning": "Strong momentum (+1.68%) in AI-dominant semiconductor sector with institutional demand, balanced by sector volatility."
+        },
+        {
+          "action": "BUY",
+          "symbol": "AMZN",
+          "qty_pct": 5,
+          "opportunityScore": 81,
+          "riskScore": 36,
+          "confidenceScore": 76,
+          "reasoning": "Positive price action (+1.70%) with stable business fundamentals and diversified revenue streams reduce downside risk."
+        },
+        {
+          "action": "BUY",
+          "symbol": "GLD",
+          "qty_pct": 4,
+          "opportunityScore": 85,
+          "riskScore": 32,
+          "confidenceScore": 79,
+          "reasoning": "Macro-driven strength (+2.18%) and Yen trade consequences creating hedging demand for gold as safe-haven asset."
+        },
+        {
+          "action": "BUY",
+          "symbol": "QQQ",
+          "qty_pct": 3,
+          "opportunityScore": 80,
+          "riskScore": 39,
+          "confidenceScore": 75,
+          "reasoning": "Broad tech exposure with positive momentum (+0.64%) provides diversified growth participation while reducing single-stock concentration risk."
         },
         {
           "action": "HOLD",
-          "symbol": "GLD",
+          "symbol": "AAPL",
           "qty_pct": 0,
           "opportunityScore": 68,
-          "riskScore": 32,
-          "confidenceScore": 69,
-          "reasoning": "Low-risk diversifier with positive momentum, but opportunity score of 68 insufficient to meet 80+ buy signal."
+          "riskScore": 35,
+          "confidenceScore": 72,
+          "reasoning": "Slight weakness (-0.16%) without catalyst; wait for stronger entry point."
         },
         {
           "action": "HOLD",
-          "symbol": "SPY",
+          "symbol": "META",
           "qty_pct": 0,
-          "opportunityScore": 65,
-          "riskScore": 35,
-          "confidenceScore": 62,
-          "reasoning": "Broad market exposure lacks conviction; MarketWatch error limits data reliability for tactical positioning."
+          "opportunityScore": 72,
+          "riskScore": 42,
+          "confidenceScore": 70,
+          "reasoning": "Negative price action and regulatory/competitive headwinds exceed current opportunity threshold."
         }
       ],
-      "assessment": "Market data integrity compromised by MarketWatch error; no positions meet buy criteria (Opportunity>80, Confidence>75, Risk<40 simultaneously), warranting cash preservation pending clearer signals.",
+      "assessment": "Currency volatility (Yen trade consequences) and tech momentum create selective opportunities in high-conviction semiconductor and e-commerce names, complemented by defensive gold positioning for macro hedging.",
       "strategy": "master",
       "strategy_name": "AI Master",
-      "timestamp": "2026-08-06T15:05:13.700308+00:00",
+      "timestamp": "2026-08-07T14:04:17.945942+00:00",
       "prices_used": {
-        "AAPL": 312.9,
-        "MSFT": 497.5,
-        "NVDA": 217.93,
-        "GOOGL": 360.81,
-        "AMZN": 273.69,
-        "META": 591.54,
-        "V": 368.52,
-        "JNJ": 256.63,
-        "SPY": 770.29,
-        "GLD": 391.63
-      }
-    },
-    "growth": {
-      "decisions": [],
-      "assessment": "Insufficient market data due to news feed error; awaiting reliable signals before deploying capital.",
-      "strategy": "growth",
-      "strategy_name": "AI Growth",
-      "timestamp": "2026-08-06T15:05:15.264861+00:00",
-      "prices_used": {
-        "NVDA": 217.93,
-        "MSFT": 497.5,
-        "GOOGL": 360.81,
-        "META": 591.54,
-        "AMZN": 273.69,
-        "SNOW": 318.75,
-        "PLTR": 156.7
-      }
-    },
-    "value": {
-      "decisions": [],
-      "assessment": "Insufficient reliable data to make investment decisions; MarketWatch outage prevents fundamental analysis confirmation, and current market movement is negligible across all positions.",
-      "strategy": "value",
-      "strategy_name": "AI Value",
-      "timestamp": "2026-08-06T15:05:16.926929+00:00",
-      "prices_used": {
-        "BAC": 63.22,
-        "V": 368.52,
-        "JNJ": 256.63,
-        "BRK-B": 518.84,
-        "ABBV": 243.54,
-        "MS": 216.99
+        "AAPL": 311.9,
+        "MSFT": 502.66,
+        "NVDA": 222.66,
+        "AMZN": 276.88,
+        "META": 588.98,
+        "JPM": 354.71,
+        "V": 368.13,
+        "XOM": 152.48,
+        "SPY": 771.29,
+        "QQQ": 719.21,
+        "GLD": 398.17,
+        "TSLA": 325.75,
+        "AVGO": 425.2
       }
     },
     "momentum": {
       "decisions": [
         {
           "action": "BUY",
-          "symbol": "USO",
+          "symbol": "MSTR",
           "qty_pct": 5,
-          "opportunityScore": 82,
+          "opportunityScore": 85,
           "riskScore": 38,
           "confidenceScore": 78,
-          "reasoning": "Energy sector showing strong momentum (+2.05% intraday, XLE +0.89%), oil demand resilient, and USO displaying clear breakout pattern warranting tactical entry."
+          "reasoning": "Strong momentum (+5.20%) with crypto/Bitcoin proxy positioning ahead of potential macro shifts; aligns with trend-following mandate."
         },
         {
           "action": "BUY",
           "symbol": "GLD",
           "qty_pct": 5,
-          "opportunityScore": 81,
+          "opportunityScore": 82,
           "riskScore": 35,
           "confidenceScore": 76,
-          "reasoning": "Gold rallying (+0.51%) amid macro uncertainty, safe-haven bid strengthening, technicals constructive for risk-off positioning."
-        }
-      ],
-      "assessment": "Selective momentum opportunity in energy (USO strength) and defensive gold positioning; broad market flatness and server outage warrant cautious deployment of 10% of capital while maintaining dry powder for clearer signals.",
-      "strategy": "momentum",
-      "strategy_name": "AI Momentum",
-      "timestamp": "2026-08-06T15:05:21.271925+00:00",
-      "prices_used": {
-        "SPY": 770.29,
-        "XLK": 186.2,
-        "XLF": 57.86,
-        "XLE": 57.82,
-        "XLV": 163.71,
-        "XLI": 185.84,
-        "GLD": 391.63,
-        "IWM": 300.49,
-        "VWO": 60.17,
-        "EEM": 65.41,
-        "DBA": 27.57,
-        "USO": 117.24,
-        "GBTC": 50.15,
-        "MSTR": 97.94
-      }
-    },
-    "uk": {
-      "decisions": [],
-      "assessment": "Market data is insufficient due to MarketWatch service error; without recent news context and fundamental analysis, no positions meet the required thresholds (Opportunity>80, Confidence>75, Risk<40) to justify deployment of capital.",
-      "strategy": "uk",
-      "strategy_name": "AI UK & Europe",
-      "timestamp": "2026-08-06T15:05:24.742148+00:00",
-      "prices_used": {
-        "SHEL": 89.3,
-        "GSK": 52.15,
-        "SAP": 197.12,
-        "EWU": 48.45,
-        "EFA": 107.82
-      }
-    },
-    "crypto": {
-      "decisions": [],
-      "assessment": "Market data integrity compromised (MarketWatch 500 error) and momentum signals are mixed with insufficient conviction\u2014holding cash pending clearer directional bias and reliable data confirmation.",
-      "strategy": "crypto",
-      "strategy_name": "AI Crypto",
-      "timestamp": "2026-08-06T15:05:26.320756+00:00",
-      "prices_used": {
-        "GBTC": 50.15,
-        "ETHE": 15.42,
-        "RIOT": 22.23,
-        "HUT": 93.24,
-        "BITF": 3.93,
-        "CIFR": 19.02,
-        "MSTR": 97.94,
-        "CLSK": 13.4,
-        "BTBT": 1.38,
-        "WGMI": 50.29,
-        "IBIT": 36.69
-      }
-    },
-    "smallcap": {
-      "decisions": [
+          "reasoning": "Gold's +2.18% surge signals safe-haven demand and inflation hedge positioning; Yen volatility news supports commodity strength."
+        },
+        {
+          "action": "BUY",
+          "symbol": "XLK",
+          "qty_pct": 4,
+          "opportunityScore": 81,
+          "riskScore": 36,
+          "confidenceScore": 77,
+          "reasoning": "Tech leadership (+0.86%) momentum in sector rotation; outperforming broader market on relative strength."
+        },
         {
           "action": "HOLD",
-          "symbol": "SOUN",
+          "symbol": "QQQ",
           "qty_pct": 0,
           "opportunityScore": 72,
-          "riskScore": 52,
+          "riskScore": 42,
           "confidenceScore": 68,
-          "reasoning": "Strong momentum (+12.60%) but risk exceeds threshold at 52; insufficient confidence data to justify entry despite unusual volume signal."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "AEHR",
-          "qty_pct": 0,
-          "opportunityScore": 71,
-          "riskScore": 48,
-          "confidenceScore": 69,
-          "reasoning": "Solid momentum (+4.85%) and moderate risk, but confidence score falls short of 75% requirement without recent catalyst confirmation."
-        },
-        {
-          "action": "HOLD",
-          "symbol": "RIOT",
-          "qty_pct": 0,
-          "opportunityScore": 68,
-          "riskScore": 46,
-          "confidenceScore": 67,
-          "reasoning": "Modest gains with acceptable risk but opportunity and confidence both below thresholds; awaiting clearer technical setup."
+          "reasoning": "Positive momentum but not exceeding threshold; monitor for stronger breakout before entry given valuation backdrop."
         }
       ],
-      "assessment": "No qualifying opportunities meet all three criteria (Opportunity>80, Confidence>75, Risk<40); MarketWatch data unavailable limits catalyst analysis\u2014maintain cash and wait for higher-conviction setups.",
-      "strategy": "smallcap",
-      "strategy_name": "AI Small Cap",
-      "timestamp": "2026-08-06T15:05:30.195554+00:00",
+      "assessment": "Risk-off rotation favoring safe-haven gold and crypto proxies (MSTR) alongside tech strength (XLK); Yen trade volatility creates tactical opportunities in momentum-driven, lower-correlation assets.",
+      "strategy": "momentum",
+      "strategy_name": "AI Momentum",
+      "timestamp": "2026-08-07T14:04:22.520794+00:00",
       "prices_used": {
-        "RIOT": 22.23,
-        "CIFR": 19.02,
-        "CLSK": 13.4,
-        "BTBT": 1.38,
-        "PUBM": 13.57,
-        "DV": 11.89,
-        "CREX": 2.96,
-        "SOUN": 7.24,
-        "CMPS": 13.46,
-        "ATAI": 7.23,
-        "NVAX": 7.71,
-        "SNDL": 1.21,
-        "NIO": 4.62,
-        "XPEV": 11.72,
-        "LCID": 6.97,
-        "ACB": 3,
-        "ACMR": 79.8,
-        "AEHR": 103.57,
-        "RCKT": 3.57,
-        "VERA": 31.4
+        "SPY": 771.29,
+        "QQQ": 719.21,
+        "XLK": 186.92,
+        "XLV": 164.98,
+        "GLD": 398.17,
+        "TLT": 82.71,
+        "IWM": 300.46,
+        "VWO": 60.29,
+        "DBA": 27.63,
+        "BITO": 8.8,
+        "GBTC": 50.29,
+        "MSTR": 101.89
       }
     }
   },
-  "marketStatus": "open",
-  "runAt": "2026-08-06T15:05:30.703265+00:00"
+  "marketStatus": "pre-market",
+  "runAt": "2026-08-07T14:04:23.026515+00:00"
 }
