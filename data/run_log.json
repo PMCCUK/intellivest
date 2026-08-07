@@ -1,14 +1,24 @@
 {
-  "lastRun": "2026-08-07T17:44:44.429851+00:00",
+  "lastRun": "2026-08-07T19:27:18.197466+00:00",
   "marketStatus": "open",
-  "symbolsFetched": 59,
+  "symbolsFetched": 58,
   "strategiesRun": 7,
-  "tradesExecuted": 1,
+  "tradesExecuted": 3,
   "recentLog": [
     {
-      "ts": "2026-08-07T17:44:39.611715+00:00",
+      "ts": "2026-08-07T19:27:12.614670+00:00",
       "portfolio": "crypto",
-      "msg": "AUTO-CLOSE HUT: Stop-loss triggered (-20.6%)"
+      "msg": "AUTO-CLOSE CLSK: Stop-loss triggered (-9.0%)"
+    },
+    {
+      "ts": "2026-08-07T19:27:12.614678+00:00",
+      "portfolio": "crypto",
+      "msg": "AUTO-CLOSE MARA: Stop-loss triggered (-15.4%)"
+    },
+    {
+      "ts": "2026-08-07T19:27:17.689466+00:00",
+      "portfolio": "smallcap",
+      "msg": "AUTO-CLOSE CLSK: Stop-loss triggered (-9.0%)"
     }
   ]
 }
