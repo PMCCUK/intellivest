@@ -464,7 +464,7 @@
             "conf": 78
           },
           "reason": "Tech sector showing strongest momentum (+1.56%) with XLK outperforming (+2.17%); growth rotation favored in current market regime.",
-          "currentPrice": 721.28
+          "currentPrice": 721.85
         },
         "EEM": {
           "qty": 45,
@@ -488,7 +488,7 @@
             "conf": 78
           },
           "reason": "Industrials showing strongest momentum (+1.17%) with positive trend-following signal; cyclical exposure aligns with sector rotation into economically-sensitive assets.",
-          "currentPrice": 184.6
+          "currentPrice": 186.87
         },
         "IWM": {
           "qty": 17,
@@ -500,7 +500,7 @@
             "conf": 76
           },
           "reason": "Small-cap Russell 2000 outperforming (+1.09%) with domestic growth bias; momentum breakout pattern favors risk-on positioning.",
-          "currentPrice": 300.04
+          "currentPrice": 301.57
         },
         "BITO": {
           "qty": 585,
@@ -512,7 +512,7 @@
             "conf": 79
           },
           "reason": "Bitcoin proxy leading session (+1.30%) signaling crypto momentum revival; institutional exposure through futures ETF reduces custody risk.",
-          "currentPrice": 8.64
+          "currentPrice": 8.66
         },
         "XLK": {
           "qty": 27,
@@ -560,7 +560,7 @@
             "conf": 76
           },
           "reason": "Bond rally strength (+0.71%) amid rate-cut cycle and BoE decision volatility; defensive yield play fits trend.",
-          "currentPrice": 82.06
+          "currentPrice": 82.29
         },
         "VWO": {
           "qty": 49,
@@ -596,7 +596,7 @@
             "conf": 77
           },
           "reason": "Energy sector +0.65% outperforming risk-off tape; defensive cyclical rotation play with positive relative momentum vs tech and broader indices.",
-          "currentPrice": 60.18
+          "currentPrice": 60.5
         },
         "MSTR": {
           "qty": 51,
@@ -620,7 +620,7 @@
             "conf": 78
           },
           "reason": "Strong +3.25% momentum in energy sector; oil breakout signal aligns with trend-following; momentum persisting while broader market weak suggests sector rotation into commodities.",
-          "currentPrice": 125.92
+          "currentPrice": 125.4
         },
         "DBA": {
           "qty": 143,
@@ -632,7 +632,7 @@
             "conf": 76
           },
           "reason": "Agricultural commodities showing +0.83% strength; broad commodity rotation play with lower drawdown risk than single-commodity exposure.",
-          "currentPrice": 27.82
+          "currentPrice": 27.72
         }
       },
       "trades": [
@@ -872,6 +872,10 @@
         {
           "date": "2026-08-10",
           "value": 100939.42
+        },
+        {
+          "date": "2026-08-11",
+          "value": 100719.59
         }
       ]
     },
@@ -3118,7 +3122,7 @@
       "confScore": 78,
       "reasoning": "Bitcoin miner showing strong +4.15% momentum with improving hash rate economics; mining sector benefits from broader crypto adoption catalysts.",
       "perf1d": -0.25,
-      "perf7d": null,
+      "perf7d": -16.71,
       "perf30d": null
     },
     {
@@ -6407,5 +6411,5 @@
     }
   ],
   "startingBalance": 100000,
-  "lastRun": "2026-08-10T21:25:54.741234+00:00"
+  "lastRun": "2026-08-11T14:10:43.336650+00:00"
 }
